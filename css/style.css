@@ -243,6 +243,9 @@ input, button, select, textarea {
 }
 .mobile-quick-actions > .mobile-epg-modal-btn { grid-column: 1 / -1; }
 .site-overview > summary { display: none; }
+.site-overview:not([open]) > #mobile-subscription-actions,
+.site-overview:not([open]) > .banner-row,
+.site-overview:not([open]) > .weather-scroll-container { display: none; }
 
 /* ======================================================== */
 /* 通告栏与天气栏                                           */
