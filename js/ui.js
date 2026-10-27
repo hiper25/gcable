@@ -1,4 +1,4 @@
-import {state, regionCode, fetchJSON, escapeHTML as esc} from './data.js?v=26';
+import {state, regionCode, mutableURL, fetchJSON, escapeHTML as esc} from './data.js?v=27';
 
 let toastTimer;
 const copyTimers = new WeakMap();
@@ -105,13 +105,13 @@ export function openHistoryModal() {
     const modal = document.getElementById('history-modal');
     const body = document.getElementById('history-modal-body');
     if (!modal || !body) return;
-    historyOpener = document.activeElement;
+    if (!modal.classList.contains('active')) historyOpener = document.activeElement;
     document.body.style.overflow = 'hidden';
     modal.classList.add('active');
     body.scrollTop = 0;
     body.focus({preventScroll:true});
     
-    fetchJSON('./channel_history.json').then(data => {
+    fetchJSON(mutableURL('./channel_history.json')).then(data => {
         const meta = data.meta || {};
         const events = data.events || [];
         const dead = data.dead_channels || {};
@@ -183,7 +183,7 @@ export function openEpgModal() {
         showToast('频道与地区索引尚未载入，请稍候重试');
         return;
     }
-    epgOpener = document.activeElement;
+    if (!modal.classList.contains('active')) epgOpener = document.activeElement;
     document.body.style.overflow = 'hidden';
     modal.classList.add('active');
     body.scrollTop = 0;

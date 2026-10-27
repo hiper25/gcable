@@ -1,7 +1,7 @@
-import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=26';
-import {initChannels, applyFilters, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=26';
-import * as drawer from './drawer.js?v=26';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=26';
+import {state, loadCatalog, fetchJSON, mutableURL, exportsForSelection} from './data.js?v=27';
+import {initChannels, applyFilters, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=27';
+import * as drawer from './drawer.js?v=27';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=27';
 
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }
@@ -72,7 +72,7 @@ loadCatalog().then(() => initChannels(drawer.openDrawer, copyBtnFeedback)).catch
     document.getElementById('channels-grid').textContent = '频道数据载入失败，请刷新重试。';
     console.error(error);
 });
-fetchJSON('./weather.json').then(data => {
+fetchJSON(mutableURL('./weather.json')).then(data => {
     const track = document.getElementById('weather-track'); track.replaceChildren();
     const cycle = document.createElement('div'); cycle.className = 'weather-cycle';
     for (const [city, weather] of Object.entries(data)) {
@@ -88,4 +88,4 @@ fetchJSON('./weather.json').then(data => {
     const duplicate = cycle.cloneNode(true); duplicate.setAttribute('aria-hidden', 'true');
     track.append(cycle, duplicate);
 }).catch(() => { document.getElementById('weather-track').textContent = '天气数据暂不可用'; });
-fetchJSON('./notices.json').then(renderNotices).catch(() => {});
+fetchJSON(mutableURL('./notices.json')).then(renderNotices).catch(() => {});

@@ -1,4 +1,8 @@
 // Regional catalogs and immutable, content-addressed schedules.
+const PAGE_VERSION = Date.now().toString(36);
+export function mutableURL(url) {
+    return `${url}${url.includes('?') ? '&' : '?'}v=${PAGE_VERSION}`;
+}
 export async function fetchJSON(url) {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
@@ -15,7 +19,7 @@ const epgIndexes = new Map();
 
 export async function loadCatalog() {
     const [channels, index] = await Promise.all([
-        fetchJSON('./channels.json?v=26'), fetchJSON('./data_index.json?v=26')
+        fetchJSON(mutableURL('./channels.json')), fetchJSON(mutableURL('./data_index.json'))
     ]);
     state.channels = channels.filter(channel => channel.rtp);
     state.index = index;
@@ -27,7 +31,7 @@ export async function loadCatalog() {
 
 export function loadRegion(code) {
     if (!regionCatalogs.has(code)) {
-        regionCatalogs.set(code, fetchJSON('./' + state.index.regions[code].channelsUrl).then(channels => {
+        regionCatalogs.set(code, fetchJSON(mutableURL('./' + state.index.regions[code].channelsUrl)).then(channels => {
             const list = channels.filter(channel => channel.rtp);
             state.cities[state.index.regions[code].name] = list;
             return list;
@@ -52,7 +56,7 @@ export function exportsForSelection() {
 }
 export async function loadSchedule(cid, code) {
     if (!epgIndexes.has(code)) {
-        epgIndexes.set(code, fetchJSON('./' + state.index.regions[code].epgIndexUrl)
+        epgIndexes.set(code, fetchJSON(mutableURL('./' + state.index.regions[code].epgIndexUrl))
             .catch(error => { epgIndexes.delete(code); throw error; }));
     }
     const index = await epgIndexes.get(code);
