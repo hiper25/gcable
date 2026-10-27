@@ -17,7 +17,7 @@
             document.documentElement.setAttribute('data-theme', effective);
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=29">
+    <link rel="stylesheet" href="./css/style.css?v=30">
 </head>
 <body>
     <div class="header">
@@ -30,34 +30,7 @@
                 </div>
             </div>
             <div class="header-actions">
-                <button class="btn btn-primary" onclick="copyM3U(this)">
-                    <svg class="btn-svg" viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
-                    复制 M3U 订阅源
-                </button>
-                <button class="btn btn-accent" onclick="copyEPG(this)">
-                    <svg class="btn-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                    复制 7天 EPG
-                </button>
-                <button class="btn btn-purple" onclick="copyGudouM3U(this)">
-                    <svg class="btn-svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
-                    谷豆单播源
-                </button>
-                <button class="btn" onclick="exportTxt(this)">
-                    <svg class="btn-svg" viewBox="0 0 24 24"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg>
-                    复制组播 TXT
-                </button>
-                <a class="btn" id="download-m3u" data-playlist-download href="./playlist.m3u" download="gcable_multicast.m3u">
-                    <svg class="btn-svg" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                    下载 M3U
-                </a>
-                <a class="btn btn-accent" id="download-epg" data-epg-download href="./epg.xml" download="gcable_epg.xml">
-                    <svg class="btn-svg" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                    下载 EPG
-                </a>
-                <button class="btn" type="button" onclick="openEpgModal()">
-                    <svg class="btn-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                    地区 EPG 下载
-                </button>
+                <div id="desktop-subscription-actions" class="subscription-actions" role="group" aria-label="订阅与 EPG 操作"></div>
                 
                 <!-- 3档模式切换：彩色原生矢量 SVG，全平台不乱码、不黑屏 -->
                 <div class="theme-segmented" role="group" aria-label="显示主题">
@@ -82,36 +55,31 @@
         <details id="site-overview" class="site-overview" open>
             <summary>订阅下载、天气与通告</summary>
         <!-- 手机端快捷订阅网格 (手机专显，电脑端隐藏) -->
-        <div class="mobile-quick-actions">
-            <button class="btn btn-primary" onclick="copyM3U(this)">
-                <svg class="btn-svg" viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
-                复制 M3U 订阅
-            </button>
-            <button class="btn btn-accent" onclick="copyEPG(this)">
-                <svg class="btn-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                复制 7天 EPG
-            </button>
-            <button class="btn btn-purple" onclick="copyGudouM3U(this)">
-                <svg class="btn-svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
-                谷豆单播源
-            </button>
-            <button class="btn btn-amber" onclick="exportTxt(this)">
-                <svg class="btn-svg" viewBox="0 0 24 24"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg>
-                复制组播 TXT
-            </button>
-            <a class="btn mobile-playlist-download" data-playlist-download href="./playlist.m3u" download="gcable_multicast.m3u">
-                <svg class="btn-svg" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                下载当前地区 M3U
-            </a>
-            <a class="btn btn-accent mobile-epg-download" data-epg-download href="./epg.xml" download="gcable_epg.xml">
-                <svg class="btn-svg" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                下载当前地区 EPG
-            </a>
-            <button class="btn mobile-epg-modal-btn" type="button" onclick="openEpgModal()">
-                <svg class="btn-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                各地区 EPG 与订阅下载窗口
-            </button>
+        <div id="mobile-subscription-actions" class="mobile-quick-actions" role="group" aria-label="订阅与 EPG 操作"></div>
         </div>
+        <template id="subscription-actions-template">
+            <button class="btn btn-primary" type="button" data-subscription-action="copyM3U">
+                <svg class="btn-svg" viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg><span class="subscription-action-label"></span>
+            </button>
+            <button class="btn btn-accent" type="button" data-subscription-action="copyEPG">
+                <svg class="btn-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class="subscription-action-label"></span>
+            </button>
+            <button class="btn btn-purple" type="button" data-subscription-action="copyGudouM3U">
+                <svg class="btn-svg" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg><span class="subscription-action-label"></span>
+            </button>
+            <button class="btn btn-amber" type="button" data-subscription-action="exportTxt">
+                <svg class="btn-svg" viewBox="0 0 24 24"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg><span class="subscription-action-label"></span>
+            </button>
+            <a class="btn" data-subscription-action="downloadM3U" data-playlist-download href="./playlist.m3u" download="gcable_multicast.m3u">
+                <svg class="btn-svg" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span class="subscription-action-label"></span>
+            </a>
+            <a class="btn btn-accent" data-subscription-action="downloadEPG" data-epg-download href="./epg.xml" download="gcable_epg.xml">
+                <svg class="btn-svg" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span class="subscription-action-label"></span>
+            </a>
+            <button class="btn" type="button" data-subscription-action="openEpgModal">
+                <svg class="btn-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class="subscription-action-label"></span>
+            </button>
+        </template>
 
         <!-- 通告栏 (全省通告 + 地区专属通告) -->
         <div class="banner-row">
@@ -472,6 +440,6 @@
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
 
-    <script type="module" src="./js/app.js?v=29"></script>
+    <script type="module" src="./js/app.js?v=30"></script>
 </body>
 </html>
