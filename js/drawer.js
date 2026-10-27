@@ -1,7 +1,7 @@
-import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=28';
-import {getChannelIconHTML} from './icons.js?v=28';
-import {copyBtnFeedback, showToast} from './ui.js?v=28';
-import {openPicker, closePicker} from './picker.js?v=28';
+import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=27';
+import {getChannelIconHTML} from './icons.js?v=27';
+import {copyBtnFeedback, showToast} from './ui.js?v=27';
+import {openPicker, closePicker} from './picker.js?v=27';
 
 let channel = null;
 let programmes = [];
