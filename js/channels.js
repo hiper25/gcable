@@ -1,7 +1,7 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=27';
-import {getChannelIconHTML} from './icons.js?v=27';
-import {showToast} from './ui.js?v=27';
-import {openPicker} from './picker.js?v=27';
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=28';
+import {getChannelIconHTML} from './icons.js?v=28';
+import {showToast} from './ui.js?v=28';
+import {openPicker} from './picker.js?v=28';
 
 const cards = new Map();
 const rows = new Map();
