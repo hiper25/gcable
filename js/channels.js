@@ -1,7 +1,7 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=30';
-import {getChannelIconHTML} from './icons.js?v=30';
-import {showToast} from './ui.js?v=30';
-import {openPicker} from './picker.js?v=30';
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=31';
+import {getChannelIconHTML} from './icons.js?v=31';
+import {showToast} from './ui.js?v=31';
+import {openPicker} from './picker.js?v=31';
 
 const cards = new Map();
 const rows = new Map();
@@ -9,17 +9,33 @@ let onOpen;
 let onCopy;
 let renderFrame = 0;
 let cityRequest = 0;
+const catalogStatsCache = new WeakMap();
+
+function catalogStats(source) {
+    let stats = catalogStatsCache.get(source);
+    if (stats) return stats;
+    const categories = new Map();
+    let rtp = 0;
+    for (const channel of source) {
+        if (channel.rtp) rtp++;
+        categories.set(channel.category, (categories.get(channel.category) || 0) + 1);
+    }
+    stats = {categories, rtp};
+    catalogStatsCache.set(source, stats);
+    return stats;
+}
+
 
 function replayLabel(channel) {
-    if (channel.isTVAnyTime === '1') return '<span class="badge-timeshift"><span class="dot" style="background:var(--accent);"></span>支持7天时移</span>';
-    if (channel.hasEPG) return '<span class="badge-timeshift" style="color:var(--rtp-color);">含节目单 · 无回看</span>';
+    if (channel.isTVAnyTime === '1') return '<span class="badge-timeshift"><span class="dot dot-accent"></span>支持7天时移</span>';
+    if (channel.hasEPG) return '<span class="badge-timeshift badge-epg">含节目单 · 无回看</span>';
     return '<span class="badge-live-only">仅直播</span>';
 }
 function content(channel, table) {
     const name = esc(channel.name), cid = esc(channel.channelID), number = esc(channel.channelNumber), category = esc(channel.category);
     const rtp = `<span class="rtp-code">${esc(channel.rtp)}</span><button class="btn btn-sm" data-action="copy">${table ? '复制' : '复制组播'}</button>`;
     const details = '<button class="btn btn-sm" data-action="details">查看详情 ➔</button>';
-    if (table) return `<td class="ch-no">#${number}</td><td><div style="display:flex;align-items:center;gap:10px;">${getChannelIconHTML(channel)}<span style="font-weight:700;">${name}</span></div></td><td><span class="pill-cat">${category}</span></td><td class="pill-id">${cid}</td><td><div style="display:flex;align-items:center;gap:8px;">${rtp}</div></td><td>${replayLabel(channel)}</td><td style="text-align:right;">${details}</td>`;
+    if (table) return `<td class="ch-no">#${number}</td><td><div class="table-channel">${getChannelIconHTML(channel)}<span class="table-channel-name">${name}</span></div></td><td><span class="pill-cat">${category}</span></td><td class="pill-id">${cid}</td><td><div class="table-rtp">${rtp}</div></td><td>${replayLabel(channel)}</td><td class="table-actions">${details}</td>`;
     return `<div class="ch-top">${getChannelIconHTML(channel)}<div class="ch-info"><div class="ch-title-row"><div class="ch-name" title="${name}">${name}</div><span class="ch-no">#${number}</span></div><div class="ch-tags"><span class="pill-cat">${category}</span><span class="pill-id">ID:${cid}</span></div></div></div><div class="rtp-strip">${rtp}</div><div class="ch-bottom">${replayLabel(channel)}${details}</div>`;
 }
 
@@ -58,15 +74,21 @@ function reconcile(container, channels, pool, table) {
 }
 
 function matchesKeyword(channel, keyword) {
-    return [channel.name, channel.channelNumber, channel.channelID, channel.rtp,
-        ...(channel.sourceNames || []).map(source => source.name)]
-        .some(value => String(value ?? '').toLowerCase().includes(keyword));
+    if (!channel.searchText) {
+        channel.searchText = [channel.name, channel.channelNumber, channel.channelID, channel.rtp,
+            ...(channel.sourceNames || []).map(source => source.name)]
+            .map(value => String(value ?? '').toLowerCase()).join(' ');
+    }
+    return channel.searchText.includes(keyword);
 }
 
 export function applyFilters() {
-    const keyword = document.getElementById('search-kw').value.toLowerCase().trim();
+    const searchInput = document.getElementById('search-kw');
+    const keyword = searchInput.value.toLowerCase().trim();
     const onlyReplay = document.getElementById('only-replay').checked;
+    const currentCode = regionCode();
     const source = catalog();
+    const stats = catalogStats(source);
     state.filtered = source.filter(channel => (!onlyReplay || channel.isTVAnyTime === '1') &&
         (state.category === '全部' || channel.category === state.category) &&
         (!state.sourceGroup || channel.sourceGroups?.includes(state.sourceGroup)) &&
@@ -74,27 +96,25 @@ export function applyFilters() {
     document.getElementById('match-count').textContent = state.filtered.length;
     document.getElementById('search-scope').textContent = `搜索范围：${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 支持时移' : ''}；包含源站地区别名`;
     document.getElementById('active-filter-summary').textContent = `${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 支持时移' : ''}`;
-    document.getElementById('search-clear').hidden = !document.getElementById('search-kw').value;
+    document.getElementById('search-clear').hidden = !searchInput.value;
     document.getElementById('reset-filters').hidden = !keyword && state.category === '全部' && !state.sourceGroup && !onlyReplay;
-    const limited = regionCode() || state.category !== '全部' || state.sourceGroup || onlyReplay;
+    const limited = currentCode || state.category !== '全部' || state.sourceGroup || onlyReplay;
     const globalMatches = keyword && limited ? state.channels.filter(channel => matchesKeyword(channel, keyword)).length : 0;
     const globalSearch = document.getElementById('search-global');
     globalSearch.hidden = globalMatches <= state.filtered.length;
     globalSearch.textContent = `全网查找（${globalMatches}）`;
     document.getElementById('summary-total').textContent = source.length;
-    document.getElementById('summary-rtp').textContent = source.filter(channel => channel.rtp).length;
-    const count = regionCode() ? state.index.regions[regionCode()].programmes : state.index.totals.programmes;
+    document.getElementById('summary-rtp').textContent = stats.rtp;
+    const region = currentCode ? state.index.regions[currentCode] : null;
+    const count = region ? region.programmes : state.index.totals.programmes;
     document.getElementById('summary-epg').textContent = Number(count || 0).toLocaleString('zh-CN') + ' 条';
     const coverage = document.getElementById('data-coverage');
-    const region = regionCode() ? state.index.regions[regionCode()] : null;
     coverage.textContent = region ? `${state.city} · ${region.epgStatus === 'ok' ? 'EPG 已采集' : 'EPG 部分缺失'}` : `${Object.keys(state.index.regions).length} 个区域`;
     coverage.title = `采集更新：${state.index.updatedAt}；节目数含源站占位。总表按频道和不同地区节目单去重，地区表只统计当前地区。`;
     document.getElementById('summary-epg').title = region ? '当前地区节目单记录，包含源站占位' : '总 XMLTV 节目记录；同频道相同地区节目单仅计一次，跨频道保留对应关系';
-    const counts = new Map();
-    for (const channel of source) counts.set(channel.category, (counts.get(channel.category) || 0) + 1);
     document.querySelectorAll('#cat-pills [data-cat]').forEach(button => {
         const category = button.dataset.cat;
-        const label = `${category} (${category === '全部' ? source.length : counts.get(category) || 0})`;
+        const label = `${category} (${category === '全部' ? source.length : stats.categories.get(category) || 0})`;
         if (button.textContent !== label) button.textContent = label;
         button.classList.toggle('active', category === state.category);
         button.setAttribute('aria-pressed', String(category === state.category));
@@ -103,10 +123,9 @@ export function applyFilters() {
         button.classList.toggle('active', button.dataset.city === state.city);
         button.setAttribute('aria-pressed', String(button.dataset.city === state.city));
     });
-    const regionLabel = !region ? '查找其他频道' : region.name.startsWith('区域 ') ? `未命名配置 ${regionCode()}` : `${region.name} · ${regionCode()}`;
+    const regionLabel = !region ? '查找其他频道' : region.name.startsWith('区域 ') ? `未命名配置 ${currentCode}` : `${region.name} · ${currentCode}`;
     document.querySelector('#district-select .picker-trigger-text').textContent = regionLabel;
     document.querySelector('#source-group-select .picker-trigger-text').textContent = state.sourceGroup || '全部分组';
-    const currentCode = regionCode();
     const selectedExports = exportsForSelection();
     const playlist = './' + selectedExports.playlistUrl;
     const playlistDownloadName = currentCode ? `gcable_multicast_${currentCode}.m3u` : 'gcable_multicast.m3u';
@@ -127,6 +146,7 @@ export function applyFilters() {
     }
     reconcile(document.getElementById(state.view === 'card' ? 'channels-grid' : 'channels-table-body'), state.filtered, state.view === 'card' ? cards : rows, state.view === 'table');
 }
+
 export function scheduleFilter() {
     cancelAnimationFrame(renderFrame);
     renderFrame = requestAnimationFrame(applyFilters);

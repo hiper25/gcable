@@ -393,14 +393,14 @@
     </div>
 
     <!-- 频道变动与可用性追踪历史弹窗 -->
-    <div id="history-modal" class="drawer-overlay" onclick="closeHistoryModal(event)">
-        <div class="drawer" role="dialog" aria-modal="true" aria-label="频道变动与可用性追踪记录" style="max-width: 680px;" onclick="event.stopPropagation()">
+    <div id="history-modal" class="drawer-overlay">
+        <div class="drawer drawer-history" role="dialog" aria-modal="true" aria-label="频道变动与可用性追踪记录">
             <div class="drawer-header">
-                <div style="font-size:16px; font-weight:700; display:flex; align-items:center; gap:8px;">
+                <div class="drawer-title">
                     <svg class="btn-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     <span>频道变动与可用性追踪记录</span>
                 </div>
-                <button class="btn btn-sm" onclick="closeHistoryModal()">✕ 关闭</button>
+                <button class="btn btn-sm" type="button" data-modal-close>✕ 关闭</button>
             </div>
             <div class="drawer-body" id="history-modal-body" tabindex="0" role="region" aria-label="变动日志内容">
                 正在加载追踪记录...
@@ -409,14 +409,14 @@
     </div>
 
     <!-- 地区与全网 EPG / 订阅下载弹窗 -->
-    <div id="epg-modal" class="drawer-overlay" onclick="closeEpgModal(event)">
-        <div class="drawer" role="dialog" aria-modal="true" aria-label="地区与全网 EPG 节目单及订阅下载中心" style="max-width: 740px;" onclick="event.stopPropagation()">
+    <div id="epg-modal" class="drawer-overlay">
+        <div class="drawer drawer-epg" role="dialog" aria-modal="true" aria-label="地区与全网 EPG 节目单及订阅下载中心">
             <div class="drawer-header">
-                <div style="font-size:16px; font-weight:700; display:flex; align-items:center; gap:8px;">
+                <div class="drawer-title">
                     <svg class="btn-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
                     <span>地区与全网 EPG 节目单下载中心</span>
                 </div>
-                <button class="btn btn-sm" type="button" onclick="closeEpgModal()">✕ 关闭</button>
+                <button class="btn btn-sm" type="button" data-modal-close>✕ 关闭</button>
             </div>
             <div class="drawer-body" id="epg-modal-body" tabindex="0" role="region" aria-label="地区与全网 EPG 下载列表">
                 正在加载地区 EPG 与订阅列表...
@@ -434,6 +434,6 @@
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
 
-    <script type="module" src="./js/app.js?v=30"></script>
+    <script type="module" src="./js/app.js?v=31"></script>
 </body>
 </html>

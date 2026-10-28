@@ -1,4 +1,4 @@
-import {state, regionCode, mutableURL, fetchJSON, escapeHTML as esc} from './data.js?v=30';
+import {state, regionCode, mutableURL, fetchJSON, escapeHTML as esc} from './data.js?v=31';
 
 let toastTimer;
 const copyTimers = new WeakMap();
@@ -200,6 +200,18 @@ export function closeEpgModal(e) {
     }
 }
 
+function initModalControls() {
+    for (const [id, close] of [['history-modal', closeHistoryModal], ['epg-modal', closeEpgModal]]) {
+        const modal = document.getElementById(id);
+        if (!modal) continue;
+        modal.addEventListener('click', event => {
+            const target = event.target;
+            if (target === modal || (target instanceof Element && target.closest('[data-modal-close]'))) close();
+        });
+    }
+}
+initModalControls();
+
 function renderEpgModal(body) {
     const idx = state.index;
     const currentCode = regionCode();
@@ -255,7 +267,7 @@ function renderEpgModal(body) {
         </div>
     ` : '';
 
-    body.innerHTML = `
+    const summaryHtml = `
         <div class="epg-dl-card highlight">
             <div class="epg-dl-head">
                 <span class="epg-dl-title">全网总表（全部 ${idx.totals.channels} 个电视台 + 跨地区差异节目单）</span>
@@ -265,95 +277,116 @@ function renderEpgModal(body) {
             ${actionRow(totalExports.epgUrl, totalExports.playlistUrl, totalExports.gudouPlaylistUrl, 'gcable_all', '全网总表', false)}
         </div>
         ${currentHtml}
-        <div class="epg-dl-toolbar">
-            <div style="font-size:13px; font-weight:700;">按地市 / 区域编码下载专属 EPG (.xml.gz) 与 M3U</div>
-            <input type="search" id="epg-modal-search" class="search-box" placeholder="搜索城市名（如 广州、深圳）或区域编码（如 020、755、1684）" autocomplete="off">
-            <div class="epg-dl-views" role="group" aria-label="地区列表范围">
-                <button type="button" class="btn btn-sm active" data-epg-view="cities" aria-pressed="true">21 地市 (${cityEntries.length})</button>
-                <button type="button" class="btn btn-sm" data-epg-view="groups" aria-pressed="false">不同节目单配置 (${groupEntries.length})</button>
-                <button type="button" class="btn btn-sm" data-epg-view="all" aria-pressed="false">全部区域编码 (${allEntries.length})</button>
-            </div>
-            <div id="epg-modal-status" class="epg-dl-meta" role="status" aria-live="polite"></div>
-        </div>
-        <div id="epg-modal-list" class="epg-timeline-list"></div>
-        <button type="button" id="epg-modal-more" class="btn" style="width:100%; justify-content:center;" hidden>加载更多地区</button>
     `;
-
-    let activeView = 'cities';
-    let renderedCount = 0;
-    let filteredEntries = [];
-    const PAGE = 50;
-    const listEl = body.querySelector('#epg-modal-list');
-    const statusEl = body.querySelector('#epg-modal-status');
-    const moreBtn = body.querySelector('#epg-modal-more');
-    const searchInput = body.querySelector('#epg-modal-search');
-
-    function sourceForView() {
-        if (activeView === 'cities') return cityEntries;
-        if (activeView === 'groups') return groupEntries;
-        return allEntries;
-    }
-
-    function renderBatch() {
-        const nextEnd = Math.min(renderedCount + PAGE, filteredEntries.length);
-        const htmlParts = [];
-        for (let i = renderedCount; i < nextEnd; i++) {
-            const item = filteredEntries[i];
-            const r = item.region;
-            const statusBadge = r.epgStatus === 'ok'
-                ? '<span style="color:var(--accent);font-weight:600;">EPG 完整</span>'
-                : '<span style="color:var(--warning);font-weight:600;">EPG 部分覆盖</span>';
-            htmlParts.push(`
-                <div class="epg-dl-card" data-region-code="${esc(item.code)}">
-                    <div class="epg-dl-head">
-                        <span class="epg-dl-title">${esc(item.title)}</span>
-                        <span class="epg-dl-meta">${statusBadge}</span>
-                    </div>
-                    <div class="epg-dl-meta">${esc(item.detail)}</div>
-                    ${actionRow(r.epgUrl, r.playlistUrl, r.gudouPlaylistUrl, `gcable_${item.code}`, `${r.name} (${item.code})`, r.epgUrl.endsWith('.xml.gz'))}
+    if (!body.epgController) {
+        body.innerHTML = `
+            <div id="epg-modal-summary"></div>
+            <div class="epg-dl-toolbar">
+                <div class="epg-toolbar-title">按地市 / 区域编码下载专属 EPG (.xml.gz) 与 M3U</div>
+                <input type="search" id="epg-modal-search" class="search-box" placeholder="搜索城市名（如 广州、深圳）或区域编码（如 020、755、1684）" autocomplete="off">
+                <div class="epg-dl-views" role="group" aria-label="地区列表范围">
+                    <button type="button" class="btn btn-sm active" data-epg-view="cities" aria-pressed="true">21 地市</button>
+                    <button type="button" class="btn btn-sm" data-epg-view="groups" aria-pressed="false">不同节目单配置</button>
+                    <button type="button" class="btn btn-sm" data-epg-view="all" aria-pressed="false">全部区域编码</button>
                 </div>
-            `);
-        }
-        listEl.insertAdjacentHTML('beforeend', htmlParts.join(''));
-        renderedCount = nextEnd;
-        moreBtn.hidden = renderedCount >= filteredEntries.length;
-        if (!moreBtn.hidden) {
-            moreBtn.textContent = `加载更多（还有 ${filteredEntries.length - renderedCount} 个地区）`;
-        }
-        statusEl.textContent = filteredEntries.length
-            ? `共匹配 ${filteredEntries.length} 项，已显示 ${renderedCount} 项（压缩 XMLTV 支持 TiviMate、Kodi、OTT Navigator、APTV 等播放器直接加载）`
-            : '未找到匹配的地区或编码，请尝试其他关键词';
-    }
-
-    function refreshList() {
-        const q = searchInput.value.trim().toLowerCase();
-        const pool = q ? allEntries : sourceForView();
-        filteredEntries = q ? pool.filter(item => item.search.includes(q)) : pool;
-        renderedCount = 0;
-        listEl.replaceChildren();
-        renderBatch();
-    }
-
-    searchInput.addEventListener('input', refreshList);
-    moreBtn.addEventListener('click', renderBatch);
-    body.querySelectorAll('[data-epg-view]').forEach(btn => {
-        btn.addEventListener('click', () => {
-            activeView = btn.dataset.epgView;
-            body.querySelectorAll('[data-epg-view]').forEach(b => {
-                const sel = b === btn;
-                b.classList.toggle('active', sel);
-                b.setAttribute('aria-pressed', String(sel));
-            });
-            refreshList();
+                <div id="epg-modal-status" class="epg-dl-meta" role="status" aria-live="polite"></div>
+            </div>
+            <div id="epg-modal-list" class="epg-timeline-list"></div>
+            <button type="button" id="epg-modal-more" class="btn epg-modal-more" hidden>加载更多地区</button>
+        `;
+        const controller = {
+            activeView: 'cities', renderedCount: 0, filteredEntries: [],
+            cityEntries: [], groupEntries: [], allEntries: [],
+            listEl: body.querySelector('#epg-modal-list'),
+            statusEl: body.querySelector('#epg-modal-status'),
+            moreBtn: body.querySelector('#epg-modal-more'),
+            searchInput: body.querySelector('#epg-modal-search')
+        };
+        const PAGE = 50;
+        const sourceForView = () => controller.activeView === 'cities' ? controller.cityEntries
+            : controller.activeView === 'groups' ? controller.groupEntries : controller.allEntries;
+        const renderBatch = () => {
+            const nextEnd = Math.min(controller.renderedCount + PAGE, controller.filteredEntries.length);
+            const htmlParts = [];
+            for (let i = controller.renderedCount; i < nextEnd; i++) {
+                const item = controller.filteredEntries[i];
+                const r = item.region;
+                const statusBadge = r.epgStatus === 'ok'
+                    ? '<span class="epg-status-complete">EPG 完整</span>'
+                    : '<span class="epg-status-partial">EPG 部分覆盖</span>';
+                htmlParts.push(`
+                    <div class="epg-dl-card" data-region-code="${esc(item.code)}">
+                        <div class="epg-dl-head">
+                            <span class="epg-dl-title">${esc(item.title)}</span>
+                            <span class="epg-dl-meta">${statusBadge}</span>
+                        </div>
+                        <div class="epg-dl-meta">${esc(item.detail)}</div>
+                        ${actionRow(r.epgUrl, r.playlistUrl, r.gudouPlaylistUrl, `gcable_${item.code}`, `${r.name} (${item.code})`, r.epgUrl.endsWith('.xml.gz'))}
+                    </div>
+                `);
+            }
+            controller.listEl.insertAdjacentHTML('beforeend', htmlParts.join(''));
+            controller.renderedCount = nextEnd;
+            controller.moreBtn.hidden = controller.renderedCount >= controller.filteredEntries.length;
+            if (!controller.moreBtn.hidden) {
+                controller.moreBtn.textContent = `加载更多（还有 ${controller.filteredEntries.length - controller.renderedCount} 个地区）`;
+            }
+            controller.statusEl.textContent = controller.filteredEntries.length
+                ? `共匹配 ${controller.filteredEntries.length} 项，已显示 ${controller.renderedCount} 项（压缩 XMLTV 支持 TiviMate、Kodi、OTT Navigator、APTV 等播放器直接加载）`
+                : '未找到匹配的地区或编码，请尝试其他关键词';
+        };
+        const refreshList = () => {
+            const q = controller.searchInput.value.trim().toLowerCase();
+            const pool = q ? controller.allEntries : sourceForView();
+            controller.filteredEntries = q ? pool.filter(item => item.search.includes(q)) : pool;
+            controller.renderedCount = 0;
+            controller.listEl.replaceChildren();
+            renderBatch();
+        };
+        controller.refreshList = refreshList;
+        controller.renderBatch = renderBatch;
+        controller.searchInput.addEventListener('input', refreshList);
+        controller.moreBtn.addEventListener('click', renderBatch);
+        body.addEventListener('click', event => {
+            const target = event.target;
+            if (!(target instanceof Element)) return;
+            const viewButton = target.closest('[data-epg-view]');
+            if (viewButton && body.contains(viewButton)) {
+                controller.activeView = viewButton.dataset.epgView;
+                body.querySelectorAll('[data-epg-view]').forEach(button => {
+                    const selected = button === viewButton;
+                    button.classList.toggle('active', selected);
+                    button.setAttribute('aria-pressed', String(selected));
+                });
+                refreshList();
+                return;
+            }
+            const copyButton = target.closest('[data-epg-copy]');
+            if (!copyButton || !body.contains(copyButton)) return;
+            const fullUrl = new URL(copyButton.dataset.epgCopy, document.baseURI).href;
+            copyBtnFeedback(copyButton, fullUrl, `已复制 ${copyButton.dataset.epgLabel}`);
         });
-    });
-    body.onclick = ev => {
-        const copyBtn = ev.target.closest('[data-epg-copy]');
-        if (!copyBtn) return;
-        const fullUrl = new URL(copyBtn.dataset.epgCopy, document.baseURI).href;
-        copyBtnFeedback(copyBtn, fullUrl, `已复制 ${copyBtn.dataset.epgLabel}`);
+        body.epgController = controller;
+    }
+    const controller = body.epgController;
+    controller.cityEntries = cityEntries;
+    controller.groupEntries = groupEntries;
+    controller.allEntries = allEntries;
+    controller.activeView = 'cities';
+    controller.searchInput.value = '';
+    body.querySelector('#epg-modal-summary').innerHTML = summaryHtml;
+    const viewLabels = {
+        cities: `21 地市 (${cityEntries.length})`,
+        groups: `不同节目单配置 (${groupEntries.length})`,
+        all: `全部区域编码 (${allEntries.length})`
     };
-    refreshList();
+    body.querySelectorAll('[data-epg-view]').forEach(button => {
+        button.textContent = viewLabels[button.dataset.epgView];
+        const selected = button.dataset.epgView === controller.activeView;
+        button.classList.toggle('active', selected);
+        button.setAttribute('aria-pressed', String(selected));
+    });
+    controller.refreshList();
 }
 
 window.addEventListener('pointerdown', () => {

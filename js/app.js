@@ -1,7 +1,7 @@
-import {state, loadCatalog, fetchJSON, mutableURL, exportsForSelection} from './data.js?v=30';
-import {initChannels, applyFilters, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=30';
-import * as drawer from './drawer.js?v=30';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=30';
+import {state, loadCatalog, fetchJSON, mutableURL, exportsForSelection} from './data.js?v=31';
+import {initChannels, applyFilters, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=31';
+import * as drawer from './drawer.js?v=31';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=31';
 
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }

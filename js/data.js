@@ -9,6 +9,13 @@ export async function fetchJSON(url) {
     return response.json();
 }
 
+export function prepareChannel(channel) {
+    const aliases = (channel.sourceNames || []).map(source => source.name);
+    channel.searchText = [channel.name, channel.channelNumber, channel.channelID, channel.rtp, ...aliases]
+        .map(value => String(value ?? '').toLowerCase()).join(' ');
+    return channel;
+}
+
 export const state = {
     channels: [], cities: {}, index: null, city: '全网总表', category: '全部',
     view: 'card', sourceGroup: '', filtered: [], byId: new Map(), regionByName: new Map()
@@ -21,7 +28,7 @@ export async function loadCatalog() {
     const [channels, index] = await Promise.all([
         fetchJSON(mutableURL('./channels.json')), fetchJSON(mutableURL('./data_index.json'))
     ]);
-    state.channels = channels.filter(channel => channel.rtp);
+    state.channels = channels.filter(channel => channel.rtp).map(prepareChannel);
     state.index = index;
     state.byId = new Map(state.channels.map(channel => [String(channel.channelID), channel]));
     for (const [code, region] of Object.entries(index.regions)) {
@@ -32,8 +39,7 @@ export async function loadCatalog() {
 export function loadRegion(code) {
     if (!regionCatalogs.has(code)) {
         regionCatalogs.set(code, fetchJSON(mutableURL('./' + state.index.regions[code].channelsUrl)).then(channels => {
-            const list = channels.filter(channel => channel.rtp);
-            state.cities[state.index.regions[code].name] = list;
+            const list = channels.filter(channel => channel.rtp).map(prepareChannel);
             return list;
         }).catch(error => { regionCatalogs.delete(code); throw error; }));
     }

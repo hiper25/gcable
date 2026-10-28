@@ -164,7 +164,7 @@ input, button, select, textarea {
     border: 1px solid var(--border-light); padding: 7px 13px;
     border-radius: 8px; font-size: 12px; font-weight: 600;
     cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
-    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s, transform 0.2s, box-shadow 0.2s;
     user-select: none; white-space: nowrap;
     text-decoration: none;
 }
@@ -213,7 +213,7 @@ input, button, select, textarea {
     padding: 4px 10px; border-radius: 16px; font-size: 11px; font-weight: 600;
     cursor: pointer; color: var(--text-muted); border: none; background: transparent;
     display: inline-flex; align-items: center; gap: 4px;
-    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
     white-space: nowrap; font-family: inherit;
 }
 .theme-seg-btn:hover { color: var(--text-main); }
@@ -468,7 +468,7 @@ input, button, select, textarea {
 .search-box {
     width: 100%; background: var(--strip-bg); border: 1px solid var(--border-light);
     min-height: 40px; padding: 9px 44px 9px 36px; border-radius: 8px; color: var(--text-main);
-    font-size: 12px; line-height: 20px; outline: none; transition: all 0.2s;
+    font-size: 12px; line-height: 20px; outline: none; transition: border-color 0.2s, box-shadow 0.2s;
 }
 .search-box::-webkit-search-cancel-button { appearance: none; }
 .search-box:focus { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-glow); }
@@ -488,7 +488,7 @@ input, button, select, textarea {
 .checkbox-indicator {
     width: 16px; height: 16px; border: 1.5px solid var(--border-light);
     border-radius: 5px; display: inline-flex; align-items: center; justify-content: center;
-    background: var(--strip-bg); transition: all 0.15s;
+    background: var(--strip-bg); transition: background-color 0.15s, border-color 0.15s;
 }
 .custom-checkbox input:checked + .checkbox-indicator {
     background: var(--primary); border-color: var(--primary);
@@ -504,7 +504,7 @@ input, button, select, textarea {
 .view-btn {
     padding: 5px 12px; border-radius: 6px; font-size: 11px; font-weight: 700;
     cursor: pointer; color: var(--text-muted); border: none; background: transparent;
-    transition: all 0.15s; display: inline-flex; align-items: center; gap: 4px;
+    transition: background-color 0.15s, color 0.15s, box-shadow 0.15s; display: inline-flex; align-items: center; gap: 4px;
     white-space: nowrap; flex-shrink: 0;
 }
 .view-btn.active {
@@ -540,6 +540,10 @@ input, button, select, textarea {
 .epg-dl-actions { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .epg-dl-toolbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 4px; }
 .epg-dl-views { display: flex; flex-wrap: wrap; gap: 6px; }
+.epg-toolbar-title { font-size: 13px; font-weight: 700; }
+.epg-modal-more { width: 100%; justify-content: center; }
+.epg-status-complete { color: var(--accent); font-weight: 600; }
+.epg-status-partial { color: var(--warning); font-weight: 600; }
 
 /* ======================================================== */
 /* 频道卡片视图                                             */
@@ -615,6 +619,8 @@ input, button, select, textarea {
     color: var(--warning);
 }
 .dot { width: 6px; height: 6px; border-radius: 50%; }
+.dot-accent { background: var(--accent); }
+.badge-epg { color: var(--rtp-color); }
 
 /* ======================================================== */
 /* 表格视图                                                 */
@@ -632,6 +638,10 @@ th { padding: 11px 14px; font-size: 11px; font-weight: 600; color: var(--text-mu
 tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
 tbody tr:hover { background: var(--table-hover); }
 td { padding: 9px 14px; vertical-align: middle; }
+.table-channel { display: flex; align-items: center; gap: 10px; }
+.table-channel-name { font-weight: 700; }
+.table-rtp { display: flex; align-items: center; gap: 8px; }
+.table-actions { text-align: right; }
 
 /* ======================================================== */
 /* 详情抽屉 (Silky 60fps 双向平滑进出过渡)                    */
@@ -671,6 +681,9 @@ td { padding: 9px 14px; vertical-align: middle; }
 }
 .drawer-header > :first-child { min-width: 0; }
 .drawer-header > .btn { flex-shrink: 0; }
+.drawer-history { max-width: 680px; }
+.drawer-epg { max-width: 740px; }
+.drawer-title { display: flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; }
 #history-modal .drawer-header > :first-child { flex: 1; overflow-wrap: anywhere; }
 .drawer-section-nav { display: flex; flex-shrink: 0; gap: 6px; padding: 8px 18px; border-bottom: 1px solid var(--border); background: var(--surface); overflow-x: auto; }
 .drawer-section-nav button { flex-shrink: 0; padding: 6px 10px; border: 1px solid var(--border-light); border-radius: 6px; background: var(--strip-bg); color: var(--text-main); font-size: 12px; line-height: 1.5; cursor: pointer; }
@@ -832,7 +845,7 @@ td { padding: 9px 14px; vertical-align: middle; }
 .date-pill {
     background: var(--surface-card); color: var(--text-muted); border: 1px solid var(--border);
     padding: 5px 12px; border-radius: 8px; font-size: 11px; cursor: pointer; white-space: nowrap;
-    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1); font-weight: 500;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s; font-weight: 500;
 }
 .date-pill:hover { background: var(--surface-hover); color: var(--text-main); }
 .date-pill.active {
@@ -855,7 +868,7 @@ td { padding: 9px 14px; vertical-align: middle; }
 .btn-copy-catchup {
     background: rgba(16, 185, 129, 0.15); color: var(--accent); border: 1px solid rgba(16, 185, 129, 0.4);
     padding: 5px 11px; border-radius: 6px; font-size: 11px; font-weight: 700;
-    cursor: pointer; flex-shrink: 0; transition: all 0.2s; display: inline-flex; align-items: center; gap: 4px;
+    cursor: pointer; flex-shrink: 0; transition: background-color 0.2s, border-color 0.2s, color 0.2s, transform 0.2s; display: inline-flex; align-items: center; gap: 4px;
 }
 .btn-copy-catchup:hover { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 
@@ -876,7 +889,7 @@ td { padding: 9px 14px; vertical-align: middle; }
     border: 1px solid var(--border-light); box-shadow: 0 4px 16px var(--shadow);
     backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
     cursor: pointer; display: none; align-items: center; justify-content: center;
-    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: opacity 0.25s, background-color 0.25s, border-color 0.25s, color 0.25s, transform 0.25s, box-shadow 0.25s;
     user-select: none;
 }
 .btn-back-to-top svg {

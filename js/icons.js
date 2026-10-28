@@ -1,4 +1,4 @@
-import {escapeHTML} from './data.js?v=30';
+import {escapeHTML} from './data.js?v=31';
 export function getChannelIconHTML(channel) {
     const ch = {...channel, name: escapeHTML(channel.name), category: escapeHTML(channel.category), channelID: escapeHTML(channel.channelID)};
     const cid = ch.channelID;
