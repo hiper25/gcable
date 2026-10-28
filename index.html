@@ -17,14 +17,15 @@
             document.documentElement.setAttribute('data-theme', effective);
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=31">
+    <link rel="stylesheet" href="./css/style.css?v=32">
 </head>
 <body>
     <div class="header">
         <div class="header-content">
             <div class="brand">
                 <img class="brand-logo-img" src="./favicon.ico" alt="GCable">
-                <div>
+                <div class="brand-copy">
+                    <span class="brand-kicker">GCABLE · PROVINCIAL NETWORK</span>
                     <h1>广东广电 省网数据中心</h1>
                     <p class="brand-sub">全省广电组播目录 · 7天时移回看库 · 频道频点索引</p>
                 </div>
@@ -96,6 +97,14 @@
 
         <!-- 控制区 -->
         <div class="controls-card">
+            <div class="dashboard-heading">
+                <div>
+                    <span class="dashboard-kicker">LIVE CATALOG</span>
+                    <h2>全省频道目录</h2>
+                    <p>组播地址、EPG 覆盖与 7 天时移能力集中索引</p>
+                </div>
+                <span class="dashboard-badge"><span class="dashboard-badge-dot"></span>组播 · EPG · 时移</span>
+            </div>
             <!-- 搜索框与工具条 -->
             <label class="search-label" for="search-kw">查找频道</label>
             <div class="search-toolbar">
@@ -223,6 +232,13 @@
             </details>
         </div>
 
+        <div class="catalog-heading">
+            <div>
+                <span class="catalog-kicker">CHANNEL DIRECTORY</span>
+                <h2>频道清单</h2>
+            </div>
+            <span class="catalog-hint">选择频道后可复制组播地址或查看详情</span>
+        </div>
         <!-- 视图 1：卡片视图容器 -->
         <div id="channels-grid" class="channels-grid">正在加载全省频道列表...</div>
 
