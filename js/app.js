@@ -25,6 +25,7 @@ const SUBSCRIPTION_ACTIONS = Object.freeze([
     {key:'openEpgModal', desktop:'地区 EPG', mobile:'各地区 EPG 与订阅下载窗口', handler:openEpgModal}
 ]);
 const DESKTOP_PRIMARY_ACTIONS = new Set(['copyM3U', 'openEpgModal']);
+const MOBILE_MORE_ACTIONS = ['copyGudouM3U', 'exportTxt', 'downloadM3U'];
 const DESKTOP_TOOLS_GROUPS = Object.freeze([
     {label:'EPG 与单播订阅', keys:['copyEPG', 'copyGudouM3U']},
     {label:'下载与导出', keys:['exportTxt', 'downloadM3U', 'downloadEPG']}
@@ -34,7 +35,7 @@ function populateSubscriptionActions(target, {mobile, primaryOnly} = {}) {
     fragment.querySelectorAll('[data-subscription-action]').forEach(action => {
         const spec = SUBSCRIPTION_ACTIONS.find(item => item.key === action.dataset.subscriptionAction);
         if (!spec) return;
-        if (!mobile && primaryOnly !== DESKTOP_PRIMARY_ACTIONS.has(spec.key)) {
+        if ((!mobile && primaryOnly !== DESKTOP_PRIMARY_ACTIONS.has(spec.key)) || (mobile && spec.key === 'downloadEPG')) {
             action.remove();
             return;
         }
@@ -45,6 +46,23 @@ function populateSubscriptionActions(target, {mobile, primaryOnly} = {}) {
         if (mobile && spec.key === 'openEpgModal') action.classList.add('mobile-epg-modal-btn');
         if (spec.handler) action.addEventListener('click', () => spec.handler(action));
     });
+    if (mobile) {
+        const more = document.createElement('details');
+        more.className = 'mobile-actions-more';
+        const summary = document.createElement('summary');
+        summary.textContent = '更多订阅与导出';
+        const actions = document.createElement('div');
+        actions.className = 'mobile-actions-overflow';
+        for (const key of MOBILE_MORE_ACTIONS) {
+            const action = fragment.querySelector(`[data-subscription-action="${key}"]`);
+            if (action) actions.append(action);
+        }
+        more.append(summary, actions);
+        more.addEventListener('click', event => {
+            if (event.target instanceof Element && event.target.closest('[data-subscription-action]')) more.open = false;
+        });
+        fragment.append(more);
+    }
     if (!mobile && primaryOnly === false) {
         const groupedActions = document.createDocumentFragment();
         for (const group of DESKTOP_TOOLS_GROUPS) {
@@ -125,17 +143,24 @@ function renderNotices(notices) {
         const card = document.createElement('div'); card.className = index ? 'notice-card diff' : 'notice-card';
         const tag = document.createElement('span'); tag.className = index ? 'notice-tag diff' : 'notice-tag';
         tag.textContent = cities.length === 1 ? `${cities[0]}通告` : `${cities.length}地共同通告`;
-        const wrap = document.createElement('div'); wrap.className = 'ticker-wrap'; wrap.tabIndex = 0;
-        wrap.setAttribute('role', 'region'); wrap.setAttribute('aria-label', `${tag.textContent}，聚焦暂停滚动`);
-        const content = document.createElement('div'); content.className = 'ticker-move';
-        const text = document.createElement('span'); text.className = 'ticker-message'; text.textContent = message;
-        const duplicate = text.cloneNode(true); duplicate.setAttribute('aria-hidden', 'true');
-        content.append(text, duplicate); wrap.append(content); card.append(tag, wrap);
+        const details = document.createElement('details'); details.className = 'notice-message';
+        const summary = document.createElement('summary');
+        const preview = document.createElement('span'); preview.className = 'notice-preview'; preview.textContent = message;
+        const hint = document.createElement('span'); hint.className = 'notice-expand-hint'; hint.textContent = '展开'; hint.setAttribute('aria-hidden', 'true');
+        summary.append(preview, hint);
+        const full = document.createElement('div'); full.className = 'notice-expanded'; full.textContent = message; full.setAttribute('aria-hidden', 'true');
+        details.append(summary, full);
+        details.addEventListener('toggle', () => {
+            preview.hidden = details.open;
+            full.setAttribute('aria-hidden', String(!details.open));
+            hint.textContent = details.open ? '收起' : '展开';
+        });
+        card.append(tag, details);
         if (cities.length > 1) {
-            const details = document.createElement('details'); details.className = 'notice-regions';
-            const summary = document.createElement('summary'); summary.textContent = '查看适用地区';
+            const regionsDetails = document.createElement('details'); regionsDetails.className = 'notice-regions';
+            const regionsSummary = document.createElement('summary'); regionsSummary.textContent = '查看适用地区';
             const list = document.createElement('div'); list.textContent = cities.join('、');
-            details.append(summary, list); card.append(details);
+            regionsDetails.append(regionsSummary, list); card.append(regionsDetails);
         }
         container.append(card);
     }
@@ -157,7 +182,13 @@ fetchJSON(mutableURL('./weather.json')).then(data => {
         chip.append(wind); chip.title = [weather.locationName,weather.locationCode,weather.date,weather.wind].filter(Boolean).join(' · ');
         cycle.append(chip);
     }
-    const duplicate = cycle.cloneNode(true); duplicate.setAttribute('aria-hidden', 'true');
-    track.append(cycle, duplicate);
+    track.append(cycle);
+    const weatherViewport = track.closest('.weather-scroll-container');
+    weatherViewport.addEventListener('wheel', event => {
+        if (!event.deltaY || event.deltaX || weatherViewport.scrollWidth <= weatherViewport.clientWidth) return;
+        const before = weatherViewport.scrollLeft;
+        weatherViewport.scrollLeft += event.deltaY;
+        if (weatherViewport.scrollLeft !== before) event.preventDefault();
+    }, {passive:false});
 }).catch(() => { document.getElementById('weather-track').textContent = '天气数据暂不可用'; });
 fetchJSON(mutableURL('./notices.json')).then(renderNotices).catch(() => {});

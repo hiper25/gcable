@@ -18,7 +18,7 @@
         })();
         if (new URLSearchParams(location.search).get('layout') === 'concept') document.documentElement.dataset.layout = 'concept';
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=41">
+    <link rel="stylesheet" href="./css/style.css?v=43">
 </head>
 <body>
     <div class="header">
@@ -98,8 +98,8 @@
             </div>
         </div>
 
-        <!-- 自动无缝水平滚动天气栏 -->
-        <div class="weather-scroll-container" tabindex="0" role="region" aria-label="各地天气，自动滚动，聚焦暂停滚动">
+        <!-- 天气信息横向浏览，手机可触摸滑动，桌面可滚轮浏览 -->
+        <div class="weather-scroll-container" tabindex="0" role="region" aria-label="各地天气，可横向滚动浏览；桌面鼠标滚轮可查看后续城市">
             <div class="weather-scroll-track" id="weather-track">
                 <div class="weather-chip"><b>全省天气</b> <span>正在连接气象台站...</span></div>
             </div>
@@ -461,6 +461,6 @@
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
 
-    <script type="module" src="./js/app.js?v=34"></script>
+    <script type="module" src="./js/app.js?v=36"></script>
 </body>
 </html>
