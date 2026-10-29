@@ -333,21 +333,22 @@ input, button, select, textarea {
 .notice-expanded { margin-top: 6px; color: var(--text-main); overflow-wrap: anywhere; }
 
 .weather-scroll-container {
-    width: 100%; overflow-x: auto; overflow-y: hidden; position: relative;
+    width: 100%; overflow: hidden; position: relative;
     background: var(--surface); border: 1px solid var(--border);
     border-radius: 13px; padding: 4px 10px 7px; margin-bottom: 12px;
     box-shadow: 0 2px 8px var(--shadow);
-    -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    scrollbar-width: thin !important; scrollbar-color: var(--primary) var(--surface-card) !important;
 }
-.weather-scroll-container::-webkit-scrollbar { display: block !important; width: auto !important; height: 4px !important; }
-.weather-scroll-container::-webkit-scrollbar-track { background: var(--surface-card); border-radius: 999px; }
-.weather-scroll-container::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 999px; }
 .weather-scroll-container:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
-.weather-scroll-track { display: flex; width: max-content; min-width: 0; min-height: 34px; }
+.weather-scroll-track {
+    display: flex; width: max-content; min-width: 200%; min-height: 34px;
+    animation: weatherTicker 90s linear infinite;
+}
 .weather-cycle { display: flex; align-items: center; flex: 0 0 auto; gap: 8px; padding-right: 8px; }
-.weather-cycle[aria-hidden="true"] { display: none; }
+.weather-scroll-container:focus-within .weather-scroll-track { animation-play-state: paused; }
+@media (hover: hover) and (pointer: fine) {
+    .weather-scroll-container:hover .weather-scroll-track { animation-play-state: paused; }
+}
+@keyframes weatherTicker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
 .weather-chip {
     background: var(--surface-card); border: 1px solid var(--border);
@@ -1474,4 +1475,14 @@ html, body {
         transition: none !important;
         scroll-behavior: auto !important;
     }
+    .weather-scroll-container {
+        overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;
+        overscroll-behavior-x: contain; scroll-snap-type: x proximity;
+        scrollbar-width: thin !important; scrollbar-color: var(--primary) var(--surface-card) !important;
+    }
+    .weather-scroll-container::-webkit-scrollbar { display: block !important; width: auto !important; height: 4px !important; }
+    .weather-scroll-container::-webkit-scrollbar-track { background: var(--surface-card); border-radius: 999px; }
+    .weather-scroll-container::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 999px; }
+    .weather-scroll-track { animation: none !important; min-width: 0; transform: none; }
+    .weather-cycle[aria-hidden="true"] { display: none; }
 }

@@ -182,10 +182,12 @@ fetchJSON(mutableURL('./weather.json')).then(data => {
         chip.append(wind); chip.title = [weather.locationName,weather.locationCode,weather.date,weather.wind].filter(Boolean).join(' · ');
         cycle.append(chip);
     }
-    track.append(cycle);
+    const duplicate = cycle.cloneNode(true); duplicate.setAttribute('aria-hidden', 'true');
+    track.append(cycle, duplicate);
     const weatherViewport = track.closest('.weather-scroll-container');
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     weatherViewport.addEventListener('wheel', event => {
-        if (!event.deltaY || event.deltaX || weatherViewport.scrollWidth <= weatherViewport.clientWidth) return;
+        if (!reducedMotion.matches || !event.deltaY || event.deltaX || weatherViewport.scrollWidth <= weatherViewport.clientWidth) return;
         const before = weatherViewport.scrollLeft;
         weatherViewport.scrollLeft += event.deltaY;
         if (weatherViewport.scrollLeft !== before) event.preventDefault();
