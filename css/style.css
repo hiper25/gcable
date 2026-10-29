@@ -282,14 +282,14 @@ input, button, select, textarea {
 /* ======================================================== */
 /* 通告栏与天气栏                                           */
 /* ======================================================== */
-.banner-row { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
-.notice-container { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.banner-row { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+.notice-container { display: flex; flex-direction: column; gap: 8px; width: 100%; }
 .notice-card {
     background: rgba(99, 102, 241, 0.08);
     border: 1px solid rgba(99, 102, 241, 0.22);
-    border-radius: 8px; padding: 7px 14px;
-    display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 6px 10px;
-    font-size: 12px; overflow: hidden;
+    border-radius: 12px; padding: 9px 15px;
+    display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 6px 12px;
+    min-height: 46px; font-size: 13px; line-height: 1.55; overflow: hidden;
     transition: background 0.2s, border-color 0.2s;
 }
 .notice-card.diff {
@@ -298,8 +298,8 @@ input, button, select, textarea {
 }
 .notice-tag {
     background: linear-gradient(135deg, #4f46e5, #4338ca);
-    color: white; padding: 2px 7px;
-    border-radius: 5px; font-size: 10px; font-weight: 700; flex-shrink: 0;
+    color: white; padding: 4px 9px;
+    border-radius: 999px; font-size: 11px; line-height: 1.3; font-weight: 700; flex-shrink: 0;
     box-shadow: 0 1px 4px rgba(79, 70, 229, 0.3);
 }
 .notice-tag.diff {
@@ -312,23 +312,23 @@ input, button, select, textarea {
 .ticker-wrap { min-width: 0; overflow: hidden; position: relative; white-space: nowrap; }
 .ticker-move {
     display: flex; width: max-content; min-width: 200%; white-space: nowrap;
-    animation: bannerScroll 30s linear infinite; font-weight: 500;
+    animation: bannerScroll 42s linear infinite; font-size: 13px; line-height: 1.55; font-weight: 500; color: var(--text-main);
 }
-.ticker-message { flex: 1 0 auto; padding-right: 48px; }
+.ticker-message { flex: 1 0 auto; padding-right: 64px; }
 .notice-card:focus-within .ticker-move { animation-play-state: paused; }
 @keyframes bannerScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
 .weather-scroll-container {
     width: 100%; overflow: hidden; position: relative;
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: 10px; padding: 6px 12px; margin-bottom: 16px;
+    border-radius: 13px; padding: 7px 10px; margin-bottom: 16px;
     box-shadow: 0 2px 8px var(--shadow);
 }
 .weather-scroll-track {
-    display: flex; width: max-content; min-width: 200%;
-    animation: bannerScroll 50s linear infinite;
+    display: flex; width: max-content; min-width: 200%; min-height: 34px;
+    animation: bannerScroll 60s linear infinite;
 }
-.weather-cycle { display: flex; align-items: center; flex: 1 0 auto; gap: 10px; padding-right: 10px; }
+.weather-cycle { display: flex; align-items: center; flex: 1 0 auto; gap: 8px; padding-right: 8px; }
 .weather-scroll-container:focus-within .weather-scroll-track { animation-play-state: paused; }
 @media (hover: hover) and (pointer: fine) {
     .notice-card:hover .ticker-move, .weather-scroll-container:hover .weather-scroll-track { animation-play-state: paused; }
@@ -336,13 +336,13 @@ input, button, select, textarea {
 
 .weather-chip {
     background: var(--surface-card); border: 1px solid var(--border);
-    border-radius: 14px; padding: 3px 11px; font-size: 11px;
-    white-space: nowrap; display: flex; align-items: center; gap: 6px;
+    border-radius: 999px; min-height: 32px; padding: 5px 12px; font-size: 12px; line-height: 1.25;
+    white-space: nowrap; display: flex; align-items: center; gap: 7px;
     color: var(--text-muted); flex-shrink: 0;
 }
-.weather-chip b { color: var(--text-main); font-weight: 600; }
-.weather-chip span.temp { color: var(--rtp-color); font-family: var(--font-numeric); font-variant-numeric: tabular-nums; font-weight: 700; }
-
+.weather-chip b { color: var(--text-main); font-weight: 700; padding-right: 7px; border-right: 1px solid var(--border-light); }
+.weather-chip span { font-size: 11px; }
+.weather-chip span.temp { color: var(--rtp-color); font-family: var(--font-numeric); font-size: 12px; font-variant-numeric: tabular-nums; font-weight: 700; }
 /* ======================================================== */
 /* 频道过滤控制区                                           */
 /* ======================================================== */
