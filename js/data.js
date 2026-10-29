@@ -40,6 +40,7 @@ export function loadRegion(code) {
     if (!regionCatalogs.has(code)) {
         regionCatalogs.set(code, fetchJSON(mutableURL('./' + state.index.regions[code].channelsUrl)).then(channels => {
             const list = channels.filter(channel => channel.rtp).map(prepareChannel);
+            state.cities[state.index.regions[code].name] = list;
             return list;
         }).catch(error => { regionCatalogs.delete(code); throw error; }));
     }
