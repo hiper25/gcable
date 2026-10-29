@@ -25,6 +25,10 @@ const SUBSCRIPTION_ACTIONS = Object.freeze([
     {key:'openEpgModal', desktop:'地区 EPG', mobile:'各地区 EPG 与订阅下载窗口', handler:openEpgModal}
 ]);
 const DESKTOP_PRIMARY_ACTIONS = new Set(['copyM3U', 'openEpgModal']);
+const DESKTOP_TOOLS_GROUPS = Object.freeze([
+    {label:'EPG 与单播订阅', keys:['copyEPG', 'copyGudouM3U']},
+    {label:'下载与导出', keys:['exportTxt', 'downloadM3U', 'downloadEPG']}
+]);
 function populateSubscriptionActions(target, {mobile, primaryOnly} = {}) {
     const fragment = document.getElementById('subscription-actions-template').content.cloneNode(true);
     fragment.querySelectorAll('[data-subscription-action]').forEach(action => {
@@ -41,6 +45,26 @@ function populateSubscriptionActions(target, {mobile, primaryOnly} = {}) {
         if (mobile && spec.key === 'openEpgModal') action.classList.add('mobile-epg-modal-btn');
         if (spec.handler) action.addEventListener('click', () => spec.handler(action));
     });
+    if (!mobile && primaryOnly === false) {
+        const groupedActions = document.createDocumentFragment();
+        for (const group of DESKTOP_TOOLS_GROUPS) {
+            const section = document.createElement('section');
+            section.className = 'header-tools-section';
+            const heading = document.createElement('h3');
+            heading.className = 'header-tools-group-title';
+            heading.textContent = group.label;
+            const actions = document.createElement('div');
+            actions.className = 'header-tools-group';
+            for (const key of group.keys) {
+                const action = fragment.querySelector(`[data-subscription-action="${key}"]`);
+                if (action) actions.append(action);
+            }
+            section.append(heading, actions);
+            groupedActions.append(section);
+        }
+        target.replaceChildren(groupedActions);
+        return;
+    }
     target.replaceChildren(fragment);
 }
 function renderSubscriptionActions() {
