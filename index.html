@@ -18,7 +18,7 @@
         })();
         if (new URLSearchParams(location.search).get('layout') === 'concept') document.documentElement.dataset.layout = 'concept';
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=33">
+    <link rel="stylesheet" href="./css/style.css?v=36">
 </head>
 <body>
     <div class="header">
@@ -26,13 +26,23 @@
             <div class="brand">
                 <img class="brand-logo-img" src="./favicon.ico" alt="GCable">
                 <div class="brand-copy">
-                    <span class="brand-kicker">GCABLE · PROVINCIAL NETWORK</span>
+                    <span class="brand-kicker">广东广电 · 省网频道</span>
                     <h1>广东广电 省网数据中心</h1>
                     <p class="brand-sub">全省广电组播目录 · 7天时移回看库 · 频道频点索引</p>
                 </div>
             </div>
             <div class="header-actions">
-                <div id="desktop-subscription-actions" class="subscription-actions" role="group" aria-label="订阅与 EPG 操作"></div>
+                <div id="desktop-primary-actions" class="header-primary-actions" role="group" aria-label="常用操作"></div>
+                <details class="header-tools-menu">
+                    <summary class="header-tools-trigger">
+                        <span>更多操作</span>
+                        <svg class="header-tools-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+                    </summary>
+                    <div class="header-tools-panel">
+                        <span class="header-tools-title">订阅与导出</span>
+                        <div id="desktop-subscription-actions" class="subscription-actions" role="group" aria-label="更多订阅与导出操作"></div>
+                    </div>
+                </details>
                 
                 <!-- 3档模式切换：彩色原生矢量 SVG，全平台不乱码、不黑屏 -->
                 <div class="theme-segmented" role="group" aria-label="显示主题">
@@ -100,7 +110,7 @@
         <div class="controls-card">
             <div class="dashboard-heading">
                 <div>
-                    <span class="dashboard-kicker">LIVE CATALOG</span>
+                    <span class="dashboard-kicker">频道总览</span>
                     <h2>全省频道目录</h2>
                     <p>组播地址、EPG 覆盖与 7 天时移能力集中索引</p>
                 </div>
@@ -235,7 +245,7 @@
 
         <div class="catalog-heading">
             <div>
-                <span class="catalog-kicker">CHANNEL DIRECTORY</span>
+                <span class="catalog-kicker">全省频道目录</span>
                 <h2>频道清单</h2>
             </div>
             <span class="catalog-hint">选择频道后可复制组播地址或查看详情</span>
@@ -451,6 +461,6 @@
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
 
-    <script type="module" src="./js/app.js?v=32"></script>
+    <script type="module" src="./js/app.js?v=34"></script>
 </body>
 </html>

@@ -16,34 +16,53 @@ function exportTxt(button) {
     copyBtnFeedback(button, state.filtered.map(channel => `${channel.name},${channel.rtp}`).join('\n'), `已复制当前筛选的 ${state.filtered.length} 条组播地址`);
 }
 const SUBSCRIPTION_ACTIONS = Object.freeze([
-    {key:'copyM3U', desktop:'复制 M3U 订阅源', mobile:'复制 M3U 订阅', handler:copyM3U},
-    {key:'copyEPG', desktop:'复制 7天 EPG', mobile:'复制 7天 EPG', handler:copyEPG},
-    {key:'copyGudouM3U', desktop:'谷豆单播源', mobile:'谷豆单播源', handler:copyGudouM3U},
-    {key:'exportTxt', desktop:'复制组播 TXT', mobile:'复制组播 TXT', handler:exportTxt},
+    {key:'copyM3U', desktop:'复制 M3U', mobile:'复制 M3U 订阅', handler:copyM3U},
+    {key:'copyEPG', desktop:'复制 EPG 链接', mobile:'复制 7天 EPG', handler:copyEPG},
+    {key:'copyGudouM3U', desktop:'复制谷豆地址', mobile:'谷豆单播源', handler:copyGudouM3U},
+    {key:'exportTxt', desktop:'导出组播 TXT', mobile:'复制组播 TXT', handler:exportTxt},
     {key:'downloadM3U', desktop:'下载 M3U', mobile:'下载当前地区 M3U'},
     {key:'downloadEPG', desktop:'下载 EPG', mobile:'下载当前地区 EPG'},
-    {key:'openEpgModal', desktop:'地区 EPG 下载', mobile:'各地区 EPG 与订阅下载窗口', handler:openEpgModal}
+    {key:'openEpgModal', desktop:'地区 EPG', mobile:'各地区 EPG 与订阅下载窗口', handler:openEpgModal}
 ]);
+const DESKTOP_PRIMARY_ACTIONS = new Set(['copyM3U', 'openEpgModal']);
+function populateSubscriptionActions(target, {mobile, primaryOnly} = {}) {
+    const fragment = document.getElementById('subscription-actions-template').content.cloneNode(true);
+    fragment.querySelectorAll('[data-subscription-action]').forEach(action => {
+        const spec = SUBSCRIPTION_ACTIONS.find(item => item.key === action.dataset.subscriptionAction);
+        if (!spec) return;
+        if (!mobile && primaryOnly !== DESKTOP_PRIMARY_ACTIONS.has(spec.key)) {
+            action.remove();
+            return;
+        }
+        action.querySelector('.subscription-action-label').textContent = mobile ? spec.mobile : spec.desktop;
+        if (!mobile && spec.key === 'downloadM3U') action.id = 'download-m3u';
+        if (!mobile && spec.key === 'downloadEPG') action.id = 'download-epg';
+        if (!mobile && spec.key === 'openEpgModal') action.classList.add('btn-accent');
+        if (mobile && spec.key === 'openEpgModal') action.classList.add('mobile-epg-modal-btn');
+        if (spec.handler) action.addEventListener('click', () => spec.handler(action));
+    });
+    target.replaceChildren(fragment);
+}
 function renderSubscriptionActions() {
-    const template = document.getElementById('subscription-actions-template');
-    if (!template) return;
-    for (const [targetId, mobile] of [['desktop-subscription-actions', false], ['mobile-subscription-actions', true]]) {
-        const target = document.getElementById(targetId);
-        if (!target) continue;
-        const fragment = template.content.cloneNode(true);
-        fragment.querySelectorAll('[data-subscription-action]').forEach(action => {
-            const spec = SUBSCRIPTION_ACTIONS.find(item => item.key === action.dataset.subscriptionAction);
-            if (!spec) return;
-            action.querySelector('.subscription-action-label').textContent = mobile ? spec.mobile : spec.desktop;
-            if (!mobile && spec.key === 'downloadM3U') action.id = 'download-m3u';
-            if (!mobile && spec.key === 'downloadEPG') action.id = 'download-epg';
-            if (mobile && spec.key === 'openEpgModal') action.classList.add('mobile-epg-modal-btn');
-            if (spec.handler) action.addEventListener('click', () => spec.handler(action));
-        });
-        target.replaceChildren(fragment);
-    }
+    populateSubscriptionActions(document.getElementById('desktop-primary-actions'), {primaryOnly:true});
+    populateSubscriptionActions(document.getElementById('desktop-subscription-actions'), {primaryOnly:false});
+    populateSubscriptionActions(document.getElementById('mobile-subscription-actions'), {mobile:true});
 }
 renderSubscriptionActions();
+const desktopToolsMenu = document.querySelector('.header-tools-menu');
+desktopToolsMenu?.addEventListener('click', event => {
+    if (!(event.target instanceof Element) || !event.target.closest('[data-subscription-action]')) return;
+    desktopToolsMenu.open = false;
+    desktopToolsMenu.querySelector('summary').focus({preventScroll:true});
+});
+document.addEventListener('click', event => {
+    if (desktopToolsMenu?.open && !desktopToolsMenu.contains(event.target)) desktopToolsMenu.open = false;
+});
+document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape' || !desktopToolsMenu?.open) return;
+    desktopToolsMenu.open = false;
+    desktopToolsMenu.querySelector('summary').focus({preventScroll:true});
+});
 // Existing static buttons retain their handlers; dynamic content uses delegated listeners.
 Object.assign(window, {setThemeMode,scrollToTop,setCategory,setCity,switchView,applyFilters:scheduleFilter,copyM3U,copyGudouM3U,copyEPG,exportTxt,openHistoryModal,closeHistoryModal,openEpgModal,closeEpgModal,...drawer});
 initTheme();
