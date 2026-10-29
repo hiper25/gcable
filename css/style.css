@@ -158,7 +158,6 @@ input, button, select, textarea {
 .header-actions { display: flex; gap: 6px; align-items: center; }
 .subscription-actions { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
 .subscription-action-label { display: inline; }
-.header { overflow: visible; }
 .header-primary-actions { display: flex; align-items: center; gap: 6px; }
 .header-tools-menu { position: relative; z-index: 80; }
 .header-tools-menu > summary { list-style: none; }
@@ -741,6 +740,8 @@ td { padding: 9px 14px; vertical-align: middle; }
     display: flex; flex-direction: column; gap: 16px;
 }
 
+.drawer-details-summary { margin-top: 8px; color: var(--text-muted); font-size: 11px; cursor: pointer; }
+.drawer-source-metadata { white-space: pre-wrap; overflow-wrap: anywhere; font-family: inherit; font-size: 11px; line-height: 1.6; }
 .info-panel {
     background: var(--surface-card); border: 1px solid var(--border);
     border-radius: 12px; padding: 14px 18px;
@@ -1262,7 +1263,7 @@ html, body {
     .ch-card { border-radius: 16px; padding: 16px; }
     .catalog-hint { font-size: 10px; }
 }
-/* Opt-in concept based on public TV-player patterns: guide rail, compact catalog, dark broadcast-console palette. */
+/* Compact broadcast-console default based on public TV-player patterns. */
 :root[data-layout="concept"][data-theme="dark"] {
     --bg: #071116;
     --surface: #0b1a20;
@@ -1384,7 +1385,6 @@ html, body {
     border-radius: 16px; border-color: var(--border);
     background: var(--surface); box-shadow: 0 14px 36px var(--shadow);
 }
-:root[data-layout="concept"] .dashboard-kicker::after { content: " · 方案预览"; color: var(--text-dim); font-size: 10px; }
 :root[data-layout="concept"] .dashboard-heading h2 { font-size: 20px; }
 :root[data-layout="concept"] .dashboard-heading p { font-size: 12px; line-height: 1.55; }
 :root[data-layout="concept"] .dashboard-badge { align-self: flex-start; padding: 7px 10px; font-size: 11px; }
@@ -1394,14 +1394,9 @@ html, body {
 :root[data-layout="concept"] .cat-btn { padding: 6px 9px; font-size: 11px; }
 :root[data-layout="concept"] .city-btn { padding: 6px 8px; font-size: 11px; }
 :root[data-layout="concept"] .stats-summary-row { gap: 6px; margin-top: 14px; padding-top: 12px; font-size: 11px; }
-:root[data-layout="concept"] .catalog-heading h2 { font-size: 23px; letter-spacing: -0.5px; }
-:root[data-layout="concept"] .catalog-hint { font-size: 12px; }
-:root[data-layout="concept"] .ch-name { font-size: 14px; }
 :root[data-layout="concept"] .pill-cat { padding: 3px 7px; font-size: 10px; }
 :root[data-layout="concept"] .pill-id { font-size: 10px; }
 :root[data-layout="concept"] .rtp-code { font-size: 11px; }
-:root[data-layout="concept"] .ch-bottom { padding-top: 7px; font-size: 11px; }
-:root[data-layout="concept"] .ch-card .btn { padding: 5px 8px; font-size: 11px; }
 
 
 :root[data-layout="concept"] .catalog-heading {

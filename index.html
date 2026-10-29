@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-layout="concept">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -16,9 +16,8 @@
             }
             document.documentElement.setAttribute('data-theme', effective);
         })();
-        if (new URLSearchParams(location.search).get('layout') === 'concept') document.documentElement.dataset.layout = 'concept';
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=44">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="header">
@@ -396,9 +395,9 @@
                         </div>
                         <div class="dvb-grid" id="d-dvb-grid">
                         </div>
-                        <details><summary style="font-size:11px;color:var(--text-muted);margin-top:8px;cursor:pointer;">原始 DVB 参数</summary><div class="rtp-code" id="d-delivery"></div></details>
+                        <details><summary class="drawer-details-summary">原始 DVB 参数</summary><div class="rtp-code" id="d-delivery"></div></details>
                     </div>
-                    <details><summary style="font-size:11px;color:var(--text-muted);margin-top:8px;cursor:pointer;">原始频道资料</summary><pre id="d-source-metadata" style="white-space:pre-wrap;overflow-wrap:anywhere;font-family:inherit;font-size:11px;line-height:1.6;"></pre></details>
+                    <details><summary class="drawer-details-summary">原始频道资料</summary><pre id="d-source-metadata" class="drawer-source-metadata"></pre></details>
                 </div>
 
                 <!-- 7 天 EPG 与时移日程 -->
@@ -461,6 +460,6 @@
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
 
-    <script type="module" src="./js/app.js?v=37"></script>
+    <script type="module" src="./js/app.js?v=38"></script>
 </body>
 </html>

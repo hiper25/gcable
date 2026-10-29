@@ -1,5 +1,5 @@
 import {state, loadCatalog, fetchJSON, mutableURL, exportsForSelection} from './data.js?v=32';
-import {initChannels, applyFilters, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=32';
+import {initChannels, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=32';
 import * as drawer from './drawer.js?v=32';
 import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=32';
 
