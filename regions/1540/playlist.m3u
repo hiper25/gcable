@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="../../exports/regions/1400.xml.gz"
+#EXTM3U x-tvg-url="../../exports/regions/1420.xml.gz"
 #EXTINF:-1 tvg-id="1402" tvg-name="CCTV-1 综合（高清）" tvg-chno="1" group-title="央视频道" region-code="1540" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1402.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1402_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-1 综合（高清）
 rtp://239.12.22.3:10001
 #EXTINF:-1 tvg-id="1401" tvg-name="广东卫视（高清）" tvg-chno="2" group-title="卫视频道" region-code="1540" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1401.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1401_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",广东卫视（高清）
@@ -33,7 +33,7 @@ rtp://239.12.22.8:10001
 rtp://239.12.22.29:10001
 #EXTINF:-1 tvg-id="1610" tvg-name="CCTV-10 科教（高清）" tvg-chno="20" group-title="央视频道" region-code="1540" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1610.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1610_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-10 科教（高清）
 rtp://239.12.22.30:10001
-#EXTINF:-1 tvg-id="1611" tvg-name="CCTV-11 戏曲（高清）" tvg-chno="21" group-title="央视频道" region-code="1540" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1611.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1611_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-11 戏曲（高清）
+#EXTINF:-1 tvg-id="1611" tvg-name="CCTV-11 戏曲（高清）" tvg-chno="21" group-title="央视频道" region-code="1540" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1611.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.21:9090/live/1611_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-11 戏曲（高清）
 rtp://239.12.22.102:10001
 #EXTINF:-1 tvg-id="1612" tvg-name="CCTV-12 社会与法（高清）" tvg-chno="22" group-title="央视频道" region-code="1540" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1612.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1612_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-12 社会与法（高清）
 rtp://239.12.22.31:10001
