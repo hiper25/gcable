@@ -265,8 +265,6 @@ http://172.16.149.220:8070/live/1465_7500.m3u8
 http://172.16.149.220:8070/live/1439_7500.m3u8
 #EXTINF:-1 tvg-id="1469" tvg-name="内蒙古卫视（高清）" tvg-chno="142" group-title="卫视频道" region-code="2440" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1469.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1469_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",内蒙古卫视（高清）
 http://172.16.149.220:8070/live/1469_7500.m3u8
-#EXTINF:-1 tvg-id="1732" tvg-name="新动漫（付费）" tvg-chno="172" group-title="特色影视体育" region-code="2440" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1732.png" is-playable="false" stream-verification="candidate",新动漫（付费）
-http://172.16.149.220:8070/live/1732_7500.m3u8
 #EXTINF:-1 tvg-id="1717" tvg-name="乒羽（付费）" tvg-chno="174" group-title="其他综合" region-code="2440" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1717.png" is-playable="false" stream-verification="candidate",乒羽（付费）
 http://172.16.149.220:8070/live/1717_7500.m3u8
 #EXTINF:-1 tvg-id="1617" tvg-name="CCTV-16奥林匹克（高清）" tvg-chno="176" group-title="央视频道" region-code="2440" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1617.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1617_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-16奥林匹克（高清）

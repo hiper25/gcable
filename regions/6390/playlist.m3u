@@ -231,13 +231,13 @@ rtp://239.12.23.111:10001
 rtp://239.12.23.112:10001
 #EXTINF:-1 tvg-id="5002" tvg-name="新闻频道" tvg-chno="502" group-title="广播电台" region-code="6390" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻频道
 rtp://239.12.23.11:10001
-#EXTINF:-1 tvg-id="0" tvg-name="音乐之声" tvg-chno="503" group-title="广播电台" region-code="6390" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/0.png" is-playable="false" stream-verification="candidate",音乐之声
+#EXTINF:-1 tvg-id="5003" tvg-name="音乐之声" tvg-chno="503" group-title="广播电台" region-code="6390" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/5003.png" is-playable="false" stream-verification="candidate",音乐之声
 rtp://239.12.23.12:10001
 #EXTINF:-1 tvg-id="5004" tvg-name="交通之声" tvg-chno="504" group-title="广播电台" region-code="6390" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",交通之声
 rtp://239.12.23.13:10001
 #EXTINF:-1 tvg-id="5005" tvg-name="珠江经济台" tvg-chno="505" group-title="广播电台" region-code="6390" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",珠江经济台
 rtp://239.12.23.14:10001
-#EXTINF:-1 tvg-id="2426" tvg-name="股市之声" tvg-chno="506" group-title="广播电台" region-code="6390" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
+#EXTINF:-1 tvg-id="5006" tvg-name="股市之声" tvg-chno="506" group-title="广播电台" region-code="6390" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
 rtp://239.12.23.15:10001
 #EXTINF:-1 tvg-id="5007" tvg-name="南方生活广播" tvg-chno="507" group-title="广播电台" region-code="6390" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",南方生活广播
 rtp://239.12.23.16:10001

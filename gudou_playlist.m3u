@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="epg.xml"
 #EXTINF:-1 tvg-id="1402" tvg-name="CCTV-1综合（高清）" tvg-chno="1" group-title="央视频道" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1402.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1402_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-1综合（高清）
 http://172.16.149.220:8070/live/1402_7500.m3u8
-#EXTINF:-1 tvg-id="3208" tvg-name="导视频道高清" tvg-chno="1" group-title="其他综合" region-code="2400" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",导视频道高清
+#EXTINF:-1 tvg-id="3208" tvg-name="导视频道高清" tvg-chno="1" group-title="其他综合" region-code="2440" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",导视频道高清
 http://172.16.149.220:8070/live/3208_7500.m3u8
 #EXTINF:-1 tvg-id="3712" tvg-name="江门综合" tvg-chno="1" group-title="珠三角地市" region-code="2850" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3712.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3712_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",江门综合
 http://172.16.149.220:8070/live/3712_7500.m3u8
@@ -29,6 +29,8 @@ http://172.16.149.220:8070/live/3005_7500.m3u8
 http://172.16.149.220:8070/live/3012_7500.m3u8
 #EXTINF:-1 tvg-id="3103" tvg-name="宣传频道" tvg-chno="3" group-title="其他综合" region-code="6500" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",宣传频道
 http://172.16.149.220:8070/live/3103_7500.m3u8
+#EXTINF:-1 tvg-id="3202" tvg-name="湛江综合" tvg-chno="3" group-title="粤东西北县市" region-code="2440" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3202.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3202_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",湛江综合
+http://172.16.149.220:8070/live/3202_7500.m3u8
 #EXTINF:-1 tvg-id="3212" tvg-name="湛江综合（高清）" tvg-chno="3" group-title="粤东西北县市" region-code="2500" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3212.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3212_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",湛江综合（高清）
 http://172.16.149.220:8070/live/3212_7500.m3u8
 #EXTINF:-1 tvg-id="3303" tvg-name="河源综合（高清）" tvg-chno="3" group-title="粤东西北县市" region-code="3800" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3303.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3303_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河源综合（高清）
@@ -529,12 +531,12 @@ http://172.16.149.220:8070/live/2268_7500.m3u8
 http://172.16.149.220:8070/live/2269_7500.m3u8
 #EXTINF:-1 tvg-id="2732" tvg-name="广东公共(云安)" tvg-chno="83" group-title="其他综合" region-code="6800" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/2732.png" is-playable="false" stream-verification="candidate",广东公共(云安)
 http://172.16.149.220:8070/live/2732_7500.m3u8
+#EXTINF:-1 tvg-id="1227" tvg-name="山东教育" tvg-chno="084" group-title="其他综合" region-code="4001" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1227.png" is-playable="false" stream-verification="candidate",山东教育
+http://172.16.149.220:8070/live/1227_7500.m3u8
 #EXTINF:-1 tvg-id="1019" tvg-name="CCTV-17 农业农村" tvg-chno="84" group-title="央视频道" region-code="2850" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1019.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1019_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-17 农业农村
 http://172.16.149.220:8070/live/1019_7500.m3u8
 #EXTINF:-1 tvg-id="2270" tvg-name="FCC-广东影视（高清）" tvg-chno="84" group-title="特色影视体育" region-code="1290" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2270_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",FCC-广东影视（高清）
 http://172.16.149.220:8070/live/2270_7500.m3u8
-#EXTINF:-1 tvg-id="1227" tvg-name="山东教育" tvg-chno="085" group-title="其他综合" region-code="4001" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1227.png" is-playable="false" stream-verification="candidate",山东教育
-http://172.16.149.220:8070/live/1227_7500.m3u8
 #EXTINF:-1 tvg-id="1436" tvg-name="足球频道（高清）" tvg-chno="85" group-title="特色影视体育" region-code="1410" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1436.png" is-playable="false" stream-verification="candidate",足球频道（高清）
 http://172.16.149.220:8070/live/1436_7500.m3u8
 #EXTINF:-1 tvg-id="2271" tvg-name="FCC-嘉佳卡通（高清）" tvg-chno="85" group-title="特色影视体育" region-code="1290" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2271_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",FCC-嘉佳卡通（高清）
@@ -551,10 +553,10 @@ http://172.16.149.220:8070/live/3502_7500.m3u8
 http://172.16.149.220:8070/live/2274_7500.m3u8
 #EXTINF:-1 tvg-id="2275" tvg-name="FCC-广西卫视" tvg-chno="89" group-title="卫视频道" region-code="1290" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2275_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",FCC-广西卫视
 http://172.16.149.220:8070/live/2275_7500.m3u8
+#EXTINF:-1 tvg-id="1288" tvg-name="中国天气高清" tvg-chno="090" group-title="其他综合" region-code="4001" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1288.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1288_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",中国天气高清
+http://172.16.149.220:8070/live/1288_7500.m3u8
 #EXTINF:-1 tvg-id="1297" tvg-name="纪实科教" tvg-chno="90" group-title="特色影视体育" region-code="5000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1297.png" is-playable="false" stream-verification="candidate",纪实科教
 http://172.16.149.220:8070/live/1297_7500.m3u8
-#EXTINF:-1 tvg-id="1288" tvg-name="宜和购物高清" tvg-chno="091" group-title="其他综合" region-code="4001" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1288.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1288_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",宜和购物高清
-http://172.16.149.220:8070/live/1288_7500.m3u8
 #EXTINF:-1 tvg-id="1265" tvg-name="南方购物" tvg-chno="92" group-title="其他综合" region-code="5000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1265.png" is-playable="false" stream-verification="candidate",南方购物
 http://172.16.149.220:8070/live/1265_7500.m3u8
 #EXTINF:-1 tvg-id="1926" tvg-name="卫生健康（高清特色）" tvg-chno="93" group-title="其他综合" region-code="4200" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1926.png" is-playable="false" stream-verification="candidate",卫生健康（高清特色）
@@ -749,8 +751,6 @@ http://172.16.149.220:8070/live/1709_7500.m3u8
 http://172.16.149.220:8070/live/1754_7500.m3u8
 #EXTINF:-1 tvg-id="1925" tvg-name="兵器科技（高清）" tvg-chno="160" group-title="特色影视体育" region-code="3100" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1925.png" is-playable="false" stream-verification="candidate",兵器科技（高清）
 http://172.16.149.220:8070/live/1925_7500.m3u8
-#EXTINF:-1 tvg-id="3202" tvg-name="湛江综合" tvg-chno="161" group-title="粤东西北县市" region-code="2500" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3202.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3202_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",湛江综合
-http://172.16.149.220:8070/live/3202_7500.m3u8
 #EXTINF:-1 tvg-id="1789" tvg-name="武术世界（特色）" tvg-chno="163" group-title="其他综合" region-code="3080" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1789_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",武术世界（特色）
 http://172.16.149.220:8070/live/1789_7500.m3u8
 #EXTINF:-1 tvg-id="1777" tvg-name="摄影（特色）" tvg-chno="164" group-title="其他综合" region-code="3020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1777.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1777_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",摄影（特色）
@@ -767,8 +767,6 @@ http://172.16.149.220:8070/live/1788_7500.m3u8
 http://172.16.149.220:8070/live/1804_7500.m3u8
 #EXTINF:-1 tvg-id="1442" tvg-name="聚鲨环球精选(高清)" tvg-chno="172" group-title="其他综合" region-code="2620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1442.png" is-playable="false" stream-verification="candidate",聚鲨环球精选(高清)
 http://172.16.149.220:8070/live/1442_7500.m3u8
-#EXTINF:-1 tvg-id="1229" tvg-name="三沙卫视" tvg-chno="173" group-title="卫视频道" region-code="2400" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1229.png" is-playable="false" stream-verification="candidate",三沙卫视
-http://172.16.149.220:8070/live/1229_7500.m3u8
 #EXTINF:-1 tvg-id="1928" tvg-name="第一剧场（高清）" tvg-chno="174" group-title="特色影视体育" region-code="3100" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1928.png" is-playable="false" stream-verification="candidate",第一剧场（高清）
 http://172.16.149.220:8070/live/1928_7500.m3u8
 #EXTINF:-1 tvg-id="1260" tvg-name="广东会展" tvg-chno="175" group-title="其他综合" region-code="2620" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",广东会展
@@ -813,6 +811,10 @@ http://172.16.149.220:8070/live/2117_7500.m3u8
 http://172.16.149.220:8070/live/3547_7500.m3u8
 #EXTINF:-1 tvg-id="2836" tvg-name="经济之声" tvg-chno="204" group-title="广播电台" region-code="2621" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/2836.png" is-playable="false" stream-verification="candidate",经济之声
 http://172.16.149.220:8070/live/2836_7500.m3u8
+#EXTINF:-1 tvg-id="0" tvg-name="音乐之声" tvg-chno="205" group-title="广播电台" region-code="2621" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/0.png" is-playable="false" stream-verification="candidate",音乐之声
+http://172.16.149.220:8070/live/0_7500.m3u8
+#EXTINF:-1 tvg-id="2426" tvg-name="股市之声" tvg-chno="205" group-title="广播电台" region-code="3100" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
+http://172.16.149.220:8070/live/2426_7500.m3u8
 #EXTINF:-1 tvg-id="2838" tvg-name="都市之声" tvg-chno="206" group-title="广播电台" region-code="2621" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",都市之声
 http://172.16.149.220:8070/live/2838_7500.m3u8
 #EXTINF:-1 tvg-id="3546" tvg-name="南方生活广播" tvg-chno="206" group-title="广播电台" region-code="3100" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",南方生活广播
@@ -1025,16 +1027,12 @@ http://172.16.149.220:8070/live/3681_7500.m3u8
 http://172.16.149.220:8070/live/5007_7500.m3u8
 #EXTINF:-1 tvg-id="5004" tvg-name="交通之声" tvg-chno="502" group-title="广播电台" region-code="020" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",交通之声
 http://172.16.149.220:8070/live/5004_7500.m3u8
-#EXTINF:-1 tvg-id="0" tvg-name="音乐之声" tvg-chno="503" group-title="广播电台" region-code="6000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/0.png" is-playable="false" stream-verification="candidate",音乐之声
-http://172.16.149.220:8070/live/0_7500.m3u8
 #EXTINF:-1 tvg-id="5002" tvg-name="新闻频道" tvg-chno="503" group-title="广播电台" region-code="020" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻频道
 http://172.16.149.220:8070/live/5002_7500.m3u8
 #EXTINF:-1 tvg-id="5005" tvg-name="珠江经济台" tvg-chno="504" group-title="广播电台" region-code="020" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",珠江经济台
 http://172.16.149.220:8070/live/5005_7500.m3u8
 #EXTINF:-1 tvg-id="5003" tvg-name="音乐之声" tvg-chno="505" group-title="广播电台" region-code="020" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/5003.png" is-playable="false" stream-verification="candidate",音乐之声
 http://172.16.149.220:8070/live/5003_7500.m3u8
-#EXTINF:-1 tvg-id="2426" tvg-name="股市之声" tvg-chno="506" group-title="广播电台" region-code="6000" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
-http://172.16.149.220:8070/live/2426_7500.m3u8
 #EXTINF:-1 tvg-id="5009" tvg-name="城市之声" tvg-chno="506" group-title="广播电台" region-code="020" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",城市之声
 http://172.16.149.220:8070/live/5009_7500.m3u8
 #EXTINF:-1 tvg-id="5006" tvg-name="股市之声" tvg-chno="507" group-title="广播电台" region-code="020" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
