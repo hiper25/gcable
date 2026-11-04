@@ -133,7 +133,7 @@ rtp://239.12.41.4:10001
 rtp://239.12.48.13:10001
 #EXTINF:-1 tvg-id="3714" tvg-name="新会综合（高清）" tvg-chno="7" group-title="其他综合" region-code="2810" isTVAnyTime="1" isStartOver="1" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3714_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",新会综合（高清）
 rtp://239.12.36.33:10001
-#EXTINF:-1 tvg-id="3721" tvg-name="高清电视指南（江门）" tvg-chno="7" group-title="珠三角地市" region-code="2850" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3721.png" is-playable="false" stream-verification="candidate",高清电视指南（江门）
+#EXTINF:-1 tvg-id="3721" tvg-name="G导视（高清）" tvg-chno="7" group-title="其他综合" region-code="2850" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3721.png" is-playable="false" stream-verification="candidate",G导视（高清）
 rtp://239.12.22.85:10001
 #EXTINF:-1 tvg-id="3781" tvg-name="恩平台（高清）" tvg-chno="7" group-title="珠三角地市" region-code="2880" isTVAnyTime="1" isStartOver="1" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3781_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",恩平台（高清）
 rtp://239.12.36.81:10001
@@ -473,6 +473,8 @@ rtp://239.12.21.31:10001
 rtp://239.12.21.34:10001
 #EXTINF:-1 tvg-id="1466" tvg-name="西藏卫视（高清）" tvg-chno="70" group-title="卫视频道" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1466.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1466_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",西藏卫视（高清）
 rtp://239.12.22.156:10001
+#EXTINF:-1 tvg-id="1732" tvg-name="新动漫（付费）" tvg-chno="70" group-title="特色影视体育" region-code="6800" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1732.png" is-playable="false" stream-verification="candidate",新动漫（付费）
+rtp://239.12.21.114:10001
 #EXTINF:-1 tvg-id="2257" tvg-name="FCC-CCTV-10科教（高清）" tvg-chno="70" group-title="央视频道" region-code="1290" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2257_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",FCC-CCTV-10科教（高清）
 rtp://239.12.22.30:10001?sumaChannelFCCIP=172.21.201.39&sumaChannelFCCPort=15971
 #EXTINF:-1 tvg-id="3024" tvg-name="高州综合（高清）" tvg-chno="70" group-title="粤东西北县市" region-code="3100" isTVAnyTime="1" isStartOver="1" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3024_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",高州综合（高清）
@@ -573,8 +575,6 @@ rtp://239.12.21.11:10001
 rtp://239.12.22.108:10001?sumaChannelFCCIP=172.21.201.39&sumaChannelFCCPort=15971
 #EXTINF:-1 tvg-id="4008" tvg-name="多彩文体（4K特色）" tvg-chno="100" group-title="4K超高清" region-code="1201" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/4008.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/4008_36000.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",多彩文体（4K特色）
 rtp://239.12.22.108:10001
-#EXTINF:-1 tvg-id="1732" tvg-name="新动漫" tvg-chno="101" group-title="特色影视体育" region-code="2850" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1732.png" is-playable="false" stream-verification="candidate",新动漫
-rtp://239.12.21.114:10001
 #EXTINF:-1 tvg-id="2277" tvg-name="FCC-CCTV超高清（4K）" tvg-chno="101" group-title="4K超高清" region-code="1290" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2277_36000.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",FCC-CCTV超高清（4K）
 rtp://239.12.22.66:10001?sumaChannelFCCIP=172.21.201.39&sumaChannelFCCPort=15971
 #EXTINF:-1 tvg-id="2501" tvg-name="汕头新闻综合" tvg-chno="101" group-title="粤东西北县市" region-code="1400" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2501.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2501_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",汕头新闻综合
@@ -849,6 +849,8 @@ rtp://239.13.38.125:10001
 rtp://239.12.21.158:10001
 #EXTINF:-1 tvg-id="1713" tvg-name="动漫秀场（特色）" tvg-chno="214" group-title="特色影视体育" region-code="1410" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1713.png" is-playable="false" stream-verification="candidate",动漫秀场（特色）
 rtp://239.12.21.138:10001
+#EXTINF:-1 tvg-id="3306" tvg-name="河源综合（广播）" tvg-chno="214" group-title="广播电台" region-code="3800" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3306_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河源综合（广播）
+rtp://239.12.50.178:10001
 #EXTINF:-1 tvg-id="1714" tvg-name="游戏风云（特色）" tvg-chno="215" group-title="特色影视体育" region-code="1410" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1714.png" is-playable="false" stream-verification="candidate",游戏风云（特色）
 rtp://239.12.21.136:10001
 #EXTINF:-1 tvg-id="1740" tvg-name="生活时尚（特色）" tvg-chno="216" group-title="特色影视体育" region-code="1410" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1740.png" is-playable="false" stream-verification="candidate",生活时尚（特色）

@@ -213,3 +213,5 @@ rtp://239.12.23.18:10001
 rtp://239.12.23.19:10001
 #EXTINF:-1 tvg-id="5002" tvg-name="新闻频道" tvg-chno="213" group-title="广播电台" region-code="3960" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻频道
 rtp://239.12.23.11:10001
+#EXTINF:-1 tvg-id="3306" tvg-name="河源综合（广播）" tvg-chno="214" group-title="广播电台" region-code="3960" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3306_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河源综合（广播）
+rtp://239.12.50.178:10001
