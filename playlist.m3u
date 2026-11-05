@@ -25,7 +25,7 @@ rtp://239.12.42.3:10001
 rtp://239.12.46.74:10001
 #EXTINF:-1 tvg-id="3005" tvg-name="高州综合" tvg-chno="3" group-title="粤东西北县市" region-code="3020" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",高州综合
 rtp://239.1.28.62:10001
-#EXTINF:-1 tvg-id="3012" tvg-name="茂名综合高清" tvg-chno="3" group-title="粤东西北县市" region-code="3100" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3012.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3012_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",茂名综合高清
+#EXTINF:-1 tvg-id="3012" tvg-name="茂名综合（高清）" tvg-chno="3" group-title="粤东西北县市" region-code="3100" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3012.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3012_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",茂名综合（高清）
 rtp://239.1.28.3:10001
 #EXTINF:-1 tvg-id="3103" tvg-name="宣传频道" tvg-chno="3" group-title="其他综合" region-code="6500" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",宣传频道
 rtp://239.12.48.17:10001
@@ -71,8 +71,6 @@ rtp://239.12.34.43:10001
 rtp://239.12.36.62:10001
 #EXTINF:-1 tvg-id="3806" tvg-name="海丰综合高清" tvg-chno="4" group-title="粤东西北县市" region-code="3620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3806.png" is-playable="false" stream-verification="candidate",海丰综合高清
 rtp://239.12.52.11:10001
-#EXTINF:-1 tvg-id="3810" tvg-name="陆丰综合" tvg-chno="4" group-title="粤东西北县市" region-code="3680" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",陆丰综合
-rtp://239.12.52.17:10001
 #EXTINF:-1 tvg-id="3812" tvg-name="陆丰综合高清" tvg-chno="4" group-title="粤东西北县市" region-code="3640" isTVAnyTime="1" isStartOver="1" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3812_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",陆丰综合高清
 rtp://239.12.52.17:10001
 #EXTINF:-1 tvg-id="3814" tvg-name="陆河综合高清" tvg-chno="4" group-title="粤东西北县市" region-code="3660" isTVAnyTime="1" isStartOver="1" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3814_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",陆河综合高清
@@ -329,8 +327,6 @@ rtp://239.12.21.160:10001
 rtp://239.12.21.10:10001
 #EXTINF:-1 tvg-id="1430" tvg-name="河南卫视（高清）" tvg-chno="46" group-title="卫视频道" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1430.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1430_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河南卫视（高清）
 rtp://239.12.22.64:10001
-#EXTINF:-1 tvg-id="2303" tvg-name="南方购物（高清）" tvg-chno="46" group-title="其他综合" region-code="4200" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2303.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2303_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",南方购物（高清）
-rtp://239.12.22.93:10001
 #EXTINF:-1 tvg-id="1217" tvg-name="大湾区卫视" tvg-chno="47" group-title="广佛本地" region-code="2850" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1217.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1217_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",大湾区卫视
 rtp://239.12.21.7:10001
 #EXTINF:-1 tvg-id="1417" tvg-name="湖北卫视（高清）" tvg-chno="47" group-title="卫视频道" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1417.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1417_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",湖北卫视（高清）
@@ -799,10 +795,16 @@ rtp://239.12.45.6:10001
 rtp://239.12.46.83:10001
 #EXTINF:-1 tvg-id="3548" tvg-name="新闻频道" tvg-chno="201" group-title="广播电台" region-code="3100" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻频道
 rtp://239.12.23.11:10001
+#EXTINF:-1 tvg-id="3730" tvg-name="江门电台100.2" tvg-chno="201" group-title="珠三角地市" region-code="2810" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",江门电台100.2
+rtp://239.12.36.30:10001
+#EXTINF:-1 tvg-id="5001" tvg-name="故事广播" tvg-chno="201" group-title="广播电台" region-code="3620" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",故事广播
+rtp://239.12.23.10:10001
 #EXTINF:-1 tvg-id="2834" tvg-name="肇庆电台949" tvg-chno="202" group-title="广播电台" region-code="2621" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",肇庆电台949
 rtp://239.12.46.86:10001
 #EXTINF:-1 tvg-id="3543" tvg-name="音乐之声" tvg-chno="202" group-title="广播电台" region-code="3100" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3543.png" is-playable="false" stream-verification="candidate",音乐之声
 rtp://239.12.23.12:10001
+#EXTINF:-1 tvg-id="3731" tvg-name="江门旅游音乐台93.3" tvg-chno="202" group-title="珠三角地市" region-code="2810" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",江门旅游音乐台93.3
+rtp://239.12.36.31:10001
 #EXTINF:-1 tvg-id="1716" tvg-name="网络棋牌（特色）" tvg-chno="203" group-title="特色影视体育" region-code="1410" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",网络棋牌（特色）
 rtp://239.12.21.118:10001
 #EXTINF:-1 tvg-id="2117" tvg-name="中国之声" tvg-chno="203" group-title="广播电台" region-code="2621" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/2117.png" is-playable="false" stream-verification="candidate",中国之声
@@ -829,12 +831,12 @@ rtp://239.12.23.18:10001
 rtp://239.12.21.142:10001
 #EXTINF:-1 tvg-id="2842" tvg-name="老年之声" tvg-chno="210" group-title="广播电台" region-code="2621" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/2842.png" is-playable="false" stream-verification="candidate",老年之声
 rtp://239.12.46.94:10001
-#EXTINF:-1 tvg-id="5001" tvg-name="故事广播" tvg-chno="210" group-title="广播电台" region-code="3620" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",故事广播
-rtp://239.12.23.10:10001
 #EXTINF:-1 tvg-id="1734" tvg-name="快乐垂钓（特色）" tvg-chno="211" group-title="特色影视体育" region-code="1410" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1734.png" is-playable="false" stream-verification="candidate",快乐垂钓（特色）
 rtp://239.12.21.141:10001
 #EXTINF:-1 tvg-id="2847" tvg-name="德庆电台" tvg-chno="211" group-title="广播电台" region-code="2740" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",德庆电台
 rtp://239.12.46.120:10001
+#EXTINF:-1 tvg-id="3732" tvg-name="新会电台" tvg-chno="211" group-title="广播电台" region-code="2810" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新会电台
+rtp://239.12.36.32:10001
 #EXTINF:-1 tvg-id="8001" tvg-name="百城千屏测试" tvg-chno="211" group-title="测试专区" region-code="6800" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",百城千屏测试
 rtp://239.12.22.131:10001
 #EXTINF:-1 tvg-id="1710" tvg-name="乐游（特色）" tvg-chno="212" group-title="其他综合" region-code="1410" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1710.png" is-playable="false" stream-verification="candidate",乐游（特色）
@@ -953,8 +955,6 @@ rtp://239.12.22.61:10001
 rtp://239.12.43.14:10001
 #EXTINF:-1 tvg-id="1937" tvg-name="梨园（高清特色）" tvg-chno="311" group-title="其他综合" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1937.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1937_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",梨园（高清特色）
 rtp://239.12.22.133:10001
-#EXTINF:-1 tvg-id="2416" tvg-name="清远电台959" tvg-chno="311" group-title="广播电台" region-code="4240" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2416_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",清远电台959
-rtp://239.12.43.16:10001
 #EXTINF:-1 tvg-id="1938" tvg-name="武术世界（高清特色）" tvg-chno="312" group-title="其他综合" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1938.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1938_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",武术世界（高清特色）
 rtp://239.12.22.134:10001
 #EXTINF:-1 tvg-id="1908" tvg-name="游戏风云（高清特色）" tvg-chno="313" group-title="特色影视体育" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1908.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1908_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",游戏风云（高清特色）

@@ -7,7 +7,7 @@ rtp://239.12.22.1:10001
 rtp://239.12.36.93:10001
 #EXTINF:-1 tvg-id="3702" tvg-name="江门综合(高清)" tvg-chno="6" group-title="珠三角地市" region-code="2900" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3702.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3702_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",江门综合(高清)
 rtp://239.12.36.6:10001
-#EXTINF:-1 tvg-id="3721" tvg-name="G导视（高清）" tvg-chno="7" group-title="其他综合" region-code="2900" isTVAnyTime="0" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3721.png" is-playable="false" stream-verification="candidate",G导视（高清）
+#EXTINF:-1 tvg-id="3721" tvg-name="G导视（高清）" tvg-chno="7" group-title="其他综合" region-code="2900" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3721.png" is-playable="false" stream-verification="candidate",G导视（高清）
 rtp://239.12.22.85:10001
 #EXTINF:-1 tvg-id="1350" tvg-name="翡翠台" tvg-chno="8" group-title="港澳台专区" region-code="2900" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1350.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1350_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",翡翠台
 rtp://239.12.22.121:10001
@@ -191,8 +191,10 @@ rtp://239.12.22.61:10001
 rtp://239.12.22.58:10001
 #EXTINF:-1 tvg-id="1908" tvg-name="游戏风云（高清特色）" tvg-chno="194" group-title="特色影视体育" region-code="2900" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1908.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1908_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",游戏风云（高清特色）
 rtp://239.12.22.62:10001
-#EXTINF:-1 tvg-id="5002" tvg-name="新闻频道" tvg-chno="201" group-title="其他综合" region-code="2900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻频道
-rtp://239.12.23.11:10001
+#EXTINF:-1 tvg-id="3730" tvg-name="江门电台100.2" tvg-chno="201" group-title="珠三角地市" region-code="2900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",江门电台100.2
+rtp://239.12.36.30:10001
+#EXTINF:-1 tvg-id="3731" tvg-name="江门旅游音乐台93.3" tvg-chno="202" group-title="珠三角地市" region-code="2900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",江门旅游音乐台93.3
+rtp://239.12.36.31:10001
 #EXTINF:-1 tvg-id="5009" tvg-name="城市之声" tvg-chno="203" group-title="广播电台" region-code="2900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",城市之声
 rtp://239.12.23.18:10001
 #EXTINF:-1 tvg-id="5006" tvg-name="股市之声" tvg-chno="204" group-title="广播电台" region-code="2900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声

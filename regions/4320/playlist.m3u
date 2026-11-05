@@ -85,7 +85,7 @@ rtp://239.12.22.26:10001
 rtp://239.12.22.21:10001
 #EXTINF:-1 tvg-id="1416" tvg-name="山东卫视（高清）" tvg-chno="45" group-title="卫视频道" region-code="4320" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1416.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1416_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",山东卫视（高清）
 rtp://239.12.22.19:10001
-#EXTINF:-1 tvg-id="2303" tvg-name="南方购物（高清）" tvg-chno="46" group-title="其他综合" region-code="4320" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2303.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2303_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",南方购物（高清）
+#EXTINF:-1 tvg-id="1441" tvg-name="南方购物（高清）" tvg-chno="46" group-title="其他综合" region-code="4320" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1441.png" is-playable="true" stream-verification="manifest",南方购物（高清）
 rtp://239.12.22.93:10001
 #EXTINF:-1 tvg-id="1424" tvg-name="四川卫视(高清)" tvg-chno="47" group-title="卫视频道" region-code="4320" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1424.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1424_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",四川卫视(高清)
 rtp://239.12.22.24:10001
@@ -191,8 +191,6 @@ rtp://239.12.22.133:10001
 rtp://239.12.22.134:10001
 #EXTINF:-1 tvg-id="1939" tvg-name="文物宝库（高清特色）" tvg-chno="126" group-title="其他综合" region-code="4320" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1939.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1939_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",文物宝库（高清特色）
 rtp://239.12.22.135:10001
-#EXTINF:-1 tvg-id="1287" tvg-name="央广购物" tvg-chno="135" group-title="其他综合" region-code="4320" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1287.png" is-playable="false" stream-verification="candidate",央广购物
-rtp://239.12.21.156:10001
 #EXTINF:-1 tvg-id="1934" tvg-name="央视文化精品（高清特色）" tvg-chno="137" group-title="其他综合" region-code="4320" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1934.png" is-playable="false" stream-verification="candidate",央视文化精品（高清特色）
 rtp://239.12.22.44:10001
 #EXTINF:-1 tvg-id="1924" tvg-name="高尔夫网球（高清特色）" tvg-chno="140" group-title="特色影视体育" region-code="4320" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1924.png" is-playable="false" stream-verification="candidate",高尔夫网球（高清特色）
@@ -231,17 +229,15 @@ rtp://239.12.23.19:10001
 rtp://239.12.23.17:10001
 #EXTINF:-1 tvg-id="5002" tvg-name="新闻广播" tvg-chno="303" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻广播
 rtp://239.12.23.11:10001
-#EXTINF:-1 tvg-id="0" tvg-name="音乐之声" tvg-chno="304" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/0.png" is-playable="false" stream-verification="candidate",音乐之声
-rtp://239.12.23.12:10001
 #EXTINF:-1 tvg-id="5004" tvg-name="交通之声" tvg-chno="305" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",交通之声
 rtp://239.12.23.13:10001
 #EXTINF:-1 tvg-id="5005" tvg-name="珠江经济台" tvg-chno="306" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",珠江经济台
 rtp://239.12.23.14:10001
-#EXTINF:-1 tvg-id="2426" tvg-name="股市之声" tvg-chno="307" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
+#EXTINF:-1 tvg-id="5006" tvg-name="股市之声" tvg-chno="307" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
 rtp://239.12.23.15:10001
 #EXTINF:-1 tvg-id="5007" tvg-name="南方生活广播" tvg-chno="308" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",南方生活广播
 rtp://239.12.23.16:10001
-#EXTINF:-1 tvg-id="2428" tvg-name="城市之声" tvg-chno="309" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",城市之声
+#EXTINF:-1 tvg-id="5009" tvg-name="城市之声" tvg-chno="309" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",城市之声
 rtp://239.12.23.18:10001
 #EXTINF:-1 tvg-id="2414" tvg-name="清远电台887" tvg-chno="310" group-title="广播电台" region-code="4320" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",清远电台887
 rtp://239.12.43.14:10001

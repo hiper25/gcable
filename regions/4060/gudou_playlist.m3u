@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="../../exports/regions/4010.xml.gz"
+#EXTM3U x-tvg-url="../../exports/regions/4001.xml.gz"
 #EXTINF:-1 tvg-id="1402" tvg-name="CCTV1高清" tvg-chno="001" group-title="央视频道" region-code="4060" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1402.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1402_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV1高清
 http://172.16.149.220:8070/live/1402_7500.m3u8
 #EXTINF:-1 tvg-id="1401" tvg-name="广东卫视高清" tvg-chno="002" group-title="卫视频道" region-code="4060" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1401.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1401_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",广东卫视高清

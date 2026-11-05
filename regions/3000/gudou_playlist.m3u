@@ -3,7 +3,7 @@
 http://172.16.149.220:8070/live/1402_7500.m3u8
 #EXTINF:-1 tvg-id="4012" tvg-name="广东卫视（4K）" tvg-chno="2" group-title="4K超高清" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/4012.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/4012_36000.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",广东卫视（4K）
 http://172.16.149.220:8070/live/4012_36000.m3u8
-#EXTINF:-1 tvg-id="3012" tvg-name="茂名综合高清" tvg-chno="3" group-title="粤东西北县市" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3012.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3012_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",茂名综合高清
+#EXTINF:-1 tvg-id="3012" tvg-name="茂名综合（高清）" tvg-chno="3" group-title="粤东西北县市" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3012.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3012_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",茂名综合（高清）
 http://172.16.149.220:8070/live/3012_7500.m3u8
 #EXTINF:-1 tvg-id="1439" tvg-name="G导视（高清）" tvg-chno="5" group-title="其他综合" region-code="3000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1439.png" is-playable="true" stream-verification="manifest",G导视（高清）
 http://172.16.149.220:8070/live/1439_7500.m3u8
