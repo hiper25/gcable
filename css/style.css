@@ -807,7 +807,7 @@
         :root[data-ui="new"] #drawer-overlay .drawer {
             width: 100%;
             max-width: none;
-            height: 100%;
+            height: calc(100% - 52px);
             border: 1px solid var(--border);
             border-radius: 16px;
             box-shadow: 0 14px 36px var(--shadow);
@@ -1255,6 +1255,35 @@
     }
     :root[data-ui="new"] .new-ui-only { display: inline-flex; }
 
+    .drawer-page-actions { display: none; }
+    :root[data-ui="new"] .weather-context {
+        margin: 8px 2px 6px; color: var(--text-muted); font-size: 12px; line-height: 1.5;
+        overflow-wrap: anywhere;
+    }
+    :root[data-ui="new"] .weather-stations {
+        overflow-x: auto; overscroll-behavior-x: contain; box-shadow: none;
+    }
+    :root[data-ui="new"] .weather-stations .weather-scroll-track { min-width: 0; }
+    :root[data-ui="new"] .weather-stations .weather-chip {
+        padding: 5px 10px; border-radius: 8px; gap: 8px; font-size: 12px;
+    }
+    :root[data-ui="new"] .weather-stations .weather-chip b { padding-right: 0; border-right: 0; }
+    :root[data-ui="new"] .weather-stations .weather-chip span { font-size: 12px; }
+    :root[data-ui="new"] .weather-stations .weather-icon {
+        width: 18px; height: 18px; flex-shrink: 0;
+        fill: none; stroke: var(--rtp-color); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round;
+    }
+    :root[data-ui="new"] .weather-stations .wind-badge {
+        padding-left: 8px; border-left: 1px solid var(--border); color: var(--text-muted);
+    }
+    :root[data-ui="new"] .weather-stations .is-current-city {
+        background: var(--surface-active); border-color: var(--primary);
+    }
+    :root[data-ui="new"] .weather-stations.is-static .weather-scroll-track {
+        animation: none; transform: none;
+    }
+    :root[data-ui="new"] .weather-stations.is-static .weather-cycle[aria-hidden="true"] { display: none; }
+
     /* 新版次要差异通告折叠条 */
     .notice-more-wrap {
         background: var(--surface); border: 1px solid var(--border);
@@ -1312,6 +1341,13 @@
 
     /* 电脑端 (>=1180px) 新版左侧地市 3 列矩阵与分类 2 列矩阵，禁止误折叠左栏 */
     @media (min-width: 1180px) {
+        :root[data-ui="new"] .header-content {
+            display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+            align-items: center; gap: 12px;
+        }
+        :root[data-ui="new"] .header-content > .brand { justify-self: start; max-width: 100%; }
+        :root[data-ui="new"] .header-telemetry-pill { justify-self: center; }
+        :root[data-ui="new"] .header-actions { justify-self: end; justify-content: flex-end; }
         :root[data-ui="new"] .controls-card {
             padding: 13px 14px;
         }
@@ -1381,9 +1417,25 @@
         :root[data-ui="new"] #summary-epg-download {
             grid-column: 1 / -1; width: 100%; justify-content: center; padding: 5px 10px;
         }
-        :root[data-ui="new"].drawer-open .btn-back-to-top {
-            right: 472px;
+        :root[data-ui="new"] .drawer-page-actions {
+            display: flex; height: 52px; justify-content: flex-end; align-items: flex-end;
         }
+        :root[data-ui="new"] .btn-back-to-top.is-docked {
+            position: static; width: 40px; height: 40px; flex-shrink: 0;
+        }
+    }
+
+    @media (min-width: 1180px) and (max-width: 1599px) {
+        :root[data-ui="new"] .header .theme-text { display: none; }
+        :root[data-ui="new"] .header-primary-actions .btn,
+        :root[data-ui="new"] .header-history-btn,
+        :root[data-ui="new"] .header-tools-trigger { padding: 7px 9px; font-size: 11px; }
+    }
+    @media (min-width: 1180px) and (max-width: 1299px) {
+        :root[data-ui="new"] .header-history-btn span { display: none; }
+        :root[data-ui="new"] .header-actions { gap: 4px; }
+        :root[data-ui="new"] .header-primary-actions .btn,
+        :root[data-ui="new"] .header-tools-trigger { padding-inline: 6px; }
     }
 
     /* 触控热区标准 (>=40px) */

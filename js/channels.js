@@ -1,7 +1,8 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion, isNewUI} from './data.js?v=40';
-import {getChannelIconHTML} from './icons.js?v=40';
-import {showToast} from './ui.js?v=40';
-import {openPicker} from './picker.js?v=40';
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion, isNewUI} from './data.js?v=43';
+import {getChannelIconHTML} from './icons.js?v=43';
+import {showToast} from './ui.js?v=43';
+import {openPicker} from './picker.js?v=43';
+import {updateWeatherSelection} from './weather.js?v=43';
 const cards = new Map();
 const rows = new Map();
 let onOpen;
@@ -248,6 +249,7 @@ export function applyFilters() {
         button.classList.toggle('active', button.dataset.city === state.city);
         button.setAttribute('aria-pressed', String(button.dataset.city === state.city));
     });
+    if (newUI) updateWeatherSelection();
     const isShortcutCity = Array.from(document.querySelectorAll('#city-pills [data-city]')).some(btn => btn.dataset.city === state.city);
     const regionLabel = !region ? '查找其他频道'
         : (newUI && isShortcutCity) ? `更多业务编码 (${Object.keys(state.index.regions).length})`

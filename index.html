@@ -22,7 +22,7 @@
             }
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=42">
+    <link rel="stylesheet" href="./css/style.css?v=43">
 </head>
 <body>
     <div class="header">
@@ -43,7 +43,7 @@
                     <svg class="picker-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
                 </button>
                 <div id="desktop-primary-actions" class="header-primary-actions" role="group" aria-label="常用操作"></div>
-                <button id="header-history-btn" type="button" class="btn header-history-btn new-ui-only" onclick="openHistoryModal()">
+                <button id="header-history-btn" type="button" class="btn header-history-btn new-ui-only" onclick="openHistoryModal()" aria-label="变动日志" title="变动日志">
                     <svg class="btn-svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     <span>变动日志</span>
                 </button>
@@ -432,6 +432,7 @@
                 </div>
             </div>
         </div>
+        <div id="drawer-page-actions" class="drawer-page-actions"></div>
     </div>
     </div>
 
@@ -500,6 +501,6 @@
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
 
-    <script type="module" src="./js/app.js?v=42"></script>
+    <script type="module" src="./js/app.js?v=43"></script>
 </body>
 </html>

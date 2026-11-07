@@ -1,7 +1,8 @@
-import {state, loadCatalog, fetchJSON, exportsForSelection, isNewUI} from './data.js?v=40';
-import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=40';
-import * as drawer from './drawer.js?v=40';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=40';
+import {state, loadCatalog, fetchJSON, exportsForSelection, isNewUI} from './data.js?v=43';
+import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=43';
+import * as drawer from './drawer.js?v=43';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=43';
+import {initWeather} from './weather.js?v=43';
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }
     const path = exportsForSelection()[field];
@@ -110,7 +111,7 @@ initTheme();
 const compactLayout = window.matchMedia('(max-width: 700px)');
 const overview = document.getElementById('site-overview');
 const overviewSummary = document.getElementById('site-overview-summary');
-if (isNewUI() && overviewSummary) overviewSummary.textContent = '全省通告与实时天气';
+if (isNewUI() && overviewSummary) overviewSummary.textContent = '通告与天气快照';
 overview.open = !compactLayout.matches;
 document.getElementById('advanced-filters').open = window.matchMedia('(min-width: 1180px)').matches;
 compactLayout.addEventListener('change', () => { overview.open = !compactLayout.matches; });
@@ -195,6 +196,10 @@ function bootstrapCatalog() {
 }
 bootstrapCatalog();
 fetchJSON('./weather.json', {cache: 'no-cache'}).then(data => {
+    if (isNewUI()) {
+        initWeather(data);
+        return;
+    }
     const track = document.getElementById('weather-track'); track.replaceChildren();
     const cycle = document.createElement('div'); cycle.className = 'weather-cycle';
     for (const [city, weather] of Object.entries(data)) {

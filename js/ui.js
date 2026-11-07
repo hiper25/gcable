@@ -1,4 +1,4 @@
-import {state, regionCode, fetchJSON, escapeHTML as esc} from './data.js?v=40';
+import {state, regionCode, fetchJSON, escapeHTML as esc, isNewUI} from './data.js?v=43';
 
 let toastTimer;
 const copyTimers = new WeakMap();
@@ -38,16 +38,27 @@ export function setThemeMode(mode, save = true) {
 // -------------------------------------------------------------
 // 2. 返回顶部与剪贴板反馈
 // -------------------------------------------------------------
+const backToTop = document.getElementById('btn-back-to-top');
+const pageActions = document.getElementById('drawer-page-actions');
+const drawerOverlay = document.getElementById('drawer-overlay');
+const desktopActions = window.matchMedia('(min-width: 1180px)');
+
+function placeBackToTop() {
+    const docked = isNewUI() && desktopActions.matches && drawerOverlay.classList.contains('active');
+    const parent = docked ? pageActions : document.body;
+    if (backToTop.parentElement !== parent) parent.append(backToTop);
+    backToTop.classList.toggle('is-docked', docked);
+    const label = docked ? '返回频道列表顶部' : '返回顶部';
+    backToTop.title = label;
+    backToTop.setAttribute('aria-label', label);
+}
+
+placeBackToTop();
+desktopActions.addEventListener('change', placeBackToTop);
+new MutationObserver(placeBackToTop).observe(drawerOverlay, {attributes: true, attributeFilter: ['class']});
 window.addEventListener('scroll', () => {
-    const btn = document.getElementById('btn-back-to-top');
-    if (btn) {
-        if (window.scrollY > 260) {
-            btn.style.display = 'inline-flex';
-        } else {
-            btn.style.display = 'none';
-        }
-    }
-}, { passive: true });
+    backToTop.style.display = window.scrollY > 260 ? 'inline-flex' : 'none';
+}, {passive: true});
 
 export function scrollToTop() {
     window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
