@@ -1,16 +1,76 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=32';
-import {getChannelIconHTML} from './icons.js?v=32';
-import {showToast} from './ui.js?v=32';
-import {openPicker} from './picker.js?v=32';
-
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=40';
+import {getChannelIconHTML} from './icons.js?v=40';
+import {showToast} from './ui.js?v=40';
+import {openPicker} from './picker.js?v=40';
 const cards = new Map();
 const rows = new Map();
 let onOpen;
 let onCopy;
 let renderFrame = 0;
 let cityRequest = 0;
+let urlSyncReady = false;
 const catalogStatsCache = new WeakMap();
 
+function formatUpdatedAt(iso) {
+    if (!iso) return '';
+    return String(iso).replace('T', ' ').replace(/:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})?$/, '');
+}
+
+export function syncURLState() {
+    if (!urlSyncReady || state.status !== 'ready') return;
+    const params = new URLSearchParams(location.search);
+    const searchInput = document.getElementById('search-kw');
+    const keyword = searchInput ? searchInput.value.trim() : '';
+    const onlyReplay = Boolean(document.getElementById('only-replay')?.checked);
+    const currentCode = regionCode();
+    if (state.city && state.city !== '全网总表') params.set('city', currentCode || state.city);
+    else params.delete('city');
+    if (state.category && state.category !== '全部') params.set('cat', state.category);
+    else params.delete('cat');
+    if (keyword) params.set('q', keyword);
+    else params.delete('q');
+    if (state.sourceGroup) params.set('group', state.sourceGroup);
+    else params.delete('group');
+    if (onlyReplay) params.set('replay', '1');
+    else params.delete('replay');
+    if (state.view === 'table') params.set('view', 'table');
+    else params.delete('view');
+    const query = params.toString();
+    const nextURL = `${location.pathname}${query ? `?${query}` : ''}${location.hash}`;
+    if (nextURL !== `${location.pathname}${location.search}${location.hash}`) {
+        history.replaceState(history.state, '', nextURL);
+    }
+}
+
+export function updateSelectedChannelCard(selectedId = state.selectedChannelID) {
+    state.selectedChannelID = selectedId ? String(selectedId) : '';
+    for (const [cid, card] of cards) {
+        card.classList.toggle('is-selected', cid === state.selectedChannelID);
+    }
+    for (const [cid, row] of rows) {
+        row.classList.toggle('is-selected', cid === state.selectedChannelID);
+    }
+}
+
+export function renderCatalogError(onRetry) {
+    const grid = document.getElementById('channels-grid');
+    const tableWrap = document.getElementById('channels-table-wrap');
+    if (tableWrap) tableWrap.style.display = 'none';
+    if (grid) {
+        grid.style.display = 'grid';
+        grid.innerHTML = `
+            <div class="catalog-error-card" role="alert">
+                <div class="catalog-error-title">频道数据载入失败，请检查网络连接或重试。</div>
+                <button type="button" class="btn btn-sm btn-primary" id="catalog-retry-btn">重新加载</button>
+            </div>
+        `;
+        grid.querySelector('#catalog-retry-btn')?.addEventListener('click', () => onRetry?.());
+    }
+    const coverage = document.getElementById('data-coverage');
+    if (coverage) coverage.textContent = '数据读取失败，请点击重试';
+    const matchCount = document.getElementById('match-count');
+    if (matchCount) matchCount.textContent = '0';
+}
 function catalogStats(source) {
     let stats = catalogStatsCache.get(source);
     if (stats) return stats;
@@ -62,6 +122,7 @@ function reconcile(container, channels, pool, table) {
             }
         }
         item.channel = channel;
+        item.classList.toggle('is-selected', cid === state.selectedChannelID);
         if (item !== cursor) container.insertBefore(item, cursor);
         cursor = item.nextElementSibling;
     }
@@ -83,6 +144,7 @@ function matchesKeyword(channel, keyword) {
 }
 
 export function applyFilters() {
+    if (state.status !== 'ready' || !state.index) return;
     const searchInput = document.getElementById('search-kw');
     const keyword = searchInput.value.toLowerCase().trim();
     const onlyReplay = document.getElementById('only-replay').checked;
@@ -96,6 +158,10 @@ export function applyFilters() {
     document.getElementById('match-count').textContent = state.filtered.length;
     document.getElementById('search-scope').textContent = `搜索范围：${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 支持时移' : ''}；包含源站地区别名`;
     document.getElementById('active-filter-summary').textContent = `${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 支持时移' : ''}`;
+    const headerCityText = document.getElementById('header-city-trigger-text');
+    if (headerCityText) headerCityText.textContent = currentCode ? `${state.city} (${currentCode})` : state.city;
+    const dockCityText = document.getElementById('mobile-dock-city-text');
+    if (dockCityText) dockCityText.textContent = state.city === '全网总表' ? '切换地区' : state.city;
     document.getElementById('search-clear').hidden = !searchInput.value;
     document.getElementById('reset-filters').hidden = !keyword && state.category === '全部' && !state.sourceGroup && !onlyReplay;
     const limited = currentCode || state.category !== '全部' || state.sourceGroup || onlyReplay;
@@ -108,9 +174,17 @@ export function applyFilters() {
     const region = currentCode ? state.index.regions[currentCode] : null;
     const count = region ? region.programmes : state.index.totals.programmes;
     document.getElementById('summary-epg').textContent = Number(count || 0).toLocaleString('zh-CN') + ' 条';
+    const shortUpdated = formatUpdatedAt(state.index.updatedAt);
     const coverage = document.getElementById('data-coverage');
-    coverage.textContent = region ? `${state.city} · ${region.epgStatus === 'ok' ? 'EPG 已采集' : 'EPG 部分缺失'}` : `${Object.keys(state.index.regions).length} 个区域`;
+    coverage.textContent = region
+        ? `${state.city} · ${region.epgStatus === 'ok' ? 'EPG 已采集' : 'EPG 部分缺失'}${shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`
+        : `${Object.keys(state.index.regions).length} 个区域${shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`;
     coverage.title = `采集更新：${state.index.updatedAt}；节目数含源站占位。总表按频道和不同地区节目单去重，地区表只统计当前地区。`;
+    const headerFreshness = document.getElementById('header-freshness');
+    if (headerFreshness) {
+        headerFreshness.textContent = shortUpdated ? `更新于 ${shortUpdated}` : '组播 · EPG · 时移';
+        headerFreshness.title = coverage.title;
+    }
     document.getElementById('summary-epg').title = region ? '当前地区节目单记录，包含源站占位' : '总 XMLTV 节目记录；同频道相同地区节目单仅计一次，跨频道保留对应关系';
     document.querySelectorAll('#cat-pills [data-cat]').forEach(button => {
         const category = button.dataset.cat;
@@ -144,7 +218,10 @@ export function applyFilters() {
     if (summaryEpgDownload) {
         summaryEpgDownload.textContent = currentCode ? `下载${state.city} EPG (${epgExt})` : `下载全网 EPG (${epgExt})`;
     }
+    document.getElementById('channels-grid').style.display = state.view === 'card' ? 'grid' : 'none';
+    document.getElementById('channels-table-wrap').style.display = state.view === 'table' ? 'block' : 'none';
     reconcile(document.getElementById(state.view === 'card' ? 'channels-grid' : 'channels-table-body'), state.filtered, state.view === 'card' ? cards : rows, state.view === 'table');
+    syncURLState();
 }
 
 export function scheduleFilter() {
@@ -190,20 +267,33 @@ export function switchView(view) {
     document.getElementById('btn-view-table').classList.toggle('active', view === 'table');
     document.getElementById('btn-view-card').setAttribute('aria-pressed', String(view === 'card'));
     document.getElementById('btn-view-table').setAttribute('aria-pressed', String(view === 'table'));
+    if (state.status !== 'ready' || !state.index) return;
     document.getElementById('channels-grid').style.display = view === 'card' ? 'grid' : 'none';
     document.getElementById('channels-table-wrap').style.display = view === 'table' ? 'block' : 'none';
     applyFilters();
 }
-export function initChannels(open, copy) {
+export async function initChannels(open, copy) {
     onOpen = open; onCopy = copy;
+    urlSyncReady = false;
     document.getElementById('channels-grid').replaceChildren();
-    for (const id of ['channels-grid', 'channels-table-body']) document.getElementById(id).addEventListener('click', event => {
-        const button = event.target.closest('[data-action]');
-        if (!button) return;
-        const channel = button.closest('[data-cid]').channel;
-        if (button.dataset.action === 'details') onOpen(channel);
-        else onCopy(button, channel.rtp, '已复制组播地址');
-    });
+    for (const id of ['channels-grid', 'channels-table-body']) {
+        const container = document.getElementById(id);
+        if (container.dataset.listenerBound) continue;
+        container.dataset.listenerBound = 'true';
+        container.addEventListener('click', event => {
+            const item = event.target.closest('[data-cid]');
+            if (!item?.channel) return;
+            const button = event.target.closest('[data-action]');
+            if (button) {
+                if (button.dataset.action === 'details') onOpen(item.channel);
+                else onCopy(button, item.channel.rtp, '已复制组播地址');
+                return;
+            }
+            if (window.matchMedia('(min-width: 1180px)').matches && !window.getSelection()?.toString()) {
+                onOpen(item.channel);
+            }
+        });
+    }
     const cities = document.getElementById('city-pills');
     cities.replaceChildren();
     const cityOrder = ['广州','深圳','珠海','佛山','东莞','中山','江门','惠州','肇庆','汕头','潮州','揭阳','汕尾','湛江','茂名','阳江','韶关','清远','梅州','河源','云浮'];
@@ -249,9 +339,54 @@ export function initChannels(open, copy) {
             onSelect:value => { state.sourceGroup = value; applyFilters(); }
         });
     };
+    await restoreInitialURLState();
     updateSourceGroups();
     ensureCategoryButtons(catalog());
+    urlSyncReady = true;
     applyFilters();
+}
+
+async function restoreInitialURLState() {
+    const params = new URLSearchParams(location.search);
+    const q = params.get('q');
+    if (q !== null) document.getElementById('search-kw').value = q;
+    if (params.get('replay') === '1') document.getElementById('only-replay').checked = true;
+    const view = params.get('view');
+    if (view === 'table' || view === 'card') {
+        state.view = view;
+        document.getElementById('btn-view-card').classList.toggle('active', view === 'card');
+        document.getElementById('btn-view-table').classList.toggle('active', view === 'table');
+        document.getElementById('btn-view-card').setAttribute('aria-pressed', String(view === 'card'));
+        document.getElementById('btn-view-table').setAttribute('aria-pressed', String(view === 'table'));
+    }
+    const cityParam = params.get('city');
+    if (cityParam && cityParam !== '全网总表') {
+        let targetCity = null;
+        if (state.regionByName.has(cityParam)) {
+            targetCity = cityParam;
+        } else if (state.index.regions[cityParam]) {
+            targetCity = state.index.regions[cityParam].name;
+        }
+        if (targetCity) {
+            try {
+                await loadRegion(state.regionByName.get(targetCity));
+                state.city = targetCity;
+            } catch {
+                state.city = '全网总表';
+            }
+        }
+    }
+    ensureCategoryButtons(catalog());
+    const catParam = params.get('cat');
+    if (catParam && (catParam === '全部' || catalog().some(ch => ch.category === catParam))) {
+        state.category = catParam;
+    }
+    const groupParam = params.get('group');
+    if (groupParam && catalog().some(ch => ch.sourceGroups?.includes(groupParam))) {
+        state.sourceGroup = groupParam;
+    }
+    revealSelectedChip('city-pills');
+    revealSelectedChip('cat-pills');
 }
 
 function updateSourceGroups() {
@@ -262,9 +397,8 @@ function initRegionPicker() {
     const groups = state.index.regionGroups;
     const byCode = new Map(groups.flatMap(group => group.codes.map(code => [code, group])));
     const channelName = id => state.byId.get(id)?.name || `频道 ${id}`;
-    const picker = document.getElementById('district-select');
-    picker.onclick = () => {
-        const current = regionCode();
+    const cityOrder = ['广州','深圳','珠海','佛山','东莞','中山','江门','惠州','肇庆','汕头','潮州','揭阳','汕尾','湛江','茂名','阳江','韶关','清远','梅州','河源','云浮'];
+    function buildPickerViews(current) {
         function option(group, exactCode) {
             const code = exactCode ?? (group.codes.includes(current) ? current : group.representativeCode);
             const knownNames = group.knownCityCodes.map(value => state.index.regions[value].name);
@@ -279,6 +413,25 @@ function initRegionPicker() {
         const additional = groups.filter(group => group.extraChannelIds.length).map(group => option(group));
         const distinct = groups.map(group => option(group));
         const original = Object.keys(state.index.regions).map(code => option(byCode.get(code), code));
+        const cities = [
+            {value:'__ALL__', label:`全网总表 (${state.channels.length} 个频道)`, detail:'汇总全省所有已收录组播频道与跨地市别名', keywords:'全网总表 全省 all 0'},
+            ...cityOrder.filter(name => state.regionByName.has(name)).map(name => {
+                const code = state.regionByName.get(name);
+                const reg = state.index.regions[code];
+                return {
+                    value: code,
+                    label: `${name} (${code})`,
+                    detail: `${reg.channels} 个频道 · ${Number(reg.programmes || 0).toLocaleString('zh-CN')} 条节目`,
+                    keywords: `${name} ${code}`
+                };
+            })
+        ];
+        return {cities, additional, distinct, original};
+    }
+    const picker = document.getElementById('district-select');
+    picker.onclick = () => {
+        const current = regionCode();
+        const {additional, distinct, original} = buildPickerViews(current);
         openPicker({trigger:picker, title:'查找其他频道配置', selected:current,
             description:'这些是源站业务编码，不一定是区县。相同频道、频点和节目单合并展示，不代表地理归属；原始编码仍全部保留。可搜索频道名、ID 或编码。',
             options:distinct, views:[
@@ -289,6 +442,29 @@ function initRegionPicker() {
             onSelect:async code => { const name = state.index.regions[code].name; await setCity(name); return state.city === name; }
         });
     };
+    for (const id of ['header-city-trigger', 'mobile-dock-region']) {
+        const trigger = document.getElementById(id);
+        if (!trigger) continue;
+        trigger.onclick = () => {
+            const current = regionCode() || '__ALL__';
+            const {cities, additional, distinct, original} = buildPickerViews(regionCode());
+            openPicker({trigger, title:'切换地市与频道配置', selected:current,
+                description:'支持快速切换 21 地市频道表、全网总表或按源站业务编码检索。',
+                options:cities, views:[
+                    {id:'cities', label:`21 地市 (${cities.length})`, options:cities},
+                    {id:'additional', label:`额外频道 (${additional.length})`, options:additional},
+                    {id:'distinct', label:`全部配置 (${distinct.length})`, options:distinct},
+                    {id:'original', label:`原始编码 (${original.length})`, options:original}
+                ],
+                onSelect:async code => {
+                    const name = code === '__ALL__' ? '全网总表' : state.index.regions[code]?.name;
+                    if (!name) return false;
+                    await setCity(name);
+                    return state.city === name;
+                }
+            });
+        };
+    }
 }
 
 function ensureCategoryButtons(channels) {

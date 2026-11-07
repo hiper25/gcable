@@ -1,8 +1,9 @@
-import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=32';
-import {getChannelIconHTML} from './icons.js?v=32';
-import {copyBtnFeedback, showToast} from './ui.js?v=32';
-import {openPicker, closePicker} from './picker.js?v=32';
-
+import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=40';
+import {getChannelIconHTML} from './icons.js?v=40';
+import {copyBtnFeedback, showToast} from './ui.js?v=40';
+import {openPicker, closePicker} from './picker.js?v=40';
+import {updateSelectedChannelCard} from './channels.js?v=40';
+const desktopSplitQuery = window.matchMedia('(min-width: 1180px)');
 let channel = null;
 let programmes = [];
 let activeDate = '';
@@ -67,7 +68,9 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     if (!codes.length || (restore && !codes.includes(restoredRegion))) return;
     closePicker(false);
     const overlay = document.getElementById('drawer-overlay');
-    if (!overlay.classList.contains('active')) opener = document.activeElement;
+    const wasActive = overlay.classList.contains('active');
+    if (!wasActive) opener = document.activeElement;
+    updateSelectedChannelCard(cid);
     document.getElementById('d-title').textContent = selected.name;
     document.getElementById('d-emblem').innerHTML = getChannelIconHTML(selected);
     const trigger = document.getElementById('d-region');
@@ -87,8 +90,13 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
         }
     });
     overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-    if (!restore) history.pushState({...history.state, drawerOpen:true, channelID:cid, regionCode:trigger.value}, '');
+    document.documentElement.classList.add('drawer-open');
+    document.body.style.overflow = desktopSplitQuery.matches ? '' : 'hidden';
+    if (!restore) {
+        const nextState = {...history.state, drawerOpen:true, channelID:cid, regionCode:trigger.value};
+        if (wasActive && history.state?.drawerOpen) history.replaceState(nextState, '');
+        else history.pushState(nextState, '');
+    }
     updateRegion(cid, trigger.value);
     document.querySelector('#main-drawer .drawer-body').scrollTop = 0;
     document.getElementById('drawer-close').focus({preventScroll:true});
@@ -220,7 +228,10 @@ export function hideDrawer(back = true) {
     closePicker(false);
     ++requestVersion; ++renderVersion; observer?.disconnect();
     channel = null;
-    overlay.classList.remove('active'); document.body.style.overflow = '';
+    updateSelectedChannelCard('');
+    overlay.classList.remove('active');
+    document.documentElement.classList.remove('drawer-open');
+    document.body.style.overflow = '';
     if (back && history.state?.drawerOpen) {
         pendingHistoryClose = true;
         history.back();
@@ -249,12 +260,20 @@ window.addEventListener('popstate', () => {
         hideDrawer(false);
     }
 });
+desktopSplitQuery.addEventListener('change', () => {
+    const overlay = document.getElementById('drawer-overlay');
+    if (!overlay?.classList.contains('active')) return;
+    document.body.style.overflow = desktopSplitQuery.matches ? '' : 'hidden';
+});
 document.getElementById('main-drawer').addEventListener('click', event => {
     const button = event.target.closest('#main-drawer .drawer-section-nav button[data-drawer-target]');
     if (!button) return;
     const body = document.querySelector('#main-drawer .drawer-body');
     const target = document.getElementById(button.dataset.drawerTarget);
     if (!target || !body.contains(target)) return;
+    document.querySelectorAll('#main-drawer .drawer-section-nav button[data-drawer-target]').forEach(item => {
+        item.classList.toggle('active', item === button);
+    });
     target.focus({preventScroll:true});
     body.scrollTo({
         top: body.scrollTop + target.getBoundingClientRect().top - body.getBoundingClientRect().top - body.clientTop,

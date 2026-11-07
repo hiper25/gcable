@@ -1,4 +1,4 @@
-import {state, regionCode, mutableURL, fetchJSON, escapeHTML as esc} from './data.js?v=32';
+import {state, regionCode, fetchJSON, escapeHTML as esc} from './data.js?v=40';
 
 let toastTimer;
 const copyTimers = new WeakMap();
@@ -111,7 +111,7 @@ export function openHistoryModal() {
     body.scrollTop = 0;
     body.focus({preventScroll:true});
     
-    fetchJSON(mutableURL('./channel_history.json')).then(data => {
+    fetchJSON('./channel_history.json', {cache: 'no-cache'}).then(data => {
         const meta = data.meta || {};
         const events = data.events || [];
         const dead = data.dead_channels || {};

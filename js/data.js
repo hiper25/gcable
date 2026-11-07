@@ -1,10 +1,19 @@
 // Regional catalogs and immutable, content-addressed schedules.
-const PAGE_VERSION = Date.now().toString(36);
+export const state = {
+    status: 'loading', error: null, assetVersion: '', selectedChannelID: '',
+    channels: [], cities: {}, index: null, city: '全网总表', category: '全部',
+    view: 'card', sourceGroup: '', filtered: [], byId: new Map(), regionByName: new Map()
+};
+const schedules = new Map();
+const regionCatalogs = new Map();
+const epgIndexes = new Map();
+
 export function mutableURL(url) {
-    return `${url}${url.includes('?') ? '&' : '?'}v=${PAGE_VERSION}`;
+    if (!state.assetVersion) return url;
+    return `${url}${url.includes('?') ? '&' : '?'}v=${encodeURIComponent(state.assetVersion)}`;
 }
-export async function fetchJSON(url) {
-    const response = await fetch(url);
+export async function fetchJSON(url, options) {
+    const response = await fetch(url, options);
     if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
     return response.json();
 }
@@ -16,23 +25,25 @@ export function prepareChannel(channel) {
     return channel;
 }
 
-export const state = {
-    channels: [], cities: {}, index: null, city: '全网总表', category: '全部',
-    view: 'card', sourceGroup: '', filtered: [], byId: new Map(), regionByName: new Map()
-};
-const schedules = new Map();
-const regionCatalogs = new Map();
-const epgIndexes = new Map();
-
 export async function loadCatalog() {
-    const [channels, index] = await Promise.all([
-        fetchJSON(mutableURL('./channels.json')), fetchJSON(mutableURL('./data_index.json'))
-    ]);
-    state.channels = channels.filter(channel => channel.rtp).map(prepareChannel);
-    state.index = index;
-    state.byId = new Map(state.channels.map(channel => [String(channel.channelID), channel]));
-    for (const [code, region] of Object.entries(index.regions)) {
-        state.regionByName.set(region.name, code);
+    state.status = 'loading';
+    state.error = null;
+    try {
+        const index = await fetchJSON('./data_index.json', {cache: 'no-cache'});
+        state.index = index;
+        state.assetVersion = String(index.updatedAt || index.version || '1');
+        const channels = await fetchJSON(mutableURL('./channels.json'));
+        state.channels = channels.filter(channel => channel.rtp).map(prepareChannel);
+        state.byId = new Map(state.channels.map(channel => [String(channel.channelID), channel]));
+        state.regionByName.clear();
+        for (const [code, region] of Object.entries(index.regions)) {
+            state.regionByName.set(region.name, code);
+        }
+        state.status = 'ready';
+    } catch (error) {
+        state.status = 'error';
+        state.error = error;
+        throw error;
     }
 }
 

@@ -1,8 +1,7 @@
-import {state, loadCatalog, fetchJSON, mutableURL, exportsForSelection} from './data.js?v=32';
-import {initChannels, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=32';
-import * as drawer from './drawer.js?v=32';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=32';
-
+import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=40';
+import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=40';
+import * as drawer from './drawer.js?v=40';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=40';
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }
     const path = exportsForSelection()[field];
@@ -165,11 +164,16 @@ function renderNotices(notices) {
         container.append(card);
     }
 }
-loadCatalog().then(() => initChannels(drawer.openDrawer, copyBtnFeedback)).catch(error => {
-    document.getElementById('channels-grid').textContent = '频道数据载入失败，请刷新重试。';
-    console.error(error);
-});
-fetchJSON(mutableURL('./weather.json')).then(data => {
+function bootstrapCatalog() {
+    const grid = document.getElementById('channels-grid');
+    if (grid) grid.textContent = '正在加载全省频道列表...';
+    loadCatalog().then(() => initChannels(drawer.openDrawer, copyBtnFeedback)).catch(error => {
+        renderCatalogError(bootstrapCatalog);
+        console.error(error);
+    });
+}
+bootstrapCatalog();
+fetchJSON('./weather.json', {cache: 'no-cache'}).then(data => {
     const track = document.getElementById('weather-track'); track.replaceChildren();
     const cycle = document.createElement('div'); cycle.className = 'weather-cycle';
     for (const [city, weather] of Object.entries(data)) {
@@ -193,4 +197,16 @@ fetchJSON(mutableURL('./weather.json')).then(data => {
         if (weatherViewport.scrollLeft !== before) event.preventDefault();
     }, {passive:false});
 }).catch(() => { document.getElementById('weather-track').textContent = '天气数据暂不可用'; });
-fetchJSON(mutableURL('./notices.json')).then(renderNotices).catch(() => {});
+fetchJSON('./notices.json', {cache: 'no-cache'}).then(renderNotices).catch(() => {});
+document.getElementById('mobile-dock-catalog')?.addEventListener('click', () => {
+    drawer.hideDrawer();
+    closeEpgModal();
+    closeHistoryModal();
+    const search = document.getElementById('search-kw');
+    if (search) {
+        search.scrollIntoView({behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'center'});
+        search.focus({preventScroll: true});
+    }
+});
+document.getElementById('mobile-dock-epg')?.addEventListener('click', () => openEpgModal());
+document.getElementById('mobile-dock-history')?.addEventListener('click', () => openHistoryModal());
