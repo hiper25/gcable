@@ -785,8 +785,9 @@
         :root[data-ui="new"] #drawer-overlay {
             display: none;
             position: sticky;
-            top: 68px;
             inset: auto;
+            top: 68px;
+            align-self: start;
             grid-column: 3;
             grid-row: 2;
             width: 100%;
@@ -1059,8 +1060,85 @@
     .new-ui-only { display: none; }
 
     /* ===================================================================== */
-    /* 新版 Phase 3 去重三端工作台 (?ui=new / :root[data-ui="new"])          */
+    /* 新版 Phase 3 护眼深灰蓝工作台 (?ui=new / :root[data-ui="new"])        */
+    /* 配色: 中性岩石灰 Slate + 柔和靛蓝 Indigo (彻底消除刺眼绿光)           */
+    /* 字体: 全局统一无衬线字体栈 + 12px~16px 标准字号阶梯                   */
     /* ===================================================================== */
+    :root[data-ui="new"] {
+        --font-ui: -apple-system, BlinkMacSystemFont, "Inter", "HarmonyOS Sans SC", "MiSans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", system-ui, sans-serif;
+        --font-numeric: var(--font-ui);
+        --font-mono: "JetBrains Mono", "Cascadia Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+    :root[data-ui="new"][data-theme="dark"] {
+        --bg: #0d1017;
+        --surface: #141821;
+        --surface-card: #1a1f2c;
+        --surface-hover: #22293a;
+        --surface-active: #293247;
+        --primary: #4f46e5;
+        --primary-hover: #4338ca;
+        --primary-glow: rgba(79, 70, 229, 0.28);
+        --accent: #34d399;
+        --accent-hover: #059669;
+        --purple: #8b5cf6;
+        --purple-hover: #7c3aed;
+        --warning: #f59e0b;
+        --danger: #f43f5e;
+        --text-main: #f1f5f9;
+        --text-muted: #94a3b8;
+        --text-dim: #64748b;
+        --border: rgba(148, 163, 184, 0.12);
+        --border-light: rgba(148, 163, 184, 0.2);
+        --card-border: rgba(148, 163, 184, 0.12);
+        --rtp-color: #93c5fd;
+        --shadow: rgba(0, 0, 0, 0.38);
+        --header-bg: rgba(13, 16, 23, 0.92);
+        --strip-bg: rgba(15, 23, 42, 0.55);
+        --table-head-bg: #11151e;
+        --table-hover: #1e2433;
+        --modal-bg: #141821;
+    }
+    :root[data-ui="new"][data-theme="light"] {
+        --bg: #f3f5f9;
+        --surface: #ffffff;
+        --surface-card: #ffffff;
+        --surface-hover: #f1f5f9;
+        --surface-active: #e2e8f0;
+        --primary: #2563eb;
+        --primary-hover: #1d4ed8;
+        --primary-glow: rgba(37, 99, 235, 0.16);
+        --accent: #059669;
+        --accent-hover: #047857;
+        --purple: #7c3aed;
+        --purple-hover: #6d28d9;
+        --warning: #d97706;
+        --danger: #e11d48;
+        --text-main: #0f172a;
+        --text-muted: #475569;
+        --text-dim: #64748b;
+        --border: #e2e8f0;
+        --border-light: #cbd5e1;
+        --card-border: rgba(15, 23, 42, 0.08);
+        --rtp-color: #1d4ed8;
+        --shadow: rgba(15, 23, 42, 0.07);
+        --header-bg: #0f172a;
+        --strip-bg: #f8fafc;
+        --table-head-bg: #f1f5f9;
+        --table-hover: #f1f5f9;
+        --modal-bg: #ffffff;
+    }
+
+    :root[data-ui="new"],
+    :root[data-ui="new"] body {
+        background: var(--bg);
+        font-family: var(--font-ui);
+        font-variant-numeric: tabular-nums;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        letter-spacing: 0;
+    }
+
     :root[data-ui="new"] .brand-kicker,
     :root[data-ui="new"] .brand-sub,
     :root[data-ui="new"] .dashboard-heading,
@@ -1068,24 +1146,112 @@
     :root[data-ui="new"] #stat-badge-rtp,
     :root[data-ui="new"] #panel-row-cat-replay,
     :root[data-ui="new"] #details-raw-dvb,
+    :root[data-ui="new"] #toolbar-history-btn,
+    :root[data-ui="new"] #search-scope,
     :root[data-ui="new"] .match-badge,
     :root[data-ui="new"] .advanced-filters[open] #active-filter-summary {
         display: none !important;
+    }
+    :root[data-ui="new"] .header-history-btn {
+        min-height: 38px; padding: 8px 12px; border-radius: 999px; font-size: 12px;
+    }
+    @media (max-width: 700px) {
+        :root[data-ui="new"] .header-history-btn { display: none !important; }
+    }
+
+    /* 消除旧版绿色渐变与高饱和绿框，统一为柔和靛蓝/石板灰 */
+    :root[data-ui="new"] .header-primary-actions .btn-primary {
+        background: var(--primary); border-color: var(--primary); color: #ffffff;
+    }
+    :root[data-ui="new"] .notice-card {
+        background: rgba(79, 70, 229, 0.08);
+        border-color: rgba(99, 102, 241, 0.22);
+    }
+    :root[data-ui="new"] .notice-tag {
+        background: var(--primary);
+    }
+    :root[data-ui="new"] .cat-btn.active,
+    :root[data-ui="new"] .city-btn.active,
+    :root[data-ui="new"] .picker-trigger.active {
+        background: var(--primary);
+        color: #ffffff;
+        border-color: var(--primary);
+        box-shadow: 0 2px 8px var(--primary-glow);
+    }
+    :root[data-ui="new"] .ch-card::before {
+        background: var(--primary);
+        opacity: 0.75;
+    }
+    :root[data-ui="new"] .ch-card.is-selected {
+        border-color: var(--primary);
+        background: var(--surface-card);
+        box-shadow: 0 0 0 2px var(--primary-glow), 0 8px 24px var(--shadow);
+    }
+
+    /* 全局统一字体阶梯：彻底告别 9px/10px 锯齿小字与搜索框截断 */
+    :root[data-ui="new"] .search-box {
+        font-size: 13px;
+        padding: 9px 32px 9px 34px;
+    }
+    :root[data-ui="new"] .catalog-heading h2 {
+        font-size: 17px; font-weight: 700; letter-spacing: 0;
+    }
+    :root[data-ui="new"] .catalog-hint {
+        font-size: 12px; font-weight: 500;
+    }
+    :root[data-ui="new"] .ch-name {
+        font-size: 14px; font-weight: 600; letter-spacing: 0;
+    }
+    :root[data-ui="new"] .ch-no {
+        font-size: 12px; font-weight: 600;
+    }
+    :root[data-ui="new"] .pill-cat {
+        font-size: 11.5px; font-weight: 500; padding: 2px 8px;
+    }
+    :root[data-ui="new"] .pill-id {
+        font-size: 11.5px; font-weight: 500;
+    }
+    :root[data-ui="new"] .rtp-strip {
+        padding: 7px 10px;
+    }
+    :root[data-ui="new"] .rtp-code {
+        font-size: 12px; font-weight: 500; letter-spacing: 0;
+    }
+    :root[data-ui="new"] .ch-bottom {
+        font-size: 12px; padding-top: 8px;
+    }
+    :root[data-ui="new"] .ch-card .btn {
+        font-size: 12px; font-weight: 600; padding: 5px 10px;
+    }
+    :root[data-ui="new"] .badge-timeshift,
+    :root[data-ui="new"] .badge-live-only {
+        font-size: 12px; font-weight: 500;
+    }
+    :root[data-ui="new"] .filter-section-title {
+        font-size: 12px; font-weight: 600; color: var(--text-muted); letter-spacing: 0;
+    }
+    :root[data-ui="new"] .picker-field {
+        font-size: 12px;
+    }
+    :root[data-ui="new"] .picker-trigger {
+        font-size: 12px; font-weight: 500;
+    }
+    :root[data-ui="new"] .stats-summary-row {
+        font-size: 12px;
     }
 
     :root[data-ui="new"] .header-telemetry-pill {
         display: inline-flex; align-items: center; gap: 7px;
         padding: 5px 12px; border-radius: 999px;
-        background: rgba(255, 255, 255, 0.08);
-        border: 1px solid rgba(255, 255, 255, 0.16);
-        color: rgba(236, 253, 245, 0.92);
-        font-size: 11px; font-weight: 600; font-variant-numeric: tabular-nums;
+        background: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        color: #e2e8f0;
+        font-size: 12px; font-weight: 500; font-variant-numeric: tabular-nums;
         white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
     :root[data-ui="new"] .header-telemetry-pill::before {
         content: ""; width: 7px; height: 7px; border-radius: 50%;
         background: var(--accent); flex-shrink: 0;
-        box-shadow: 0 0 0 3px rgba(82, 214, 165, 0.22);
     }
     :root[data-ui="new"] .new-ui-only { display: inline-flex; }
 
@@ -1095,7 +1261,7 @@
         border-radius: 10px; padding: 6px 12px; font-size: 12px; color: var(--text-muted);
     }
     .notice-more-wrap > summary {
-        cursor: pointer; font-weight: 600; color: var(--primary); user-select: none;
+        cursor: pointer; font-weight: 600; color: var(--rtp-color); user-select: none;
     }
     .notice-more-list { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
 
@@ -1113,10 +1279,10 @@
         background: var(--warning); animation: none;
     }
     :root[data-ui="new"] .drawer-section-nav {
-        display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 5px; padding: 7px 14px;
+        display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; padding: 8px 14px;
     }
     :root[data-ui="new"] .drawer-section-nav button {
-        justify-content: center; padding: 6px 4px; font-size: 11px; font-weight: 700;
+        justify-content: center; padding: 6px 6px; font-size: 12px; font-weight: 600;
     }
     :root[data-ui="new"] .drawer-section-nav button[data-inspector-tab="epg"] { order: -1; }
     :root[data-ui="new"] .drawer-section-nav button.active {
@@ -1144,22 +1310,79 @@
         display: none !important;
     }
 
-    /* 电脑端 (>=1180px) 新版左侧地市 3 列矩阵与分类 2 列矩阵 */
+    /* 电脑端 (>=1180px) 新版左侧地市 3 列矩阵与分类 2 列矩阵，禁止误折叠左栏 */
     @media (min-width: 1180px) {
+        :root[data-ui="new"] .controls-card {
+            padding: 13px 14px;
+        }
+        :root[data-ui="new"] .search-toolbar {
+            gap: 7px;
+        }
+        :root[data-ui="new"] .search-box {
+            min-height: 38px; padding: 7px 32px 7px 34px;
+        }
+        :root[data-ui="new"] .search-icon { bottom: 11px; }
+        :root[data-ui="new"] .search-clear { bottom: 3px; min-width: 30px; min-height: 30px; }
+        :root[data-ui="new"] .toolbar-right {
+            flex-wrap: nowrap; gap: 4px; justify-content: space-between;
+        }
+        :root[data-ui="new"] .custom-checkbox {
+            font-size: 11.5px; gap: 4px; min-height: 30px;
+        }
+        :root[data-ui="new"] .view-btn {
+            padding: 4px 7px; font-size: 11.5px; min-height: 28px;
+        }
+        :root[data-ui="new"] #toolbar-history-btn {
+            padding: 4px 7px; font-size: 11.5px; min-height: 30px; gap: 4px;
+        }
+        :root[data-ui="new"] .search-scope-row {
+            margin-top: 6px;
+        }
+        :root[data-ui="new"] .search-scope-row:not(:has(button:not([hidden]))) {
+            display: none;
+        }
+        :root[data-ui="new"] .advanced-filters {
+            margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px;
+        }
+        :root[data-ui="new"] .advanced-filters > summary {
+            display: none;
+        }
+        :root[data-ui="new"] .filter-section-title {
+            margin-bottom: 5px; font-size: 11.5px;
+        }
+        :root[data-ui="new"] .categories-row {
+            display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; margin-bottom: 8px; overflow: visible;
+        }
+        :root[data-ui="new"] .cat-btn {
+            width: 100%; justify-content: center; padding: 5px 6px; font-size: 12px; font-weight: 500;
+            border-radius: 7px; overflow: hidden; text-overflow: ellipsis;
+        }
+        :root[data-ui="new"] .picker-field-source,
+        :root[data-ui="new"] .picker-field-district {
+            margin-bottom: 8px; width: 100%; justify-content: space-between;
+        }
         :root[data-ui="new"] .cities-row {
-            display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; overflow: visible;
+            display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; margin-bottom: 8px; overflow: visible;
         }
         :root[data-ui="new"] .cities-row [data-city="全网总表"] { grid-column: 1 / -1; }
         :root[data-ui="new"] .city-btn {
-            width: 100%; justify-content: center; padding: 5px 4px; font-size: 10px;
-            overflow: hidden; text-overflow: ellipsis;
+            width: 100%; justify-content: center; padding: 5px 4px; font-size: 11.5px; font-weight: 500;
+            border-radius: 7px; overflow: hidden; text-overflow: ellipsis;
         }
-        :root[data-ui="new"] .categories-row {
-            display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; overflow: visible;
+        :root[data-ui="new"] .stats-summary-row {
+            display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+            margin-top: 8px; padding-top: 8px; gap: 5px;
         }
-        :root[data-ui="new"] .cat-btn {
-            width: 100%; justify-content: center; padding: 6px 6px; font-size: 11px;
-            overflow: hidden; text-overflow: ellipsis;
+        :root[data-ui="new"] .stat-badge-item {
+            justify-content: center; padding: 4px 6px; font-size: 11.5px;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        :root[data-ui="new"] .stat-badge-item:has(#data-coverage),
+        :root[data-ui="new"] #summary-epg-download {
+            grid-column: 1 / -1; width: 100%; justify-content: center; padding: 5px 10px;
+        }
+        :root[data-ui="new"].drawer-open .btn-back-to-top {
+            right: 472px;
         }
     }
 

@@ -68,6 +68,7 @@ function fillChannel() {
     }
 }
 
+let userPinnedTab = '';
 function setInspectorTab(tab) {
     const drawerEl = document.getElementById('main-drawer');
     if (!drawerEl) return;
@@ -115,9 +116,8 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     document.documentElement.classList.add('drawer-open');
     const dockedDesktop = isNewUI() && desktopSplitQuery.matches;
     document.body.style.overflow = dockedDesktop ? '' : 'hidden';
-    const drawerEl = document.getElementById('main-drawer');
-    if (isNewUI() && !drawerEl.dataset.activeTab) {
-        setInspectorTab('epg');
+    if (isNewUI()) {
+        setInspectorTab(userPinnedTab || (selected.hasEPG === false ? 'all' : 'epg'));
     }
     if (!restore) {
         const nextState = {...history.state, drawerOpen:true, channelID:cid, regionCode:trigger.value};
@@ -126,7 +126,7 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     }
     updateRegion(cid, trigger.value);
     document.querySelector('#main-drawer .drawer-body').scrollTop = 0;
-    if (!dockedDesktop || !restore) {
+    if (!dockedDesktop && !restore) {
         document.getElementById('drawer-close').focus({preventScroll:true});
     }
 }
@@ -157,6 +157,7 @@ async function updateRegion(cid, code) {
         if (result === null) {
             document.getElementById('d-epg-count').textContent = '未取得数据';
             list.textContent = '本次未取得该地区节目单，未使用其他地区数据替代。';
+            if (isNewUI() && !userPinnedTab) setInspectorTab('all');
             return true;
         }
         programmes = result;
@@ -299,7 +300,8 @@ document.getElementById('main-drawer').addEventListener('click', event => {
     if (!button) return;
     const body = document.querySelector('#main-drawer .drawer-body');
     if (isNewUI() && button.dataset.inspectorTab) {
-        setInspectorTab(button.dataset.inspectorTab);
+        userPinnedTab = button.dataset.inspectorTab;
+        setInspectorTab(userPinnedTab);
         body.scrollTop = 0;
         return;
     }

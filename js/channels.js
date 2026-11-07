@@ -16,6 +16,31 @@ function formatUpdatedAt(iso) {
     return String(iso).replace('T', ' ').replace(/:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})?$/, '');
 }
 
+function scrollCatalogToTop() {
+    const pane = document.getElementById('catalog-pane');
+    if (!pane) return;
+    const targetTop = Math.max(0, Math.round(pane.getBoundingClientRect().top + window.scrollY - 76));
+    if (window.scrollY > targetTop + 60) {
+        window.scrollTo({
+            top: targetTop,
+            behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'
+        });
+    }
+}
+
+function syncDesktopInspectorSelection(forceRegionSync = false) {
+    if (!isNewUI() || !window.matchMedia('(min-width: 1180px)').matches) return;
+    const overlay = document.getElementById('drawer-overlay');
+    if (!overlay?.classList.contains('active') || !state.filtered.length) return;
+    const currentMatch = state.selectedChannelID
+        ? state.filtered.find(ch => String(ch.channelID) === String(state.selectedChannelID))
+        : null;
+    if (!currentMatch) {
+        onOpen?.(state.filtered[0], {restore: true});
+    } else if (forceRegionSync) {
+        onOpen?.(currentMatch, {restore: true});
+    }
+}
 export function syncURLState() {
     if (!urlSyncReady || state.status !== 'ready') return;
     const params = new URLSearchParams(location.search);
@@ -169,14 +194,18 @@ export function applyFilters() {
     const globalSearch = document.getElementById('search-global');
     globalSearch.hidden = globalMatches <= state.filtered.length;
     globalSearch.textContent = `全网查找（${globalMatches}）`;
-    document.getElementById('summary-total').textContent = source.length;
+    const newUI = isNewUI();
+    const totalEl = document.getElementById('summary-total');
+    totalEl.textContent = source.length;
+    if (totalEl.previousElementSibling) totalEl.previousElementSibling.textContent = newUI ? '频道：' : '独立频道：';
     document.getElementById('summary-rtp').textContent = stats.rtp;
     const region = currentCode ? state.index.regions[currentCode] : null;
     const count = region ? region.programmes : state.index.totals.programmes;
-    document.getElementById('summary-epg').textContent = Number(count || 0).toLocaleString('zh-CN') + ' 条';
+    const epgEl = document.getElementById('summary-epg');
+    epgEl.textContent = Number(count || 0).toLocaleString('zh-CN') + ' 条';
+    if (epgEl.previousElementSibling) epgEl.previousElementSibling.textContent = newUI ? '节目：' : '节目单记录：';
     const shortUpdated = formatUpdatedAt(state.index.updatedAt);
     const coverage = document.getElementById('data-coverage');
-    const newUI = isNewUI();
     coverage.textContent = region
         ? `${state.city} · ${region.epgStatus === 'ok' ? 'EPG 已采集' : 'EPG 部分缺失'}${!newUI && shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`
         : `${Object.keys(state.index.regions).length} 个区域${!newUI && shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`;
@@ -194,11 +223,14 @@ export function applyFilters() {
     const kickerText = document.getElementById('catalog-kicker-text');
     const titleText = document.getElementById('catalog-title-text');
     const hintText = document.getElementById('catalog-hint-text');
+    const filterTitles = document.querySelectorAll('.controls-card .filter-section-title > span');
     if (newUI) {
         if (kickerText) kickerText.textContent = state.view === 'table' ? '数据表格视图' : '频道矩阵视图';
         if (titleText) titleText.textContent = `${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 支持时移' : ''}`;
         const desktopHint = window.matchMedia('(min-width: 1180px)').matches ? ' · 点击任意频道实时检视右侧节目单' : '';
         if (hintText) hintText.textContent = `匹配 ${state.filtered.length} / ${source.length} 频道${desktopHint}`;
+        if (filterTitles[0]) filterTitles[0].textContent = '内容属性分类';
+        if (filterTitles[1]) filterTitles[1].textContent = '地市频道表';
     } else {
         if (kickerText) kickerText.textContent = '全省频道目录';
         if (titleText) titleText.textContent = '频道清单';
@@ -216,8 +248,13 @@ export function applyFilters() {
         button.classList.toggle('active', button.dataset.city === state.city);
         button.setAttribute('aria-pressed', String(button.dataset.city === state.city));
     });
-    const regionLabel = !region ? '查找其他频道' : region.name.startsWith('区域 ') ? `未命名配置 ${currentCode}` : `${region.name} · ${currentCode}`;
-    document.querySelector('#district-select .picker-trigger-text').textContent = regionLabel;
+    const isShortcutCity = Array.from(document.querySelectorAll('#city-pills [data-city]')).some(btn => btn.dataset.city === state.city);
+    const regionLabel = !region ? '查找其他频道'
+        : (newUI && isShortcutCity) ? `更多业务编码 (${Object.keys(state.index.regions).length})`
+        : region.name.startsWith('区域 ') ? `未命名配置 ${currentCode}` : `${region.name} · ${currentCode}`;
+    const districtTrigger = document.getElementById('district-select');
+    districtTrigger.querySelector('.picker-trigger-text').textContent = regionLabel;
+    districtTrigger.classList.toggle('active', Boolean(region && !isShortcutCity));
     document.querySelector('#source-group-select .picker-trigger-text').textContent = state.sourceGroup || '全部分组';
     const selectedExports = exportsForSelection();
     const playlist = './' + selectedExports.playlistUrl;
@@ -245,9 +282,12 @@ export function applyFilters() {
 
 export function scheduleFilter() {
     cancelAnimationFrame(renderFrame);
-    renderFrame = requestAnimationFrame(applyFilters);
+    renderFrame = requestAnimationFrame(() => {
+        applyFilters();
+        scrollCatalogToTop();
+        syncDesktopInspectorSelection(false);
+    });
 }
-
 function revealSelectedChip(id) {
     const strip = document.getElementById(id);
     const selected = strip.querySelector('.active');
@@ -262,10 +302,15 @@ export function setCategory(category) {
     state.category = category;
     applyFilters();
     revealSelectedChip('cat-pills');
+    scrollCatalogToTop();
+    syncDesktopInspectorSelection(false);
 }
 export async function setCity(city) {
     const request = ++cityRequest;
-    if (state.city === city) return;
+    if (state.city === city) {
+        scrollCatalogToTop();
+        return;
+    }
     try {
         if (city !== '全网总表') await loadRegion(state.regionByName.get(city));
         if (request !== cityRequest) return;
@@ -275,6 +320,8 @@ export async function setCity(city) {
         applyFilters();
         revealSelectedChip('city-pills');
         revealSelectedChip('cat-pills');
+        scrollCatalogToTop();
+        syncDesktopInspectorSelection(true);
     } catch {
         if (request === cityRequest) showToast('该地区频道表载入失败，请重试');
     }
@@ -329,6 +376,8 @@ export async function initChannels(open, copy) {
         const search = document.getElementById('search-kw');
         search.value = '';
         applyFilters();
+        scrollCatalogToTop();
+        syncDesktopInspectorSelection(false);
         search.focus({preventScroll:true});
     };
     document.getElementById('reset-filters').onclick = () => {
@@ -338,6 +387,8 @@ export async function initChannels(open, copy) {
         document.getElementById('only-replay').checked = false;
         applyFilters();
         revealSelectedChip('cat-pills');
+        scrollCatalogToTop();
+        syncDesktopInspectorSelection(false);
         document.getElementById('search-kw').focus({preventScroll:true});
     };
     document.getElementById('search-global').onclick = async () => {
@@ -346,6 +397,8 @@ export async function initChannels(open, copy) {
         document.getElementById('only-replay').checked = false;
         await setCity('全网总表');
         applyFilters();
+        scrollCatalogToTop();
+        syncDesktopInspectorSelection(true);
     };
     document.getElementById('source-group-select').onclick = event => {
         const source = catalog();
@@ -355,7 +408,12 @@ export async function initChannels(open, copy) {
             description:'源站分组按当前地区的原始资料显示，可与内容分类和搜索组合筛选。', selected:state.sourceGroup,
             options:[{value:'', label:'全部分组', detail:`${source.length} 个频道`},
                 ...Array.from(counts, ([group, count]) => ({value:group, label:group, detail:`${count} 个频道`}))],
-            onSelect:value => { state.sourceGroup = value; applyFilters(); }
+            onSelect:value => {
+                state.sourceGroup = value;
+                applyFilters();
+                scrollCatalogToTop();
+                syncDesktopInspectorSelection(false);
+            }
         });
     };
     await restoreInitialURLState();
