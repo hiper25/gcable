@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="../../exports/regions/2840.xml.gz"
+#EXTM3U x-tvg-url="../../exports/regions/2850.xml.gz"
 #EXTINF:-1 tvg-id="3712" tvg-name="江门综合" tvg-chno="1" group-title="珠三角地市" region-code="2840" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3712.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3712_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",江门综合
 rtp://239.12.36.2:10001
 #EXTINF:-1 tvg-id="3740" tvg-name="台山台（高清）" tvg-chno="5" group-title="珠三角地市" region-code="2840" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3740.png" is-playable="false" stream-verification="candidate",台山台（高清）
