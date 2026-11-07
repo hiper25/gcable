@@ -1,8 +1,8 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion, isNewUI} from './data.js?v=45';
-import {getChannelIconHTML} from './icons.js?v=45';
-import {showToast} from './ui.js?v=45';
-import {openPicker} from './picker.js?v=45';
-import {updateWeatherSelection} from './weather.js?v=45';
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion, isNewUI} from './data.js?v=46';
+import {getChannelIconHTML} from './icons.js?v=46';
+import {showToast} from './ui.js?v=46';
+import {openPicker} from './picker.js?v=46';
+import {updateWeatherSelection} from './weather.js?v=46';
 const cards = new Map();
 const rows = new Map();
 let onOpen;
@@ -40,6 +40,45 @@ function syncDesktopInspectorSelection(forceRegionSync = false) {
         onOpen?.(state.filtered[0], {restore: true});
     } else if (forceRegionSync) {
         onOpen?.(currentMatch, {restore: true});
+    }
+}
+function updateSubscriptionActionLabels(cityName, currentCode, epgExt, filterCount) {
+    const isGlobal = !currentCode || cityName === '全网总表';
+    const cityPrefix = isGlobal ? '全网' : cityName;
+    document.querySelectorAll('[data-subscription-action]').forEach(action => {
+        const key = action.dataset.subscriptionAction;
+        const labelEl = action.querySelector('.subscription-action-label');
+        if (!labelEl) return;
+        const isMobile = action.closest('.mobile-quick-actions');
+        if (key === 'copyM3U') {
+            labelEl.textContent = isMobile ? `复制${cityPrefix} M3U 订阅` : `复制${cityPrefix} M3U`;
+        } else if (key === 'copyEPG') {
+            labelEl.textContent = isMobile ? `复制${cityPrefix} 7天 EPG` : `复制${cityPrefix} EPG 链接`;
+        } else if (key === 'copyGudouM3U') {
+            labelEl.textContent = isMobile ? `${cityPrefix}谷豆单播` : `复制${cityPrefix}谷豆地址`;
+        } else if (key === 'exportTxt') {
+            labelEl.textContent = isMobile ? `复制当前筛选 TXT` : `导出当前筛选 TXT`;
+        } else if (key === 'downloadM3U') {
+            labelEl.textContent = isMobile ? `下载${cityPrefix} M3U` : `下载${cityPrefix} M3U (.m3u)`;
+        } else if (key === 'downloadEPG') {
+            labelEl.textContent = isMobile ? `下载${cityPrefix} EPG` : `下载${cityPrefix} EPG (${epgExt})`;
+        } else if (key === 'openEpgModal') {
+            labelEl.textContent = isMobile ? `各地区 EPG 与订阅下载窗口` : `地区 EPG`;
+        }
+    });
+    const regionHint = document.getElementById('header-tools-current-region');
+    if (regionHint) {
+        regionHint.innerHTML = isGlobal
+            ? `当前范围：<b>全网总表</b> · 包含全省频道`
+            : `当前范围：<b>${esc(cityName)} (${esc(currentCode)})</b> · ${filterCount} 个频道`;
+    }
+    const triggerText = document.getElementById('header-tools-trigger-text');
+    if (triggerText) {
+        triggerText.textContent = isGlobal ? '更多操作' : `更多 (${cityName})`;
+    }
+    const dockM3u = document.getElementById('mobile-dock-m3u-text');
+    if (dockM3u) {
+        dockM3u.textContent = isGlobal ? '复制 M3U' : `复制${cityName}`;
     }
 }
 export function syncURLState() {
@@ -232,6 +271,9 @@ export function applyFilters() {
         if (hintText) hintText.textContent = `匹配 ${state.filtered.length} / ${source.length} 频道${desktopHint}`;
         if (filterTitles[0]) filterTitles[0].textContent = '内容属性分类';
         if (filterTitles[1]) filterTitles[1].textContent = '地市频道表';
+        const isMobile = window.matchMedia('(max-width: 700px)').matches;
+        const advTitle = document.getElementById('advanced-filters-title');
+        if (advTitle) advTitle.textContent = isMobile ? '内容分类筛选' : '地区与分类筛选';
     } else {
         if (kickerText) kickerText.textContent = '全省频道目录';
         if (titleText) titleText.textContent = '频道清单';
@@ -276,6 +318,7 @@ export function applyFilters() {
     if (summaryEpgDownload) {
         summaryEpgDownload.textContent = currentCode ? `下载${state.city} EPG (${epgExt})` : `下载全网 EPG (${epgExt})`;
     }
+    updateSubscriptionActionLabels(state.city, currentCode, epgExt, state.filtered.length);
     document.getElementById('channels-grid').style.display = state.view === 'card' ? 'grid' : 'none';
     document.getElementById('channels-table-wrap').style.display = state.view === 'table' ? 'block' : 'none';
     reconcile(document.getElementById(state.view === 'card' ? 'channels-grid' : 'channels-table-body'), state.filtered, state.view === 'card' ? cards : rows, state.view === 'table');

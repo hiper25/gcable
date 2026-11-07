@@ -22,7 +22,7 @@
             }
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=45">
+    <link rel="stylesheet" href="./css/style.css?v=46">
 </head>
 <body>
     <div class="header">
@@ -49,11 +49,12 @@
                 </button>
                 <details class="header-tools-menu">
                     <summary class="header-tools-trigger">
-                        <span>更多操作</span>
+                        <span id="header-tools-trigger-text">更多操作</span>
                         <svg class="header-tools-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
                     </summary>
                     <div class="header-tools-panel">
                         <span class="header-tools-title">工具与下载</span>
+                        <div id="header-tools-current-region" class="header-tools-current-region"></div>
                         <div id="desktop-subscription-actions" class="subscription-actions" role="group" aria-label="更多订阅与导出操作"></div>
                     </div>
                 </details>
@@ -172,7 +173,7 @@
                 </div>
             </div>
             <details id="advanced-filters" class="advanced-filters" open>
-                <summary><span>地区与分类筛选</span><span id="active-filter-summary">全网总表 · 全部</span></summary>
+                <summary><span id="advanced-filters-title">地区与分类筛选</span><span id="active-filter-summary">全网总表 · 全部</span></summary>
             <!-- 维度一：内容分类 (全部 -> 4K -> 央视 -> 卫视 -> 港澳台...) -->
             <div class="filter-section-title">
                 <span>内容属性分类 (按频道节目属性，可横向滚动)</span>
@@ -200,7 +201,7 @@
             </div>
 
             <!-- 维度二：地市频道号排列 (省会广州优先，接着深圳、珠海、佛山...阳江排在粤西标准顺位) -->
-            <div class="filter-section-title">
+            <div class="filter-section-title" id="filter-section-title-cities">
                 <span>地市频道排列 (按源站频道号排序，可横向滚动)</span>
             </div>
             <div class="cities-row" id="city-pills">
@@ -227,7 +228,7 @@
                 <div class="city-btn" data-city="河源" onclick="setCity('河源')">河源 (3800)</div>
                 <div class="city-btn" data-city="云浮" onclick="setCity('云浮')">云浮 (6800)</div>
             </div>
-            <div class="status-pill-item picker-field picker-field-district">
+            <div class="status-pill-item picker-field picker-field-district" id="picker-field-district-wrap">
                 <span id="district-label">其他频道配置</span>
                 <button id="district-select" type="button" class="picker-trigger" aria-labelledby="district-label district-text" aria-haspopup="dialog" aria-expanded="false" aria-controls="filter-picker">
                     <span id="district-text" class="picker-trigger-text">选择配置</span>
@@ -479,7 +480,7 @@
         </button>
         <button type="button" class="dock-btn" id="mobile-dock-m3u">
             <svg class="dock-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
-            <span>复制 M3U</span>
+            <span id="mobile-dock-m3u-text">复制 M3U</span>
         </button>
         <button type="button" class="dock-btn" id="mobile-dock-epg">
             <svg class="dock-svg" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
@@ -501,6 +502,6 @@
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
 
-    <script type="module" src="./js/app.js?v=45"></script>
+    <script type="module" src="./js/app.js?v=46"></script>
 </body>
 </html>
