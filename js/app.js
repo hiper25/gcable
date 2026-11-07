@@ -1,8 +1,8 @@
-import {state, loadCatalog, fetchJSON, exportsForSelection, isNewUI} from './data.js?v=44';
-import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=44';
-import * as drawer from './drawer.js?v=44';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=44';
-import {initWeather} from './weather.js?v=44';
+import {state, loadCatalog, fetchJSON, exportsForSelection, isNewUI} from './data.js?v=45';
+import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=45';
+import * as drawer from './drawer.js?v=45';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=45';
+import {initWeather} from './weather.js?v=45';
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }
     const path = exportsForSelection()[field];
