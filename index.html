@@ -15,6 +15,11 @@
                 effective = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
             }
             document.documentElement.setAttribute('data-theme', effective);
+            const params = new URLSearchParams(location.search);
+            const ui = (params.get('ui') || params.get('layout') || '').toLowerCase();
+            if (['new', 'v3', 'workbench', '1'].includes(ui) || params.has('new') || location.hash === '#new') {
+                document.documentElement.setAttribute('data-ui', 'new');
+            }
         })();
     </script>
     <link rel="stylesheet" href="./css/style.css">
@@ -30,6 +35,7 @@
                     <p class="brand-sub">全省广电组播目录 · 7天时移回看库 · 频道频点索引</p>
                 </div>
             </div>
+            <div id="header-telemetry-pill" class="header-telemetry-pill" aria-live="polite"></div>
             <div class="header-actions">
                 <button id="header-city-trigger" type="button" class="header-city-trigger" aria-haspopup="dialog" aria-expanded="false" aria-controls="filter-picker" title="快速切换地市或频道配置">
                     <svg class="btn-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -68,7 +74,9 @@
     </div>
 
     <div class="container">
-        <!-- 手机端快捷订阅网格 (手机首屏直接可见，不折叠进天气通告) -->
+        <details id="site-overview" class="site-overview" open>
+            <summary id="site-overview-summary">订阅下载、天气与通告</summary>
+        <!-- 手机端快捷订阅网格 (旧版 UI 手机专显；新版 ?ui=new 收敛至底栏) -->
         <div id="mobile-subscription-actions" class="mobile-quick-actions" role="group" aria-label="订阅与 EPG 操作"></div>
         <template id="subscription-actions-template">
             <button class="btn btn-primary" type="button" data-subscription-action="copyM3U">
@@ -93,9 +101,6 @@
                 <svg class="btn-svg" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class="subscription-action-label"></span>
             </button>
         </template>
-        <details id="site-overview" class="site-overview" open>
-            <summary>全省通告与实时天气</summary>
-
         <!-- 通告栏 (全省通告 + 地区专属通告) -->
         <div class="banner-row">
             <div class="notice-container" id="notice-container">
@@ -148,7 +153,7 @@
                             表格
                         </button>
                     </div>
-                    <button class="btn btn-sm" onclick="openHistoryModal()">
+                    <button class="btn btn-sm" id="toolbar-history-btn" onclick="openHistoryModal()">
                         <svg class="btn-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                         变动日志
                     </button>
@@ -233,7 +238,7 @@
                     <span>独立频道：</span>
                     <b id="summary-total">—</b>
                 </div>
-                <div class="stat-badge-item">
+                <div class="stat-badge-item" id="stat-badge-rtp">
                     <span>组播地址：</span>
                     <b id="summary-rtp" style="color:var(--accent);">—</b>
                 </div>
@@ -250,10 +255,10 @@
         <main class="catalog-pane" id="catalog-pane">
         <div class="catalog-heading">
             <div>
-                <span class="catalog-kicker">全省频道目录</span>
-                <h2>频道清单</h2>
+                <span class="catalog-kicker" id="catalog-kicker-text">全省频道目录</span>
+                <h2 id="catalog-title-text">频道清单</h2>
             </div>
-            <span class="catalog-hint">选择频道后可复制组播地址或查看详情</span>
+            <span class="catalog-hint" id="catalog-hint-text">选择频道后可复制组播地址或查看详情</span>
         </div>
         <!-- 视图 1：卡片视图容器 -->
         <div id="channels-grid" class="channels-grid">正在加载全省频道列表...</div>
@@ -309,7 +314,7 @@
                             <div class="hero-title-row">
                                 <span class="hero-title" id="d-title">频道名称</span>
                                 <span class="hero-live-badge" id="hero-live-badge">
-                                    <span class="live-dot-pulse"></span>直播频道
+                                    <span class="live-dot-pulse"></span><span id="hero-live-text">直播频道</span>
                                 </span>
                             </div>
                             <div class="hero-meta-row">
@@ -322,9 +327,10 @@
                 <button class="btn btn-sm" id="drawer-close" onclick="hideDrawer()" style="flex-shrink:0;">✕ 关闭</button>
             </div>
             <nav class="drawer-section-nav" aria-label="频道详情分区">
-                <button type="button" class="btn btn-sm" data-drawer-target="d-streams">播放地址</button>
-                <button type="button" class="btn btn-sm" data-drawer-target="d-technical">技术参数</button>
-                <button type="button" class="btn btn-sm" data-drawer-target="d-epg-section">节目单</button>
+                <button type="button" class="btn btn-sm" data-drawer-target="d-streams" data-inspector-tab="streams">播放地址</button>
+                <button type="button" class="btn btn-sm" data-drawer-target="d-technical" data-inspector-tab="tech">技术参数</button>
+                <button type="button" class="btn btn-sm active" data-drawer-target="d-epg-section" data-inspector-tab="epg">节目单</button>
+                <button type="button" class="btn btn-sm new-ui-only" data-drawer-target="all" data-inspector-tab="all">全部展开</button>
             </nav>
             <div class="drawer-body">
 
@@ -341,7 +347,7 @@
                         </div>
                     </div>
                     <!-- 顶行：业务状态微标签 -->
-                    <div class="panel-status-bar">
+                    <div class="panel-status-bar" id="panel-row-cat-replay">
                         <div class="status-pill-item">
                             <span class="status-pill-label">所属分类:</span>
                             <b class="status-pill-val" id="d-cat-detail">-</b>
@@ -401,7 +407,7 @@
                         </div>
                         <div class="dvb-grid" id="d-dvb-grid">
                         </div>
-                        <details><summary class="drawer-details-summary">原始 DVB 参数</summary><div class="rtp-code" id="d-delivery"></div></details>
+                        <details id="details-raw-dvb"><summary class="drawer-details-summary">原始 DVB 参数</summary><div class="rtp-code" id="d-delivery"></div></details>
                     </div>
                     <details><summary class="drawer-details-summary">原始频道资料</summary><pre id="d-source-metadata" class="drawer-source-metadata"></pre></details>
                 </div>
@@ -460,15 +466,19 @@
     <nav class="mobile-bottom-dock" id="mobile-bottom-dock" aria-label="移动端快捷导航">
         <button type="button" class="dock-btn" id="mobile-dock-catalog">
             <svg class="dock-svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <span>查找频道</span>
+            <span>频道搜索</span>
         </button>
         <button type="button" class="dock-btn" id="mobile-dock-region" aria-haspopup="dialog" aria-expanded="false" aria-controls="filter-picker">
             <svg class="dock-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <span id="mobile-dock-city-text">切换地区</span>
         </button>
+        <button type="button" class="dock-btn" id="mobile-dock-m3u">
+            <svg class="dock-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+            <span>复制 M3U</span>
+        </button>
         <button type="button" class="dock-btn" id="mobile-dock-epg">
             <svg class="dock-svg" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            <span>地区 EPG</span>
+            <span>订阅/EPG</span>
         </button>
         <button type="button" class="dock-btn" id="mobile-dock-history">
             <svg class="dock-svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>

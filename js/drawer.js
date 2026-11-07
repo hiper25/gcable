@@ -1,4 +1,4 @@
-import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=40';
+import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate, isNewUI} from './data.js?v=40';
 import {getChannelIconHTML} from './icons.js?v=40';
 import {copyBtnFeedback, showToast} from './ui.js?v=40';
 import {openPicker, closePicker} from './picker.js?v=40';
@@ -54,7 +54,29 @@ function fillChannel() {
     }
     document.getElementById('d-delivery').textContent = channel.delivery || '未提供';
     document.getElementById('d-delivery').title = channel.delivery || '';
-    document.getElementById('hero-live-badge').title = '频道直播业务标识；不代表浏览器已检测到直播画面';
+    const heroBadge = document.getElementById('hero-live-badge');
+    const heroLiveText = document.getElementById('hero-live-text');
+    if (isNewUI()) {
+        const cap = channel.isTVAnyTime === '1' ? 'timeshift' : channel.hasEPG ? 'epg' : 'live';
+        heroBadge.dataset.capability = cap;
+        if (heroLiveText) heroLiveText.textContent = cap === 'timeshift' ? '支持7天时移' : cap === 'epg' ? '含节目单' : '仅直播';
+        heroBadge.title = cap === 'timeshift' ? '该频道支持 7 天时移回看与节目指南' : cap === 'epg' ? '该频道提供电子节目单，未开通时移回看' : '该频道仅提供实时组播/单播直播';
+    } else {
+        delete heroBadge.dataset.capability;
+        if (heroLiveText) heroLiveText.textContent = '直播频道';
+        heroBadge.title = '频道直播业务标识；不代表浏览器已检测到直播画面';
+    }
+}
+
+function setInspectorTab(tab) {
+    const drawerEl = document.getElementById('main-drawer');
+    if (!drawerEl) return;
+    drawerEl.dataset.activeTab = tab;
+    document.querySelectorAll('#main-drawer .drawer-section-nav button[data-inspector-tab]').forEach(btn => {
+        const active = btn.dataset.inspectorTab === tab;
+        btn.classList.toggle('active', active);
+        btn.setAttribute('aria-pressed', String(active));
+    });
 }
 
 export function openDrawer(selected, {restore = false, region: restoredRegion} = {}) {
@@ -65,7 +87,7 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     }
     const cid = String(selected.channelID);
     const codes = channelRegions(cid);
-    if (!codes.length || (restore && !codes.includes(restoredRegion))) return;
+    if (!codes.length || (restore && restoredRegion !== undefined && !codes.includes(restoredRegion))) return;
     closePicker(false);
     const overlay = document.getElementById('drawer-overlay');
     const wasActive = overlay.classList.contains('active');
@@ -74,7 +96,7 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     document.getElementById('d-title').textContent = selected.name;
     document.getElementById('d-emblem').innerHTML = getChannelIconHTML(selected);
     const trigger = document.getElementById('d-region');
-    const preferred = restore ? restoredRegion : String(regionCode() || selected.sourceRegion || selected.regionCode || codes[0]);
+    const preferred = (restore && restoredRegion !== undefined) ? restoredRegion : String(regionCode() || selected.sourceRegion || selected.regionCode || codes[0]);
     trigger.value = codes.includes(preferred) ? preferred : codes[0];
     document.getElementById('d-region-text').textContent = `${state.index.regions[trigger.value].name} (${trigger.value})`;
     trigger.onclick = () => openPicker({
@@ -91,7 +113,12 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     });
     overlay.classList.add('active');
     document.documentElement.classList.add('drawer-open');
-    document.body.style.overflow = desktopSplitQuery.matches ? '' : 'hidden';
+    const dockedDesktop = isNewUI() && desktopSplitQuery.matches;
+    document.body.style.overflow = dockedDesktop ? '' : 'hidden';
+    const drawerEl = document.getElementById('main-drawer');
+    if (isNewUI() && !drawerEl.dataset.activeTab) {
+        setInspectorTab('epg');
+    }
     if (!restore) {
         const nextState = {...history.state, drawerOpen:true, channelID:cid, regionCode:trigger.value};
         if (wasActive && history.state?.drawerOpen) history.replaceState(nextState, '');
@@ -99,7 +126,9 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     }
     updateRegion(cid, trigger.value);
     document.querySelector('#main-drawer .drawer-body').scrollTop = 0;
-    document.getElementById('drawer-close').focus({preventScroll:true});
+    if (!dockedDesktop || !restore) {
+        document.getElementById('drawer-close').focus({preventScroll:true});
+    }
 }
 async function updateRegion(cid, code) {
     const version = ++requestVersion;
@@ -263,12 +292,17 @@ window.addEventListener('popstate', () => {
 desktopSplitQuery.addEventListener('change', () => {
     const overlay = document.getElementById('drawer-overlay');
     if (!overlay?.classList.contains('active')) return;
-    document.body.style.overflow = desktopSplitQuery.matches ? '' : 'hidden';
+    document.body.style.overflow = (isNewUI() && desktopSplitQuery.matches) ? '' : 'hidden';
 });
 document.getElementById('main-drawer').addEventListener('click', event => {
     const button = event.target.closest('#main-drawer .drawer-section-nav button[data-drawer-target]');
     if (!button) return;
     const body = document.querySelector('#main-drawer .drawer-body');
+    if (isNewUI() && button.dataset.inspectorTab) {
+        setInspectorTab(button.dataset.inspectorTab);
+        body.scrollTop = 0;
+        return;
+    }
     const target = document.getElementById(button.dataset.drawerTarget);
     if (!target || !body.contains(target)) return;
     document.querySelectorAll('#main-drawer .drawer-section-nav button[data-drawer-target]').forEach(item => {

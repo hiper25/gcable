@@ -156,10 +156,10 @@
         align-items: start;
     }
 
-    /* 电脑端 (>=1180px) 打开频道详情时，升级为三栏常驻 Master-Detail 工作台 */
+    /* 电脑端 (>=1180px) 新版 ?ui=new 打开频道详情时，升级为三栏常驻 Master-Detail 工作台 */
     @media (min-width: 1180px) {
-        :root.drawer-open .container {
-            grid-template-columns: minmax(256px, 282px) minmax(0, 1fr) minmax(390px, 436px);
+        :root[data-ui="new"].drawer-open .container {
+            grid-template-columns: minmax(256px, 278px) minmax(0, 1fr) minmax(390px, 436px);
             column-gap: 18px;
         }
     }
@@ -677,7 +677,7 @@
         border-radius: 0 4px 4px 0; background: linear-gradient(180deg, var(--primary), var(--accent)); opacity: 0.85;
     }
     @media (min-width: 1180px) {
-        .ch-card { cursor: pointer; }
+        :root[data-ui="new"] .ch-card { cursor: pointer; }
     }
     @media (hover: hover) and (pointer: fine) {
         .ch-card:hover {
@@ -780,17 +780,17 @@
     }
     .drawer-overlay.active .drawer { transform: none; }
 
-    /* 电脑端 (>=1180px) 频道详情面：嵌入三栏网格右侧，无需遮罩，可边看列表边切台 */
+    /* 电脑端 (>=1180px) 新版 ?ui=new 频道详情面：嵌入三栏网格右侧，无需遮罩，可边看列表边切台 */
     @media (min-width: 1180px) {
-        #drawer-overlay {
+        :root[data-ui="new"] #drawer-overlay {
             display: none;
             position: sticky;
-            top: 74px;
+            top: 68px;
             inset: auto;
             grid-column: 3;
             grid-row: 2;
             width: 100%;
-            height: calc(100dvh - 90px);
+            height: calc(100dvh - 84px);
             background: transparent;
             backdrop-filter: none;
             -webkit-backdrop-filter: none;
@@ -800,10 +800,10 @@
             pointer-events: auto;
             transition: none;
         }
-        #drawer-overlay.active {
+        :root[data-ui="new"] #drawer-overlay.active {
             display: block;
         }
-        #drawer-overlay .drawer {
+        :root[data-ui="new"] #drawer-overlay .drawer {
             width: 100%;
             max-width: none;
             height: 100%;
@@ -1054,6 +1054,115 @@
 }
 
 @layer utilities {
+    /* 默认旧版 UI 隐藏新版专属节点 */
+    .header-telemetry-pill,
+    .new-ui-only { display: none; }
+
+    /* ===================================================================== */
+    /* 新版 Phase 3 去重三端工作台 (?ui=new / :root[data-ui="new"])          */
+    /* ===================================================================== */
+    :root[data-ui="new"] .brand-kicker,
+    :root[data-ui="new"] .brand-sub,
+    :root[data-ui="new"] .dashboard-heading,
+    :root[data-ui="new"] .search-label,
+    :root[data-ui="new"] #stat-badge-rtp,
+    :root[data-ui="new"] #panel-row-cat-replay,
+    :root[data-ui="new"] #details-raw-dvb,
+    :root[data-ui="new"] .match-badge,
+    :root[data-ui="new"] .advanced-filters[open] #active-filter-summary {
+        display: none !important;
+    }
+
+    :root[data-ui="new"] .header-telemetry-pill {
+        display: inline-flex; align-items: center; gap: 7px;
+        padding: 5px 12px; border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        color: rgba(236, 253, 245, 0.92);
+        font-size: 11px; font-weight: 600; font-variant-numeric: tabular-nums;
+        white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    :root[data-ui="new"] .header-telemetry-pill::before {
+        content: ""; width: 7px; height: 7px; border-radius: 50%;
+        background: var(--accent); flex-shrink: 0;
+        box-shadow: 0 0 0 3px rgba(82, 214, 165, 0.22);
+    }
+    :root[data-ui="new"] .new-ui-only { display: inline-flex; }
+
+    /* 新版次要差异通告折叠条 */
+    .notice-more-wrap {
+        background: var(--surface); border: 1px solid var(--border);
+        border-radius: 10px; padding: 6px 12px; font-size: 12px; color: var(--text-muted);
+    }
+    .notice-more-wrap > summary {
+        cursor: pointer; font-weight: 600; color: var(--primary); user-select: none;
+    }
+    .notice-more-list { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+
+    /* 新版详情面板动态能力徽章与四段式标签页 */
+    :root[data-ui="new"] #hero-live-badge[data-capability="epg"] {
+        background: rgba(56, 189, 248, 0.14); color: var(--rtp-color); border-color: rgba(56, 189, 248, 0.35);
+    }
+    :root[data-ui="new"] #hero-live-badge[data-capability="epg"] .live-dot-pulse {
+        background: var(--rtp-color); animation: none;
+    }
+    :root[data-ui="new"] #hero-live-badge[data-capability="live"] {
+        background: rgba(245, 158, 11, 0.14); color: var(--warning); border-color: rgba(245, 158, 11, 0.35);
+    }
+    :root[data-ui="new"] #hero-live-badge[data-capability="live"] .live-dot-pulse {
+        background: var(--warning); animation: none;
+    }
+    :root[data-ui="new"] .drawer-section-nav {
+        display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 5px; padding: 7px 14px;
+    }
+    :root[data-ui="new"] .drawer-section-nav button {
+        justify-content: center; padding: 6px 4px; font-size: 11px; font-weight: 700;
+    }
+    :root[data-ui="new"] .drawer-section-nav button[data-inspector-tab="epg"] { order: -1; }
+    :root[data-ui="new"] .drawer-section-nav button.active {
+        background: var(--primary); border-color: var(--primary); color: #ffffff;
+    }
+    :root[data-ui="new"] #main-drawer[data-active-tab="epg"] #d-streams,
+    :root[data-ui="new"] #main-drawer[data-active-tab="epg"] #d-technical,
+    :root[data-ui="new"] #main-drawer[data-active-tab="epg"] .info-panel > .panel-status-bar:not(:first-child),
+    :root[data-ui="new"] #main-drawer[data-active-tab="epg"] .info-panel > details {
+        display: none !important;
+    }
+    :root[data-ui="new"] #main-drawer[data-active-tab="epg"] .info-panel {
+        padding: 9px 12px;
+    }
+    :root[data-ui="new"] #main-drawer[data-active-tab="epg"] .info-panel > .panel-status-bar:first-child {
+        margin-bottom: 0; padding-bottom: 0; border-bottom: 0;
+    }
+    :root[data-ui="new"] #main-drawer[data-active-tab="streams"] #d-technical,
+    :root[data-ui="new"] #main-drawer[data-active-tab="streams"] .info-panel > details,
+    :root[data-ui="new"] #main-drawer[data-active-tab="streams"] #d-epg-section {
+        display: none !important;
+    }
+    :root[data-ui="new"] #main-drawer[data-active-tab="tech"] #d-streams,
+    :root[data-ui="new"] #main-drawer[data-active-tab="tech"] #d-epg-section {
+        display: none !important;
+    }
+
+    /* 电脑端 (>=1180px) 新版左侧地市 3 列矩阵与分类 2 列矩阵 */
+    @media (min-width: 1180px) {
+        :root[data-ui="new"] .cities-row {
+            display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; overflow: visible;
+        }
+        :root[data-ui="new"] .cities-row [data-city="全网总表"] { grid-column: 1 / -1; }
+        :root[data-ui="new"] .city-btn {
+            width: 100%; justify-content: center; padding: 5px 4px; font-size: 10px;
+            overflow: hidden; text-overflow: ellipsis;
+        }
+        :root[data-ui="new"] .categories-row {
+            display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; overflow: visible;
+        }
+        :root[data-ui="new"] .cat-btn {
+            width: 100%; justify-content: center; padding: 6px 6px; font-size: 11px;
+            overflow: hidden; text-overflow: ellipsis;
+        }
+    }
+
     /* 触控热区标准 (>=40px) */
     @media (max-width: 1200px), (pointer: coarse) {
         .btn, .theme-seg-btn, .cat-btn, .city-btn, .view-btn, .date-pill, .picker-trigger, .header-city-trigger,
@@ -1064,14 +1173,16 @@
         .cat-btn, .city-btn, .date-pill { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
     }
 
-    /* 平板与中等屏幕 (701px - 1179px): 顶部紧凑控制舱 + 双列卡片 + 侧滑详情抽屉 */
+    /* 平板与中等屏幕 (701px - 1179px) */
     @media (max-width: 1179px) {
-        .header-city-trigger { display: inline-flex; }
+        :root[data-ui="new"] .header-city-trigger { display: inline-flex; }
+        :root[data-ui="new"] .header-telemetry-pill { display: none; }
         .container { display: block; padding: 16px 20px 80px; }
         .controls-card {
             position: static; max-height: none; overflow: visible;
             margin-bottom: 18px; padding: 18px 20px;
         }
+        :root[data-ui="new"] .controls-card { padding: 13px 16px; margin-bottom: 14px; }
         .dashboard-heading {
             flex-direction: row; align-items: center; justify-content: space-between; flex-wrap: wrap;
         }
@@ -1084,7 +1195,7 @@
         .drawer { max-width: 480px; }
     }
 
-    /* 手机端 (<=700px): 顶栏地市直达 + 首屏主订阅显露 + 底部导航坞 + Bottom Sheet 详情 */
+    /* 手机端 (<=700px) */
     @media (max-width: 700px) {
         .header { padding: 8px 12px; }
         .header-content { flex-direction: row; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: 6px; }
@@ -1095,18 +1206,15 @@
         .header .brand h1 { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.35; }
         .header-actions { flex: 0 0 auto; gap: 5px; }
         .header-primary-actions, .header-tools-menu { display: none; }
-        .header-city-trigger { max-width: 116px; padding: 5px 8px; font-size: 11px; }
         .theme-text { display: none !important; }
         .theme-segmented { padding: 2px; gap: 1px; }
         .theme-seg-btn { min-width: 38px; padding: 5px; font-size: 11px; }
 
-        .container { padding: 12px 12px calc(86px + env(safe-area-inset-bottom)); }
-        .mobile-quick-actions { display: grid; gap: 6px; margin-bottom: 10px; }
-        .mobile-quick-actions .btn { padding: 8px 10px; min-height: 40px; font-size: 12px; }
-        .mobile-actions-more > summary { min-height: 40px; padding: 7px 11px; }
-        .site-overview { margin-bottom: 10px; }
+        .container { padding: 12px 12px 96px; }
+        .mobile-quick-actions { display: grid; gap: 8px; margin-bottom: 12px; }
+        .site-overview { margin-bottom: 13px; }
         .site-overview > summary {
-            display: list-item; min-height: 40px; padding: 9px 12px;
+            display: list-item; min-height: 44px; padding: 11px 12px;
             border: 1px solid var(--border); border-radius: 10px;
             background: var(--surface); color: var(--text-main);
             font-size: 12px; font-weight: 600; cursor: pointer; list-style-position: inside;
@@ -1114,7 +1222,7 @@
         .site-overview > summary::marker { color: var(--primary); }
         .site-overview[open] > summary { margin-bottom: 10px; }
 
-        .controls-card { padding: 13px 12px; border-radius: 14px; margin-bottom: 14px; }
+        .controls-card { padding: 15px 13px; border-radius: 15px; margin-bottom: 16px; }
         .dashboard-heading { flex-direction: row; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
         .dashboard-heading h2 { font-size: 17px; }
         .dashboard-badge { margin-left: auto; padding: 5px 9px; font-size: 10px; }
@@ -1124,6 +1232,7 @@
         .search-icon { bottom: 13px; }
         .search-clear { bottom: 3px; right: 3px; min-width: 40px; min-height: 40px; }
         .toolbar-right { width: 100%; justify-content: space-between; gap: 6px; }
+        .custom-checkbox { font-size: 11px; flex-shrink: 0; }
         .view-btn { padding: 4px 8px; font-size: 11px; }
         .advanced-filters > summary { min-height: 44px; }
         #active-filter-summary { display: block; margin-left: 14px; }
@@ -1158,10 +1267,41 @@
         .epg-entry { padding: 10px; gap: 8px; }
         .epg-entry > :first-child { min-width: 0; overflow-wrap: anywhere; }
 
-        .mobile-bottom-dock { display: grid; }
         .btn-back-to-top {
-            bottom: calc(68px + env(safe-area-inset-bottom)); right: 14px;
+            bottom: max(16px, env(safe-area-inset-bottom)); right: 14px;
             width: 44px; height: 44px; box-shadow: 0 4px 12px var(--shadow);
+        }
+
+        /* 新版 ?ui=new 手机端零重复布局：隐藏顶部4行按钮与重复入口，启用五宫格拇指底栏 */
+        :root[data-ui="new"] .header-city-trigger,
+        :root[data-ui="new"] #mobile-subscription-actions,
+        :root[data-ui="new"] #toolbar-history-btn,
+        :root[data-ui="new"] #search-scope {
+            display: none !important;
+        }
+        :root[data-ui="new"] .container {
+            padding: 10px 12px calc(76px + env(safe-area-inset-bottom));
+        }
+        :root[data-ui="new"] .site-overview { margin-bottom: 8px; }
+        :root[data-ui="new"] .site-overview > summary { min-height: 36px; padding: 7px 11px; font-size: 11px; }
+        :root[data-ui="new"] .controls-card { padding: 10px 11px; margin-bottom: 10px; border-radius: 13px; }
+        :root[data-ui="new"] .search-scope-row { margin-top: 6px; }
+        :root[data-ui="new"] .advanced-filters { margin-top: 8px; }
+        :root[data-ui="new"] .advanced-filters > summary { min-height: 36px; padding: 6px 0; }
+        :root[data-ui="new"] #active-filter-summary { display: inline; margin-left: 8px; }
+        :root[data-ui="new"] .catalog-heading {
+            flex-direction: row; align-items: baseline; justify-content: space-between;
+            margin-bottom: 8px; padding-bottom: 6px;
+        }
+        :root[data-ui="new"] .catalog-kicker { display: none; }
+        :root[data-ui="new"] .catalog-heading h2 { font-size: 14px; margin: 0; }
+        :root[data-ui="new"] .catalog-hint { font-size: 10px; }
+        :root[data-ui="new"] .mobile-bottom-dock {
+            display: grid;
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+        }
+        :root[data-ui="new"] .btn-back-to-top {
+            bottom: calc(68px + env(safe-area-inset-bottom));
         }
     }
 

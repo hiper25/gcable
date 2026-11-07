@@ -1,4 +1,4 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=40';
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion, isNewUI} from './data.js?v=40';
 import {getChannelIconHTML} from './icons.js?v=40';
 import {showToast} from './ui.js?v=40';
 import {openPicker} from './picker.js?v=40';
@@ -176,14 +176,33 @@ export function applyFilters() {
     document.getElementById('summary-epg').textContent = Number(count || 0).toLocaleString('zh-CN') + ' 条';
     const shortUpdated = formatUpdatedAt(state.index.updatedAt);
     const coverage = document.getElementById('data-coverage');
+    const newUI = isNewUI();
     coverage.textContent = region
-        ? `${state.city} · ${region.epgStatus === 'ok' ? 'EPG 已采集' : 'EPG 部分缺失'}${shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`
-        : `${Object.keys(state.index.regions).length} 个区域${shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`;
+        ? `${state.city} · ${region.epgStatus === 'ok' ? 'EPG 已采集' : 'EPG 部分缺失'}${!newUI && shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`
+        : `${Object.keys(state.index.regions).length} 个区域${!newUI && shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`;
     coverage.title = `采集更新：${state.index.updatedAt}；节目数含源站占位。总表按频道和不同地区节目单去重，地区表只统计当前地区。`;
     const headerFreshness = document.getElementById('header-freshness');
     if (headerFreshness) {
-        headerFreshness.textContent = shortUpdated ? `更新于 ${shortUpdated}` : '组播 · EPG · 时移';
+        headerFreshness.textContent = newUI && shortUpdated ? `更新于 ${shortUpdated}` : '组播 · EPG · 时移';
         headerFreshness.title = coverage.title;
+    }
+    const telemetry = document.getElementById('header-telemetry-pill');
+    if (telemetry) {
+        telemetry.textContent = `${source.length} 频道 · ${Object.keys(state.index.regions).length} 区域${shortUpdated ? ` · 更新于 ${shortUpdated}` : ''}`;
+        telemetry.title = coverage.title;
+    }
+    const kickerText = document.getElementById('catalog-kicker-text');
+    const titleText = document.getElementById('catalog-title-text');
+    const hintText = document.getElementById('catalog-hint-text');
+    if (newUI) {
+        if (kickerText) kickerText.textContent = state.view === 'table' ? '数据表格视图' : '频道矩阵视图';
+        if (titleText) titleText.textContent = `${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 支持时移' : ''}`;
+        const desktopHint = window.matchMedia('(min-width: 1180px)').matches ? ' · 点击任意频道实时检视右侧节目单' : '';
+        if (hintText) hintText.textContent = `匹配 ${state.filtered.length} / ${source.length} 频道${desktopHint}`;
+    } else {
+        if (kickerText) kickerText.textContent = '全省频道目录';
+        if (titleText) titleText.textContent = '频道清单';
+        if (hintText) hintText.textContent = '选择频道后可复制组播地址或查看详情';
     }
     document.getElementById('summary-epg').title = region ? '当前地区节目单记录，包含源站占位' : '总 XMLTV 节目记录；同频道相同地区节目单仅计一次，跨频道保留对应关系';
     document.querySelectorAll('#cat-pills [data-cat]').forEach(button => {
@@ -289,7 +308,7 @@ export async function initChannels(open, copy) {
                 else onCopy(button, item.channel.rtp, '已复制组播地址');
                 return;
             }
-            if (window.matchMedia('(min-width: 1180px)').matches && !window.getSelection()?.toString()) {
+            if (isNewUI() && window.matchMedia('(min-width: 1180px)').matches && !window.getSelection()?.toString()) {
                 onOpen(item.channel);
             }
         });
@@ -344,6 +363,9 @@ export async function initChannels(open, copy) {
     ensureCategoryButtons(catalog());
     urlSyncReady = true;
     applyFilters();
+    if (isNewUI() && window.matchMedia('(min-width: 1180px)').matches && !state.selectedChannelID && state.filtered.length) {
+        onOpen(state.filtered[0], {restore: true});
+    }
 }
 
 async function restoreInitialURLState() {

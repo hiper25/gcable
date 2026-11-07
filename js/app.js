@@ -1,4 +1,4 @@
-import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=40';
+import {state, loadCatalog, fetchJSON, exportsForSelection, isNewUI} from './data.js?v=40';
 import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=40';
 import * as drawer from './drawer.js?v=40';
 import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=40';
@@ -109,8 +109,10 @@ Object.assign(window, {setThemeMode,scrollToTop,setCategory,setCity,switchView,a
 initTheme();
 const compactLayout = window.matchMedia('(max-width: 700px)');
 const overview = document.getElementById('site-overview');
+const overviewSummary = document.getElementById('site-overview-summary');
+if (isNewUI() && overviewSummary) overviewSummary.textContent = '全省通告与实时天气';
 overview.open = !compactLayout.matches;
-document.getElementById('advanced-filters').open = window.matchMedia('(min-width: 1201px)').matches;
+document.getElementById('advanced-filters').open = window.matchMedia('(min-width: 1180px)').matches;
 compactLayout.addEventListener('change', () => { overview.open = !compactLayout.matches; });
 document.querySelectorAll('#cat-pills [data-cat]').forEach(button => {
     button.setAttribute('role','button'); button.tabIndex = 0;
@@ -137,7 +139,7 @@ function renderNotices(notices) {
         groups.get(message).add(notice.city || `区域 ${code}`);
     }
     const grouped = [...groups].sort((a, b) => b[1].size - a[1].size);
-    for (const [index, [message, regions]] of grouped.entries()) {
+    function buildNoticeCard(index, message, regions) {
         const cities = [...regions];
         const card = document.createElement('div'); card.className = index ? 'notice-card diff' : 'notice-card';
         const tag = document.createElement('span'); tag.className = index ? 'notice-tag diff' : 'notice-tag';
@@ -161,7 +163,26 @@ function renderNotices(notices) {
             const list = document.createElement('div'); list.textContent = cities.join('、');
             regionsDetails.append(regionsSummary, list); card.append(regionsDetails);
         }
-        container.append(card);
+        return card;
+    }
+    if (isNewUI() && grouped.length > 1) {
+        const [firstMessage, firstRegions] = grouped[0];
+        container.append(buildNoticeCard(0, firstMessage, firstRegions));
+        const moreWrap = document.createElement('details');
+        moreWrap.className = 'notice-more-wrap';
+        const moreSummary = document.createElement('summary');
+        moreSummary.textContent = `另有 ${grouped.length - 1} 条其他地市差异通告`;
+        const moreList = document.createElement('div');
+        moreList.className = 'notice-more-list';
+        for (let i = 1; i < grouped.length; i++) {
+            moreList.append(buildNoticeCard(i, grouped[i][0], grouped[i][1]));
+        }
+        moreWrap.append(moreSummary, moreList);
+        container.append(moreWrap);
+        return;
+    }
+    for (const [index, [message, regions]] of grouped.entries()) {
+        container.append(buildNoticeCard(index, message, regions));
     }
 }
 function bootstrapCatalog() {
@@ -208,5 +229,6 @@ document.getElementById('mobile-dock-catalog')?.addEventListener('click', () => 
         search.focus({preventScroll: true});
     }
 });
+document.getElementById('mobile-dock-m3u')?.addEventListener('click', event => copyM3U(event.currentTarget));
 document.getElementById('mobile-dock-epg')?.addEventListener('click', () => openEpgModal());
 document.getElementById('mobile-dock-history')?.addEventListener('click', () => openHistoryModal());
