@@ -1,8 +1,8 @@
-import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate, isNewUI} from './data.js?v=43';
-import {getChannelIconHTML} from './icons.js?v=43';
-import {copyBtnFeedback, showToast} from './ui.js?v=43';
-import {openPicker, closePicker} from './picker.js?v=43';
-import {updateSelectedChannelCard} from './channels.js?v=43';
+import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate, isNewUI} from './data.js?v=44';
+import {getChannelIconHTML} from './icons.js?v=44';
+import {copyBtnFeedback, showToast} from './ui.js?v=44';
+import {openPicker, closePicker} from './picker.js?v=44';
+import {updateSelectedChannelCard} from './channels.js?v=44';
 const desktopSplitQuery = window.matchMedia('(min-width: 1180px)');
 let channel = null;
 let programmes = [];

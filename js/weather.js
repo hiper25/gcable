@@ -1,6 +1,6 @@
-import {state} from './data.js?v=43';
+import {state} from './data.js?v=44';
 
-let stations = [];
+let weatherRecords = [];
 let context;
 let cycles = [];
 let weatherObserver;
@@ -33,56 +33,56 @@ function windLabel(value) {
     return /^\d.*级$/.test(wind) ? `风力 ${wind}` : wind;
 }
 
-function stationChip(station) {
+function regionChip(record) {
     const chip = document.createElement('div');
     chip.className = 'weather-chip';
+    chip.dataset.weatherCity = record.city;
     const name = document.createElement('b');
-    name.textContent = station.name;
+    name.textContent = record.city;
     const condition = document.createElement('span');
-    condition.textContent = station.weather || '天气未提供';
+    condition.textContent = record.weather || '天气未提供';
     const temperature = document.createElement('span');
     temperature.className = 'temp';
-    temperature.textContent = station.temperature || '气温未提供';
-    chip.append(weatherIcon(station.weather), name, condition, temperature);
-    const wind = windLabel(station.wind);
+    temperature.textContent = record.temperature || '气温未提供';
+    chip.append(weatherIcon(record.weather), name, condition, temperature);
+    const wind = windLabel(record.wind);
     if (wind) {
         const windBadge = document.createElement('span');
         windBadge.className = 'wind-badge';
         windBadge.textContent = wind;
         chip.append(windBadge);
     }
+    if (record.stationName !== record.city) {
+        const source = document.createElement('span');
+        source.className = 'weather-source';
+        source.textContent = record.stationName ? `源站：${record.stationName}` : '台站未提供';
+        chip.append(source);
+    }
     chip.title = [
-        `源站台站：${station.name}`,
-        `源站编码：${[...station.codes].join('、') || '未提供'}`,
-        `请求地区：${station.requests.join('、')}`,
-        station.date ? `源站日期：${station.date}` : '源站未提供观测时间；此处为采集快照'
+        `请求地区：${record.city}`,
+        `源站返回地点：${record.stationName || '未提供'}`,
+        `源站编码：${record.locationCode || '未提供'}`,
+        record.date ? `源站日期：${record.date}` : '源站未提供观测时间；此处为采集快照'
     ].join('；');
     return chip;
 }
 
-// Group by the returned station and readings, never by equal temperatures alone.
+// Keep every requested region, even when several requests return the same station.
 export function initWeather(data) {
-    const groups = new Map();
-    for (const [requestedCity, reading] of Object.entries(data)) {
-        const name = String(reading.locationName || requestedCity).trim();
-        const weather = String(reading.weather || '').trim();
-        const temperature = String(reading.temperature || '').trim();
-        const wind = String(reading.wind || '').trim();
-        const date = String(reading.date || '').trim();
-        const key = JSON.stringify([name, weather, temperature, wind, date]);
-        let station = groups.get(key);
-        if (!station) {
-            station = {name, weather, temperature, wind, date, requests: [], codes: new Set(), chips: []};
-            groups.set(key, station);
-        }
-        station.requests.push(requestedCity);
-        if (reading.locationCode) station.codes.add(String(reading.locationCode));
-    }
-    stations = [...groups.values()].sort((a, b) => a.name.localeCompare(b.name, 'zh-CN'));
+    weatherRecords = Object.entries(data).map(([city, reading]) => ({
+        city,
+        stationName: String(reading.locationName || '').trim(),
+        locationCode: String(reading.locationCode ?? '').trim(),
+        weather: String(reading.weather || '').trim(),
+        temperature: String(reading.temperature || '').trim(),
+        wind: String(reading.wind || '').trim(),
+        date: String(reading.date || '').trim(),
+        chips: []
+    }));
     const track = document.getElementById('weather-track');
     const viewport = track.closest('.weather-scroll-container');
     viewport.classList.add('weather-stations');
-    viewport.setAttribute('aria-label', '天气采集快照，按源站返回台站去重；悬停或聚焦可暂停，减少动态效果时可手动浏览');
+    viewport.setAttribute('aria-label', '全部地区天气采集快照；源站返回异地数据时另行标注。悬停或聚焦可暂停，减少动态效果时可手动浏览');
     context = document.getElementById('weather-context');
     if (!context) {
         context = document.createElement('p');
@@ -105,7 +105,7 @@ export function initWeather(data) {
     track.replaceChildren();
     cycles = [];
     lastCity = undefined;
-    if (!stations.length) {
+    if (!weatherRecords.length) {
         context.textContent = '天气快照暂不可用';
         return;
     }
@@ -113,9 +113,9 @@ export function initWeather(data) {
         const cycle = document.createElement('div');
         cycle.className = 'weather-cycle';
         if (index) cycle.setAttribute('aria-hidden', 'true');
-        for (const station of stations) {
-            const chip = stationChip(station);
-            station.chips.push(chip);
+        for (const record of weatherRecords) {
+            const chip = regionChip(record);
+            record.chips.push(chip);
             cycle.append(chip);
         }
         cycles.push(cycle);
@@ -124,37 +124,35 @@ export function initWeather(data) {
     weatherObserver = new ResizeObserver(() => {
         const width = cycles[0].getBoundingClientRect().width;
         viewport.classList.toggle('is-static', width <= viewport.clientWidth - 24);
+        track.style.animationDuration = `${Math.max(90, width / 24)}s`;
     });
     weatherObserver.observe(viewport);
     updateWeatherSelection();
 }
 
 export function updateWeatherSelection() {
-    if (!context || !stations.length) return;
+    if (!context || !weatherRecords.length) return;
     const city = state.city;
     if (city === lastCity) return;
     lastCity = city;
-    const matches = stations.filter(station => station.requests.some(name => name === city || name.startsWith(city)));
+    const matches = weatherRecords.filter(record => record.city === city || record.city.startsWith(city));
     const selected = new Set(matches);
-    for (const station of stations) {
-        for (const chip of station.chips) chip.classList.toggle('is-current-city', selected.has(station));
+    for (const record of weatherRecords) {
+        for (const chip of record.chips) chip.classList.toggle('is-current-city', selected.has(record));
     }
+    const ordered = [...matches, ...weatherRecords.filter(record => !selected.has(record))];
     for (const [index, cycle] of cycles.entries()) {
-        for (const station of [...matches, ...stations.filter(item => !selected.has(item))]) {
-            cycle.append(station.chips[index]);
-        }
+        for (const record of ordered) cycle.append(record.chips[index]);
     }
     const track = document.getElementById('weather-track');
     track.parentElement.scrollLeft = 0;
     for (const animation of track.getAnimations()) animation.currentTime = 0;
     if (city === '全网总表') {
-        context.textContent = `天气快照 · ${stations.length} 条台站记录 · 按源站返回地点展示`;
+        context.textContent = `天气快照 · ${weatherRecords.length} 条地区记录 · 可横向浏览全部地区`;
     } else if (!matches.length) {
-        context.textContent = `${city}：无对应天气记录 · 以下为源站台站快照`;
+        context.textContent = `${city}：无对应天气记录 · 保留全部 ${weatherRecords.length} 条地区记录`;
     } else {
-        const names = [...new Set(matches.map(station => station.name))].join('、');
-        const exact = matches.every(station => station.name === city);
-        context.textContent = exact ? `${city} · 天气采集快照` : `${city}请求 · 源站返回${names}（不作为本地实况）`;
+        context.textContent = `${city}优先 · 全部 ${weatherRecords.length} 条地区记录仍保留 · 返回地点见各项来源标记`;
     }
-    context.title = '保留源站实际返回的地点和读数，不将回退台站改名为请求城市；未提供观测时间的记录不标作实时天气。';
+    context.title = '按请求地区逐项保留天气记录，不因返回同一台站或相同气温而合并。地区名称不代表源站实际返回地点；缺少观测时间的记录不标作实时天气。';
 }

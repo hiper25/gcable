@@ -1,4 +1,4 @@
-import {state, regionCode, fetchJSON, escapeHTML as esc, isNewUI} from './data.js?v=43';
+import {state, regionCode, fetchJSON, escapeHTML as esc, isNewUI} from './data.js?v=44';
 
 let toastTimer;
 const copyTimers = new WeakMap();

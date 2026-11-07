@@ -1276,6 +1276,9 @@
     :root[data-ui="new"] .weather-stations .wind-badge {
         padding-left: 8px; border-left: 1px solid var(--border); color: var(--text-muted);
     }
+    :root[data-ui="new"] .weather-stations .weather-source {
+        padding-left: 8px; border-left: 1px dashed var(--border-light); color: var(--text-muted);
+    }
     :root[data-ui="new"] .weather-stations .is-current-city {
         background: var(--surface-active); border-color: var(--primary);
     }
