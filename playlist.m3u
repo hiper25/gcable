@@ -157,8 +157,6 @@ rtp://239.12.42.131:10001
 rtp://239.12.42.141:10001
 #EXTINF:-1 tvg-id="2619" tvg-name="曲江综合（高清）" tvg-chno="9" group-title="其他综合" region-code="2180" isTVAnyTime="1" isStartOver="1" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2619_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",曲江综合（高清）
 rtp://239.12.42.151:10001
-#EXTINF:-1 tvg-id="2651" tvg-name="乳源台（高清）" tvg-chno="9" group-title="粤东西北县市" region-code="2280" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2651_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",乳源台（高清）
-rtp://239.12.42.163:10001
 #EXTINF:-1 tvg-id="2652" tvg-name="乳源台（高清）" tvg-chno="9" group-title="粤东西北县市" region-code="2280" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2652_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",乳源台（高清）
 rtp://239.12.42.163:10001
 #EXTINF:-1 tvg-id="3524" tvg-name="南海频道（高清）" tvg-chno="9" group-title="广佛本地" region-code="1684" isTVAnyTime="1" isStartOver="1" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3524_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",南海频道（高清）

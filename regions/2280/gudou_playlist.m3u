@@ -13,8 +13,6 @@ http://172.16.149.220:8070/live/1439_7500.m3u8
 http://172.16.149.220:8070/live/1353_7500.m3u8
 #EXTINF:-1 tvg-id="1351" tvg-name="明珠台" tvg-chno="8" group-title="港澳台专区" region-code="2280" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1351.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1351_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",明珠台
 http://172.16.149.220:8070/live/1351_7500.m3u8
-#EXTINF:-1 tvg-id="2651" tvg-name="乳源台（高清）" tvg-chno="9" group-title="粤东西北县市" region-code="2280" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2651_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",乳源台（高清）
-http://172.16.149.220:8070/live/2651_7500.m3u8
 #EXTINF:-1 tvg-id="2652" tvg-name="乳源台（高清）" tvg-chno="9" group-title="粤东西北县市" region-code="2280" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/2652_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",乳源台（高清）
 http://172.16.149.220:8070/live/2652_7500.m3u8
 #EXTINF:-1 tvg-id="1352" tvg-name="澳视澳门（高清）" tvg-chno="10" group-title="港澳台专区" region-code="2280" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1352.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1352_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",澳视澳门（高清）
