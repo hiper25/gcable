@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-ui="main">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -15,10 +15,9 @@
                 effective = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
             }
             document.documentElement.setAttribute('data-theme', effective);
-            document.documentElement.setAttribute('data-ui', 'main');
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=47">
+    <link rel="stylesheet" href="./css/style.css?v=20261110-slate">
 </head>
 <body>
     <div class="header">
@@ -459,7 +458,6 @@
 
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
-
-    <script type="module" src="./js/app.js?v=47"></script>
+    <script type="module" src="./js/app.js?v=20261110-slate"></script>
 </body>
 </html>

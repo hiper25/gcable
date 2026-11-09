@@ -1,8 +1,8 @@
-import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=47';
-import {getChannelIconHTML} from './icons.js?v=47';
-import {copyBtnFeedback, showToast} from './ui.js?v=47';
-import {openPicker, closePicker} from './picker.js?v=47';
-import {updateSelectedChannelCard} from './channels.js?v=47';
+import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=20261110-slate';
+import {getChannelIconHTML} from './icons.js?v=20261110-slate';
+import {copyBtnFeedback, showToast} from './ui.js?v=20261110-slate';
+import {openPicker, closePicker} from './picker.js?v=20261110-slate';
+import {updateSelectedChannelCard} from './channels.js?v=20261110-slate';
 const desktopSplitQuery = window.matchMedia('(min-width: 1180px)');
 let channel = null;
 let programmes = [];
@@ -50,21 +50,19 @@ function fillChannel() {
         const message = document.createElement('div'); message.style.gridColumn = '1/-1';
         message.textContent = '该地区未下发 DVB-C 频点参数'; grid.append(message);
     }
-    document.getElementById('d-delivery').textContent = channel.delivery || '未提供';
-    document.getElementById('d-delivery').title = channel.delivery || '';
     const heroBadge = document.getElementById('hero-live-badge');
     const heroLiveText = document.getElementById('hero-live-text');
     const cap = channel.isTVAnyTime === '1' ? 'timeshift' : channel.hasEPG ? 'epg' : 'live';
-    heroBadge.dataset.capability = cap;
+    heroBadge.setAttribute('data-capability', cap);
     if (heroLiveText) heroLiveText.textContent = cap === 'timeshift' ? '支持7天时移' : cap === 'epg' ? '含节目单' : '仅直播';
     heroBadge.title = cap === 'timeshift' ? '该频道支持 7 天时移回看与节目指南' : cap === 'epg' ? '该频道提供电子节目单，未开通时移回看' : '该频道仅提供实时组播/单播直播';
 }
 
 let userPinnedTab = '';
-function setInspectorTab(tab) {
+export function setInspectorTab(tab) {
     const drawerEl = document.getElementById('main-drawer');
     if (!drawerEl) return;
-    drawerEl.dataset.activeTab = tab;
+    drawerEl.setAttribute('data-active-tab', tab);
     document.querySelectorAll('#main-drawer .drawer-section-nav button[data-inspector-tab]').forEach(btn => {
         const active = btn.dataset.inspectorTab === tab;
         btn.classList.toggle('active', active);
@@ -108,7 +106,7 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     document.documentElement.classList.add('drawer-open');
     const dockedDesktop = desktopSplitQuery.matches;
     document.body.style.overflow = dockedDesktop ? '' : 'hidden';
-    setInspectorTab(userPinnedTab || (selected.hasEPG === false ? 'all' : 'epg'));
+    setInspectorTab(userPinnedTab || (selected.hasEPG === false ? 'streams' : 'epg'));
     if (!restore) {
         const nextState = {...history.state, drawerOpen:true, channelID:cid, regionCode:trigger.value};
         if (wasActive && history.state?.drawerOpen) history.replaceState(nextState, '');

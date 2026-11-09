@@ -1,8 +1,8 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=47';
-import {getChannelIconHTML} from './icons.js?v=47';
-import {showToast} from './ui.js?v=47';
-import {openPicker} from './picker.js?v=47';
-import {updateWeatherSelection} from './weather.js?v=47';
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=20261110-slate';
+import {getChannelIconHTML} from './icons.js?v=20261110-slate';
+import {showToast} from './ui.js?v=20261110-slate';
+import {openPicker} from './picker.js?v=20261110-slate';
+import {updateWeatherSelection} from './weather.js?v=20261110-slate';
 const cards = new Map();
 const rows = new Map();
 let onOpen;
