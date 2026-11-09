@@ -8,9 +8,10 @@ const schedules = new Map();
 const regionCatalogs = new Map();
 const epgIndexes = new Map();
 
-export function isNewUI() {
-    return document.documentElement.getAttribute('data-ui') === 'new';
+export function isMainUI() {
+    return true;
 }
+export const isNewUI = isMainUI;
 export function mutableURL(url) {
     if (!state.assetVersion) return url;
     return `${url}${url.includes('?') ? '&' : '?'}v=${encodeURIComponent(state.assetVersion)}`;

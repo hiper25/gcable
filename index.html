@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-layout="concept">
+<html lang="zh-CN" data-ui="main">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -15,14 +15,10 @@
                 effective = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
             }
             document.documentElement.setAttribute('data-theme', effective);
-            const params = new URLSearchParams(location.search);
-            const ui = (params.get('ui') || params.get('layout') || '').toLowerCase();
-            if (['new', 'v3', 'workbench', '1'].includes(ui) || params.has('new') || location.hash === '#new') {
-                document.documentElement.setAttribute('data-ui', 'new');
-            }
+            document.documentElement.setAttribute('data-ui', 'main');
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=46">
+    <link rel="stylesheet" href="./css/style.css?v=47">
 </head>
 <body>
     <div class="header">
@@ -30,9 +26,7 @@
             <div class="brand">
                 <img class="brand-logo-img" src="./favicon.ico" alt="GCable">
                 <div class="brand-copy">
-                    <span class="brand-kicker">广东广电 · 省网频道</span>
                     <h1>广东广电 省网数据中心</h1>
-                    <p class="brand-sub">全省广电组播目录 · 7天时移回看库 · 频道频点索引</p>
                 </div>
             </div>
             <div id="header-telemetry-pill" class="header-telemetry-pill" aria-live="polite"></div>
@@ -43,7 +37,7 @@
                     <svg class="picker-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
                 </button>
                 <div id="desktop-primary-actions" class="header-primary-actions" role="group" aria-label="常用操作"></div>
-                <button id="header-history-btn" type="button" class="btn header-history-btn new-ui-only" onclick="openHistoryModal()" aria-label="变动日志" title="变动日志">
+                <button id="header-history-btn" type="button" class="btn header-history-btn" onclick="openHistoryModal()" aria-label="变动日志" title="变动日志">
                     <svg class="btn-svg" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     <span>变动日志</span>
                 </button>
@@ -80,9 +74,7 @@
 
     <div class="container">
         <details id="site-overview" class="site-overview" open>
-            <summary id="site-overview-summary">订阅下载、天气与通告</summary>
-        <!-- 手机端快捷订阅网格 (旧版 UI 手机专显；新版 ?ui=new 收敛至底栏) -->
-        <div id="mobile-subscription-actions" class="mobile-quick-actions" role="group" aria-label="订阅与 EPG 操作"></div>
+            <summary id="site-overview-summary">通告与天气快照</summary>
         <template id="subscription-actions-template">
             <button class="btn btn-primary" type="button" data-subscription-action="copyM3U">
                 <svg class="btn-svg" viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg><span class="subscription-action-label"></span>
@@ -122,16 +114,6 @@
 
         <!-- 控制区 -->
         <div class="controls-card">
-            <div class="dashboard-heading">
-                <div>
-                    <span class="dashboard-kicker">频道总览</span>
-                    <h2>全省频道目录</h2>
-                    <p>组播地址、EPG 覆盖与 7 天时移能力集中索引</p>
-                </div>
-                <span class="dashboard-badge"><span class="dashboard-badge-dot"></span><span id="header-freshness">组播 · EPG · 时移</span></span>
-            </div>
-            <!-- 搜索框与工具条 -->
-            <label class="search-label" for="search-kw">查找频道</label>
             <div class="search-toolbar">
                 <div class="search-wrapper">
                     <span class="search-icon">
@@ -158,19 +140,11 @@
                             表格
                         </button>
                     </div>
-                    <button class="btn btn-sm" id="toolbar-history-btn" onclick="openHistoryModal()">
-                        <svg class="btn-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                        变动日志
-                    </button>
                 </div>
             </div>
             <div class="search-scope-row">
-                <span id="search-scope"></span>
                 <button id="search-global" type="button" class="btn btn-sm" hidden>全网查找</button>
                 <button id="reset-filters" type="button" class="btn btn-sm" title="清空搜索、分类、源站分组和时移筛选，保留当前地区" hidden>重置筛选</button>
-                <div class="match-badge">
-                    匹配到 <b id="match-count" role="status" aria-live="polite" aria-atomic="true">—</b> 频道
-                </div>
             </div>
             <details id="advanced-filters" class="advanced-filters" open>
                 <summary><span id="advanced-filters-title">地区与分类筛选</span><span id="active-filter-summary">全网总表 · 全部</span></summary>
@@ -240,19 +214,14 @@
             <!-- 所选区域统计，EPG 数量包含源站占位记录 -->
             <div class="stats-summary-row">
                 <div class="stat-badge-item">
-                    <span>独立频道：</span>
+                    <span>频道：</span>
                     <b id="summary-total">—</b>
                 </div>
-                <div class="stat-badge-item" id="stat-badge-rtp">
-                    <span>组播地址：</span>
-                    <b id="summary-rtp" style="color:var(--accent);">—</b>
-                </div>
                 <div class="stat-badge-item">
-                    <span>节目单记录：</span>
+                    <span>节目：</span>
                     <b id="summary-epg" style="color:var(--warning);">—</b>
                 </div>
                 <div class="stat-badge-item"><span id="data-coverage" title="数据采集覆盖和时间">正在读取采集信息…</span></div>
-                <a class="btn btn-sm btn-accent" id="summary-epg-download" data-epg-download href="./epg.xml" download="gcable_epg.xml">下载全网 EPG (.xml)</a>
             </div>
             </details>
         </div>
@@ -335,7 +304,7 @@
                 <button type="button" class="btn btn-sm" data-drawer-target="d-streams" data-inspector-tab="streams">播放地址</button>
                 <button type="button" class="btn btn-sm" data-drawer-target="d-technical" data-inspector-tab="tech">技术参数</button>
                 <button type="button" class="btn btn-sm active" data-drawer-target="d-epg-section" data-inspector-tab="epg">节目单</button>
-                <button type="button" class="btn btn-sm new-ui-only" data-drawer-target="all" data-inspector-tab="all">全部展开</button>
+                <button type="button" class="btn btn-sm" data-drawer-target="all" data-inspector-tab="all">全部展开</button>
             </nav>
             <div class="drawer-body">
 
@@ -352,16 +321,6 @@
                         </div>
                     </div>
                     <!-- 顶行：业务状态微标签 -->
-                    <div class="panel-status-bar" id="panel-row-cat-replay">
-                        <div class="status-pill-item">
-                            <span class="status-pill-label">所属分类:</span>
-                            <b class="status-pill-val" id="d-cat-detail">-</b>
-                        </div>
-                        <div class="status-pill-item">
-                            <span class="status-pill-label">7天回看:</span>
-                            <b class="status-pill-val" id="d-replay" style="color:var(--accent);">-</b>
-                        </div>
-                    </div>
                     <div class="panel-status-bar">
                         <span class="status-pill-item"><span class="status-pill-label">源站分组:</span><b class="status-pill-val" id="d-source-groups">—</b></span>
                         <span class="status-pill-item" id="d-start-over">—</span>
@@ -412,7 +371,6 @@
                         </div>
                         <div class="dvb-grid" id="d-dvb-grid">
                         </div>
-                        <details id="details-raw-dvb"><summary class="drawer-details-summary">原始 DVB 参数</summary><div class="rtp-code" id="d-delivery"></div></details>
                     </div>
                     <details><summary class="drawer-details-summary">原始频道资料</summary><pre id="d-source-metadata" class="drawer-source-metadata"></pre></details>
                 </div>
@@ -502,6 +460,6 @@
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
 
-    <script type="module" src="./js/app.js?v=46"></script>
+    <script type="module" src="./js/app.js?v=47"></script>
 </body>
 </html>

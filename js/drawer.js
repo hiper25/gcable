@@ -1,8 +1,8 @@
-import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate, isNewUI} from './data.js?v=46';
-import {getChannelIconHTML} from './icons.js?v=46';
-import {copyBtnFeedback, showToast} from './ui.js?v=46';
-import {openPicker, closePicker} from './picker.js?v=46';
-import {updateSelectedChannelCard} from './channels.js?v=46';
+import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=47';
+import {getChannelIconHTML} from './icons.js?v=47';
+import {copyBtnFeedback, showToast} from './ui.js?v=47';
+import {openPicker, closePicker} from './picker.js?v=47';
+import {updateSelectedChannelCard} from './channels.js?v=47';
 const desktopSplitQuery = window.matchMedia('(min-width: 1180px)');
 let channel = null;
 let programmes = [];
@@ -25,7 +25,6 @@ function fillChannel() {
     document.getElementById('d-title').textContent = channel.name;
     document.getElementById('d-num').textContent = `#${channel.channelNumber} · 频道ID: ${channel.channelID}`;
     document.getElementById('d-cat').textContent = channel.category;
-    document.getElementById('d-cat-detail').textContent = channel.category;
     document.getElementById('d-source-groups').textContent = channel.sourceGroups?.join('、') || '未提供';
     document.getElementById('d-start-over').textContent = channel.isStartOver === '1' ? '支持从头播放' : '未开通从头播放';
     document.getElementById('d-source-metadata').textContent = JSON.stringify(channel.sourceMetadata || channel, null, 2);
@@ -37,8 +36,7 @@ function fillChannel() {
     document.getElementById('d-catchup-tpl').textContent = replayTemplate(channel);
     document.getElementById('d-catchup-tpl').title = replayTemplate(channel);
     document.getElementById('row-catchup').hidden = channel.isTVAnyTime !== '1';
-    document.getElementById('d-replay').textContent = channel.isTVAnyTime === '1' ? '支持 7 天时移回看' : '未开通时移回看';
-    document.getElementById('d-replay').style.color = channel.isTVAnyTime === '1' ? 'var(--accent)' : 'var(--text-muted)';
+    // Capability and category are displayed in the channel hero header
     const values = deliveryValues(channel.delivery);
     const grid = document.getElementById('d-dvb-grid');
     grid.replaceChildren();
@@ -56,16 +54,10 @@ function fillChannel() {
     document.getElementById('d-delivery').title = channel.delivery || '';
     const heroBadge = document.getElementById('hero-live-badge');
     const heroLiveText = document.getElementById('hero-live-text');
-    if (isNewUI()) {
-        const cap = channel.isTVAnyTime === '1' ? 'timeshift' : channel.hasEPG ? 'epg' : 'live';
-        heroBadge.dataset.capability = cap;
-        if (heroLiveText) heroLiveText.textContent = cap === 'timeshift' ? '支持7天时移' : cap === 'epg' ? '含节目单' : '仅直播';
-        heroBadge.title = cap === 'timeshift' ? '该频道支持 7 天时移回看与节目指南' : cap === 'epg' ? '该频道提供电子节目单，未开通时移回看' : '该频道仅提供实时组播/单播直播';
-    } else {
-        delete heroBadge.dataset.capability;
-        if (heroLiveText) heroLiveText.textContent = '直播频道';
-        heroBadge.title = '频道直播业务标识；不代表浏览器已检测到直播画面';
-    }
+    const cap = channel.isTVAnyTime === '1' ? 'timeshift' : channel.hasEPG ? 'epg' : 'live';
+    heroBadge.dataset.capability = cap;
+    if (heroLiveText) heroLiveText.textContent = cap === 'timeshift' ? '支持7天时移' : cap === 'epg' ? '含节目单' : '仅直播';
+    heroBadge.title = cap === 'timeshift' ? '该频道支持 7 天时移回看与节目指南' : cap === 'epg' ? '该频道提供电子节目单，未开通时移回看' : '该频道仅提供实时组播/单播直播';
 }
 
 let userPinnedTab = '';
@@ -114,11 +106,9 @@ export function openDrawer(selected, {restore = false, region: restoredRegion} =
     });
     overlay.classList.add('active');
     document.documentElement.classList.add('drawer-open');
-    const dockedDesktop = isNewUI() && desktopSplitQuery.matches;
+    const dockedDesktop = desktopSplitQuery.matches;
     document.body.style.overflow = dockedDesktop ? '' : 'hidden';
-    if (isNewUI()) {
-        setInspectorTab(userPinnedTab || (selected.hasEPG === false ? 'all' : 'epg'));
-    }
+    setInspectorTab(userPinnedTab || (selected.hasEPG === false ? 'all' : 'epg'));
     if (!restore) {
         const nextState = {...history.state, drawerOpen:true, channelID:cid, regionCode:trigger.value};
         if (wasActive && history.state?.drawerOpen) history.replaceState(nextState, '');
@@ -134,8 +124,9 @@ async function updateRegion(cid, code) {
     const version = ++requestVersion;
     observer?.disconnect(); ++renderVersion;
     channel = null;
-    for (const id of ['d-cat','d-cat-detail','d-source-groups','d-start-over','d-source-metadata','d-rtp','d-gudou','d-gudou-status','d-catchup-tpl','d-replay','d-delivery']) {
-        document.getElementById(id).textContent = '正在载入…';
+    for (const id of ['d-cat','d-source-groups','d-start-over','d-source-metadata','d-rtp','d-gudou','d-gudou-status','d-catchup-tpl','d-delivery']) {
+        const el = document.getElementById(id);
+        if (el) el.textContent = '正在载入…';
     }
     document.getElementById('d-dvb-grid').replaceChildren();
     document.getElementById('d-num').textContent = `频道ID: ${cid} · 正在载入地区信息`;
@@ -157,7 +148,7 @@ async function updateRegion(cid, code) {
         if (result === null) {
             document.getElementById('d-epg-count').textContent = '未取得数据';
             list.textContent = '本次未取得该地区节目单，未使用其他地区数据替代。';
-            if (isNewUI() && !userPinnedTab) setInspectorTab('all');
+            if (!userPinnedTab) setInspectorTab('all');
             return true;
         }
         programmes = result;
@@ -293,13 +284,13 @@ window.addEventListener('popstate', () => {
 desktopSplitQuery.addEventListener('change', () => {
     const overlay = document.getElementById('drawer-overlay');
     if (!overlay?.classList.contains('active')) return;
-    document.body.style.overflow = (isNewUI() && desktopSplitQuery.matches) ? '' : 'hidden';
+    document.body.style.overflow = desktopSplitQuery.matches ? '' : 'hidden';
 });
 document.getElementById('main-drawer').addEventListener('click', event => {
     const button = event.target.closest('#main-drawer .drawer-section-nav button[data-drawer-target]');
     if (!button) return;
     const body = document.querySelector('#main-drawer .drawer-body');
-    if (isNewUI() && button.dataset.inspectorTab) {
+    if (button.dataset.inspectorTab) {
         userPinnedTab = button.dataset.inspectorTab;
         setInspectorTab(userPinnedTab);
         body.scrollTop = 0;

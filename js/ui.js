@@ -1,4 +1,4 @@
-import {state, regionCode, fetchJSON, escapeHTML as esc, isNewUI} from './data.js?v=46';
+import {state, regionCode, fetchJSON, escapeHTML as esc} from './data.js?v=47';
 
 let toastTimer;
 const copyTimers = new WeakMap();
@@ -44,7 +44,7 @@ const drawerOverlay = document.getElementById('drawer-overlay');
 const desktopActions = window.matchMedia('(min-width: 1180px)');
 
 function placeBackToTop() {
-    const docked = isNewUI() && desktopActions.matches && drawerOverlay.classList.contains('active');
+    const docked = desktopActions.matches && drawerOverlay.classList.contains('active');
     const parent = docked ? pageActions : document.body;
     if (backToTop.parentElement !== parent) parent.append(backToTop);
     backToTop.classList.toggle('is-docked', docked);

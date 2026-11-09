@@ -1,8 +1,8 @@
-import {state, loadCatalog, fetchJSON, exportsForSelection, isNewUI} from './data.js?v=46';
-import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=46';
-import * as drawer from './drawer.js?v=46';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=46';
-import {initWeather} from './weather.js?v=46';
+import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=47';
+import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=47';
+import * as drawer from './drawer.js?v=47';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=47';
+import {initWeather} from './weather.js?v=47';
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }
     const path = exportsForSelection()[field];
@@ -86,9 +86,10 @@ function populateSubscriptionActions(target, {mobile, primaryOnly} = {}) {
     target.replaceChildren(fragment);
 }
 function renderSubscriptionActions() {
-    populateSubscriptionActions(document.getElementById('desktop-primary-actions'), {primaryOnly:true});
-    populateSubscriptionActions(document.getElementById('desktop-subscription-actions'), {primaryOnly:false});
-    populateSubscriptionActions(document.getElementById('mobile-subscription-actions'), {mobile:true});
+    const desktopPrimary = document.getElementById('desktop-primary-actions');
+    const desktopActions = document.getElementById('desktop-subscription-actions');
+    if (desktopPrimary) populateSubscriptionActions(desktopPrimary, {primaryOnly:true});
+    if (desktopActions) populateSubscriptionActions(desktopActions, {primaryOnly:false});
 }
 renderSubscriptionActions();
 const desktopToolsMenu = document.querySelector('.header-tools-menu');
@@ -111,7 +112,7 @@ initTheme();
 const compactLayout = window.matchMedia('(max-width: 700px)');
 const overview = document.getElementById('site-overview');
 const overviewSummary = document.getElementById('site-overview-summary');
-if (isNewUI() && overviewSummary) overviewSummary.textContent = '通告与天气快照';
+if (overviewSummary) overviewSummary.textContent = '通告与天气快照';
 overview.open = !compactLayout.matches;
 document.getElementById('advanced-filters').open = window.matchMedia('(min-width: 1180px)').matches;
 compactLayout.addEventListener('change', () => { overview.open = !compactLayout.matches; });
@@ -166,9 +167,10 @@ function renderNotices(notices) {
         }
         return card;
     }
-    if (isNewUI() && grouped.length > 1) {
-        const [firstMessage, firstRegions] = grouped[0];
-        container.append(buildNoticeCard(0, firstMessage, firstRegions));
+    if (!grouped.length) return;
+    const [firstMessage, firstRegions] = grouped[0];
+    container.append(buildNoticeCard(0, firstMessage, firstRegions));
+    if (grouped.length > 1) {
         const moreWrap = document.createElement('details');
         moreWrap.className = 'notice-more-wrap';
         const moreSummary = document.createElement('summary');
@@ -180,10 +182,6 @@ function renderNotices(notices) {
         }
         moreWrap.append(moreSummary, moreList);
         container.append(moreWrap);
-        return;
-    }
-    for (const [index, [message, regions]] of grouped.entries()) {
-        container.append(buildNoticeCard(index, message, regions));
     }
 }
 function bootstrapCatalog() {
@@ -195,34 +193,10 @@ function bootstrapCatalog() {
     });
 }
 bootstrapCatalog();
-fetchJSON('./weather.json', {cache: 'no-cache'}).then(data => {
-    if (isNewUI()) {
-        initWeather(data);
-        return;
-    }
-    const track = document.getElementById('weather-track'); track.replaceChildren();
-    const cycle = document.createElement('div'); cycle.className = 'weather-cycle';
-    for (const [city, weather] of Object.entries(data)) {
-        const chip = document.createElement('div'); chip.className = 'weather-chip';
-        const name = document.createElement('b'); name.textContent = city;
-        const summary = document.createElement('span'); summary.textContent = weather.weather;
-        const temperature = document.createElement('span'); temperature.className = 'temp'; temperature.textContent = weather.temperature;
-        chip.append(name,summary,temperature);
-        const wind = document.createElement('span'); wind.textContent = weather.wind || '';
-        chip.append(wind); chip.title = [weather.locationName,weather.locationCode,weather.date,weather.wind].filter(Boolean).join(' · ');
-        cycle.append(chip);
-    }
-    const duplicate = cycle.cloneNode(true); duplicate.setAttribute('aria-hidden', 'true');
-    track.append(cycle, duplicate);
-    const weatherViewport = track.closest('.weather-scroll-container');
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-    weatherViewport.addEventListener('wheel', event => {
-        if (!reducedMotion.matches || !event.deltaY || event.deltaX || weatherViewport.scrollWidth <= weatherViewport.clientWidth) return;
-        const before = weatherViewport.scrollLeft;
-        weatherViewport.scrollLeft += event.deltaY;
-        if (weatherViewport.scrollLeft !== before) event.preventDefault();
-    }, {passive:false});
-}).catch(() => { document.getElementById('weather-track').textContent = '天气数据暂不可用'; });
+fetchJSON('./weather.json', {cache: 'no-cache'}).then(initWeather).catch(() => {
+    const track = document.getElementById('weather-track');
+    if (track) track.textContent = '天气数据暂不可用';
+});
 fetchJSON('./notices.json', {cache: 'no-cache'}).then(renderNotices).catch(() => {});
 document.getElementById('mobile-dock-catalog')?.addEventListener('click', () => {
     drawer.hideDrawer();
