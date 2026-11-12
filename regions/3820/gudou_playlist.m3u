@@ -215,3 +215,5 @@ http://172.16.149.220:8070/live/2428_7500.m3u8
 http://172.16.149.220:8070/live/5010_7500.m3u8
 #EXTINF:-1 tvg-id="5002" tvg-name="新闻频道" tvg-chno="213" group-title="广播电台" region-code="3820" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻频道
 http://172.16.149.220:8070/live/5002_7500.m3u8
+#EXTINF:-1 tvg-id="3306" tvg-name="河源综合（广播）" tvg-chno="214" group-title="广播电台" region-code="3820" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3306_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河源综合（广播）
+http://172.16.149.220:8070/live/3306_7500.m3u8

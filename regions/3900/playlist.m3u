@@ -197,21 +197,23 @@ rtp://239.12.21.21:10001
 rtp://239.12.22.142:10001
 #EXTINF:-1 tvg-id="1277" tvg-name="优购物" tvg-chno="135" group-title="其他综合" region-code="3900" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1277.png" is-playable="false" stream-verification="candidate",优购物
 rtp://239.12.21.53:10001
-#EXTINF:-1 tvg-id="0" tvg-name="音乐之声" tvg-chno="206" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/0.png" is-playable="false" stream-verification="candidate",音乐之声
+#EXTINF:-1 tvg-id="0" tvg-name="音乐之声" tvg-chno="205" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/0.png" is-playable="false" stream-verification="candidate",音乐之声
 rtp://239.12.23.12:10001
-#EXTINF:-1 tvg-id="5004" tvg-name="交通之声" tvg-chno="207" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",交通之声
+#EXTINF:-1 tvg-id="5004" tvg-name="交通之声" tvg-chno="206" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",交通之声
 rtp://239.12.23.13:10001
-#EXTINF:-1 tvg-id="2426" tvg-name="股市之声" tvg-chno="208" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
+#EXTINF:-1 tvg-id="2426" tvg-name="股市之声" tvg-chno="207" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",股市之声
 rtp://239.12.23.15:10001
-#EXTINF:-1 tvg-id="5007" tvg-name="南方生活广播" tvg-chno="209" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",南方生活广播
+#EXTINF:-1 tvg-id="5007" tvg-name="南方生活广播" tvg-chno="208" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",南方生活广播
 rtp://239.12.23.16:10001
-#EXTINF:-1 tvg-id="5008" tvg-name="文体广播" tvg-chno="210" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",文体广播
+#EXTINF:-1 tvg-id="5008" tvg-name="文体广播" tvg-chno="209" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",文体广播
 rtp://239.12.23.17:10001
-#EXTINF:-1 tvg-id="2428" tvg-name="城市之声" tvg-chno="211" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",城市之声
+#EXTINF:-1 tvg-id="2428" tvg-name="城市之声" tvg-chno="210" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",城市之声
 rtp://239.12.23.18:10001
-#EXTINF:-1 tvg-id="5010" tvg-name="珠江之声" tvg-chno="212" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",珠江之声
+#EXTINF:-1 tvg-id="5010" tvg-name="珠江之声" tvg-chno="211" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",珠江之声
 rtp://239.12.23.19:10001
-#EXTINF:-1 tvg-id="5002" tvg-name="新闻频道" tvg-chno="213" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻频道
+#EXTINF:-1 tvg-id="5002" tvg-name="新闻频道" tvg-chno="212" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",新闻频道
 rtp://239.12.23.11:10001
-#EXTINF:-1 tvg-id="5005" tvg-name="珠江经济台" tvg-chno="214" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",珠江经济台
+#EXTINF:-1 tvg-id="5005" tvg-name="珠江经济台" tvg-chno="213" group-title="广播电台" region-code="3900" isTVAnyTime="0" isStartOver="0" is-playable="false" stream-verification="candidate",珠江经济台
 rtp://239.12.23.14:10001
+#EXTINF:-1 tvg-id="3306" tvg-name="河源综合（广播）" tvg-chno="214" group-title="广播电台" region-code="3900" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3306_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河源综合（广播）
+rtp://239.12.50.178:10001
