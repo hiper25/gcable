@@ -9,8 +9,6 @@ http://172.16.149.220:8070/live/3012_7500.m3u8
 http://172.16.149.220:8070/live/1439_7500.m3u8
 #EXTINF:-1 tvg-id="1277" tvg-name="优购物" tvg-chno="7" group-title="其他综合" region-code="3000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1277.png" is-playable="false" stream-verification="candidate",优购物
 http://172.16.149.220:8070/live/1277_7500.m3u8
-#EXTINF:-1 tvg-id="1213" tvg-name="广东珠江" tvg-chno="8" group-title="其他综合" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1213.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1213_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",广东珠江
-http://172.16.149.220:8070/live/1213_7500.m3u8
 #EXTINF:-1 tvg-id="1448" tvg-name="央广购物（高清）" tvg-chno="9" group-title="其他综合" region-code="3000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1448.png" is-playable="true" stream-verification="manifest",央广购物（高清）
 http://172.16.149.220:8070/live/1448_7500.m3u8
 #EXTINF:-1 tvg-id="1350" tvg-name="翡翠台" tvg-chno="10" group-title="港澳台专区" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1350.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1350_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",翡翠台
@@ -73,8 +71,6 @@ http://172.16.149.220:8070/live/1440_7500.m3u8
 http://172.16.149.220:8070/live/1463_7500.m3u8
 #EXTINF:-1 tvg-id="1413" tvg-name="广东体育（高清）" tvg-chno="39" group-title="特色影视体育" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1413.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1413_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",广东体育（高清）
 http://172.16.149.220:8070/live/1413_7500.m3u8
-#EXTINF:-1 tvg-id="1215" tvg-name="广东新闻" tvg-chno="40" group-title="其他综合" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1215.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1215_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",广东新闻
-http://172.16.149.220:8070/live/1215_7500.m3u8
 #EXTINF:-1 tvg-id="4015" tvg-name="浙江卫视（4K）" tvg-chno="41" group-title="4K超高清" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/4015.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/4015_36000.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",浙江卫视（4K）
 http://172.16.149.220:8070/live/4015_36000.m3u8
 #EXTINF:-1 tvg-id="4013" tvg-name="深圳卫视（4K）" tvg-chno="42" group-title="4K超高清" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/4013.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/4013_36000.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",深圳卫视（4K）
@@ -197,12 +193,6 @@ http://172.16.149.220:8070/live/1412_7500.m3u8
 http://172.16.149.220:8070/live/1514_7500.m3u8
 #EXTINF:-1 tvg-id="1914" tvg-name="精彩影视（高清特色）" tvg-chno="121" group-title="特色影视体育" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1914.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1914_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",精彩影视（高清特色）
 http://172.16.149.220:8070/live/1914_7500.m3u8
-#EXTINF:-1 tvg-id="1231" tvg-name="G导视" tvg-chno="129" group-title="其他综合" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1231.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1231_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",G导视
-http://172.16.149.220:8070/live/1231_7500.m3u8
-#EXTINF:-1 tvg-id="1001" tvg-name="CCTV-1综合" tvg-chno="130" group-title="央视频道" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1001.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1001_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-1综合
-http://172.16.149.220:8070/live/1001_7500.m3u8
-#EXTINF:-1 tvg-id="1212" tvg-name="广东卫视" tvg-chno="131" group-title="卫视频道" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1212.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1212_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",广东卫视
-http://172.16.149.220:8070/live/1212_7500.m3u8
 #EXTINF:-1 tvg-id="1287" tvg-name="央广购物（特色）" tvg-chno="132" group-title="其他综合" region-code="3000" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1287.png" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1287_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",央广购物（特色）
 http://172.16.149.220:8070/live/1287_7500.m3u8
 #EXTINF:-1 tvg-id="1932" tvg-name="世界地理（高清）" tvg-chno="140" group-title="特色影视体育" region-code="3000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1932.png" is-playable="false" stream-verification="candidate",世界地理（高清）

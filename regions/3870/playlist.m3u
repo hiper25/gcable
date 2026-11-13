@@ -5,8 +5,6 @@ rtp://239.12.22.3:10001
 rtp://239.12.22.152:10001
 #EXTINF:-1 tvg-id="3303" tvg-name="河源综合（高清）" tvg-chno="3" group-title="粤东西北县市" region-code="3870" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3303.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3303_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河源综合（高清）
 rtp://239.12.50.150:10001
-#EXTINF:-1 tvg-id="3304" tvg-name="河源生活（高清）" tvg-chno="4" group-title="粤东西北县市" region-code="3870" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3304.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3304_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河源生活（高清）
-rtp://239.12.50.151:10001
 #EXTINF:-1 tvg-id="3350" tvg-name="龙川台高清" tvg-chno="5" group-title="粤东西北县市" region-code="3870" isTVAnyTime="1" isStartOver="1" is-playable="false" stream-verification="candidate" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3350_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",龙川台高清
 rtp://239.12.50.120:10001
 #EXTINF:-1 tvg-id="1353" tvg-name="凤凰中文（高清）" tvg-chno="6" group-title="港澳台专区" region-code="3870" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1353.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/1353_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",凤凰中文（高清）
