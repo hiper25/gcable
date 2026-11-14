@@ -63,8 +63,6 @@ rtp://239.12.46.73:10001
 rtp://239.1.28.64:10001
 #EXTINF:-1 tvg-id="3131" tvg-name="潮州综合（高清）" tvg-chno="4" group-title="粤东西北县市" region-code="6500" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3131.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3131_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",潮州综合（高清）
 rtp://239.12.48.9:10001
-#EXTINF:-1 tvg-id="3304" tvg-name="河源生活（高清）" tvg-chno="4" group-title="粤东西北县市" region-code="3810" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3304.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3304_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河源生活（高清）
-rtp://239.12.50.151:10001
 #EXTINF:-1 tvg-id="3483" tvg-name="梅州客家生活（高清）" tvg-chno="4" group-title="粤东西北县市" region-code="3412" isTVAnyTime="1" isStartOver="1" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3483_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",梅州客家生活（高清）
 rtp://239.12.47.216:10001
 #EXTINF:-1 tvg-id="3523" tvg-name="佛山综合（高清）" tvg-chno="4" group-title="广佛本地" region-code="1684" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3523.png" is-playable="true" stream-verification="manifest" catchup="default" catchup-days="7" catchup-source="http://172.16.149.220:8070/live/3523_7500.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",佛山综合（高清）
