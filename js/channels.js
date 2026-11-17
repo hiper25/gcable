@@ -1,8 +1,8 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=20261117-rendition-proof';
-import {getChannelIconHTML} from './icons.js?v=20261117-rendition-proof';
-import {showToast} from './ui.js?v=20261117-rendition-proof';
-import {openPicker} from './picker.js?v=20261117-rendition-proof';
-import {updateWeatherSelection} from './weather.js?v=20261117-rendition-proof';
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=20261117-direct-data';
+import {getChannelIconHTML} from './icons.js?v=20261117-direct-data';
+import {showToast} from './ui.js?v=20261117-direct-data';
+import {openPicker} from './picker.js?v=20261117-direct-data';
+import {updateWeatherSelection} from './weather.js?v=20261117-direct-data';
 const cards = new Map();
 const rows = new Map();
 let onOpen;
@@ -154,9 +154,9 @@ function catalogStats(source) {
 
 
 function replayLabel(channel) {
-    if (channel.isTVAnyTime === '1') return '<span class="badge-timeshift"><span class="dot dot-accent"></span>支持7天时移</span>';
-    if (channel.hasEPG) return '<span class="badge-timeshift badge-epg">含节目单 · 无回看</span>';
-    return '<span class="badge-live-only">仅直播</span>';
+    return channel.isTVAnyTime === '1'
+        ? '<span class="badge-timeshift"><span class="dot dot-accent"></span>回看功能：开启</span>'
+        : '<span class="badge-live-only">回看功能：关闭</span>';
 }
 function content(channel, table) {
     const name = esc(channel.name), cid = esc(channel.channelID), number = esc(channel.channelNumber), category = esc(channel.category);
@@ -223,7 +223,7 @@ export function applyFilters() {
         (!state.sourceGroup || channel.sourceGroups?.includes(state.sourceGroup)) &&
         (!keyword || matchesKeyword(channel, keyword)));
     const activeSummary = document.getElementById('active-filter-summary');
-    if (activeSummary) activeSummary.textContent = `${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 支持时移' : ''}`;
+    if (activeSummary) activeSummary.textContent = `${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 回看配置开启' : ''}`;
     const headerCityText = document.getElementById('header-city-trigger-text');
     if (headerCityText) headerCityText.textContent = currentCode ? `${state.city} (${currentCode})` : state.city;
     const dockCityText = document.getElementById('mobile-dock-city-text');
@@ -259,7 +259,7 @@ export function applyFilters() {
     const hintText = document.getElementById('catalog-hint-text');
     const filterTitles = document.querySelectorAll('.controls-card .filter-section-title > span');
     if (kickerText) kickerText.textContent = state.view === 'table' ? '数据表格视图' : '频道矩阵视图';
-    if (titleText) titleText.textContent = `${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 支持时移' : ''}`;
+    if (titleText) titleText.textContent = `${state.city} · ${state.category}${state.sourceGroup ? ` · ${state.sourceGroup}` : ''}${onlyReplay ? ' · 回看配置开启' : ''}`;
     const desktopHint = window.matchMedia('(min-width: 1180px)').matches ? ' · 点击任意频道实时检视右侧节目单' : '';
     if (hintText) hintText.textContent = `匹配 ${state.filtered.length} / ${source.length} 频道${desktopHint}`;
     if (filterTitles[0]) filterTitles[0].textContent = '内容属性分类';
@@ -542,7 +542,7 @@ function initRegionPicker() {
         const current = regionCode();
         const {additional, distinct, original} = buildPickerViews(current);
         openPicker({trigger:picker, title:'查找其他频道配置', selected:current,
-            description:'这些是源站业务编码，不一定是区县。相同频道、频点和节目单合并展示，不代表地理归属；原始编码仍全部保留。可搜索频道名、ID 或编码。',
+            description:'这些是源站业务编码，不一定是区县。相同频道、频点和节目单合并展示；地理归属需另行核实，原始编码仍全部保留。可搜索频道名、ID 或编码。',
             options:distinct, views:[
                 {id:'additional', label:`额外频道 (${additional.length})`, options:additional},
                 {id:'distinct', label:`全部配置 (${distinct.length})`, options:distinct},

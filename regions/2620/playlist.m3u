@@ -35,15 +35,15 @@ rtp://239.12.21.7:10001
 rtp://239.12.21.9:10001
 #EXTINF:-1 tvg-id="1221" tvg-name="TVS-5" tvg-chno="22" group-title="其他综合" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1221.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",TVS-5
 rtp://239.12.21.10:10001
-#EXTINF:-1 tvg-id="1602" tvg-name="CCTV2(高清)" tvg-chno="24" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1602.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV2(高清)
+#EXTINF:-1 tvg-id="1602" tvg-name="CCTV2(高清)" tvg-chno="24" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1602.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1602.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV2(高清)
 rtp://239.12.22.27:10001
-#EXTINF:-1 tvg-id="1603" tvg-name="CCTV3(高清)" tvg-chno="25" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1603.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1603.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV3(高清)
+#EXTINF:-1 tvg-id="1603" tvg-name="CCTV3(高清)" tvg-chno="25" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1603.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV3(高清)
 rtp://239.12.22.5:10001
-#EXTINF:-1 tvg-id="1004" tvg-name="CCTV4" tvg-chno="26" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1004.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/4005.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV4
+#EXTINF:-1 tvg-id="1004" tvg-name="CCTV4" tvg-chno="26" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1004.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV4
 rtp://239.12.21.20:10001
-#EXTINF:-1 tvg-id="1605" tvg-name="CCTV5(高清)" tvg-chno="27" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1605.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1605.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV5(高清)
+#EXTINF:-1 tvg-id="1605" tvg-name="CCTV5(高清)" tvg-chno="27" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1605.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV5(高清)
 rtp://239.12.22.6:10001
-#EXTINF:-1 tvg-id="1606" tvg-name="CCTV6(高清)" tvg-chno="28" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1606.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV6(高清)
+#EXTINF:-1 tvg-id="1606" tvg-name="CCTV6(高清)" tvg-chno="28" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1606.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1606.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV6(高清)
 rtp://239.12.22.7:10001
 #EXTINF:-1 tvg-id="1440" tvg-name="宜和购物(高清)" tvg-chno="29" group-title="其他综合" region-code="2620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1440.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",宜和购物(高清)
 rtp://239.12.22.92:10001
@@ -57,7 +57,7 @@ rtp://239.12.22.29:10001
 rtp://239.12.22.30:10001
 #EXTINF:-1 tvg-id="1405" tvg-name="深圳卫视(高清)" tvg-chno="34" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1405.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",深圳卫视(高清)
 rtp://239.12.22.9:10001
-#EXTINF:-1 tvg-id="1410" tvg-name="江苏卫视(高清)" tvg-chno="35" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1410.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1410.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",江苏卫视(高清)
+#EXTINF:-1 tvg-id="1410" tvg-name="江苏卫视(高清)" tvg-chno="35" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1410.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",江苏卫视(高清)
 rtp://239.12.22.16:10001
 #EXTINF:-1 tvg-id="1407" tvg-name="北京卫视(高清)" tvg-chno="36" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1407.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",北京卫视(高清)
 rtp://239.12.22.13:10001
@@ -69,13 +69,13 @@ rtp://239.12.22.18:10001
 rtp://239.12.21.42:10001
 #EXTINF:-1 tvg-id="1418" tvg-name="安徽卫视(高清)" tvg-chno="40" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1418.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1418.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",安徽卫视(高清)
 rtp://239.12.22.21:10001
-#EXTINF:-1 tvg-id="1417" tvg-name="湖北卫视(高清)" tvg-chno="41" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1417.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1417.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",湖北卫视(高清)
+#EXTINF:-1 tvg-id="1417" tvg-name="湖北卫视(高清)" tvg-chno="41" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1417.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",湖北卫视(高清)
 rtp://239.12.22.20:10001
-#EXTINF:-1 tvg-id="1424" tvg-name="四川卫视(高清)" tvg-chno="42" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1424.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1424.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",四川卫视(高清)
+#EXTINF:-1 tvg-id="1424" tvg-name="四川卫视(高清)" tvg-chno="42" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1424.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",四川卫视(高清)
 rtp://239.12.22.24:10001
 #EXTINF:-1 tvg-id="1428" tvg-name="江西卫视(高清)" tvg-chno="43" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1428.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1428.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",江西卫视(高清)
 rtp://239.12.22.67:10001
-#EXTINF:-1 tvg-id="1409" tvg-name="浙江卫视(高清)" tvg-chno="44" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1409.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",浙江卫视(高清)
+#EXTINF:-1 tvg-id="1409" tvg-name="浙江卫视(高清)" tvg-chno="44" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1409.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1409.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",浙江卫视(高清)
 rtp://239.12.22.15:10001
 #EXTINF:-1 tvg-id="1258" tvg-name="炫动卡通" tvg-chno="45" group-title="特色影视体育" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1258.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",炫动卡通
 rtp://239.12.21.40:10001
@@ -137,13 +137,13 @@ rtp://239.12.21.126:10001
 rtp://239.12.21.75:10001
 #EXTINF:-1 tvg-id="1239" tvg-name="云南卫视" tvg-chno="73" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1239.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",云南卫视
 rtp://239.12.21.34:10001
-#EXTINF:-1 tvg-id="1423" tvg-name="贵州卫视(高清)" tvg-chno="74" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1423.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",贵州卫视(高清)
+#EXTINF:-1 tvg-id="1423" tvg-name="贵州卫视(高清)" tvg-chno="74" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1423.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1423.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",贵州卫视(高清)
 rtp://239.12.22.23:10001
 #EXTINF:-1 tvg-id="2902" tvg-name="揭阳综合" tvg-chno="74" group-title="粤东西北县市" region-code="2620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/2902.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",揭阳综合
 rtp://239.12.48.7:10001
 #EXTINF:-1 tvg-id="1425" tvg-name="重庆卫视(高清)" tvg-chno="75" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1425.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",重庆卫视(高清)
 rtp://239.12.22.25:10001
-#EXTINF:-1 tvg-id="1426" tvg-name="河北卫视(高清)" tvg-chno="76" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1426.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1426.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",河北卫视(高清)
+#EXTINF:-1 tvg-id="1426" tvg-name="河北卫视(高清)" tvg-chno="76" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1426.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",河北卫视(高清)
 rtp://239.12.22.26:10001
 #EXTINF:-1 tvg-id="2201" tvg-name="珠海一套" tvg-chno="76" group-title="珠三角地市" region-code="2620" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",珠海一套
 rtp://239.12.37.1:10001
@@ -165,7 +165,7 @@ rtp://239.12.21.57:10001
 rtp://239.12.21.55:10001
 #EXTINF:-1 tvg-id="1411" tvg-name="黑龙江卫视(高清)" tvg-chno="84" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1411.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1411.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",黑龙江卫视(高清)
 rtp://239.12.22.17:10001
-#EXTINF:-1 tvg-id="1414" tvg-name="辽宁卫视(高清)" tvg-chno="85" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1414.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1414.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",辽宁卫视(高清)
+#EXTINF:-1 tvg-id="1414" tvg-name="辽宁卫视(高清)" tvg-chno="85" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1414.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",辽宁卫视(高清)
 rtp://239.12.22.22:10001
 #EXTINF:-1 tvg-id="3501" tvg-name="佛山台" tvg-chno="86" group-title="广佛本地" region-code="2620" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",佛山台
 rtp://239.12.34.1:10001
@@ -211,7 +211,7 @@ rtp://239.12.21.124:10001
 rtp://239.12.21.109:10001
 #EXTINF:-1 tvg-id="1419" tvg-name="CHC高清电影频道" tvg-chno="114" group-title="特色影视体育" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1419.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CHC高清电影频道
 rtp://239.12.22.11:10001
-#EXTINF:-1 tvg-id="1403" tvg-name="CCTV5+(高清)" tvg-chno="115" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1403.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV5+(高清)
+#EXTINF:-1 tvg-id="1403" tvg-name="CCTV5+(高清)" tvg-chno="115" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1403.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1403.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV5+(高清)
 rtp://239.12.22.4:10001
 #EXTINF:-1 tvg-id="1718" tvg-name="CHC家庭影院（付费）" tvg-chno="115" group-title="特色影视体育" region-code="2620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1718.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CHC家庭影院（付费）
 rtp://239.12.21.115:10001
@@ -369,9 +369,9 @@ rtp://239.12.46.112:10001
 rtp://239.12.21.158:10001
 #EXTINF:-1 tvg-id="1604" tvg-name="CCTV-4中文国际（高清）" tvg-chno="214" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1604.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV-4中文国际（高清）
 rtp://239.12.22.104:10001
-#EXTINF:-1 tvg-id="1611" tvg-name="CCTV-11戏曲（高清）" tvg-chno="215" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1611.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV-11戏曲（高清）
+#EXTINF:-1 tvg-id="1611" tvg-name="CCTV-11戏曲（高清）" tvg-chno="215" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1611.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1611.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-11戏曲（高清）
 rtp://239.12.22.102:10001
-#EXTINF:-1 tvg-id="1615" tvg-name="CCTV-15音乐（高清）" tvg-chno="216" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1615.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV-15音乐（高清）
+#EXTINF:-1 tvg-id="1615" tvg-name="CCTV-15音乐（高清）" tvg-chno="216" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1615.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1615.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-15音乐（高清）
 rtp://239.12.22.103:10001
 #EXTINF:-1 tvg-id="1616" tvg-name="CCTV-17农业农村(高清)" tvg-chno="217" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1616.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1616.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-17农业农村(高清)
 rtp://239.12.22.101:10001
@@ -385,11 +385,11 @@ rtp://239.12.22.57:10001
 rtp://239.12.21.47:10001
 #EXTINF:-1 tvg-id="1758" tvg-name="家庭理财（付费）" tvg-chno="222" group-title="其他综合" region-code="2620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1758.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",家庭理财（付费）
 rtp://239.12.21.104:10001
-#EXTINF:-1 tvg-id="1438" tvg-name="吉林卫视（高清）" tvg-chno="223" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1438.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",吉林卫视（高清）
+#EXTINF:-1 tvg-id="1438" tvg-name="吉林卫视（高清）" tvg-chno="223" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1438.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1438.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",吉林卫视（高清）
 rtp://239.12.22.87:10001
 #EXTINF:-1 tvg-id="4008" tvg-name="欢笑剧场（4K）" tvg-chno="224" group-title="4K超高清" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/4008.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",欢笑剧场（4K）
 rtp://239.12.22.108:10001
-#EXTINF:-1 tvg-id="1613" tvg-name="CCTV-13新闻（高清）" tvg-chno="225" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1613.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1613.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-13新闻（高清）
+#EXTINF:-1 tvg-id="1613" tvg-name="CCTV-13新闻（高清）" tvg-chno="225" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1613.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV-13新闻（高清）
 rtp://239.12.22.114:10001
 #EXTINF:-1 tvg-id="1922" tvg-name="中华美食(高清)" tvg-chno="226" group-title="其他综合" region-code="2620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1922.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",中华美食(高清)
 rtp://239.12.22.115:10001
@@ -401,13 +401,13 @@ rtp://239.12.21.68:10001
 rtp://239.12.22.100:10001
 #EXTINF:-1 tvg-id="1448" tvg-name="央广购物（高清）" tvg-chno="230" group-title="其他综合" region-code="2620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1448.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",央广购物（高清）
 rtp://239.12.22.116:10001
-#EXTINF:-1 tvg-id="1350" tvg-name="翡翠台" tvg-chno="231" group-title="港澳台专区" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1350.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1350.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",翡翠台
+#EXTINF:-1 tvg-id="1350" tvg-name="翡翠台" tvg-chno="231" group-title="港澳台专区" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1350.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",翡翠台
 rtp://239.12.22.121:10001
-#EXTINF:-1 tvg-id="1351" tvg-name="明珠台" tvg-chno="232" group-title="港澳台专区" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1351.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1351.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",明珠台
+#EXTINF:-1 tvg-id="1351" tvg-name="明珠台" tvg-chno="232" group-title="港澳台专区" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1351.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",明珠台
 rtp://239.12.22.122:10001
 #EXTINF:-1 tvg-id="1452" tvg-name="陕西卫视（高清）" tvg-chno="233" group-title="卫视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1452.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1452.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",陕西卫视（高清）
 rtp://239.12.22.120:10001
-#EXTINF:-1 tvg-id="1617" tvg-name="CCTV-16奥林匹克（高清）" tvg-chno="234" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1617.png" is-playable="unknown" stream-verification="untested" gudou-verification="matched" catchup="default" catchup-days="7" catchup-source="http://172.16.149.18:9090/live/1617.m3u8?starttime=${(b)timestamp}&endtime=${(e)timestamp}",CCTV-16奥林匹克（高清）
+#EXTINF:-1 tvg-id="1617" tvg-name="CCTV-16奥林匹克（高清）" tvg-chno="234" group-title="央视频道" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1617.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV-16奥林匹克（高清）
 rtp://239.12.22.124:10001
 #EXTINF:-1 tvg-id="4010" tvg-name="CCTV-16奥林匹克（4K）" tvg-chno="235" group-title="4K超高清" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/4010.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV-16奥林匹克（4K）
 rtp://239.12.22.125:10001

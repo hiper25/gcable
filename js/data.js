@@ -111,15 +111,15 @@ export function chinaDate(offset = 0) {
 }
 export function streamURL(channel) {
     const recorded = channel?.gudouCheck?.url;
-    if (typeof recorded !== 'string' || !/^https?:\/\/[^/?#]+\/live\/\d+\.m3u8$/.test(recorded)) return '';
+    if (typeof recorded !== 'string' || !/^http:\/\/172\.16\.149\.18:9090\/live\/\d+\.m3u8$/.test(recorded)) return '';
     try {
         const url = new URL(recorded);
-        if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password || url.search || url.hash || !/^\/live\/\d+\.m3u8$/.test(url.pathname)) return '';
+        if (url.origin !== 'http://172.16.149.18:9090' || url.username || url.password || url.search || url.hash || !/^\/live\/\d+\.m3u8$/.test(url.pathname)) return '';
         return recorded;
     } catch { return ''; }
 }
 export function replayTemplate(channel) {
     const url = streamURL(channel);
-    if (!url || channel?.isTVAnyTime !== '1' || channel.gudouCheck?.mediaDetected !== true) return '';
+    if (!url || channel?.isTVAnyTime !== '1') return '';
     return `${url}?starttime=\${(b)timestamp}&endtime=\${(e)timestamp}`;
 }

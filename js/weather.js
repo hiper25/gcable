@@ -1,4 +1,4 @@
-import {state} from './data.js?v=20261117-rendition-proof';
+import {state} from './data.js?v=20261117-direct-data';
 
 let weatherRecords = [];
 let context;
@@ -154,5 +154,5 @@ export function updateWeatherSelection() {
     } else {
         context.textContent = `${city}优先 · 全部 ${weatherRecords.length} 条地区记录仍保留 · 返回地点见各项来源标记`;
     }
-    context.title = '按请求地区逐项保留天气记录，不因返回同一台站或相同气温而合并。地区名称不代表源站实际返回地点；缺少观测时间的记录不标作实时天气。';
+    context.title = '按请求地区逐项保留天气记录，不因返回同一台站或相同气温而合并。实际返回地点见各项来源记录；缺少观测时间的记录不标作实时天气。';
 }

@@ -17,7 +17,7 @@
             document.documentElement.setAttribute('data-theme', effective);
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=20261117-rendition-proof">
+    <link rel="stylesheet" href="./css/style.css?v=20261117-direct-data">
 </head>
 <body>
     <div class="header">
@@ -126,7 +126,7 @@
                     <label class="custom-checkbox">
                         <input type="checkbox" id="only-replay" onchange="applyFilters()">
                         <span class="checkbox-indicator"></span>
-                        <span>只看支持时移</span>
+                        <span>只看回看配置开启</span>
                     </label>
 
                     <div class="view-switcher" role="group" aria-label="频道显示方式">
@@ -143,7 +143,7 @@
             </div>
             <div class="search-scope-row">
                 <button id="search-global" type="button" class="btn btn-sm" hidden>全网查找</button>
-                <button id="reset-filters" type="button" class="btn btn-sm" title="清空搜索、分类、源站分组和时移筛选，保留当前地区" hidden>重置筛选</button>
+                <button id="reset-filters" type="button" class="btn btn-sm" title="清空搜索、分类、源站分组和回看配置筛选，保留当前地区" hidden>重置筛选</button>
             </div>
             <details id="advanced-filters" class="advanced-filters" open>
                 <summary><span id="advanced-filters-title">地区与分类筛选</span><span id="active-filter-summary">全网总表 · 全部</span></summary>
@@ -238,7 +238,7 @@
 
         <!-- 视图 2：表格视图容器 -->
         <div id="channels-table-wrap" class="table-view-container" role="region" aria-label="频道表格，可横向滚动查看全部列" tabindex="0" aria-describedby="table-scroll-hint">
-            <p id="table-scroll-hint" class="table-scroll-hint">左右滚动可查看完整地址、时移状态和详情操作。</p>
+            <p id="table-scroll-hint" class="table-scroll-hint">左右滚动可查看完整地址、回看配置和详情操作。</p>
             <table>
                 <thead>
                     <tr>
@@ -247,7 +247,7 @@
                         <th style="width:110px;">分类</th>
                         <th style="width:70px;">ID</th>
                         <th>组播地址 (RTP)</th>
-                        <th style="width:110px;">7天时移</th>
+                        <th style="width:140px;">回看功能配置</th>
                         <th style="width:110px; text-align:right;">操作</th>
                     </tr>
                 </thead>
@@ -348,23 +348,19 @@
                                 <button class="btn btn-sm btn-purple" id="btn-copy-gudou-d" onclick="copyCurrentGudou(this)" disabled>复制</button>
                             </div>
                             <span id="d-gudou-status" style="font-size:11px;color:var(--text-muted);"></span>
-                            <div id="d-gudou-observation"></div>
-                            <div id="d-gudou-identity"></div>
+                            <div id="d-gudou-facts"></div>
+                            <div id="d-gudou-highest"></div>
                             <div id="d-gudou-renditions"></div>
-                            <details id="d-gudou-history" hidden>
-                                <summary>历史地址（不代表本次可用）</summary>
-                                <pre id="d-gudou-history-urls"></pre>
-                            </details>
                         </div>
 
                         <div class="stream-entry" id="row-catchup">
                             <div class="stream-entry-label">
                                 <span class="stream-dot tpl"></span>
-                                <span>时移请求模板（未验证回看能力）</span>
+                                <span>回看地址模板</span>
                             </div>
                             <div class="stream-entry-body">
                                 <span class="stream-code tpl" id="d-catchup-tpl">-</span>
-                                <button class="btn btn-sm btn-primary" id="btn-copy-catchup-tpl" onclick="copyNativeCatchupTemplate(this)" disabled>复制模板</button>
+                                <button class="btn btn-sm btn-primary" id="btn-copy-catchup-tpl" onclick="copyNativeCatchupTemplate(this)" disabled>复制回看地址</button>
                             </div>
                         </div>
                     </div>
@@ -378,13 +374,12 @@
                         <div class="dvb-grid" id="d-dvb-grid">
                         </div>
                     </div>
-                    <details><summary class="drawer-details-summary">原始频道资料</summary><pre id="d-source-metadata" class="drawer-source-metadata"></pre></details>
                 </div>
 
                 <!-- 7 天 EPG 与时移日程 -->
                 <div id="d-epg-section" tabindex="-1">
                     <div style="font-size:13px; font-weight:700; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
-                        <span>节目指南与回看流</span>
+                        <span>节目指南与回看地址</span>
                         <span id="d-epg-count" role="status" aria-live="polite" style="font-size:11px; color:var(--text-muted); font-variant-numeric:tabular-nums;">正在载入...</span>
                     </div>
                     
@@ -401,18 +396,18 @@
     </div>
     </div>
 
-    <!-- 频道变动与可用性追踪历史弹窗 -->
+    <!-- 频道与流参数变更记录弹窗 -->
     <div id="history-modal" class="drawer-overlay">
-        <div class="drawer drawer-history" role="dialog" aria-modal="true" aria-label="频道变动与可用性追踪记录">
+        <div class="drawer drawer-history" role="dialog" aria-modal="true" aria-label="频道变更记录">
             <div class="drawer-header">
                 <div class="drawer-title">
                     <svg class="btn-svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                    <span>频道变动与可用性追踪记录</span>
+                    <span>频道变更记录</span>
                 </div>
                 <button class="btn btn-sm" type="button" data-modal-close>✕ 关闭</button>
             </div>
             <div class="drawer-body" id="history-modal-body" tabindex="0" role="region" aria-label="变动日志内容">
-                正在加载追踪记录...
+                正在加载变更记录…
             </div>
         </div>
     </div>
@@ -465,6 +460,6 @@
 
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
-    <script type="module" src="./js/app.js?v=20261117-rendition-proof"></script>
+    <script type="module" src="./js/app.js?v=20261117-direct-data"></script>
 </body>
 </html>
