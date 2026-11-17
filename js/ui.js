@@ -1,4 +1,5 @@
 import {state, regionCode, fetchJSON, escapeHTML as esc, chinaTime} from './data.js?v=20261117-direct-data';
+import {openPicker} from './picker.js?v=20261117-direct-data';
 
 let toastTimer;
 const copyTimers = new WeakMap();
@@ -158,12 +159,14 @@ export function openHistoryModal() {
             .map(value => String(value ?? '').toLowerCase()).join(' ')}));
         body.innerHTML = `<div class="history-updated">记录更新时间：${esc(localTime(history.meta?.last_updated))}</div>
             <div class="history-controls"><label>搜索<input id="history-search" type="search" placeholder="频道名称、ID、档位或变更内容" autocomplete="off"></label>
-            <label>类型<select id="history-type"><option value="">全部类型</option><option value="channel">频道配置</option><option value="gudou">谷豆检查</option><option value="rendition">档位参数</option></select></label></div>
+            <div class="history-type-field"><span id="history-type-label">类型</span><button id="history-type" type="button" class="picker-trigger" aria-labelledby="history-type-label history-type-text" aria-haspopup="dialog" aria-expanded="false" aria-controls="filter-picker"><span id="history-type-text" class="picker-trigger-text">全部类型</span><svg class="picker-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></div></div>
             <div id="history-count" class="history-count" role="status" aria-live="polite"></div>
             <div id="history-events" class="history-events"></div>
             <nav class="history-pagination" aria-label="变更记录分页"><button id="history-prev" type="button" class="btn btn-sm">上一页</button><span id="history-page"></span><button id="history-next" type="button" class="btn btn-sm">下一页</button></nav>`;
         const search = body.querySelector('#history-search');
         const type = body.querySelector('#history-type');
+        const typeText = body.querySelector('#history-type-text');
+        const typeOptions = [{value:'', label:'全部类型'}, ...Object.entries(labels).map(([value, label]) => ({value, label}))];
         const list = body.querySelector('#history-events');
         const previous = body.querySelector('#history-prev');
         const next = body.querySelector('#history-next');
@@ -171,6 +174,7 @@ export function openHistoryModal() {
         const pageSize = 100;
         let page = 0;
         let filtered = searchable;
+        let selectedType = '';
         const render = () => {
             if (!isCurrent()) return;
             const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
@@ -192,12 +196,19 @@ export function openHistoryModal() {
         };
         const filter = () => {
             const keyword = search.value.trim().toLowerCase();
-            filtered = searchable.filter(item => (!type.value || item.event.type === type.value) && (!keyword || (/^\d+$/.test(keyword) ? item.channelID === keyword : item.text.includes(keyword))));
+            filtered = searchable.filter(item => (!selectedType || item.event.type === selectedType) && (!keyword || (/^\d+$/.test(keyword) ? item.channelID === keyword : item.text.includes(keyword))));
             page = 0;
             render();
         };
         search.addEventListener('input', filter);
-        type.addEventListener('change', filter);
+        type.addEventListener('click', () => openPicker({
+            trigger:type, title:'选择变更类型', options:typeOptions, selected:selectedType,
+            onSelect:value => {
+                selectedType = value;
+                typeText.textContent = typeOptions.find(option => option.value === value).label;
+                filter();
+            }
+        }));
         previous.addEventListener('click', () => { page--; render(); body.scrollTop = 0; });
         next.addEventListener('click', () => { page++; render(); body.scrollTop = 0; });
         render();
@@ -442,7 +453,7 @@ window.addEventListener('keydown', event => {
     const historyModal = document.getElementById('history-modal');
     const epgModal = document.getElementById('epg-modal');
     const modal = historyModal?.classList.contains('active') ? historyModal : epgModal?.classList.contains('active') ? epgModal : null;
-    if (!modal) return;
+    if (!modal || document.getElementById('filter-picker')?.open) return;
     if (event.key === 'Escape') {
         if (modal === historyModal) closeHistoryModal();
         else closeEpgModal();

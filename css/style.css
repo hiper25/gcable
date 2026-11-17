@@ -842,9 +842,11 @@
     #history-modal .drawer-header > :first-child { flex: 1; overflow-wrap: anywhere; }
     .history-updated, .history-count, .history-event-meta { font-size: 12px; color: var(--text-muted); overflow-wrap: anywhere; }
     .history-controls { display: flex; flex-wrap: wrap; gap: 10px; margin: 14px 0; }
-    .history-controls label { display: flex; flex-direction: column; gap: 5px; font-size: 12px; min-width: 0; }
+    .history-controls label, .history-type-field { display: flex; flex-direction: column; gap: 5px; font-size: 12px; min-width: 0; }
     .history-controls label:first-child { flex: 1 1 230px; }
-    .history-controls input, .history-controls select { width: 100%; min-width: 0; padding: 9px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text-main); font: inherit; font-size: 16px; }
+    .history-controls input, .history-controls .picker-trigger { width: 100%; min-width: 0; padding: 9px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text-main); font: inherit; font-size: 16px; line-height: 1.4; }
+    .history-controls .picker-trigger { min-width: 124px; justify-content: space-between; }
+    body:has(#history-type[aria-expanded="true"]) .filter-picker { width: min(380px, calc(100% - 24px)); height: min(420px, calc(100dvh - 32px)); }
     .history-events { display: grid; gap: 12px; margin-top: 12px; }
     .history-event { min-width: 0; border: 1px solid var(--border); border-radius: 10px; padding: 12px; overflow-wrap: anywhere; }
     .history-event h3 { font-size: 14px; margin: 7px 0; }

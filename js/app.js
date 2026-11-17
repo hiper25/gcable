@@ -1,7 +1,7 @@
 import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=20261117-direct-data';
-import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=20261117-direct-data';
-import * as drawer from './drawer.js?v=20261117-direct-data';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=20261117-direct-data';
+import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=20261118-history-picker';
+import * as drawer from './drawer.js?v=20261118-history-picker';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=20261118-history-picker';
 import {initWeather} from './weather.js?v=20261117-direct-data';
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }
