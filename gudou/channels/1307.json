@@ -7,9 +7,11 @@
   "declaredDefinition": "unknown",
   "entryCheck": {
     "audioCodec": null,
+    "audioDecoded": false,
     "checkedAt": "2026-11-17T04:35:22.018924+00:00",
     "decoded": false,
     "height": null,
+    "highestObservedRendition": null,
     "historicalURLs": [],
     "httpStatuses": [
       200,
@@ -22,6 +24,7 @@
     "renditions": [
       {
         "audioCodec": null,
+        "audioDecoded": false,
         "height": null,
         "playlistPath": "/live/avit/1307/1500/1500.m3u8",
         "status": "manifest",

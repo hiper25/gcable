@@ -1,8 +1,8 @@
-import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=20261117-gudou-health';
-import {getChannelIconHTML} from './icons.js?v=20261117-gudou-health';
-import {copyBtnFeedback, showToast} from './ui.js?v=20261117-gudou-health';
-import {openPicker, closePicker} from './picker.js?v=20261117-gudou-health';
-import {updateSelectedChannelCard} from './channels.js?v=20261117-gudou-health';
+import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=20261117-rendition-proof';
+import {getChannelIconHTML} from './icons.js?v=20261117-rendition-proof';
+import {copyBtnFeedback, showToast} from './ui.js?v=20261117-rendition-proof';
+import {openPicker, closePicker} from './picker.js?v=20261117-rendition-proof';
+import {updateSelectedChannelCard} from './channels.js?v=20261117-rendition-proof';
 const desktopSplitQuery = window.matchMedia('(min-width: 1180px)');
 let channel = null;
 let programmes = [];
@@ -24,7 +24,7 @@ function mediaDetails(record) {
     const values = [];
     if (record?.width > 0 && record?.height > 0) values.push(`${record.width}×${record.height}`);
     if (record?.videoCodec) values.push(record.videoCodec.toUpperCase());
-    if (record?.audioCodec) values.push(`音频 ${record.audioCodec.toUpperCase()}`);
+    if (record?.audioCodec) values.push(`${record.audioDecoded ? '音频' : '音频探测'} ${record.audioCodec.toUpperCase()}`);
     return values.join(' · ') || '未取得媒体参数';
 }
 function observationStatus(record) {
@@ -50,7 +50,10 @@ function fillGudou() {
     const checkedAt = typeof check?.checkedAt === 'string' ? chinaTime(check.checkedAt) : NaN;
     const time = Number.isFinite(checkedAt) ? new Intl.DateTimeFormat('sv-SE', {timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(new Date(checkedAt)) + ' UTC+8' : '未提供';
     const observation = document.getElementById('d-gudou-observation');
-    observation.textContent = `检测时间：${time} · ${mediaDetails(check)}`;
+    const highest = check?.highestObservedRendition;
+    const highestDetails = highest ? `本次已识别最高档：${mediaDetails(highest)}（${highest.status === 'decoded' ? '该档样本已解码' : '该档样本解码未确认'}）` : mediaDetails(check);
+    const differentSample = highest && check.decoded && (highest.width !== check.width || highest.height !== check.height);
+    observation.textContent = `检测时间：${time} · ${highestDetails}${differentSample ? ` · 已解码样本：${check.width}×${check.height}` : ''}`;
     observation.title = check?.checkedAt || '';
     const identity = check?.identityStatus === 'matched' ? `台名已匹配${check.serviceName ? `：${check.serviceName}` : ''}`
         : check?.identityStatus === 'mismatch' ? '媒体台名与目录不匹配'

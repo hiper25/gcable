@@ -7,9 +7,19 @@
   "declaredDefinition": "unknown",
   "entryCheck": {
     "audioCodec": "aac",
+    "audioDecoded": false,
     "checkedAt": "2026-11-17T04:36:35.889912+00:00",
     "decoded": true,
     "height": 576,
+    "highestObservedRendition": {
+      "audioCodec": "aac",
+      "audioDecoded": false,
+      "height": 576,
+      "playlistPath": "/live/avit/2201/1500/1500.m3u8",
+      "status": "decoded",
+      "videoCodec": "h264",
+      "width": 720
+    },
     "historicalURLs": [
       "http://172.16.149.18:9090/live/2201_800.m3u8",
       "http://172.16.149.19:9090/live/2201_800.m3u8",
@@ -38,6 +48,7 @@
     "renditions": [
       {
         "audioCodec": "aac",
+        "audioDecoded": false,
         "height": 360,
         "playlistPath": "/live/avit/2201/800/800.m3u8",
         "status": "decoded",
@@ -46,6 +57,7 @@
       },
       {
         "audioCodec": "aac",
+        "audioDecoded": false,
         "height": 576,
         "playlistPath": "/live/avit/2201/1500/1500.m3u8",
         "status": "decoded",

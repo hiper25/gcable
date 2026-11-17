@@ -7,9 +7,11 @@
   "declaredDefinition": "uhd",
   "entryCheck": {
     "audioCodec": null,
+    "audioDecoded": false,
     "checkedAt": "2026-11-17T04:36:18.662289+00:00",
     "decoded": false,
     "height": null,
+    "highestObservedRendition": null,
     "historicalURLs": [],
     "httpStatuses": [
       400

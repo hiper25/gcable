@@ -7,10 +7,14 @@
   "declaredDefinition": "hd",
   "entryCheck": {
     "audioCodec": null,
+    "audioDecoded": false,
     "checkedAt": "2026-11-17T04:35:44.302625+00:00",
     "decoded": false,
     "height": null,
-    "historicalURLs": [],
+    "highestObservedRendition": null,
+    "historicalURLs": [
+      "http://172.16.149.18:9090/live/1257.m3u8"
+    ],
     "httpStatuses": [
       400
     ],

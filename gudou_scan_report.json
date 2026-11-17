@@ -15836,16 +15836,6 @@
     },
     {
       "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：宽度 720 → 1920；高度 576 → 1080",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "1432",
-      "timestamp": "2026-11-17T04:08:40.501088+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/1432.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
       "detail": "仍取得并识别到音视频媒体，但本次有界样本未获得严格解码证明；不是播放中断记录。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
@@ -15883,16 +15873,6 @@
       "timestamp": "2026-11-17T04:09:26.127895+00:00",
       "type": "first_decoded",
       "url": "http://172.16.149.18:9090/live/2702.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：宽度 480 → 1920；高度 360 → 1080",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "2506",
-      "timestamp": "2026-11-17T04:09:26.689817+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/2506.m3u8"
     },
     {
       "campaignId": "e1dee536f45947b0ae2643eb19a88290",
@@ -16026,26 +16006,6 @@
     },
     {
       "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：宽度 1920 → 720；高度 1080 → 576",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "2508",
-      "timestamp": "2026-11-17T04:09:45.202905+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/2508.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：宽度 1920 → 480；高度 1080 → 360",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "2605",
-      "timestamp": "2026-11-17T04:09:46.662523+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/2605.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
       "detail": "首次记录到实际解码成功；不代表该频道此时才存在或开播。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
@@ -16056,26 +16016,6 @@
     },
     {
       "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：音频编码 mp2 → mp3",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "4011",
-      "timestamp": "2026-11-17T04:09:54.632517+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/4011.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：音频编码 mp3 → mp2",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "4013",
-      "timestamp": "2026-11-17T04:09:56.170610+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/4013.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
       "detail": "仍取得并识别到音视频媒体，但本次有界样本未获得严格解码证明；不是播放中断记录。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
@@ -16083,36 +16023,6 @@
       "timestamp": "2026-11-17T04:09:57.245706+00:00",
       "type": "decode_unconfirmed",
       "url": "http://172.16.149.18:9090/live/3709.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：宽度 1920 → 480；高度 1080 → 360",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "3434",
-      "timestamp": "2026-11-17T04:10:00.598550+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/3434.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：宽度 1920 → 480；高度 1080 → 360",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "3482",
-      "timestamp": "2026-11-17T04:10:01.965798+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/3482.m3u8"
-    },
-    {
-      "campaignId": "e1dee536f45947b0ae2643eb19a88290",
-      "detail": "实测媒体变化：宽度 1920 → 480；高度 1080 → 360",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "3525",
-      "timestamp": "2026-11-17T04:10:05.205809+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/3525.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16256,16 +16166,6 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 720 → 480；高度 576 → 360",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "1246",
-      "timestamp": "2026-11-17T04:35:33.475418+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/1246.m3u8"
-    },
-    {
-      "campaignId": "dfb023fe414841a7ae087325296e4063",
       "detail": "此前检查未验证通过后，再次观测到实际解码成功。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
@@ -16356,6 +16256,16 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 的 1920×1080 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "1433",
+      "timestamp": "2026-11-17T04:35:55.325524+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/1433.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
       "detail": "此前检查未验证通过后，再次观测到实际解码成功。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
@@ -16363,6 +16273,16 @@
       "timestamp": "2026-11-17T04:35:55.325524+00:00",
       "type": "decode_recovered",
       "url": "http://172.16.149.18:9090/live/1433.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "1500.m3u8 的 720×576 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "2020",
+      "timestamp": "2026-11-17T04:36:23.752910+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/2020.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16376,13 +16296,23 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 480 → 720；高度 360 → 576",
+      "detail": "1500.m3u8 的 720×576 样本本次已解码；不是分辨率升级。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "2302",
       "timestamp": "2026-11-17T04:36:37.311173+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_confirmed",
       "url": "http://172.16.149.18:9090/live/2302.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "1500.m3u8 仍识别到 720×576，本次该档样本解码未确认；不是分辨率下降。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "2405",
+      "timestamp": "2026-11-17T04:36:39.630437+00:00",
+      "type": "rendition_decode_unconfirmed",
+      "url": "http://172.16.149.18:9090/live/2405.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16396,13 +16326,43 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 480 → 1920；高度 360 → 1080",
+      "detail": "800.m3u8 的 480×360 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "2506",
+      "timestamp": "2026-11-17T04:36:42.143903+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/2506.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "800.m3u8 仍识别到 480×360，本次该档样本解码未确认；不是分辨率下降。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "2605",
       "timestamp": "2026-11-17T04:36:45.096529+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_unconfirmed",
       "url": "http://172.16.149.18:9090/live/2605.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 的 1920×1080 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "2605",
+      "timestamp": "2026-11-17T04:36:45.096529+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/2605.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "1500.m3u8 仍识别到 720×576，本次该档样本解码未确认；不是分辨率下降。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "2601",
+      "timestamp": "2026-11-17T04:36:45.889966+00:00",
+      "type": "rendition_decode_unconfirmed",
+      "url": "http://172.16.149.18:9090/live/2601.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16416,6 +16376,16 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "1500.m3u8 的 720×576 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3002",
+      "timestamp": "2026-11-17T04:36:48.129876+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/3002.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
       "detail": "此前检查未验证通过后，再次观测到实际解码成功。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
@@ -16423,6 +16393,16 @@
       "timestamp": "2026-11-17T04:36:48.129876+00:00",
       "type": "decode_recovered",
       "url": "http://172.16.149.18:9090/live/3002.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 的 1920×1080 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3131",
+      "timestamp": "2026-11-17T04:36:49.982768+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/3131.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16436,13 +16416,33 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 480 → 1920；高度 360 → 1080",
+      "detail": "7500.m3u8 的 1920×1080 样本本次已解码；不是分辨率升级。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "2705",
       "timestamp": "2026-11-17T04:36:52.773948+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_confirmed",
       "url": "http://172.16.149.18:9090/live/2705.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "800.m3u8 的 480×360 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "2805",
+      "timestamp": "2026-11-17T04:36:53.059018+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/2805.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 的 720×576 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3473",
+      "timestamp": "2026-11-17T04:36:55.498212+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/3473.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16456,6 +16456,26 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "800.m3u8 的 480×360 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3012",
+      "timestamp": "2026-11-17T04:36:56.433600+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/3012.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 的 1920×1080 样本本次已解码；不是分辨率升级。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": "PROG33",
+      "streamID": "3709",
+      "timestamp": "2026-11-17T04:37:01.175204+00:00",
+      "type": "rendition_decode_confirmed",
+      "url": "http://172.16.149.18:9090/live/3709.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
       "detail": "此前检查未验证通过后，再次观测到实际解码成功。",
       "node": "http://172.16.149.18:9090",
       "serviceName": "PROG33",
@@ -16463,6 +16483,16 @@
       "timestamp": "2026-11-17T04:37:01.175204+00:00",
       "type": "decode_recovered",
       "url": "http://172.16.149.18:9090/live/3709.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "1500.m3u8 仍识别到 750×576，本次该档样本解码未确认；不是分辨率下降。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3302",
+      "timestamp": "2026-11-17T04:37:02.143051+00:00",
+      "type": "rendition_decode_unconfirmed",
+      "url": "http://172.16.149.18:9090/live/3302.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16476,33 +16506,53 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 480 → 1920；高度 360 → 1080",
+      "detail": "800.m3u8 仍识别到 480×360，本次该档样本解码未确认；不是分辨率下降。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3303",
+      "timestamp": "2026-11-17T04:37:02.747523+00:00",
+      "type": "rendition_decode_unconfirmed",
+      "url": "http://172.16.149.18:9090/live/3303.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 的 1920×1080 样本本次已解码；不是分辨率升级。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "3434",
       "timestamp": "2026-11-17T04:37:03.266844+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_confirmed",
       "url": "http://172.16.149.18:9090/live/3434.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 480 → 1920；高度 360 → 1080",
+      "detail": "7500.m3u8 的 1920×1080 样本本次已解码；不是分辨率升级。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "3482",
       "timestamp": "2026-11-17T04:37:03.620715+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_confirmed",
       "url": "http://172.16.149.18:9090/live/3482.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 480 → 1920；高度 360 → 1080",
+      "detail": "7500.m3u8 的 1920×1080 样本本次已解码；不是分辨率升级。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "3525",
       "timestamp": "2026-11-17T04:37:06.059197+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_confirmed",
       "url": "http://172.16.149.18:9090/live/3525.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 仍识别到 1920×1080，本次该档样本解码未确认；不是分辨率下降。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3025",
+      "timestamp": "2026-11-17T04:37:07.028433+00:00",
+      "type": "rendition_decode_unconfirmed",
+      "url": "http://172.16.149.18:9090/live/3025.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16516,6 +16566,16 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 仍识别到 1920×1080，本次该档样本解码未确认；不是分辨率下降。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3024",
+      "timestamp": "2026-11-17T04:37:08.045230+00:00",
+      "type": "rendition_decode_unconfirmed",
+      "url": "http://172.16.149.18:9090/live/3024.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
       "detail": "仍取得并识别到音视频媒体，但本次有界样本未获得严格解码证明；不是播放中断记录。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
@@ -16526,13 +16586,23 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 720 → 480；高度 576 → 360",
+      "detail": "1500.m3u8 仍识别到 720×576，本次该档样本解码未确认；不是分辨率下降。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "3202",
       "timestamp": "2026-11-17T04:37:08.844839+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_unconfirmed",
       "url": "http://172.16.149.18:9090/live/3202.m3u8"
+    },
+    {
+      "campaignId": "dfb023fe414841a7ae087325296e4063",
+      "detail": "7500.m3u8 仍识别到 1920×1080，本次该档样本解码未确认；不是分辨率下降。",
+      "node": "http://172.16.149.18:9090",
+      "serviceName": null,
+      "streamID": "3135",
+      "timestamp": "2026-11-17T04:37:09.224564+00:00",
+      "type": "rendition_decode_unconfirmed",
+      "url": "http://172.16.149.18:9090/live/3135.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
@@ -16546,62 +16616,22 @@
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：音频编码 mp3 → mp2",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "4011",
-      "timestamp": "2026-11-17T04:37:11.761501+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/4011.m3u8"
-    },
-    {
-      "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：音频编码 mp2 → mp3",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": "GDTV-4K",
-      "streamID": "4012",
-      "timestamp": "2026-11-17T04:37:12.730768+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/4012.m3u8"
-    },
-    {
-      "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：音频编码 mp2 → mp3",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "4014",
-      "timestamp": "2026-11-17T04:37:13.644607+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/4014.m3u8"
-    },
-    {
-      "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：音频编码 mp2 → mp3",
-      "node": "http://172.16.149.18:9090",
-      "serviceName": null,
-      "streamID": "4015",
-      "timestamp": "2026-11-17T04:37:15.158985+00:00",
-      "type": "quality_changed",
-      "url": "http://172.16.149.18:9090/live/4015.m3u8"
-    },
-    {
-      "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 1920 → 480；高度 1080 → 360",
+      "detail": "7500.m3u8 仍识别到 1920×1080，本次该档样本解码未确认；不是分辨率下降。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "3483",
       "timestamp": "2026-11-17T04:37:18.093639+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_unconfirmed",
       "url": "http://172.16.149.18:9090/live/3483.m3u8"
     },
     {
       "campaignId": "dfb023fe414841a7ae087325296e4063",
-      "detail": "实测媒体变化：宽度 1920 → 480；高度 1080 → 360",
+      "detail": "7500.m3u8 仍识别到 1920×1080，本次该档样本解码未确认；不是分辨率下降。",
       "node": "http://172.16.149.18:9090",
       "serviceName": null,
       "streamID": "3523",
       "timestamp": "2026-11-17T04:37:18.857868+00:00",
-      "type": "quality_changed",
+      "type": "rendition_decode_unconfirmed",
       "url": "http://172.16.149.18:9090/live/3523.m3u8"
     }
   ],

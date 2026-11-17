@@ -1,8 +1,8 @@
-import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=20261117-gudou-health';
-import {getChannelIconHTML} from './icons.js?v=20261117-gudou-health';
-import {showToast} from './ui.js?v=20261117-gudou-health';
-import {openPicker} from './picker.js?v=20261117-gudou-health';
-import {updateWeatherSelection} from './weather.js?v=20261117-gudou-health';
+import {state, catalog, escapeHTML as esc, regionCode, exportsForSelection, loadRegion} from './data.js?v=20261117-rendition-proof';
+import {getChannelIconHTML} from './icons.js?v=20261117-rendition-proof';
+import {showToast} from './ui.js?v=20261117-rendition-proof';
+import {openPicker} from './picker.js?v=20261117-rendition-proof';
+import {updateWeatherSelection} from './weather.js?v=20261117-rendition-proof';
 const cards = new Map();
 const rows = new Map();
 let onOpen;

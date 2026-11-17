@@ -1,4 +1,4 @@
-import {state, regionCode, fetchJSON, escapeHTML as esc} from './data.js?v=20261117-gudou-health';
+import {state, regionCode, fetchJSON, escapeHTML as esc} from './data.js?v=20261117-rendition-proof';
 
 let toastTimer;
 const copyTimers = new WeakMap();
@@ -188,7 +188,8 @@ export function openHistoryModal() {
         const eventLabels = {
             first_decoded:'首次解码记录', decode_unconfirmed:'样本解码未确认',
             check_failed:'本次媒体未确认', decode_recovered:'再次解码确认',
-            identity_changed:'目录绑定变化', quality_changed:'媒体参数变化'
+            identity_changed:'目录绑定变化', quality_changed:'同档位参数变化',
+            rendition_decode_unconfirmed:'档位样本解码未确认', rendition_decode_confirmed:'档位样本解码确认'
         };
         const events = node && campaign?.id && Array.isArray(report?.events)
             ? report.events.filter(event => nodeKey(event.node) === nodeKey(node.node) && event.campaignId === campaign.id)

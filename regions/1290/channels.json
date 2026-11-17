@@ -8,9 +8,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:41.367892+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1402/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1402_7500.m3u8",
         "http://172.16.149.19:9090/live/1402_7500.m3u8",
@@ -41,6 +51,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1402/800/800.m3u8",
           "status": "decoded",
@@ -49,6 +60,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1402/7500/7500.m3u8",
           "status": "decoded",
@@ -131,9 +143,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:40.039372+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1401/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1401_7500.m3u8",
         "http://172.16.149.19:9090/live/1401_7500.m3u8",
@@ -162,6 +184,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1401/800/800.m3u8",
           "status": "decoded",
@@ -170,6 +193,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1401/7500/7500.m3u8",
           "status": "decoded",
@@ -254,9 +278,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:27.155323+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/2203/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/2203_7500.m3u8",
         "http://172.16.149.19:9090/live/2203_7500.m3u8",
@@ -285,6 +319,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/2203/7500/7500.m3u8",
           "status": "decoded",
@@ -375,9 +410,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:12.587196+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1439/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1439_7500.m3u8",
         "http://172.16.149.19:9090/live/1439_7500.m3u8",
@@ -406,6 +451,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1439/800/800.m3u8",
           "status": "decoded",
@@ -414,6 +460,7 @@
         },
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1439/1500/1500.m3u8",
           "status": "decoded",
@@ -422,6 +469,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1439/7500/7500.m3u8",
           "status": "decoded",
@@ -532,9 +580,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:39.249931+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1350/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1350_7500.m3u8",
         "http://172.16.149.19:9090/live/1350_7500.m3u8",
@@ -563,6 +621,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1350/800/800.m3u8",
           "status": "decoded",
@@ -571,6 +630,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1350/7500/7500.m3u8",
           "status": "decoded",
@@ -685,9 +745,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:48.858468+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1351/4500/4500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1351_7500.m3u8",
         "http://172.16.149.19:9090/live/1351_7500.m3u8",
@@ -716,6 +786,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1351/800/800.m3u8",
           "status": "decoded",
@@ -724,6 +795,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1351/4500/4500.m3u8",
           "status": "decoded",
@@ -732,6 +804,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1351/7500/7500.m3u8",
           "status": "decoded",
@@ -816,9 +889,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:27.150326+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/2207/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/2207_7500.m3u8",
         "http://172.16.149.19:9090/live/2207_7500.m3u8",
@@ -847,6 +930,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/2207/7500/7500.m3u8",
           "status": "decoded",
@@ -937,9 +1021,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:35.799178+00:00",
       "decoded": true,
       "height": 576,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 576,
+        "playlistPath": "/live/avit/1301/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 720
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -951,6 +1045,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 576,
           "playlistPath": "/live/avit/1301/1500/1500.m3u8",
           "status": "decoded",
@@ -1031,9 +1126,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:57.567781+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1463/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1463_7500.m3u8",
         "http://172.16.149.19:9090/live/1463_7500.m3u8",
@@ -1062,6 +1167,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1463/7500/7500.m3u8",
           "status": "decoded",
@@ -1142,9 +1248,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:02.972070+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1454/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1454_7500.m3u8",
         "http://172.16.149.19:9090/live/1454_7500.m3u8",
@@ -1173,6 +1289,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1454/800/800.m3u8",
           "status": "decoded",
@@ -1181,6 +1298,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1454/7500/7500.m3u8",
           "status": "decoded",
@@ -1263,9 +1381,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:15.001309+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1602/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1602_7500.m3u8",
         "http://172.16.149.19:9090/live/1602_7500.m3u8",
@@ -1294,6 +1422,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1602/800/800.m3u8",
           "status": "decoded",
@@ -1302,6 +1431,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1602/7500/7500.m3u8",
           "status": "decoded",
@@ -1414,9 +1544,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:14.921560+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1603/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1603_7500.m3u8",
         "http://172.16.149.19:9090/live/1603_7500.m3u8",
@@ -1445,6 +1585,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1603/800/800.m3u8",
           "status": "decoded",
@@ -1453,6 +1594,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1603/7500/7500.m3u8",
           "status": "decoded",
@@ -1537,9 +1679,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:14.621648+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1604/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1604_7500.m3u8",
         "http://172.16.149.19:9090/live/1604_7500.m3u8",
@@ -1568,6 +1720,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1604/800/800.m3u8",
           "status": "decoded",
@@ -1576,6 +1729,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1604/7500/7500.m3u8",
           "status": "decoded",
@@ -1688,9 +1842,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:27.579320+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1613/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1613_7500.m3u8",
         "http://172.16.149.19:9090/live/1613_7500.m3u8",
@@ -1719,6 +1883,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1613/800/800.m3u8",
           "status": "decoded",
@@ -1727,6 +1892,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1613/7500/7500.m3u8",
           "status": "decoded",
@@ -1811,9 +1977,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:11.107378+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -1902,9 +2070,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:50.279056+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1441/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1441_7500.m3u8",
         "http://172.16.149.19:9090/live/1441_7500.m3u8",
@@ -1933,6 +2111,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1441/7500/7500.m3u8",
           "status": "decoded",
@@ -2021,9 +2200,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:02.241738+00:00",
       "decoded": true,
       "height": 416,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1408/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1408_7500.m3u8",
         "http://172.16.149.19:9090/live/1408_7500.m3u8",
@@ -2052,6 +2241,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1408/800/800.m3u8",
           "status": "decoded",
@@ -2060,6 +2250,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1408/7500/7500.m3u8",
           "status": "metadata-only",
@@ -2142,9 +2333,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:10.970059+00:00",
       "decoded": false,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1448/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1448_7500.m3u8",
         "http://172.16.149.19:9090/live/1448_7500.m3u8",
@@ -2173,6 +2374,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1448/7500/7500.m3u8",
           "status": "metadata-only",
@@ -2283,9 +2485,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:44.478537+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1410/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1410_7500.m3u8",
         "http://172.16.149.19:9090/live/1410_7500.m3u8",
@@ -2314,6 +2526,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1410/800/800.m3u8",
           "status": "decoded",
@@ -2322,6 +2535,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1410/7500/7500.m3u8",
           "status": "decoded",
@@ -2406,9 +2620,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:00.838082+00:00",
       "decoded": true,
       "height": 406,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1407/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1407_7500.m3u8",
         "http://172.16.149.19:9090/live/1407_7500.m3u8",
@@ -2437,6 +2661,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1407/800/800.m3u8",
           "status": "decoded",
@@ -2445,6 +2670,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1407/7500/7500.m3u8",
           "status": "metadata-only",
@@ -2557,9 +2783,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:46.186768+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1418/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1418_7500.m3u8",
         "http://172.16.149.19:9090/live/1418_7500.m3u8",
@@ -2588,6 +2824,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1418/800/800.m3u8",
           "status": "decoded",
@@ -2596,6 +2833,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1418/7500/7500.m3u8",
           "status": "decoded",
@@ -2680,9 +2918,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:04.504964+00:00",
       "decoded": true,
       "height": 406,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1415/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1415_7500.m3u8",
         "http://172.16.149.19:9090/live/1415_7500.m3u8",
@@ -2711,6 +2959,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1415/800/800.m3u8",
           "status": "decoded",
@@ -2719,6 +2968,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1415/7500/7500.m3u8",
           "status": "metadata-only",
@@ -2801,9 +3051,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:45.629587+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1416/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1416_7500.m3u8",
         "http://172.16.149.19:9090/live/1416_7500.m3u8",
@@ -2832,6 +3092,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1416/800/800.m3u8",
           "status": "decoded",
@@ -2840,6 +3101,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1416/7500/7500.m3u8",
           "status": "decoded",
@@ -2922,9 +3184,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:49.890457+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1440/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1440_7500.m3u8",
         "http://172.16.149.19:9090/live/1440_7500.m3u8",
@@ -2953,6 +3225,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1440/7500/7500.m3u8",
           "status": "decoded",
@@ -3041,9 +3314,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:44.209596+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1413/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1413_7500.m3u8",
         "http://172.16.149.19:9090/live/1413_7500.m3u8",
@@ -3072,6 +3355,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1413/800/800.m3u8",
           "status": "decoded",
@@ -3080,6 +3364,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1413/7500/7500.m3u8",
           "status": "decoded",
@@ -3164,9 +3449,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:43.963752+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1406/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1406_7500.m3u8",
         "http://172.16.149.19:9090/live/1406_7500.m3u8",
@@ -3195,6 +3490,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1406/800/800.m3u8",
           "status": "decoded",
@@ -3203,6 +3499,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1406/7500/7500.m3u8",
           "status": "decoded",
@@ -3285,9 +3582,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:42.900566+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1409/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1409_7500.m3u8",
         "http://172.16.149.19:9090/live/1409_7500.m3u8",
@@ -3316,6 +3623,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1409/800/800.m3u8",
           "status": "decoded",
@@ -3324,6 +3632,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1409/7500/7500.m3u8",
           "status": "decoded",
@@ -3436,9 +3745,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:49.930406+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1428/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1428_7500.m3u8",
         "http://172.16.149.19:9090/live/1428_7500.m3u8",
@@ -3467,6 +3786,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1428/800/800.m3u8",
           "status": "decoded",
@@ -3475,6 +3795,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1428/7500/7500.m3u8",
           "status": "decoded",
@@ -3559,9 +3880,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:02.613715+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1456/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1456_7500.m3u8",
         "http://172.16.149.19:9090/live/1456_7500.m3u8",
@@ -3590,6 +3921,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1456/800/800.m3u8",
           "status": "decoded",
@@ -3598,6 +3930,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1456/7500/7500.m3u8",
           "status": "decoded",
@@ -3712,9 +4045,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:46.212055+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1417/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1417_7500.m3u8",
         "http://172.16.149.19:9090/live/1417_7500.m3u8",
@@ -3743,6 +4086,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1417/800/800.m3u8",
           "status": "decoded",
@@ -3751,6 +4095,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1417/7500/7500.m3u8",
           "status": "decoded",
@@ -3835,9 +4180,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:55.590097+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1437/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1437_7500.m3u8",
         "http://172.16.149.19:9090/live/1437_7500.m3u8",
@@ -3866,6 +4221,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1437/800/800.m3u8",
           "status": "decoded",
@@ -3874,6 +4230,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1437/7500/7500.m3u8",
           "status": "decoded",
@@ -3956,9 +4313,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:40.034647+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1352/4500/4500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1352_800.m3u8",
         "http://172.16.149.19:9090/live/1352_800.m3u8",
@@ -3987,6 +4354,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1352/800/800.m3u8",
           "status": "decoded",
@@ -3995,6 +4363,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1352/4500/4500.m3u8",
           "status": "decoded",
@@ -4077,9 +4446,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:23.328163+00:00",
       "decoded": true,
       "height": 406,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1464/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1464_7500.m3u8",
         "http://172.16.149.19:9090/live/1464_7500.m3u8",
@@ -4108,6 +4487,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1464/800/800.m3u8",
           "status": "decoded",
@@ -4116,6 +4496,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1464/7500/7500.m3u8",
           "status": "metadata-only",
@@ -4198,9 +4579,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:00.532352+00:00",
       "decoded": true,
       "height": 406,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1405/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1405_7500.m3u8",
         "http://172.16.149.19:9090/live/1405_7500.m3u8",
@@ -4229,6 +4620,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1405/800/800.m3u8",
           "status": "decoded",
@@ -4237,6 +4629,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1405/7500/7500.m3u8",
           "status": "metadata-only",
@@ -4351,9 +4744,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:48.356030+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1424/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1424_7500.m3u8",
         "http://172.16.149.19:9090/live/1424_7500.m3u8",
@@ -4382,6 +4785,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1424/800/800.m3u8",
           "status": "decoded",
@@ -4390,6 +4794,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1424/7500/7500.m3u8",
           "status": "decoded",
@@ -4504,9 +4909,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:49.376397+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1426/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1426_7500.m3u8",
         "http://172.16.149.19:9090/live/1426_7500.m3u8",
@@ -4535,6 +4950,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1426/800/800.m3u8",
           "status": "decoded",
@@ -4543,6 +4959,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1426/7500/7500.m3u8",
           "status": "decoded",
@@ -4627,9 +5044,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:47.757820+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1423/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1423_7500.m3u8",
         "http://172.16.149.19:9090/live/1423_7500.m3u8",
@@ -4658,6 +5085,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1423/800/800.m3u8",
           "status": "decoded",
@@ -4666,6 +5094,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1423/7500/7500.m3u8",
           "status": "decoded",
@@ -4778,10 +5207,14 @@
     ],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:44.302625+00:00",
       "decoded": false,
       "height": null,
-      "historicalURLs": [],
+      "highestObservedRendition": null,
+      "historicalURLs": [
+        "http://172.16.149.18:9090/live/1257.m3u8"
+      ],
       "httpStatuses": [
         400
       ],
@@ -4905,9 +5338,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:43.462480+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1411/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1411_7500.m3u8",
         "http://172.16.149.19:9090/live/1411_7500.m3u8",
@@ -4936,6 +5379,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1411/800/800.m3u8",
           "status": "decoded",
@@ -4944,6 +5388,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1411/7500/7500.m3u8",
           "status": "decoded",
@@ -5058,9 +5503,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:45.624994+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1414/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1414_7500.m3u8",
         "http://172.16.149.19:9090/live/1414_7500.m3u8",
@@ -5089,6 +5544,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1414/800/800.m3u8",
           "status": "decoded",
@@ -5097,6 +5553,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1414/7500/7500.m3u8",
           "status": "decoded",
@@ -5211,9 +5668,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:01.041576+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1451/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1451_7500.m3u8",
         "http://172.16.149.19:9090/live/1451_7500.m3u8",
@@ -5242,6 +5709,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1451/800/800.m3u8",
           "status": "decoded",
@@ -5250,6 +5718,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1451/7500/7500.m3u8",
           "status": "decoded",
@@ -5342,9 +5811,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:52.410787+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1445/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1445_7500.m3u8",
         "http://172.16.149.19:9090/live/1445_7500.m3u8",
@@ -5373,6 +5852,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1445/7500/7500.m3u8",
           "status": "decoded",
@@ -5455,9 +5935,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:08.254977+00:00",
       "decoded": true,
       "height": 416,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1425/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1425_7500.m3u8",
         "http://172.16.149.19:9090/live/1425_7500.m3u8",
@@ -5486,6 +5976,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1425/800/800.m3u8",
           "status": "decoded",
@@ -5494,6 +5985,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1425/7500/7500.m3u8",
           "status": "metadata-only",
@@ -5576,9 +6068,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:50.759327+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1430/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1430_7500.m3u8",
         "http://172.16.149.19:9090/live/1430_7500.m3u8",
@@ -5607,6 +6109,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 416,
           "playlistPath": "/live/avit/1430/800/800.m3u8",
           "status": "decoded",
@@ -5615,6 +6118,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1430/7500/7500.m3u8",
           "status": "decoded",
@@ -5697,9 +6201,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:47.973010+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1438/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1438_7500.m3u8",
         "http://172.16.149.19:9090/live/1438_7500.m3u8",
@@ -5728,6 +6242,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1438/7500/7500.m3u8",
           "status": "decoded",
@@ -5810,9 +6325,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:28.121024+00:00",
       "decoded": true,
       "height": 576,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 576,
+        "playlistPath": "/live/avit/1238/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 720
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -5824,6 +6349,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 576,
           "playlistPath": "/live/avit/1238/1500/1500.m3u8",
           "status": "decoded",
@@ -5910,9 +6436,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:02.402234+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1455/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1455_7500.m3u8",
         "http://172.16.149.19:9090/live/1455_7500.m3u8",
@@ -5941,6 +6477,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1455/800/800.m3u8",
           "status": "decoded",
@@ -5949,6 +6486,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1455/7500/7500.m3u8",
           "status": "decoded",
@@ -6061,9 +6599,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:01.356317+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1452/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1452_7500.m3u8",
         "http://172.16.149.19:9090/live/1452_7500.m3u8",
@@ -6092,6 +6640,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1452/800/800.m3u8",
           "status": "decoded",
@@ -6100,6 +6649,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1452/7500/7500.m3u8",
           "status": "decoded",
@@ -6184,9 +6734,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:09.230292+00:00",
       "decoded": true,
       "height": 406,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1429/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1429_7500.m3u8",
         "http://172.16.149.19:9090/live/1429_7500.m3u8",
@@ -6215,6 +6775,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 406,
           "playlistPath": "/live/avit/1429/800/800.m3u8",
           "status": "decoded",
@@ -6223,6 +6784,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1429/7500/7500.m3u8",
           "status": "metadata-only",
@@ -6305,9 +6867,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:34.449504+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1252/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -6319,6 +6891,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1252/1500/1500.m3u8",
           "status": "decoded",
@@ -6429,9 +7002,19 @@
     ],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:11.897185+00:00",
       "decoded": false,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1453/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1453_7500.m3u8",
         "http://172.16.149.19:9090/live/1453_7500.m3u8",
@@ -6448,7 +7031,8 @@
         "http://172.16.201.13:9090/live/1453_7500.m3u8",
         "http://172.16.201.15:9091/live/1453_7500.m3u8",
         "http://172.16.201.8:9090/live/1453_7500.m3u8",
-        "http://172.16.201.9:9090/live/1453_7500.m3u8"
+        "http://172.16.201.9:9090/live/1453_7500.m3u8",
+        "http://172.16.149.18:9090/live/1229.m3u8"
       ],
       "httpStatuses": [
         200
@@ -6460,6 +7044,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1453/7500/7500.m3u8",
           "status": "metadata-only",
@@ -6544,9 +7129,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:49.364186+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1462_7500.m3u8",
         "http://172.16.149.19:9090/live/1462_7500.m3u8",
@@ -6576,6 +7163,7 @@
       "renditions": [
         {
           "audioCodec": null,
+          "audioDecoded": false,
           "height": null,
           "playlistPath": "/live/avit/1462/7500/7500.m3u8",
           "status": "manifest",
@@ -6658,9 +7246,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:23.809989+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1943/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1943_7500.m3u8",
         "http://172.16.149.19:9090/live/1943_7500.m3u8",
@@ -6690,6 +7288,7 @@
       "renditions": [
         {
           "audioCodec": null,
+          "audioDecoded": false,
           "height": null,
           "playlistPath": "/live/avit/1943/800/800.m3u8",
           "status": "manifest",
@@ -6698,6 +7297,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1943/7500/7500.m3u8",
           "status": "decoded",
@@ -6778,9 +7378,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:33.740913+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1249/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -6792,6 +7402,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1249/1500/1500.m3u8",
           "status": "decoded",
@@ -6872,9 +7483,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:30.074788+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1241/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -6886,6 +7507,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1241/1500/1500.m3u8",
           "status": "decoded",
@@ -6974,9 +7596,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:17.868596+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7071,9 +7695,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:17.954822+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7168,9 +7794,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.040344+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7265,9 +7893,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.051537+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7360,9 +7990,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.123696+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7457,9 +8089,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.132089+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7552,9 +8186,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.160637+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7649,9 +8285,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.208436+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7744,9 +8382,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.213240+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7839,9 +8479,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.237807+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -7936,9 +8578,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.283006+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8031,9 +8675,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.294710+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8128,9 +8774,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.312507+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8223,9 +8871,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.353767+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8316,9 +8966,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.370872+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8409,9 +9061,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.393547+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8504,9 +9158,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.425650+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8599,9 +9255,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.439567+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8694,9 +9352,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.457195+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8791,9 +9451,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.469413+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8886,9 +9548,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.493049+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -8981,9 +9645,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.512374+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9076,9 +9742,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.525577+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9169,9 +9837,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.537552+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9262,9 +9932,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.564355+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9355,9 +10027,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.580473+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9450,9 +10124,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.592684+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9545,9 +10221,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.602956+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9640,9 +10318,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.633671+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9733,9 +10413,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.641153+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9828,9 +10510,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.649757+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -9923,9 +10607,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.662289+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10018,9 +10704,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.675488+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10111,9 +10799,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.695852+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10206,9 +10896,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.709480+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10301,9 +10993,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.720108+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10394,9 +11088,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.730174+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10487,9 +11183,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.743332+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10580,9 +11278,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.760587+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10675,9 +11375,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.776066+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10770,9 +11472,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.787248+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10865,9 +11569,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:57.158323+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -10952,9 +11658,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:32.695714+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1941/4500/4500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1941_7500.m3u8",
         "http://172.16.149.19:9090/live/1941_7500.m3u8",
@@ -10983,6 +11699,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1941/4500/4500.m3u8",
           "status": "decoded",
@@ -10991,6 +11708,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1941/7500/7500.m3u8",
           "status": "decoded",
@@ -11071,9 +11789,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:43.180871+00:00",
       "decoded": false,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1921/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1921_7500.m3u8",
         "http://172.16.149.19:9090/live/1921_7500.m3u8",
@@ -11102,6 +11830,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1921/7500/7500.m3u8",
           "status": "metadata-only",
@@ -11182,9 +11911,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:19.418024+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1908/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1908_7500.m3u8",
         "http://172.16.149.19:9090/live/1908_7500.m3u8",
@@ -11213,6 +11952,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1908/7500/7500.m3u8",
           "status": "decoded",
@@ -11293,9 +12033,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:32.440790+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1940/4500/4500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1940_7500.m3u8",
         "http://172.16.149.19:9090/live/1940_7500.m3u8",
@@ -11324,6 +12074,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1940/4500/4500.m3u8",
           "status": "decoded",
@@ -11332,6 +12083,7 @@
         },
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1940/7500/7500.m3u8",
           "status": "decoded",
@@ -11412,9 +12164,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.573110+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1902/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1902_7500.m3u8",
         "http://172.16.149.19:9090/live/1902_7500.m3u8",
@@ -11443,6 +12205,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1902/7500/7500.m3u8",
           "status": "decoded",
@@ -11525,9 +12288,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:19.071625+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1906/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1906_7500.m3u8",
         "http://172.16.149.19:9090/live/1906_7500.m3u8",
@@ -11556,6 +12329,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1906/7500/7500.m3u8",
           "status": "decoded",
@@ -11636,9 +12410,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:18.866742+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1901/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1901_7500.m3u8",
         "http://172.16.149.19:9090/live/1901_7500.m3u8",
@@ -11667,6 +12451,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1901/7500/7500.m3u8",
           "status": "decoded",
@@ -11747,9 +12532,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:05.766613+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1507/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1507_7500.m3u8",
         "http://172.16.149.19:9090/live/1507_7500.m3u8",
@@ -11778,6 +12573,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1507/7500/7500.m3u8",
           "status": "decoded",
@@ -11858,9 +12654,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:05.986898+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1514/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1514_7500.m3u8",
         "http://172.16.149.19:9090/live/1514_7500.m3u8",
@@ -11889,6 +12695,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1514/7500/7500.m3u8",
           "status": "decoded",
@@ -11969,9 +12776,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:39.351711+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1419/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1419_7500.m3u8",
         "http://172.16.149.19:9090/live/1419_7500.m3u8",
@@ -12000,6 +12817,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1419/7500/7500.m3u8",
           "status": "decoded",
@@ -12082,9 +12900,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:08.007834+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1523/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1523_7500.m3u8",
         "http://172.16.149.19:9090/live/1523_7500.m3u8",
@@ -12113,6 +12941,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1523/7500/7500.m3u8",
           "status": "decoded",
@@ -12195,9 +13024,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:08.498504+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1524/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1524_7500.m3u8",
         "http://172.16.149.19:9090/live/1524_7500.m3u8",
@@ -12226,6 +13065,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1524/7500/7500.m3u8",
           "status": "decoded",
@@ -12308,9 +13148,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:40.600206+00:00",
       "decoded": false,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1937/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1937_7500.m3u8",
         "http://172.16.149.19:9090/live/1937_7500.m3u8",
@@ -12339,6 +13189,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1937/7500/7500.m3u8",
           "status": "metadata-only",
@@ -12419,9 +13270,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:41.630351+00:00",
       "decoded": false,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1938/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1938_7500.m3u8",
         "http://172.16.149.19:9090/live/1938_7500.m3u8",
@@ -12450,6 +13311,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1938/7500/7500.m3u8",
           "status": "metadata-only",
@@ -12530,9 +13392,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:44.496331+00:00",
       "decoded": false,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1939/7500/7500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1939_7500.m3u8",
         "http://172.16.149.19:9090/live/1939_7500.m3u8",
@@ -12561,6 +13433,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1939/7500/7500.m3u8",
           "status": "metadata-only",
@@ -12641,9 +13514,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "mp2",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:19.930951+00:00",
       "decoded": true,
       "height": 1080,
+      "highestObservedRendition": {
+        "audioCodec": "mp2",
+        "audioDecoded": false,
+        "height": 1080,
+        "playlistPath": "/live/avit/1914/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1914_7500.m3u8",
         "http://172.16.149.19:9090/live/1914_7500.m3u8",
@@ -12672,6 +13555,7 @@
       "renditions": [
         {
           "audioCodec": "mp2",
+          "audioDecoded": false,
           "height": 1080,
           "playlistPath": "/live/avit/1914/7500/7500.m3u8",
           "status": "decoded",
@@ -12754,9 +13638,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:13.135215+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -12847,9 +13733,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:08.472832+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         200,
@@ -12862,6 +13750,7 @@
       "renditions": [
         {
           "audioCodec": null,
+          "audioDecoded": false,
           "height": null,
           "playlistPath": "/live/avit/1717/1500/1500.m3u8",
           "status": "manifest",
@@ -12942,9 +13831,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:25.178572+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -12956,6 +13847,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": null,
           "playlistPath": "/live/avit/1732/1500/1500.m3u8",
           "status": "metadata-only",
@@ -13034,9 +13926,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:31.227440+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1242/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -13048,6 +13950,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1242/1500/1500.m3u8",
           "status": "decoded",
@@ -13126,9 +14029,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:28.780616+00:00",
       "decoded": true,
       "height": 576,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 576,
+        "playlistPath": "/live/avit/1239/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 720
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -13140,6 +14053,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 576,
           "playlistPath": "/live/avit/1239/1500/1500.m3u8",
           "status": "decoded",
@@ -13218,9 +14132,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:33.475418+00:00",
       "decoded": true,
       "height": 360,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 360,
+        "playlistPath": "/live/avit/1246/800/800.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 480
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1246_800.m3u8",
         "http://172.16.149.19:9090/live/1246_800.m3u8",
@@ -13249,6 +14173,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 360,
           "playlistPath": "/live/avit/1246/800/800.m3u8",
           "status": "decoded",
@@ -13257,6 +14182,7 @@
         },
         {
           "audioCodec": null,
+          "audioDecoded": false,
           "height": null,
           "playlistPath": "/live/avit/1246/1500/1500.m3u8",
           "status": "manifest",
@@ -13335,9 +14261,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:03.756516+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1209/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -13349,6 +14285,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1209/1500/1500.m3u8",
           "status": "decoded",
@@ -13427,9 +14364,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:34:39.408992+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -13518,9 +14457,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:35.889912+00:00",
       "decoded": true,
       "height": 576,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 576,
+        "playlistPath": "/live/avit/2201/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 720
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/2201_800.m3u8",
         "http://172.16.149.19:9090/live/2201_800.m3u8",
@@ -13549,6 +14498,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 360,
           "playlistPath": "/live/avit/2201/800/800.m3u8",
           "status": "decoded",
@@ -13557,6 +14507,7 @@
         },
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 576,
           "playlistPath": "/live/avit/2201/1500/1500.m3u8",
           "status": "decoded",
@@ -13635,9 +14586,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:01.533813+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1203/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -13649,6 +14610,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1203/1500/1500.m3u8",
           "status": "decoded",
@@ -13727,9 +14689,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:03.344046+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1205/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -13741,6 +14713,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1205/1500/1500.m3u8",
           "status": "decoded",
@@ -13819,9 +14792,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:00.022826+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1202/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -13833,6 +14816,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1202/1500/1500.m3u8",
           "status": "decoded",
@@ -13911,9 +14895,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:02.741335+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1206/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -13925,6 +14919,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1206/1500/1500.m3u8",
           "status": "decoded",
@@ -14003,9 +14998,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:03.266294+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1207/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14017,6 +15022,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1207/1500/1500.m3u8",
           "status": "decoded",
@@ -14095,9 +15101,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:00.243687+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1201/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [
         "http://172.16.149.18:9090/live/1406.m3u8"
       ],
@@ -14111,6 +15127,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1201/1500/1500.m3u8",
           "status": "decoded",
@@ -14189,9 +15206,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:02.571878+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1204/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14203,6 +15230,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1204/1500/1500.m3u8",
           "status": "decoded",
@@ -14281,9 +15309,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:04.951955+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1211/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14295,6 +15333,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1211/1500/1500.m3u8",
           "status": "decoded",
@@ -14373,9 +15412,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:34.022433+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1250/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14387,6 +15436,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1250/1500/1500.m3u8",
           "status": "decoded",
@@ -14465,9 +15515,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:10.472952+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -14556,9 +15608,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:21.237606+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1234/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14570,6 +15632,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1234/1500/1500.m3u8",
           "status": "decoded",
@@ -14648,9 +15711,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:05.139037+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1210/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14662,6 +15735,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1210/1500/1500.m3u8",
           "status": "decoded",
@@ -14748,9 +15822,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:32.805111+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1247/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14762,6 +15846,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1247/1500/1500.m3u8",
           "status": "decoded",
@@ -14840,9 +15925,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:30.920447+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1240/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14854,6 +15949,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1240/1500/1500.m3u8",
           "status": "decoded",
@@ -14940,9 +16036,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:16.156876+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -14954,6 +16052,7 @@
       "renditions": [
         {
           "audioCodec": null,
+          "audioDecoded": false,
           "height": null,
           "playlistPath": "/live/avit/1235/1500/1500.m3u8",
           "status": "manifest",
@@ -15032,9 +16131,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:31.794945+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1245/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -15046,6 +16155,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1245/1500/1500.m3u8",
           "status": "decoded",
@@ -15124,9 +16234,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:16.004561+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -15215,9 +16327,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:20.676887+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1237/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -15229,6 +16351,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1237/1500/1500.m3u8",
           "status": "decoded",
@@ -15307,9 +16430,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:30.855606+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1243/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -15321,6 +16454,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1243/1500/1500.m3u8",
           "status": "decoded",
@@ -15399,9 +16533,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:17.469518+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1226/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -15413,6 +16557,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1226/1500/1500.m3u8",
           "status": "decoded",
@@ -15491,9 +16636,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:31.629616+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1244/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -15505,6 +16660,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1244/1500/1500.m3u8",
           "status": "decoded",
@@ -15583,9 +16739,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:17.379825+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -15674,9 +16832,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:34.612861+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1254/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -15688,6 +16856,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1254/1500/1500.m3u8",
           "status": "decoded",
@@ -15766,9 +16935,19 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": "aac",
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:35:33.291356+00:00",
       "decoded": true,
       "height": 720,
+      "highestObservedRendition": {
+        "audioCodec": "aac",
+        "audioDecoded": false,
+        "height": 720,
+        "playlistPath": "/live/avit/1248/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1280
+      },
       "historicalURLs": [],
       "httpStatuses": [
         200
@@ -15780,6 +16959,7 @@
       "renditions": [
         {
           "audioCodec": "aac",
+          "audioDecoded": false,
           "height": 720,
           "playlistPath": "/live/avit/1248/1500/1500.m3u8",
           "status": "decoded",
@@ -15858,9 +17038,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:17.689752+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400
@@ -15941,9 +17123,11 @@
     "gudouCandidates": [],
     "gudouCheck": {
       "audioCodec": null,
+      "audioDecoded": false,
       "checkedAt": "2026-11-17T04:36:17.780712+00:00",
       "decoded": false,
       "height": null,
+      "highestObservedRendition": null,
       "historicalURLs": [],
       "httpStatuses": [
         400

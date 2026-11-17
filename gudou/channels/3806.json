@@ -7,9 +7,11 @@
   "declaredDefinition": "hd",
   "entryCheck": {
     "audioCodec": "aac",
+    "audioDecoded": false,
     "checkedAt": "2026-11-17T04:37:17.645348+00:00",
     "decoded": false,
     "height": null,
+    "highestObservedRendition": null,
     "historicalURLs": [],
     "httpStatuses": [
       200
@@ -21,6 +23,7 @@
     "renditions": [
       {
         "audioCodec": "aac",
+        "audioDecoded": false,
         "height": null,
         "playlistPath": "/live/avit/3806/1500/1500.m3u8",
         "status": "metadata-only",

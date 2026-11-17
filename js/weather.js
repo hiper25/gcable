@@ -1,4 +1,4 @@
-import {state} from './data.js?v=20261117-gudou-health';
+import {state} from './data.js?v=20261117-rendition-proof';
 
 let weatherRecords = [];
 let context;

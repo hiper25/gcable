@@ -1,4 +1,4 @@
-import {escapeHTML} from './data.js?v=20261117-gudou-health';
+import {escapeHTML} from './data.js?v=20261117-rendition-proof';
 export function getChannelIconHTML(channel) {
     const ch = {...channel, name: escapeHTML(channel.name), category: escapeHTML(channel.category), channelID: escapeHTML(channel.channelID)};
     const cid = ch.channelID;

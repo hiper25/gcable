@@ -7,9 +7,19 @@
   "declaredDefinition": "sd",
   "entryCheck": {
     "audioCodec": "aac",
+    "audioDecoded": false,
     "checkedAt": "2026-11-17T04:37:00.852298+00:00",
     "decoded": true,
     "height": 406,
+    "highestObservedRendition": {
+      "audioCodec": "aac",
+      "audioDecoded": false,
+      "height": 406,
+      "playlistPath": "/live/avit/3707/800/800.m3u8",
+      "status": "decoded",
+      "videoCodec": "h264",
+      "width": 720
+    },
     "historicalURLs": [
       "http://172.16.149.18:9090/live/3707_800.m3u8",
       "http://172.16.149.19:9090/live/3707_800.m3u8",
@@ -38,6 +48,7 @@
     "renditions": [
       {
         "audioCodec": "aac",
+        "audioDecoded": false,
         "height": 406,
         "playlistPath": "/live/avit/3707/800/800.m3u8",
         "status": "decoded",
