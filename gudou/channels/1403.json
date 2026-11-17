@@ -1,0 +1,93 @@
+{
+  "catalogChannelID": "1403",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "hd",
+  "entryCheck": {
+    "audioCodec": "mp2",
+    "checkedAt": "2026-11-17T04:35:40.920032+00:00",
+    "decoded": true,
+    "height": 1080,
+    "historicalURLs": [
+      "http://172.16.149.18:9090/live/1403_7500.m3u8",
+      "http://172.16.149.19:9090/live/1403_7500.m3u8",
+      "http://172.16.149.20:8060/live/1403_7500.m3u8",
+      "http://172.16.149.20:9090/live/1403_7500.m3u8",
+      "http://172.16.149.21:9090/live/1403_7500.m3u8",
+      "http://172.16.149.220:8070/live/1403_7500.m3u8",
+      "http://172.16.149.22:8060/live/1403_7500.m3u8",
+      "http://172.16.149.22:9090/live/1403_7500.m3u8",
+      "http://172.16.149.23:9090/live/1403_7500.m3u8",
+      "http://172.16.201.10:9090/live/1403_7500.m3u8",
+      "http://172.16.201.11:9090/live/1403_7500.m3u8",
+      "http://172.16.201.12:9090/live/1403_7500.m3u8",
+      "http://172.16.201.13:9090/live/1403_7500.m3u8",
+      "http://172.16.201.15:9091/live/1403_7500.m3u8",
+      "http://172.16.201.8:9090/live/1403_7500.m3u8",
+      "http://172.16.201.9:9090/live/1403_7500.m3u8"
+    ],
+    "httpStatuses": [
+      200
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": true,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [
+      {
+        "audioCodec": "aac",
+        "height": 416,
+        "playlistPath": "/live/avit/1403/800/800.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 720
+      },
+      {
+        "audioCodec": "mp2",
+        "height": 1080,
+        "playlistPath": "/live/avit/1403/7500/7500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      }
+    ],
+    "serviceName": null,
+    "status": "decoded",
+    "streamID": "1403",
+    "url": "http://172.16.149.18:9090/live/1403.m3u8",
+    "videoCodec": "h264",
+    "width": 1920
+  },
+  "name": "CCTV-5+（高清）",
+  "rows": [
+    {
+      "audioCodec": "mp2",
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "hd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 1,
+      "definition": "hd",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": "tt",
+      "height": 1080,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "No distinctive service name in the decoded stream",
+      "responseStatuses": [
+        200
+      ],
+      "serviceName": null,
+      "status": "decoded-unmapped",
+      "streamID": "1403",
+      "verification": "decoded",
+      "videoCodec": "h264",
+      "width": 1920
+    }
+  ]
+}

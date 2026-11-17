@@ -1,0 +1,88 @@
+{
+  "catalogChannelID": "1449",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "hd",
+  "entryCheck": {
+    "audioCodec": null,
+    "checkedAt": "2026-11-17T04:35:44.302625+00:00",
+    "decoded": false,
+    "height": null,
+    "historicalURLs": [],
+    "httpStatuses": [
+      400
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": false,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [],
+    "serviceName": null,
+    "status": "request-failed",
+    "streamID": "1449",
+    "url": "http://172.16.149.18:9090/live/1449.m3u8",
+    "videoCodec": null,
+    "width": null
+  },
+  "name": "金鹰卡通（高清）",
+  "rows": [
+    {
+      "audioCodec": "aac",
+      "catalogChannelID": "1449",
+      "catalogName": "金鹰卡通（高清）",
+      "copyEligible": true,
+      "declaredDefinition": "hd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 1,
+      "definition": "hd",
+      "definitionMatch": true,
+      "entryMode": "id-only",
+      "fieldOrder": "progressive",
+      "height": 720,
+      "identityStatus": "matched",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": true,
+      "reason": "Decoded service name and catalog version uniquely matched",
+      "redirected": false,
+      "responseStatuses": [
+        200
+      ],
+      "serviceName": "金鹰卡通高清",
+      "status": "matched",
+      "streamID": "1257",
+      "url": "http://172.16.149.18:9090/live/1257.m3u8",
+      "verification": "decoded",
+      "videoCodec": "h264",
+      "width": 1280
+    },
+    {
+      "audioCodec": null,
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "hd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 0,
+      "definition": "unknown",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": null,
+      "height": null,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "Candidate path did not provide a decodable stream",
+      "responseStatuses": [
+        400
+      ],
+      "serviceName": null,
+      "status": "unavailable",
+      "streamID": "1449",
+      "verification": "unavailable",
+      "videoCodec": null,
+      "width": null
+    }
+  ]
+}

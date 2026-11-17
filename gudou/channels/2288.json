@@ -1,0 +1,59 @@
+{
+  "catalogChannelID": "2288",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "uhd",
+  "entryCheck": {
+    "audioCodec": null,
+    "checkedAt": "2026-11-17T04:36:18.743332+00:00",
+    "decoded": false,
+    "height": null,
+    "historicalURLs": [],
+    "httpStatuses": [
+      400
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": false,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [],
+    "serviceName": null,
+    "status": "request-failed",
+    "streamID": "2288",
+    "url": "http://172.16.149.18:9090/live/2288.m3u8",
+    "videoCodec": null,
+    "width": null
+  },
+  "name": "FCC-山东卫视（4K）",
+  "rows": [
+    {
+      "audioCodec": null,
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "uhd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 0,
+      "definition": "unknown",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": null,
+      "height": null,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "Candidate path did not provide a decodable stream",
+      "responseStatuses": [
+        400
+      ],
+      "serviceName": null,
+      "status": "unavailable",
+      "streamID": "2288",
+      "verification": "unavailable",
+      "videoCodec": null,
+      "width": null
+    }
+  ]
+}

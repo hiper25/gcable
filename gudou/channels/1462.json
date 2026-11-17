@@ -1,0 +1,87 @@
+{
+  "catalogChannelID": "1462",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "hd",
+  "entryCheck": {
+    "audioCodec": null,
+    "checkedAt": "2026-11-17T04:35:49.364186+00:00",
+    "decoded": false,
+    "height": null,
+    "historicalURLs": [
+      "http://172.16.149.18:9090/live/1462_7500.m3u8",
+      "http://172.16.149.19:9090/live/1462_7500.m3u8",
+      "http://172.16.149.20:8060/live/1462_7500.m3u8",
+      "http://172.16.149.20:9090/live/1462_7500.m3u8",
+      "http://172.16.149.21:9090/live/1462_7500.m3u8",
+      "http://172.16.149.220:8070/live/1462_7500.m3u8",
+      "http://172.16.149.22:8060/live/1462_7500.m3u8",
+      "http://172.16.149.22:9090/live/1462_7500.m3u8",
+      "http://172.16.149.23:9090/live/1462_7500.m3u8",
+      "http://172.16.201.10:9090/live/1462_7500.m3u8",
+      "http://172.16.201.11:9090/live/1462_7500.m3u8",
+      "http://172.16.201.12:9090/live/1462_7500.m3u8",
+      "http://172.16.201.13:9090/live/1462_7500.m3u8",
+      "http://172.16.201.15:9091/live/1462_7500.m3u8",
+      "http://172.16.201.8:9090/live/1462_7500.m3u8",
+      "http://172.16.201.9:9090/live/1462_7500.m3u8"
+    ],
+    "httpStatuses": [
+      200,
+      404
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": false,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [
+      {
+        "audioCodec": null,
+        "height": null,
+        "playlistPath": "/live/avit/1462/7500/7500.m3u8",
+        "status": "manifest",
+        "videoCodec": null,
+        "width": null
+      }
+    ],
+    "serviceName": null,
+    "status": "manifest-only",
+    "streamID": "1462",
+    "url": "http://172.16.149.18:9090/live/1462.m3u8",
+    "videoCodec": null,
+    "width": null
+  },
+  "name": "甘肃卫视（高清）",
+  "rows": [
+    {
+      "audioCodec": null,
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "hd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 0,
+      "definition": "unknown",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": null,
+      "height": null,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "Referenced media segment unavailable",
+      "responseStatuses": [
+        200,
+        404
+      ],
+      "serviceName": null,
+      "status": "manifest",
+      "streamID": "1462",
+      "verification": "manifest",
+      "videoCodec": null,
+      "width": null
+    }
+  ]
+}

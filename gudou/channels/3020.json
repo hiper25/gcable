@@ -1,0 +1,85 @@
+{
+  "catalogChannelID": "3020",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "sd",
+  "entryCheck": {
+    "audioCodec": "aac",
+    "checkedAt": "2026-11-17T04:36:49.124737+00:00",
+    "decoded": false,
+    "height": null,
+    "historicalURLs": [
+      "http://172.16.149.18:9090/live/3020_800.m3u8",
+      "http://172.16.149.19:9090/live/3020_800.m3u8",
+      "http://172.16.149.20:8060/live/3020_800.m3u8",
+      "http://172.16.149.20:9090/live/3020_800.m3u8",
+      "http://172.16.149.21:9090/live/3020_800.m3u8",
+      "http://172.16.149.220:8070/live/3020_800.m3u8",
+      "http://172.16.149.22:8060/live/3020_800.m3u8",
+      "http://172.16.149.22:9090/live/3020_800.m3u8",
+      "http://172.16.149.23:9090/live/3020_800.m3u8",
+      "http://172.16.201.10:9090/live/3020_800.m3u8",
+      "http://172.16.201.11:9090/live/3020_800.m3u8",
+      "http://172.16.201.12:9090/live/3020_800.m3u8",
+      "http://172.16.201.13:9090/live/3020_800.m3u8",
+      "http://172.16.201.15:9091/live/3020_800.m3u8",
+      "http://172.16.201.8:9090/live/3020_800.m3u8",
+      "http://172.16.201.9:9090/live/3020_800.m3u8"
+    ],
+    "httpStatuses": [
+      200
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": true,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [
+      {
+        "audioCodec": "aac",
+        "height": null,
+        "playlistPath": "/live/avit/3020/800/800.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": null
+      }
+    ],
+    "serviceName": null,
+    "status": "media-detected",
+    "streamID": "3020",
+    "url": "http://172.16.149.18:9090/live/3020.m3u8",
+    "videoCodec": "h264",
+    "width": null
+  },
+  "name": "化州台",
+  "rows": [
+    {
+      "audioCodec": "aac",
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "sd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 0,
+      "definition": "unknown",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": null,
+      "height": null,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "strict decode failed; capture may be incomplete or corrupt",
+      "responseStatuses": [
+        200
+      ],
+      "serviceName": null,
+      "status": "metadata-only",
+      "streamID": "3020",
+      "verification": "metadata-only",
+      "videoCodec": "h264",
+      "width": null
+    }
+  ]
+}

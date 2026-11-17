@@ -1,0 +1,68 @@
+{
+  "catalogChannelID": "1732",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "unknown",
+  "entryCheck": {
+    "audioCodec": "aac",
+    "checkedAt": "2026-11-17T04:36:25.178572+00:00",
+    "decoded": false,
+    "height": null,
+    "historicalURLs": [],
+    "httpStatuses": [
+      200
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": true,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [
+      {
+        "audioCodec": "aac",
+        "height": null,
+        "playlistPath": "/live/avit/1732/1500/1500.m3u8",
+        "status": "metadata-only",
+        "videoCodec": "h264",
+        "width": null
+      }
+    ],
+    "serviceName": null,
+    "status": "media-detected",
+    "streamID": "1732",
+    "url": "http://172.16.149.18:9090/live/1732.m3u8",
+    "videoCodec": "h264",
+    "width": null
+  },
+  "name": "新动漫（特色）",
+  "rows": [
+    {
+      "audioCodec": "aac",
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "unknown",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 0,
+      "definition": "unknown",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": null,
+      "height": null,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "strict decode failed; capture may be incomplete or corrupt",
+      "responseStatuses": [
+        200
+      ],
+      "serviceName": null,
+      "status": "metadata-only",
+      "streamID": "1732",
+      "verification": "metadata-only",
+      "videoCodec": "h264",
+      "width": null
+    }
+  ]
+}

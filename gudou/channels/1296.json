@@ -1,0 +1,68 @@
+{
+  "catalogChannelID": "1296",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "unknown",
+  "entryCheck": {
+    "audioCodec": "aac",
+    "checkedAt": "2026-11-17T04:35:36.109476+00:00",
+    "decoded": true,
+    "height": 576,
+    "historicalURLs": [],
+    "httpStatuses": [
+      200
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": true,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [
+      {
+        "audioCodec": "aac",
+        "height": 576,
+        "playlistPath": "/live/avit/1296/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 720
+      }
+    ],
+    "serviceName": null,
+    "status": "decoded",
+    "streamID": "1296",
+    "url": "http://172.16.149.18:9090/live/1296.m3u8",
+    "videoCodec": "h264",
+    "width": 720
+  },
+  "name": "聚鲨环球精选",
+  "rows": [
+    {
+      "audioCodec": "aac",
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "unknown",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 1,
+      "definition": "sd",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": "progressive",
+      "height": 576,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "No distinctive service name in the decoded stream",
+      "responseStatuses": [
+        200
+      ],
+      "serviceName": null,
+      "status": "decoded-unmapped",
+      "streamID": "1296",
+      "verification": "decoded",
+      "videoCodec": "h264",
+      "width": 720
+    }
+  ]
+}

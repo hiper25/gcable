@@ -1,0 +1,68 @@
+{
+  "catalogChannelID": "2652",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "hd",
+  "entryCheck": {
+    "audioCodec": "aac",
+    "checkedAt": "2026-11-17T04:36:40.614544+00:00",
+    "decoded": true,
+    "height": 1080,
+    "historicalURLs": [],
+    "httpStatuses": [
+      200
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": true,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [
+      {
+        "audioCodec": "aac",
+        "height": 1080,
+        "playlistPath": "/live/avit/2652/4500/4500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 1920
+      }
+    ],
+    "serviceName": null,
+    "status": "decoded",
+    "streamID": "2652",
+    "url": "http://172.16.149.18:9090/live/2652.m3u8",
+    "videoCodec": "h264",
+    "width": 1920
+  },
+  "name": "乳源台（高清）",
+  "rows": [
+    {
+      "audioCodec": "aac",
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "hd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 1,
+      "definition": "hd",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": "progressive",
+      "height": 1080,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "No distinctive service name in the decoded stream",
+      "responseStatuses": [
+        200
+      ],
+      "serviceName": null,
+      "status": "decoded-unmapped",
+      "streamID": "2652",
+      "verification": "decoded",
+      "videoCodec": "h264",
+      "width": 1920
+    }
+  ]
+}

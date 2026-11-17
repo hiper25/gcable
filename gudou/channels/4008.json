@@ -1,0 +1,85 @@
+{
+  "catalogChannelID": "4008",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "uhd",
+  "entryCheck": {
+    "audioCodec": "ac3",
+    "checkedAt": "2026-11-17T04:37:20.950232+00:00",
+    "decoded": true,
+    "height": 2160,
+    "historicalURLs": [
+      "http://172.16.149.18:9090/live/4008_36000.m3u8",
+      "http://172.16.149.19:9090/live/4008_36000.m3u8",
+      "http://172.16.149.20:8060/live/4008_36000.m3u8",
+      "http://172.16.149.20:9090/live/4008_36000.m3u8",
+      "http://172.16.149.21:9090/live/4008_36000.m3u8",
+      "http://172.16.149.220:8070/live/4008_36000.m3u8",
+      "http://172.16.149.22:8060/live/4008_36000.m3u8",
+      "http://172.16.149.22:9090/live/4008_36000.m3u8",
+      "http://172.16.149.23:9090/live/4008_36000.m3u8",
+      "http://172.16.201.10:9090/live/4008_36000.m3u8",
+      "http://172.16.201.11:9090/live/4008_36000.m3u8",
+      "http://172.16.201.12:9090/live/4008_36000.m3u8",
+      "http://172.16.201.13:9090/live/4008_36000.m3u8",
+      "http://172.16.201.15:9091/live/4008_36000.m3u8",
+      "http://172.16.201.8:9090/live/4008_36000.m3u8",
+      "http://172.16.201.9:9090/live/4008_36000.m3u8"
+    ],
+    "httpStatuses": [
+      200
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": true,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [
+      {
+        "audioCodec": "ac3",
+        "height": 2160,
+        "playlistPath": "/live/avit/4008/36000/36000.m3u8",
+        "status": "decoded",
+        "videoCodec": "hevc",
+        "width": 3840
+      }
+    ],
+    "serviceName": "欢笑剧场4K",
+    "status": "decoded",
+    "streamID": "4008",
+    "url": "http://172.16.149.18:9090/live/4008.m3u8",
+    "videoCodec": "hevc",
+    "width": 3840
+  },
+  "name": "多彩文体（4K特色）",
+  "rows": [
+    {
+      "audioCodec": "ac3",
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "uhd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 1,
+      "definition": "uhd",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": null,
+      "height": 2160,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "Decoded service name has no exact catalog station binding",
+      "responseStatuses": [
+        200
+      ],
+      "serviceName": "欢笑剧场4K",
+      "status": "decoded-unmapped",
+      "streamID": "4008",
+      "verification": "decoded",
+      "videoCodec": "hevc",
+      "width": 3840
+    }
+  ]
+}

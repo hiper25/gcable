@@ -1,0 +1,68 @@
+{
+  "catalogChannelID": "2501",
+  "coverage": {
+    "completedCells": 1,
+    "plannedCells": 1
+  },
+  "declaredDefinition": "sd",
+  "entryCheck": {
+    "audioCodec": "aac",
+    "checkedAt": "2026-11-17T04:36:32.990107+00:00",
+    "decoded": true,
+    "height": 576,
+    "historicalURLs": [],
+    "httpStatuses": [
+      200
+    ],
+    "identityStatus": "unmapped",
+    "matchedCatalogID": null,
+    "mediaDetected": true,
+    "node": "http://172.16.149.18:9090",
+    "renditions": [
+      {
+        "audioCodec": "aac",
+        "height": 576,
+        "playlistPath": "/live/avit/2501/1500/1500.m3u8",
+        "status": "decoded",
+        "videoCodec": "h264",
+        "width": 720
+      }
+    ],
+    "serviceName": null,
+    "status": "decoded",
+    "streamID": "2501",
+    "url": "http://172.16.149.18:9090/live/2501.m3u8",
+    "videoCodec": "h264",
+    "width": 720
+  },
+  "name": "汕头新闻综合",
+  "rows": [
+    {
+      "audioCodec": "aac",
+      "catalogChannelID": null,
+      "catalogName": null,
+      "copyEligible": false,
+      "declaredDefinition": "sd",
+      "decodedAudioFrames": 0,
+      "decodedVideoFrames": 1,
+      "definition": "sd",
+      "definitionMatch": null,
+      "entryMode": "id-only",
+      "fieldOrder": "progressive",
+      "height": 576,
+      "identityStatus": "unmapped",
+      "node": "http://172.16.149.18:9090",
+      "primaryEligible": false,
+      "reason": "No distinctive service name in the decoded stream",
+      "responseStatuses": [
+        200
+      ],
+      "serviceName": null,
+      "status": "decoded-unmapped",
+      "streamID": "2501",
+      "verification": "decoded",
+      "videoCodec": "h264",
+      "width": 720
+    }
+  ]
+}
