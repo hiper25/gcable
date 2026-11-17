@@ -1,8 +1,9 @@
-import {state, regionCode, fetchJSON, escapeHTML as esc} from './data.js?v=20261110-slate';
+import {state, regionCode, fetchJSON, escapeHTML as esc} from './data.js?v=20261117-gudou-health';
 
 let toastTimer;
 const copyTimers = new WeakMap();
 let historyOpener;
+let historyRequest = 0;
 let epgOpener;
 export function initTheme() {
     const mode = localStorage.getItem('gcable_theme_mode') || 'auto';
@@ -116,70 +117,110 @@ export function openHistoryModal() {
     const modal = document.getElementById('history-modal');
     const body = document.getElementById('history-modal-body');
     if (!modal || !body) return;
+    const request = ++historyRequest;
     if (!modal.classList.contains('active')) historyOpener = document.activeElement;
     document.body.style.overflow = 'hidden';
     modal.classList.add('active');
     body.scrollTop = 0;
     body.focus({preventScroll:true});
-    
-    fetchJSON('./channel_history.json', {cache: 'no-cache'}).then(data => {
-        const meta = data.meta || {};
-        const events = data.events || [];
-        const dead = data.dead_channels || {};
-        
-        let html = `
-            <div class="info-panel" style="margin-bottom:12px;">
-                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
-                    <div><b>最近监测：</b> ${esc(meta.last_updated || '-')}</div>
-                    <div style="display:flex; gap:8px;">
-                        <span style="color:var(--accent); font-weight:700;">🟢 HLS 清单已取得: ${meta.playable_count || 0}</span>
-                        <span style="color:var(--danger); font-weight:700;">🔴 HLS 清单未取得: ${meta.dead_count || 0}</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="font-size:13px; font-weight:700; margin-bottom:8px;">🔴 本次未取得谷豆 HLS 清单的频道 (${Object.keys(dead).length})</div>
-            <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px; padding:4px;">
-        `;
-        
-        for (const [cid, info] of Object.entries(dead)) {
-            html += `<span class="pill-cat" style="background:var(--strip-bg); color:var(--danger); border:1px solid var(--border-light); font-size:11px; padding:3px 8px; border-radius:4px;">#${esc(cid)} ${esc(info.name)}</span>`;
+    body.innerHTML = '<div class="info-panel">正在读取本轮媒体观察与历史目录记录…</div>';
+
+    const localTime = value => {
+        if (!value) return '未知';
+        // Legacy timestamps have no timezone: retain them verbatim, never guess one.
+        if (!/(Z|[+-]\d{2}:?\d{2})$/i.test(value)) return `${value}（原记录时间，时区未注明）`;
+        const date = new Date(value);
+        return Number.isNaN(date.getTime()) ? String(value) : `${date.toLocaleString('zh-CN', {timeZone:'Asia/Shanghai', hour12:false})} UTC+8`;
+    };
+    const newest = events => events.slice().sort((a, b) => String(b.timestamp || '').localeCompare(String(a.timestamp || ''))).slice(0, 100);
+    const rawDetail = detail => typeof detail === 'string' ? detail : JSON.stringify(detail ?? '');
+    const nodeKey = value => String(value || '').replace(/^https?:\/\//, '').replace(/\/$/, '');
+    Promise.allSettled([
+        fetchJSON('./gudou_scan_report.json', {cache:'no-cache'}),
+        fetchJSON('./channel_history.json', {cache:'no-cache'})
+    ]).then(([scanResult, historyResult]) => {
+        if (request !== historyRequest || !modal.classList.contains('active')) return;
+        const report = scanResult.status === 'fulfilled' ? scanResult.value : null;
+        const history = historyResult.status === 'fulfilled' ? historyResult.value : null;
+        const nodes = Array.isArray(report?.nodes) ? report.nodes : [];
+        const node = nodes.find(item => nodeKey(item.node) === '172.16.149.18:9090') || (nodes.length === 1 ? nodes[0] : null);
+        const campaign = report?.campaign;
+        let html = '<section id="history-scan-health"><h3>本轮媒体观察</h3>';
+        if (!node || !campaign?.id || !Array.isArray(report?.entries) || !Array.isArray(node.testedIDs)) {
+            html += '<div class="info-panel">本轮扫描报告缺失或不完整：检查、媒体、解码、目录匹配及待检查数量均未知。历史目录快照不能替代媒体观察。</div>';
+        } else {
+            const tested = new Set(node.testedIDs.map(String));
+            const current = new Map();
+            for (const entry of report.entries) {
+                if (entry.currentCampaignChecked !== true || nodeKey(entry.node) !== nodeKey(node.node) || !tested.has(String(entry.streamID))) continue;
+                const id = String(entry.streamID);
+                const previous = current.get(id);
+                if (!previous || String(entry.lastCheckedAt || '') >= String(previous.lastCheckedAt || '')) current.set(id, entry);
+            }
+            const checked = current.size;
+            const countSet = ids => Array.isArray(ids) ? new Set(ids.map(String).filter(id => current.has(id))).size : null;
+            const media = countSet(node.mediaIDs);
+            const decoded = countSet(node.decodedIDs);
+            const matched = countSet(node.matchedIDs);
+            let playlistOnly = 0;
+            let unverified = 0;
+            for (const entry of current.values()) {
+                if (entry.mediaDetected === true || entry.verification === 'decoded') continue;
+                if (entry.state === 'manifest-only' || entry.verification === 'manifest') playlistOnly++;
+                else unverified++;
+            }
+            const planned = Number.isInteger(node.plannedIDs) && node.plannedIDs >= checked ? node.plannedIDs : null;
+            const metrics = [
+                ['checked', '已检查', checked, planned],
+                ['media', '媒体已识别', media, checked],
+                ['decoded', '样本已解码', decoded, checked],
+                ['matched', '台名已匹配目录', matched, checked],
+                ['playlist-only', '仅取得播放列表', playlistOnly, checked],
+                ['unverified', '未确认 / 无媒体', unverified, checked],
+                ['pending', '待检查', planned === null ? null : planned - checked, planned]
+            ];
+            html += `<div class="info-panel" style="margin-bottom:12px;"><div><b>节点：</b>${esc(node.node)}</div><div><b>本轮：</b>${esc(campaign.id)} · ${campaign.complete === true ? '已完成' : '未完成'}</div><div><b>检查截至：</b>${esc(localTime(campaign.checkedThroughAt))}</div><div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;">`;
+            for (const [key, label, count, denominator] of metrics) {
+                html += `<span class="pill-cat" data-health="${key}" style="background:var(--strip-bg);border:1px solid var(--border-light);padding:4px 8px;">${label}：<b>${count ?? '未知'}</b> / ${denominator ?? '未知'}</span>`;
+            }
+            html += '</div><p style="font-size:12px;color:var(--text-muted);">已检查、待检查以该节点计划 ID 数为分母，其余以本轮已检查 ID 数为分母；按 ID 去重。媒体识别、样本解码、台名匹配是重叠的观察层级，不能相加。目录匹配仅是其中一个子集，不是全部可播放数量。仅播放列表与未确认 / 无媒体分列；本次未确认不代表永久失效或停播。旧节点与历史成功记录不计入本轮结果。</p></div>';
         }
-        
-        html += `
-            </div>
-            <div style="font-size:13px; font-weight:700; margin-bottom:8px;">🕒 变更与状态变动时间线 (最新 ${events.length} 条)</div>
-            <div class="epg-timeline-list">
-        `;
-        
-        const typeMap = {
-            'channel_added': '<span style="color:var(--accent); font-weight:700;">[新增]</span>',
-            'channel_removed': '<span style="color:var(--text-muted); font-weight:700;">[下架]</span>',
-            'stream_dead': '<span style="color:var(--danger); font-weight:700;">[清单未取得]</span>',
-            'stream_recovered': '<span style="color:var(--rtp-color); font-weight:700;">[清单恢复]</span>'
+        const eventLabels = {
+            first_decoded:'首次解码记录', decode_unconfirmed:'样本解码未确认',
+            check_failed:'本次媒体未确认', decode_recovered:'再次解码确认',
+            identity_changed:'目录绑定变化', quality_changed:'媒体参数变化'
         };
-        
-        events.slice().reverse().forEach(ev => {
-            const tag = typeMap[ev.type] || '[变动]';
-            html += `
-                <div class="epg-entry">
-                    <div>
-                        <div style="font-size:11px; color:var(--text-muted); font-variant-numeric:tabular-nums;">${esc(ev.timestamp)} · 频道ID: ${esc(ev.channelID)}</div>
-                        <div style="font-size:13px; font-weight:600; margin-top:2px;">${tag} <b>${esc(ev.name)}</b> - <span style="font-size:12px; color:var(--text-muted); font-weight:normal;">${esc(ev.detail)}</span></div>
-                    </div>
-                </div>
-            `;
-        });
-        
-        html += '</div>';
-        body.innerHTML = html;
-    }).catch(() => {
-        body.innerHTML = '<div style="color:var(--text-muted); text-align:center; padding:30px;">暂未找到历史变更记录</div>';
+        const events = node && campaign?.id && Array.isArray(report?.events)
+            ? report.events.filter(event => nodeKey(event.node) === nodeKey(node.node) && event.campaignId === campaign.id)
+            : null;
+        html += '<div id="history-media-events">';
+        if (events) {
+            html += `<h4>本轮最新媒体观察事件（显示最新 ${Math.min(100, events.length)} / ${events.length} 条）</h4><div class="epg-timeline-list">`;
+            for (const event of newest(events)) {
+                const catalogName = state.byId.get(String(event.streamID))?.name;
+                const name = event.serviceName || (catalogName ? `${catalogName}（目录名）` : '台名未取得');
+                html += `<div class="epg-entry"><div><div style="font-size:11px;color:var(--text-muted);">${esc(localTime(event.timestamp))} · ${esc(event.node)} · ID ${esc(event.streamID)}</div><div style="font-size:13px;margin-top:2px;"><b>${esc(eventLabels[event.type] || event.type || '媒体观察')} · ${esc(name)}</b></div><div style="font-size:12px;color:var(--text-muted);">${esc(rawDetail(event.detail))}</div></div></div>`;
+            }
+            if (!events.length) html += '<div class="info-panel">本轮该节点暂无变更事件；事件数量不是已检查数量。</div>';
+            html += '</div>';
+        } else html += '<p>本轮媒体观察事件未知。</p>';
+        html += '</div></section><details id="history-catalog-events" style="margin-top:16px;"><summary>历史目录记录（旧版，展开查看）</summary>';
+        html += '<p style="font-size:12px;color:var(--text-muted);">以下是历史目录变化和旧版检查记录，不等同于本轮播放列表或媒体结果。“目录未再下发”不代表实际停播。原始详情单独保留，可能包含旧版判断，不作为当前播放健康证据。</p>';
+        if (history && Array.isArray(history.events)) {
+            html += `<div class="info-panel">目录快照时间：${esc(localTime(history.meta?.last_updated))}</div><h4>历史记录（显示最新 ${Math.min(100, history.events.length)} / ${history.events.length} 条）</h4><div class="epg-timeline-list">`;
+            const labels = {channel_added:'目录新增', channel_removed:'目录未再下发', stream_dead:'旧版检查未通过', stream_recovered:'旧版检查通过', media_check_failed:'本次媒体未确认', media_check_recovered:'再次识别到媒体'};
+            for (const event of newest(history.events)) {
+                html += `<div class="epg-entry"><div><div style="font-size:11px;color:var(--text-muted);">${esc(localTime(event.timestamp))} · 目录 ID ${esc(event.channelID)}</div><div style="font-size:13px;margin-top:2px;"><b>${esc(labels[event.type] || event.type || '历史变动')} · ${esc(event.name || '')}</b></div><details><summary style="font-size:12px;">原始历史详情（旧版证据）</summary><div style="font-size:12px;color:var(--text-muted);">${esc(rawDetail(event.detail))}</div></details></div></div>`;
+            }
+            html += '</div>';
+        } else html += '<div class="info-panel">历史目录记录未能读取；不影响上方独立的本轮媒体观察。</div>';
+        body.innerHTML = html + '</details>';
     });
 }
 
 export function closeHistoryModal(e) {
     if (!e?.target || e.target.id === 'history-modal') {
+        historyRequest++;
         const modal = document.getElementById('history-modal');
         if (modal) modal.classList.remove('active');
         document.body.style.overflow = '';

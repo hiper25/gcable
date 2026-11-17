@@ -1,8 +1,8 @@
-import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=20261110-slate';
-import {getChannelIconHTML} from './icons.js?v=20261110-slate';
-import {copyBtnFeedback, showToast} from './ui.js?v=20261110-slate';
-import {openPicker, closePicker} from './picker.js?v=20261110-slate';
-import {updateSelectedChannelCard} from './channels.js?v=20261110-slate';
+import {state, regionalChannel, channelRegions, regionCode, loadRegion, loadSchedule, escapeHTML as esc, chinaTime, chinaDate, streamURL, replayTemplate} from './data.js?v=20261117-gudou-health';
+import {getChannelIconHTML} from './icons.js?v=20261117-gudou-health';
+import {copyBtnFeedback, showToast} from './ui.js?v=20261117-gudou-health';
+import {openPicker, closePicker} from './picker.js?v=20261117-gudou-health';
+import {updateSelectedChannelCard} from './channels.js?v=20261117-gudou-health';
 const desktopSplitQuery = window.matchMedia('(min-width: 1180px)');
 let channel = null;
 let programmes = [];
@@ -20,6 +20,64 @@ function deliveryValues(value) {
     if (parts.length < 6) return null;
     return [Number(parts[0]) >= 10000 ? `${Number(parts[0]) / 1000} MHz` : `${parts[0]} MHz`, `${parts[1]} KSym/s`, `QAM-${parts[2]}`, ...parts.slice(3,6).map(part => part === 'null' ? '未指定' : part)];
 }
+function mediaDetails(record) {
+    const values = [];
+    if (record?.width > 0 && record?.height > 0) values.push(`${record.width}×${record.height}`);
+    if (record?.videoCodec) values.push(record.videoCodec.toUpperCase());
+    if (record?.audioCodec) values.push(`音频 ${record.audioCodec.toUpperCase()}`);
+    return values.join(' · ') || '未取得媒体参数';
+}
+function observationStatus(record) {
+    if (!record) return '尚无检测记录';
+    if (record.decoded === true || record.status === 'decoded') return '样本解码成功';
+    if (record.mediaDetected === true) return '已识别媒体，未取得解码帧';
+    const labels = {'request-failed':'本次请求失败（不代表永久失效）', unavailable:'本次请求未通过',
+        pending:'尚未检测', 'not-checked':'尚未检测', 'media-detected':'已识别媒体，样本解码未确认',
+        'metadata-only':'已识别媒体，样本解码未确认', 'manifest-only':'仅取得清单，媒体未确认',
+        manifest:'仅取得清单，媒体未确认', encrypted:'加密媒体，未验证',
+        incomplete:'媒体样本不完整', invalid:'媒体样本未通过', 'media-unverified':'媒体尚未确认'};
+    return labels[record.status] || '检测状态未确认';
+}
+function fillGudou() {
+    const check = channel.gudouCheck;
+    const url = streamURL(channel);
+    const address = document.getElementById('d-gudou');
+    address.textContent = url || '未提供安全的已记录单播地址';
+    address.title = url;
+    document.getElementById('btn-copy-gudou-d').disabled = !url;
+    const http = Array.isArray(check?.httpStatuses) && check.httpStatuses.length ? ` · HTTP ${check.httpStatuses.join(' / ')}` : '';
+    document.getElementById('d-gudou-status').textContent = observationStatus(check) + http;
+    const checkedAt = typeof check?.checkedAt === 'string' ? chinaTime(check.checkedAt) : NaN;
+    const time = Number.isFinite(checkedAt) ? new Intl.DateTimeFormat('sv-SE', {timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(new Date(checkedAt)) + ' UTC+8' : '未提供';
+    const observation = document.getElementById('d-gudou-observation');
+    observation.textContent = `检测时间：${time} · ${mediaDetails(check)}`;
+    observation.title = check?.checkedAt || '';
+    const identity = check?.identityStatus === 'matched' ? `台名已匹配${check.serviceName ? `：${check.serviceName}` : ''}`
+        : check?.identityStatus === 'mismatch' ? '媒体台名与目录不匹配'
+        : '台名尚未匹配；与上方媒体检测结果分开记录';
+    document.getElementById('d-gudou-identity').textContent = identity;
+    const renditions = document.getElementById('d-gudou-renditions');
+    renditions.replaceChildren();
+    if (Array.isArray(check?.renditions) && check.renditions.length) {
+        for (const rendition of check.renditions) {
+            const row = document.createElement('div');
+            const path = typeof rendition.playlistPath === 'string' ? rendition.playlistPath : '';
+            row.textContent = `${path.split('/').pop() || '档位名未记录'} · ${mediaDetails(rendition)} · ${rendition.status === 'decoded' ? '已解码' : observationStatus(rendition)}`;
+            row.title = path;
+            renditions.append(row);
+        }
+    } else renditions.textContent = '未提供子播放列表记录';
+    const history = document.getElementById('d-gudou-history');
+    history.open = false;
+    const historicalURLs = Array.isArray(check?.historicalURLs) ? check.historicalURLs : [];
+    history.hidden = !historicalURLs.length;
+    document.getElementById('d-gudou-history-urls').textContent = historicalURLs.join('\n');
+    const template = replayTemplate(channel);
+    document.getElementById('d-catchup-tpl').textContent = template || '未满足请求模板条件：需源站时移标记、已识别媒体及安全记录地址';
+    document.getElementById('d-catchup-tpl').title = template;
+    document.getElementById('btn-copy-catchup-tpl').disabled = !template;
+    document.getElementById('row-catchup').hidden = channel.isTVAnyTime !== '1';
+}
 function fillChannel() {
     document.getElementById('d-emblem').innerHTML = getChannelIconHTML(channel);
     document.getElementById('d-title').textContent = channel.name;
@@ -29,13 +87,8 @@ function fillChannel() {
     document.getElementById('d-start-over').textContent = channel.isStartOver === '1' ? '支持从头播放' : '未开通从头播放';
     document.getElementById('d-source-metadata').textContent = JSON.stringify(channel.sourceMetadata || channel, null, 2);
     document.getElementById('d-rtp').textContent = channel.rtp;
-    const url = streamURL(channel);
-    document.getElementById('d-gudou').textContent = url;
-    document.getElementById('d-gudou').title = url;
-    document.getElementById('d-gudou-status').textContent = channel.playable === true ? '本次检测已取得 HLS 播放列表' : channel.playable === false ? '本次检测未取得 HLS 播放列表；以下为按频道规则生成的地址' : '单播地址尚未验证';
-    document.getElementById('d-catchup-tpl').textContent = replayTemplate(channel);
-    document.getElementById('d-catchup-tpl').title = replayTemplate(channel);
-    document.getElementById('row-catchup').hidden = channel.isTVAnyTime !== '1';
+    document.getElementById('btn-copy-rtp-d').disabled = !channel.rtp;
+    fillGudou();
     // Capability and category are displayed in the channel hero header
     const values = deliveryValues(channel.delivery);
     const grid = document.getElementById('d-dvb-grid');
@@ -54,8 +107,8 @@ function fillChannel() {
     const heroLiveText = document.getElementById('hero-live-text');
     const cap = channel.isTVAnyTime === '1' ? 'timeshift' : channel.hasEPG ? 'epg' : 'live';
     heroBadge.setAttribute('data-capability', cap);
-    if (heroLiveText) heroLiveText.textContent = cap === 'timeshift' ? '支持7天时移' : cap === 'epg' ? '含节目单' : '仅直播';
-    heroBadge.title = cap === 'timeshift' ? '该频道支持 7 天时移回看与节目指南' : cap === 'epg' ? '该频道提供电子节目单，未开通时移回看' : '该频道仅提供实时组播/单播直播';
+    if (heroLiveText) heroLiveText.textContent = cap === 'timeshift' ? '源站标记时移' : cap === 'epg' ? '含节目单' : '仅直播';
+    heroBadge.title = cap === 'timeshift' ? '源站提供时移标记；请求模板不代表本次已验证回看能力' : cap === 'epg' ? '该频道提供电子节目单，未开通时移回看' : '该频道仅提供实时组播/单播直播';
 }
 
 let userPinnedTab = '';
@@ -122,10 +175,14 @@ async function updateRegion(cid, code) {
     const version = ++requestVersion;
     observer?.disconnect(); ++renderVersion;
     channel = null;
-    for (const id of ['d-cat','d-source-groups','d-start-over','d-source-metadata','d-rtp','d-gudou','d-gudou-status','d-catchup-tpl','d-delivery']) {
+    for (const id of ['d-cat','d-source-groups','d-start-over','d-source-metadata','d-rtp','d-gudou','d-gudou-status','d-gudou-observation','d-gudou-identity','d-gudou-renditions','d-catchup-tpl','d-delivery']) {
         const el = document.getElementById(id);
-        if (el) el.textContent = '正在载入…';
+        if (el) { el.textContent = '正在载入…'; el.removeAttribute('title'); }
     }
+    document.getElementById('d-gudou-history').hidden = true;
+    document.getElementById('d-gudou-history').open = false;
+    document.getElementById('d-gudou-history-urls').textContent = '';
+    document.getElementById('row-catchup').hidden = true;
     document.getElementById('d-dvb-grid').replaceChildren();
     document.getElementById('d-num').textContent = `频道ID: ${cid} · 正在载入地区信息`;
     document.querySelectorAll('#main-drawer .stream-entry button').forEach(button => { button.disabled = true; });
@@ -140,7 +197,6 @@ async function updateRegion(cid, code) {
         channel = regionalChannel(cid, code);
         if (!channel) throw new Error('Channel missing from region catalog');
         fillChannel();
-        document.querySelectorAll('#main-drawer .stream-entry button').forEach(button => { button.disabled = false; });
         const result = await loadSchedule(cid, code);
         if (version !== requestVersion) return false;
         if (result === null) {
@@ -155,6 +211,9 @@ async function updateRegion(cid, code) {
         return true;
     } catch {
         if (version !== requestVersion) return false;
+        if (!channel) {
+            for (const id of ['d-gudou','d-gudou-status','d-gudou-observation','d-gudou-identity','d-gudou-renditions','d-catchup-tpl']) document.getElementById(id).textContent = '地区数据载入失败，未使用其他地区证据';
+        }
         document.getElementById('d-epg-count').textContent = '载入失败';
         list.textContent = '该地区节目单载入失败，请重新选择地区重试。';
         return false;
@@ -175,7 +234,7 @@ function buildDateTabs() {
 }
 function replayAllowed(programme) {
     const start = chinaTime(programme.start), end = chinaTime(programme.end), now = Date.now();
-    return channel?.isTVAnyTime === '1' && programme.canReplay !== false && end <= now && start >= now - 7 * 86400000 && end > start;
+    return Boolean(replayTemplate(channel)) && programme.canReplay !== false && end <= now && start >= now - 7 * 86400000 && end > start;
 }
 function programmeCard(programme, now) {
     const start = chinaTime(programme.start), end = chinaTime(programme.end);
@@ -189,19 +248,19 @@ function programmeCard(programme, now) {
     title.textContent = placeholder ? '未提供节目名称（源站占位）' : programme.title;
     body.append(time,title); card.append(body);
     if (replayAllowed(programme)) {
-        const button = document.createElement('button'); button.className = 'btn-copy-catchup'; button.textContent = '复制回看';
+        const button = document.createElement('button'); button.className = 'btn-copy-catchup'; button.textContent = '复制回看请求';
         button.onclick = () => {
-            if (!replayAllowed(programme)) { showToast('该节目已超出回看范围'); return; }
+            if (!replayAllowed(programme)) { showToast('当前未满足回看请求条件'); return; }
             const offset = Math.floor((Date.now() - start) / 1000);
             const url = new URL(streamURL(channel));
             url.searchParams.set('volume', 'Suma');
             url.searchParams.set('offset', String(offset));
-            copyBtnFeedback(button, url.href, '已复制回看地址');
+            copyBtnFeedback(button, url.href, '已复制回看请求模板，尚未验证回看能力');
         };
         card.append(button);
     } else {
         const badge = document.createElement('span'); badge.style.cssText = 'font-size:11px;color:var(--text-muted);white-space:nowrap;';
-        badge.textContent = current ? '正在播出' : start > now ? '即将播出' : channel.isTVAnyTime !== '1' ? '未开通回看' : '已超出回看范围';
+        badge.textContent = current ? '正在播出' : start > now ? '即将播出' : channel.isTVAnyTime !== '1' ? '未开通回看' : !replayTemplate(channel) ? '未满足回看请求条件' : '已超出回看范围';
         card.append(badge);
     }
     return card;
@@ -258,9 +317,15 @@ export function hideDrawer(back = true) {
     if (opener?.isConnected) opener.focus({preventScroll:true});
 }
 export function closeDrawer(event) { if (event.target.id === 'drawer-overlay') hideDrawer(); }
-export function copyCurrentRtp(button) { if (channel) copyBtnFeedback(button, channel.rtp, '已复制组播地址'); }
-export function copyCurrentGudou(button) { if (channel) copyBtnFeedback(button, streamURL(channel), '已复制谷豆单播地址'); }
-export function copyNativeCatchupTemplate(button) { if (channel?.isTVAnyTime === '1') copyBtnFeedback(button, replayTemplate(channel), '已复制时移模板'); }
+export function copyCurrentRtp(button) { if (channel?.rtp) copyBtnFeedback(button, channel.rtp, '已复制组播地址'); }
+export function copyCurrentGudou(button) {
+    const url = streamURL(channel);
+    if (url) copyBtnFeedback(button, url, `已复制记录地址（${observationStatus(channel.gudouCheck)}）`);
+}
+export function copyNativeCatchupTemplate(button) {
+    const template = replayTemplate(channel);
+    if (template) copyBtnFeedback(button, template, '已复制时移请求模板，尚未验证回看能力');
+}
 window.addEventListener('popstate', () => {
     pendingHistoryClose = false;
     if (queuedOpen) {

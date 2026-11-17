@@ -17,7 +17,7 @@
             document.documentElement.setAttribute('data-theme', effective);
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=20261110-slate">
+    <link rel="stylesheet" href="./css/style.css?v=20261117-gudou-health">
 </head>
 <body>
     <div class="header">
@@ -345,19 +345,26 @@
                             </div>
                             <div class="stream-entry-body">
                                 <span class="stream-code gudou" id="d-gudou">-</span>
-                                <button class="btn btn-sm btn-purple" id="btn-copy-gudou-d" onclick="copyCurrentGudou(this)">复制</button>
+                                <button class="btn btn-sm btn-purple" id="btn-copy-gudou-d" onclick="copyCurrentGudou(this)" disabled>复制</button>
                             </div>
                             <span id="d-gudou-status" style="font-size:11px;color:var(--text-muted);"></span>
+                            <div id="d-gudou-observation"></div>
+                            <div id="d-gudou-identity"></div>
+                            <div id="d-gudou-renditions"></div>
+                            <details id="d-gudou-history" hidden>
+                                <summary>历史地址（不代表本次可用）</summary>
+                                <pre id="d-gudou-history-urls"></pre>
+                            </details>
                         </div>
 
                         <div class="stream-entry" id="row-catchup">
                             <div class="stream-entry-label">
                                 <span class="stream-dot tpl"></span>
-                                <span>7天时移切片模板</span>
+                                <span>时移请求模板（未验证回看能力）</span>
                             </div>
                             <div class="stream-entry-body">
                                 <span class="stream-code tpl" id="d-catchup-tpl">-</span>
-                                <button class="btn btn-sm btn-primary" id="btn-copy-catchup-tpl" onclick="copyNativeCatchupTemplate(this)">复制模板</button>
+                                <button class="btn btn-sm btn-primary" id="btn-copy-catchup-tpl" onclick="copyNativeCatchupTemplate(this)" disabled>复制模板</button>
                             </div>
                         </div>
                     </div>
@@ -458,6 +465,6 @@
 
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
-    <script type="module" src="./js/app.js?v=20261110-slate"></script>
+    <script type="module" src="./js/app.js?v=20261117-gudou-health"></script>
 </body>
 </html>

@@ -938,6 +938,13 @@
     .stream-code.rtp { color: var(--rtp-color); }
     .stream-code.gudou { color: var(--purple); }
     .stream-code.tpl { color: var(--text-muted); font-size: 10px; }
+    #d-gudou-observation, #d-gudou-identity, #d-gudou-renditions, #d-gudou-history {
+        font-size: 11px; line-height: 1.55; color: var(--text-muted); overflow-wrap: anywhere;
+    }
+    #d-gudou-observation { color: var(--text-dim); font-variant-numeric: tabular-nums; }
+    #d-gudou-renditions > div { padding: 4px 0; border-top: 1px solid var(--border); }
+    #d-gudou-history { margin-top: 3px; }
+    #d-gudou-history pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 160px; overflow-y: auto; font-size: 10px; }
 
     .dvb-section { margin-top: 10px; }
     .dvb-section-header {

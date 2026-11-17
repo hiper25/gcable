@@ -1,8 +1,8 @@
-import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=20261110-slate';
-import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=20261110-slate';
-import * as drawer from './drawer.js?v=20261110-slate';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=20261110-slate';
-import {initWeather} from './weather.js?v=20261110-slate';
+import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=20261117-gudou-health';
+import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=20261117-gudou-health';
+import * as drawer from './drawer.js?v=20261117-gudou-health';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=20261117-gudou-health';
+import {initWeather} from './weather.js?v=20261117-gudou-health';
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }
     const path = exportsForSelection()[field];
