@@ -1,5 +1,5 @@
-import {state, regionCode, fetchJSON, escapeHTML as esc, chinaTime} from './data.js?v=20261117-direct-data';
-import {openPicker} from './picker.js?v=20261117-direct-data';
+import {state, regionCode, fetchJSON, escapeHTML as esc, chinaTime} from './data.js?v=20261118-layout';
+import {openPicker} from './picker.js?v=20261118-layout';
 
 let toastTimer;
 const copyTimers = new WeakMap();
@@ -145,7 +145,7 @@ export function openHistoryModal() {
             : field.endsWith('status') ? {success:'检查完成',partial:'检查部分完成',failed:'检查失败',pending:'检查待执行'} : {};
         return labels[value] || (typeof value === 'object' ? '未提供' : String(value));
     };
-    fetchJSON('./channel_history.json', {cache:'no-cache'}).then(history => {
+    fetchJSON('./data/channel_history.json', {cache:'no-cache'}).then(history => {
         if (!isCurrent()) return;
         if (history?.version !== 2 || !Array.isArray(history.events)) throw new Error('Invalid change log');
         const labels = {channel:'频道配置',gudou:'谷豆检查',rendition:'档位参数'};
@@ -324,7 +324,7 @@ function renderEpgModal(body) {
                 <span class="epg-dl-title">全网总表（全部 ${idx.totals.channels} 个电视台 + 跨地区差异节目单）</span>
                 <span class="epg-dl-meta">${Number(idx.totals.programmes || 0).toLocaleString('zh-CN')} 条节目 · 更新于 ${esc(idx.updatedAt || '-')}</span>
             </div>
-            <div class="epg-dl-meta">包含全省所有组播频道的标准 XMLTV (<code>epg.xml</code>)，自动关联 <code>playlist.m3u</code> 与 <code>gudou_playlist.m3u</code>。</div>
+            <div class="epg-dl-meta">包含全省所有组播频道的标准 XMLTV (<code>exports/epg.xml</code>)，自动关联 <code>exports/playlist.m3u</code> 与 <code>exports/gudou_playlist.m3u</code>。</div>
             ${actionRow(totalExports.epgUrl, totalExports.playlistUrl, totalExports.gudouPlaylistUrl, 'gcable_all', '全网总表', false)}
         </div>
         ${currentHtml}

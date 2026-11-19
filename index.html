@@ -17,7 +17,7 @@
             document.documentElement.setAttribute('data-theme', effective);
         })();
     </script>
-    <link rel="stylesheet" href="./css/style.css?v=20261118-history-picker">
+    <link rel="stylesheet" href="./css/style.css?v=20261118-layout">
 </head>
 <body>
     <div class="header">
@@ -87,10 +87,10 @@
             <button class="btn btn-amber" type="button" data-subscription-action="exportTxt">
                 <svg class="btn-svg" viewBox="0 0 24 24"><polyline points="8 17 12 21 16 17"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.88 18.09A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.29"/></svg><span class="subscription-action-label"></span>
             </button>
-            <a class="btn" data-subscription-action="downloadM3U" data-playlist-download href="./playlist.m3u" download="gcable_multicast.m3u">
+            <a class="btn" data-subscription-action="downloadM3U" data-playlist-download href="./exports/playlist.m3u" download="gcable_multicast.m3u">
                 <svg class="btn-svg" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span class="subscription-action-label"></span>
             </a>
-            <a class="btn btn-accent" data-subscription-action="downloadEPG" data-epg-download href="./epg.xml" download="gcable_epg.xml">
+            <a class="btn btn-accent" data-subscription-action="downloadEPG" data-epg-download href="./exports/epg.xml" download="gcable_epg.xml">
                 <svg class="btn-svg" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg><span class="subscription-action-label"></span>
             </a>
             <button class="btn" type="button" data-subscription-action="openEpgModal">
@@ -460,6 +460,6 @@
 
     <!-- 复制成功 Toast -->
     <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true">✓ 已复制到剪贴板</div>
-    <script type="module" src="./js/app.js?v=20261118-history-picker"></script>
+    <script type="module" src="./js/app.js?v=20261118-layout"></script>
 </body>
 </html>

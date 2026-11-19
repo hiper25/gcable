@@ -33,9 +33,9 @@ export async function loadCatalog() {
     state.status = 'loading';
     state.error = null;
     try {
-        const index = await fetchJSON('./data_index.json', {cache: 'no-cache'});
+        const index = await fetchJSON('./data/data_index.json', {cache: 'no-cache'});
         state.index = index;
-        const channels = await fetchJSON(mutableURL('./channels.json'));
+        const channels = await fetchJSON(mutableURL('./data/channels.json'));
         state.channels = channels.filter(channel => channel.rtp).map(prepareChannel);
         state.byId = new Map(state.channels.map(channel => [String(channel.channelID), channel]));
         state.regionByName.clear();

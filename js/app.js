@@ -1,8 +1,8 @@
-import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=20261117-direct-data';
-import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=20261118-history-picker';
-import * as drawer from './drawer.js?v=20261118-history-picker';
-import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=20261118-history-picker';
-import {initWeather} from './weather.js?v=20261117-direct-data';
+import {state, loadCatalog, fetchJSON, exportsForSelection} from './data.js?v=20261118-layout';
+import {initChannels, renderCatalogError, scheduleFilter, setCategory, setCity, switchView} from './channels.js?v=20261118-layout';
+import * as drawer from './drawer.js?v=20261118-layout';
+import {initTheme, setThemeMode, scrollToTop, showToast, copyBtnFeedback, openHistoryModal, closeHistoryModal, openEpgModal, closeEpgModal} from './ui.js?v=20261118-layout';
+import {initWeather} from './weather.js?v=20261118-layout';
 function copyExport(button, field, label) {
     if (!state.index) { showToast('频道数据尚未载入'); return; }
     const path = exportsForSelection()[field];
@@ -193,11 +193,11 @@ function bootstrapCatalog() {
     });
 }
 bootstrapCatalog();
-fetchJSON('./weather.json', {cache: 'no-cache'}).then(initWeather).catch(() => {
+fetchJSON('./data/weather.json', {cache: 'no-cache'}).then(initWeather).catch(() => {
     const track = document.getElementById('weather-track');
     if (track) track.textContent = '天气数据暂不可用';
 });
-fetchJSON('./notices.json', {cache: 'no-cache'}).then(renderNotices).catch(() => {});
+fetchJSON('./data/notices.json', {cache: 'no-cache'}).then(renderNotices).catch(() => {});
 document.getElementById('mobile-dock-catalog')?.addEventListener('click', () => {
     drawer.hideDrawer();
     closeEpgModal();
