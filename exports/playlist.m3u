@@ -101,11 +101,7 @@ rtp://239.12.50.3:10001
 rtp://239.12.50.100:10001
 #EXTINF:-1 tvg-id="3350" tvg-name="龙川台高清" tvg-chno="5" group-title="粤东西北县市" region-code="3860" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",龙川台高清
 rtp://239.12.50.120:10001
-#EXTINF:-1 tvg-id="3350@3870" tvg-name="龙川台高清" tvg-chno="5" group-title="粤东西北县市" region-code="3870" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",龙川台高清
-rtp://239.12.50.120:10001
 #EXTINF:-1 tvg-id="3370" tvg-name="和平台高清" tvg-chno="5" group-title="粤东西北县市" region-code="3900" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",和平台高清
-rtp://239.12.50.140:10001
-#EXTINF:-1 tvg-id="3370@3910" tvg-name="和平台高清" tvg-chno="5" group-title="粤东西北县市" region-code="3910" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",和平台高清
 rtp://239.12.50.140:10001
 #EXTINF:-1 tvg-id="3481" tvg-name="梅州导视高清" tvg-chno="5" group-title="粤东西北县市" region-code="3412" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",梅州导视高清
 rtp://239.12.47.206:10001
@@ -638,8 +634,6 @@ rtp://239.12.22.130:10001
 #EXTINF:-1 tvg-id="2290" tvg-name="FCC-天元围棋（高清特色）" tvg-chno="122" group-title="其他综合" region-code="1290" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",FCC-天元围棋（高清特色）
 rtp://239.12.22.147:10001?sumaChannelFCCIP=172.21.201.39&sumaChannelFCCPort=15971
 #EXTINF:-1 tvg-id="2701" tvg-name="云浮综合" tvg-chno="122" group-title="粤东西北县市" region-code="6820" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2701.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",云浮综合
-rtp://239.12.45.1:10001
-#EXTINF:-1 tvg-id="2701@6840" tvg-name="云浮综合" tvg-chno="122" group-title="粤东西北县市" region-code="6840" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2701.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",云浮综合
 rtp://239.12.45.1:10001
 #EXTINF:-1 tvg-id="1911" tvg-name="CBN幸福剧场" tvg-chno="123" group-title="特色影视体育" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1911.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CBN幸福剧场
 rtp://239.12.22.77:10001
