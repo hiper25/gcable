@@ -213,3 +213,5 @@ rtp://239.12.22.158:10001
 rtp://239.12.22.155:10001
 #EXTINF:-1 tvg-id="1287" tvg-name="央广购物" tvg-chno="158" group-title="其他综合" region-code="2400" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1287.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",央广购物
 rtp://239.12.21.156:10001
+#EXTINF:-1 tvg-id="8000" tvg-name="湛江电台第一台" tvg-chno="300" group-title="粤东西北县市" region-code="2400" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",湛江电台第一台
+rtp://239.12.40.238: 10001
