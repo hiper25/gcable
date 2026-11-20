@@ -145868,7 +145868,7 @@
         }
       ],
       "channelID": "2441",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "吴川综合高清",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
@@ -145883,7 +145883,7 @@
         }
       ],
       "channelID": "2452",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "广东民生",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
@@ -145898,7 +145898,7 @@
         }
       ],
       "channelID": "2509",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "潮阳台（高清）",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
@@ -145913,7 +145913,7 @@
         }
       ],
       "channelID": "2612",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "翁源台（高清）",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
@@ -145928,7 +145928,7 @@
         }
       ],
       "channelID": "2624",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "新丰综合(高清)",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
@@ -145943,7 +145943,7 @@
         }
       ],
       "channelID": "2652",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "乳源台（高清）",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
@@ -145958,7 +145958,7 @@
         }
       ],
       "channelID": "3202",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "湛江综合",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
@@ -145973,7 +145973,7 @@
         }
       ],
       "channelID": "3208",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "导视频道高清",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
@@ -145998,11 +145998,236 @@
       "name": "多彩文体（4K特色）",
       "timestamp": "2026-11-20T21:01:34+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "168",
+          "before": "144",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://371000.6875.64.708.781.782",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1213",
+      "detail": "频道资料更新",
+      "name": "广东珠江",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "327",
+          "before": "80",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://235.6.64.1101.null.0x51",
+          "before": "delivery://267000.6875.64.507.null.104",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1287",
+      "detail": "频道资料更新",
+      "name": "央广购物",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "26",
+          "before": "37",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://115000.6875.64.2005.0xa5.0x55",
+          "before": "delivery://514.6875.256.4301.160.80",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1296",
+      "detail": "频道资料更新",
+      "name": "聚鲨环球精选",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "47",
+          "before": "83",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://37900.6875.256.4105.0xa5.0x55",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1451",
+      "detail": "频道资料更新",
+      "name": "海南卫视（高清）",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2441",
+      "detail": "频道资料更新",
+      "name": "吴川综合高清",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2452",
+      "detail": "频道资料更新",
+      "name": "广东民生",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2509",
+      "detail": "频道资料更新",
+      "name": "潮阳台（高清）",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2612",
+      "detail": "频道资料更新",
+      "name": "翁源台（高清）",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2624",
+      "detail": "频道资料更新",
+      "name": "新丰综合(高清)",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2652",
+      "detail": "频道资料更新",
+      "name": "乳源台（高清）",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3202",
+      "detail": "频道资料更新",
+      "name": "湛江综合",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3208",
+      "detail": "频道资料更新",
+      "name": "导视频道高清",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "100",
+          "before": "90",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://522.6.256.6306.null.0x52",
+          "before": "delivery://195.6875.256.4101.null.80",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "4008",
+      "detail": "频道资料更新",
+      "name": "多彩文体（4K特色）",
+      "timestamp": "2026-11-20T21:31:37+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-20T13:01:29.346326+00:00",
-    "total_channels": 513
+    "last_updated": "2026-11-20T13:31:33.547403+00:00",
+    "total_channels": 521
   },
   "version": 2
 }
