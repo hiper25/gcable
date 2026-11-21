@@ -14070,7 +14070,7 @@
       ],
       "channelID": "1016",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "CCTVnews",
+      "name": "CGTN",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:19.568099+00:00",
       "type": "gudou",
@@ -14152,7 +14152,7 @@
       ],
       "channelID": "1233",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "中国教育（特色）",
+      "name": "CETV-1",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:23.757622+00:00",
       "type": "gudou",
@@ -14474,7 +14474,7 @@
       ],
       "channelID": "1227",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山东教育台",
+      "name": "山东教育",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:35.416266+00:00",
       "type": "gudou",
@@ -14966,7 +14966,7 @@
       ],
       "channelID": "1288",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "宜和购物",
+      "name": "中国天气高清",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:49.793398+00:00",
       "type": "gudou",
@@ -16524,7 +16524,7 @@
       ],
       "channelID": "1715",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "卫生健康（特色）",
+      "name": "卫生健康(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:17:34.695392+00:00",
       "type": "gudou",
@@ -17344,7 +17344,7 @@
       ],
       "channelID": "1923",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "风云足球（高清）",
+      "name": "风云足球(高清特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:18:33.801823+00:00",
       "type": "gudou",
@@ -17625,7 +17625,7 @@
       ],
       "channelID": "1932",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "世界地理（高清）",
+      "name": "世界地理(高清特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:18:54.232854+00:00",
       "type": "gudou",
@@ -17666,7 +17666,7 @@
       ],
       "channelID": "1934",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "央视文化精品（高清）",
+      "name": "央视精品(高清特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:18:55.574141+00:00",
       "type": "gudou",
@@ -17707,7 +17707,7 @@
       ],
       "channelID": "1929",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "风云剧场（高清）",
+      "name": "风云剧场(高清特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:18:56.662438+00:00",
       "type": "gudou",
@@ -17789,7 +17789,7 @@
       ],
       "channelID": "1931",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "风云音乐（高清）",
+      "name": "风云音乐(高清特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:19:09.107417+00:00",
       "type": "gudou",
@@ -17830,7 +17830,7 @@
       ],
       "channelID": "1450",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "早期教育（高清）",
+      "name": "早期教育(高清特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:19:15.400711+00:00",
       "type": "gudou",
@@ -17912,7 +17912,7 @@
       ],
       "channelID": "1718",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "CHC家庭影院（特色）",
+      "name": "家庭影院(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:19:38.020848+00:00",
       "type": "gudou",
@@ -18035,7 +18035,7 @@
       ],
       "channelID": "1933",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "女性时尚（高清）",
+      "name": "女性时尚(高清特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:19:43.650616+00:00",
       "type": "gudou",
@@ -18076,7 +18076,7 @@
       ],
       "channelID": "1719",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "CHC动作电影（特色）",
+      "name": "动作电影(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:19:47.665053+00:00",
       "type": "gudou",
@@ -18199,7 +18199,7 @@
       ],
       "channelID": "1246",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:19:55.255410+00:00",
       "type": "gudou",
@@ -27370,7 +27370,7 @@
       ],
       "channelID": "1016",
       "detail": "参数解析：未执行 → 成功；媒体解码：未执行 → 失败",
-      "name": "CCTVnews",
+      "name": "CGTN",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:07:37.311557+00:00",
       "type": "gudou",
@@ -27435,7 +27435,7 @@
       ],
       "channelID": "1016",
       "detail": "1500.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 200；参数解析：未提供 → 成功；媒体解码：未提供 → 失败；视频宽度：未提供 → 720；视频高度：未提供 → 576；视频编码：未提供 → H264；音频编码：未提供 → AAC；错误详情：未提供 → 请求失败",
-      "name": "CCTVnews",
+      "name": "CGTN",
       "playlistPath": "/live/avit/1016/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:07:37.311557+00:00",
       "type": "rendition",
@@ -28098,7 +28098,7 @@
       ],
       "channelID": "1233",
       "detail": "参数解析：未执行 → 失败",
-      "name": "中国教育（特色）",
+      "name": "CETV-1",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:07:40.680668+00:00",
       "type": "gudou",
@@ -28139,7 +28139,7 @@
       ],
       "channelID": "1233",
       "detail": "1500.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 200；参数解析：未提供 → 失败；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "中国教育（特色）",
+      "name": "CETV-1",
       "playlistPath": "/live/avit/1233/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:07:40.680668+00:00",
       "type": "rendition",
@@ -30238,7 +30238,7 @@
       ],
       "channelID": "1246",
       "detail": "参数解析：未执行 → 失败",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:08:09.633021+00:00",
       "type": "gudou",
@@ -30279,7 +30279,7 @@
       ],
       "channelID": "1246",
       "detail": "800.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 200；参数解析：未提供 → 失败；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/800/800.m3u8",
       "timestamp": "2026-11-17T04:08:09.633021+00:00",
       "type": "rendition",
@@ -43490,7 +43490,7 @@
       ],
       "channelID": "1718",
       "detail": "参数解析：未执行 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "CHC家庭影院（特色）",
+      "name": "家庭影院(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:08:55.148562+00:00",
       "type": "gudou",
@@ -43555,7 +43555,7 @@
       ],
       "channelID": "1718",
       "detail": "1500.m3u8：请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 成功；媒体解码：未提供 → 失败；视频宽度：未提供 → 1280；视频高度：未提供 → 720；视频编码：未提供 → H264；音频编码：未提供 → AAC；错误详情：未提供 → 媒体解码失败",
-      "name": "CHC家庭影院（特色）",
+      "name": "家庭影院(特色)",
       "playlistPath": "/live/avit/1718/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:08:55.148562+00:00",
       "type": "rendition",
@@ -44143,7 +44143,7 @@
       ],
       "channelID": "1719",
       "detail": "参数解析：未执行 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "CHC动作电影（特色）",
+      "name": "动作电影(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:08:55.898922+00:00",
       "type": "gudou",
@@ -44208,7 +44208,7 @@
       ],
       "channelID": "1719",
       "detail": "1500.m3u8：请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 成功；媒体解码：未提供 → 失败；视频宽度：未提供 → 1280；视频高度：未提供 → 720；视频编码：未提供 → H264；音频编码：未提供 → AAC；错误详情：未提供 → 媒体解码失败",
-      "name": "CHC动作电影（特色）",
+      "name": "动作电影(特色)",
       "playlistPath": "/live/avit/1719/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:08:55.898922+00:00",
       "type": "rendition",
@@ -61882,7 +61882,7 @@
       ],
       "channelID": "1246",
       "detail": "参数解析：失败 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:35:33.475418+00:00",
       "type": "gudou",
@@ -61923,7 +61923,7 @@
       ],
       "channelID": "1246",
       "detail": "1500.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 200；参数解析：未提供 → 失败；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:35:33.475418+00:00",
       "type": "rendition",
@@ -61958,7 +61958,7 @@
       ],
       "channelID": "1246",
       "detail": "800.m3u8：请求结果：失败 → 成功；参数解析：失败 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/800/800.m3u8",
       "timestamp": "2026-11-17T04:35:33.475418+00:00",
       "type": "rendition",
@@ -64368,7 +64368,7 @@
       ],
       "channelID": "1016",
       "detail": "媒体解码：失败 → 成功；错误详情：请求失败 → 未提供",
-      "name": "CCTVnews",
+      "name": "CGTN",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:16:53.419958+00:00",
       "type": "gudou",
@@ -64451,7 +64451,7 @@
       ],
       "channelID": "1016",
       "detail": "1500.m3u8：请求结果：失败 → 成功；媒体解码：失败 → 成功；帧率：未提供 → 25/1；视频规格：未提供 → Main；像素格式：未提供 → yuv420p；像素宽高比：未提供 → 12:11；画面宽高比：未提供 → 15:11；扫描方式：未提供 → progressive；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 96534；错误详情：请求失败 → 未提供",
-      "name": "CCTVnews",
+      "name": "CGTN",
       "playlistPath": "/live/avit/1016/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:16:53.419958+00:00",
       "type": "rendition",
@@ -66074,7 +66074,7 @@
       ],
       "channelID": "1227",
       "detail": "1227.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山东教育台",
+      "name": "山东教育",
       "playlistPath": "/live/1227.m3u8",
       "timestamp": "2026-11-17T14:17:15.274766+00:00",
       "type": "rendition",
@@ -67101,7 +67101,7 @@
       ],
       "channelID": "1233",
       "detail": "参数解析：失败 → 成功；媒体解码：未执行 → 成功；错误详情：请求失败 → 未提供",
-      "name": "中国教育（特色）",
+      "name": "CETV-1",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:17:19.170783+00:00",
       "type": "gudou",
@@ -67136,7 +67136,7 @@
       ],
       "channelID": "1233",
       "detail": "1500.m3u8：请求结果：失败 → 成功；参数解析：失败 → 成功；媒体解码：未执行 → 成功；错误详情：请求失败 → 未提供",
-      "name": "中国教育（特色）",
+      "name": "CETV-1",
       "playlistPath": "/live/avit/1233/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:17:19.170783+00:00",
       "type": "rendition",
@@ -69044,7 +69044,7 @@
       ],
       "channelID": "1246",
       "detail": "媒体解码：失败 → 成功；错误详情：媒体解码失败 → 未提供",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:17:23.636448+00:00",
       "type": "gudou",
@@ -69079,7 +69079,7 @@
       ],
       "channelID": "1246",
       "detail": "1500.m3u8：请求结果：失败 → 成功；参数解析：失败 → 成功；媒体解码：未执行 → 成功；错误详情：请求失败 → 未提供",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:17:23.636448+00:00",
       "type": "rendition",
@@ -69156,7 +69156,7 @@
       ],
       "channelID": "1246",
       "detail": "800.m3u8：媒体解码：失败 → 成功；帧率：未提供 → 25/1；视频规格：未提供 → Main；像素格式：未提供 → yuv420p；像素宽高比：未提供 → 1:1；画面宽高比：未提供 → 4:3；扫描方式：未提供 → progressive；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 96333；错误详情：媒体解码失败 → 未提供",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/800/800.m3u8",
       "timestamp": "2026-11-17T14:17:23.636448+00:00",
       "type": "rendition",
@@ -69279,7 +69279,7 @@
       ],
       "channelID": "1288",
       "detail": "1288.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "宜和购物",
+      "name": "中国天气高清",
       "playlistPath": "/live/1288.m3u8",
       "timestamp": "2026-11-17T14:17:23.774080+00:00",
       "type": "rendition",
@@ -76400,7 +76400,7 @@
       ],
       "channelID": "1450",
       "detail": "1450.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "早期教育（高清）",
+      "name": "早期教育(高清特色)",
       "playlistPath": "/live/1450.m3u8",
       "timestamp": "2026-11-17T14:17:56.372393+00:00",
       "type": "rendition",
@@ -85302,7 +85302,7 @@
       ],
       "channelID": "1715",
       "detail": "1715.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "卫生健康（特色）",
+      "name": "卫生健康(特色)",
       "playlistPath": "/live/1715.m3u8",
       "timestamp": "2026-11-17T14:18:22.097787+00:00",
       "type": "rendition",
@@ -87935,7 +87935,7 @@
       ],
       "channelID": "1718",
       "detail": "媒体解码：失败 → 成功；错误详情：媒体解码失败 → 未提供",
-      "name": "CHC家庭影院（特色）",
+      "name": "家庭影院(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:18:24.255209+00:00",
       "type": "gudou",
@@ -88012,7 +88012,7 @@
       ],
       "channelID": "1718",
       "detail": "1500.m3u8：媒体解码：失败 → 成功；帧率：未提供 → 25/1；视频规格：未提供 → High；像素格式：未提供 → yuv420p；像素宽高比：未提供 → 1:1；画面宽高比：未提供 → 16:9；扫描方式：未提供 → progressive；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 95848；错误详情：媒体解码失败 → 未提供",
-      "name": "CHC家庭影院（特色）",
+      "name": "家庭影院(特色)",
       "playlistPath": "/live/avit/1718/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:18:24.255209+00:00",
       "type": "rendition",
@@ -88076,7 +88076,7 @@
       ],
       "channelID": "1719",
       "detail": "媒体解码：失败 → 成功；错误详情：媒体解码失败 → 未提供",
-      "name": "CHC动作电影（特色）",
+      "name": "动作电影(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:18:24.479109+00:00",
       "type": "gudou",
@@ -88153,7 +88153,7 @@
       ],
       "channelID": "1719",
       "detail": "1500.m3u8：媒体解码：失败 → 成功；帧率：未提供 → 25/1；视频规格：未提供 → High；像素格式：未提供 → yuv420p；像素宽高比：未提供 → 1:1；画面宽高比：未提供 → 16:9；扫描方式：未提供 → progressive；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 96268；错误详情：媒体解码失败 → 未提供",
-      "name": "CHC动作电影（特色）",
+      "name": "动作电影(特色)",
       "playlistPath": "/live/avit/1719/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:18:24.479109+00:00",
       "type": "rendition",
@@ -88699,7 +88699,7 @@
       ],
       "channelID": "1923",
       "detail": "1923.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "风云足球（高清）",
+      "name": "风云足球(高清特色)",
       "playlistPath": "/live/1923.m3u8",
       "timestamp": "2026-11-17T14:18:25.757879+00:00",
       "type": "rendition",
@@ -88945,7 +88945,7 @@
       ],
       "channelID": "1929",
       "detail": "1929.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "风云剧场（高清）",
+      "name": "风云剧场(高清特色)",
       "playlistPath": "/live/1929.m3u8",
       "timestamp": "2026-11-17T14:18:26.002642+00:00",
       "type": "rendition",
@@ -89027,7 +89027,7 @@
       ],
       "channelID": "1931",
       "detail": "1931.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "风云音乐（高清）",
+      "name": "风云音乐(高清特色)",
       "playlistPath": "/live/1931.m3u8",
       "timestamp": "2026-11-17T14:18:26.089171+00:00",
       "type": "rendition",
@@ -89068,7 +89068,7 @@
       ],
       "channelID": "1932",
       "detail": "1932.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "世界地理（高清）",
+      "name": "世界地理(高清特色)",
       "playlistPath": "/live/1932.m3u8",
       "timestamp": "2026-11-17T14:18:26.129802+00:00",
       "type": "rendition",
@@ -89109,7 +89109,7 @@
       ],
       "channelID": "1933",
       "detail": "1933.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "女性时尚（高清）",
+      "name": "女性时尚(高清特色)",
       "playlistPath": "/live/1933.m3u8",
       "timestamp": "2026-11-17T14:18:26.170447+00:00",
       "type": "rendition",
@@ -89150,7 +89150,7 @@
       ],
       "channelID": "1934",
       "detail": "1934.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "央视文化精品（高清）",
+      "name": "央视精品(高清特色)",
       "playlistPath": "/live/1934.m3u8",
       "timestamp": "2026-11-17T14:18:26.211091+00:00",
       "type": "rendition",
@@ -110093,7 +110093,7 @@
       ],
       "channelID": "1016",
       "detail": "1500.m3u8：音频码率：96534 → 97022",
-      "name": "CCTVnews",
+      "name": "CGTN",
       "playlistPath": "/live/avit/1016/1500/1500.m3u8",
       "timestamp": "2026-11-19T21:44:40.859506+00:00",
       "type": "rendition",
@@ -110518,7 +110518,7 @@
       ],
       "channelID": "1233",
       "detail": "1500.m3u8：音频码率：64536 → 64054",
-      "name": "中国教育（特色）",
+      "name": "CETV-1",
       "playlistPath": "/live/avit/1233/1500/1500.m3u8",
       "timestamp": "2026-11-19T21:45:35.722937+00:00",
       "type": "rendition",
@@ -110950,7 +110950,7 @@
       ],
       "channelID": "1246",
       "detail": "媒体解码：成功 → 失败；错误详情：未提供 → 媒体解码失败",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-19T21:45:43.226695+00:00",
       "type": "gudou",
@@ -110979,7 +110979,7 @@
       ],
       "channelID": "1246",
       "detail": "1500.m3u8：媒体解码：成功 → 失败；音频码率：95657 → 96095；错误详情：未提供 → 媒体解码失败",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/1500/1500.m3u8",
       "timestamp": "2026-11-19T21:45:43.226695+00:00",
       "type": "rendition",
@@ -110996,7 +110996,7 @@
       ],
       "channelID": "1246",
       "detail": "800.m3u8：音频码率：96333 → 96303",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/800/800.m3u8",
       "timestamp": "2026-11-19T21:45:43.226695+00:00",
       "type": "rendition",
@@ -112426,7 +112426,7 @@
       ],
       "channelID": "1719",
       "detail": "1500.m3u8：音频码率：96268 → 96063",
-      "name": "CHC动作电影（特色）",
+      "name": "动作电影(特色)",
       "playlistPath": "/live/avit/1719/1500/1500.m3u8",
       "timestamp": "2026-11-19T21:46:40.521639+00:00",
       "type": "rendition",
@@ -112443,7 +112443,7 @@
       ],
       "channelID": "1718",
       "detail": "1500.m3u8：音频码率：95848 → 96001",
-      "name": "CHC家庭影院（特色）",
+      "name": "家庭影院(特色)",
       "playlistPath": "/live/avit/1718/1500/1500.m3u8",
       "timestamp": "2026-11-19T21:46:41.028394+00:00",
       "type": "rendition",
@@ -115757,7 +115757,7 @@
       ],
       "channelID": "1016",
       "detail": "参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "CCTVnews",
+      "name": "CGTN",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:00:12.570213+00:00",
       "type": "gudou",
@@ -115786,7 +115786,7 @@
       ],
       "channelID": "1016",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "CCTVnews",
+      "name": "CGTN",
       "playlistPath": "/live/avit/1016/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:00:12.570213+00:00",
       "type": "rendition",
@@ -117381,7 +117381,7 @@
       ],
       "channelID": "1233",
       "detail": "参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "中国教育（特色）",
+      "name": "CETV-1",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:00:46.384272+00:00",
       "type": "gudou",
@@ -117410,7 +117410,7 @@
       ],
       "channelID": "1233",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "中国教育（特色）",
+      "name": "CETV-1",
       "playlistPath": "/live/avit/1233/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:00:46.384272+00:00",
       "type": "rendition",
@@ -118251,7 +118251,7 @@
       ],
       "channelID": "1246",
       "detail": "参数解析：成功 → 失败；媒体解码：失败 → 未执行；错误详情：媒体解码失败 → 媒体解码失败：本地解码工具不可用",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:01:15.310684+00:00",
       "type": "gudou",
@@ -118280,7 +118280,7 @@
       ],
       "channelID": "1246",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：失败 → 未执行；错误详情：媒体解码失败 → 媒体解码失败：本地解码工具不可用",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:01:15.310684+00:00",
       "type": "rendition",
@@ -118309,7 +118309,7 @@
       ],
       "channelID": "1246",
       "detail": "800.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "山西卫视",
+      "name": "山西卫视(特色)",
       "playlistPath": "/live/avit/1246/800/800.m3u8",
       "timestamp": "2026-11-20T00:01:15.310684+00:00",
       "type": "rendition",
@@ -126110,7 +126110,7 @@
       ],
       "channelID": "1718",
       "detail": "参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "CHC家庭影院（特色）",
+      "name": "家庭影院(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:01:28.020556+00:00",
       "type": "gudou",
@@ -126139,7 +126139,7 @@
       ],
       "channelID": "1718",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "CHC家庭影院（特色）",
+      "name": "家庭影院(特色)",
       "playlistPath": "/live/avit/1718/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:01:28.020556+00:00",
       "type": "rendition",
@@ -126226,7 +126226,7 @@
       ],
       "channelID": "1719",
       "detail": "参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "CHC动作电影（特色）",
+      "name": "动作电影(特色)",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:01:28.178957+00:00",
       "type": "gudou",
@@ -126255,7 +126255,7 @@
       ],
       "channelID": "1719",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "CHC动作电影（特色）",
+      "name": "动作电影(特色)",
       "playlistPath": "/live/avit/1719/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:01:28.178957+00:00",
       "type": "rendition",
@@ -147281,7 +147281,7 @@
         }
       ],
       "channelID": "2405",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "佛冈综合",
       "timestamp": "2026-11-21T07:31:17+08:00",
       "type": "channel"
@@ -147296,7 +147296,7 @@
         }
       ],
       "channelID": "2430",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "佛冈电台",
       "timestamp": "2026-11-21T07:31:17+08:00",
       "type": "channel"
@@ -147311,7 +147311,7 @@
         }
       ],
       "channelID": "2612",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "翁源台（高清）",
       "timestamp": "2026-11-21T07:31:17+08:00",
       "type": "channel"
@@ -147326,7 +147326,7 @@
         }
       ],
       "channelID": "2614",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "乐昌台（高清）",
       "timestamp": "2026-11-21T07:31:17+08:00",
       "type": "channel"
@@ -147452,7 +147452,7 @@
         }
       ],
       "channelID": "3434",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "平远-1（高清）",
       "timestamp": "2026-11-21T07:31:17+08:00",
       "type": "channel"
@@ -147471,11 +147471,566 @@
       "name": "丰顺高清",
       "timestamp": "2026-11-21T07:31:17+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "CGTN",
+          "before": "CCTVnews",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "79",
+          "before": "63",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://522.6875.256.302.161.84",
+          "before": "delivery://235.6875.64 .123.1231.1232",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1016",
+      "detail": "频道资料更新",
+      "name": "CGTN",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "33",
+          "before": "56",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://538.6875.256.401.160.80",
+          "before": "delivery://243000.68755.64.604.803.612",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1218",
+      "detail": "频道资料更新",
+      "name": "经济科教",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "山东教育",
+          "before": "山东教育台",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "084",
+          "before": "60",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://315.6.64.164.1371.1372",
+          "before": "delivery://403.6875.64.8304.353.132",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1227",
+      "detail": "频道资料更新",
+      "name": "山东教育",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "CETV-1",
+          "before": "中国教育（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "80",
+          "before": "216",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://522.6875.256.303.162.88",
+          "before": "delivery://259000.68755.64.801.800.600",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1233",
+      "detail": "频道资料更新",
+      "name": "CETV-1",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "山西卫视(特色)",
+          "before": "山西卫视",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "138",
+          "before": "75",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://435.6875.256.1305.164.96",
+          "before": "delivery://259.6875.64.1010.null.92",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1246",
+      "detail": "频道资料更新",
+      "name": "山西卫视(特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "中国天气高清",
+          "before": "宜和购物",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "090",
+          "before": "173",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "rtp://239.12.22.150:10001",
+          "before": "rtp://239.12.21.168:10001",
+          "field": "rtp",
+          "label": "组播地址"
+        },
+        {
+          "after": "delivery://443.6.64.1440.112.212",
+          "before": "delivery://283.6875.64.1310.163.92",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1288",
+      "detail": "频道资料更新",
+      "name": "中国天气高清",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "早期教育(高清特色)",
+          "before": "早期教育（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "129",
+          "before": "85",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://498.6875.256.2604.163.92",
+          "before": "delivery://275.6875.64.1204.163.92",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1450",
+      "detail": "频道资料更新",
+      "name": "早期教育(高清特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "97",
+          "before": "91",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://586.6875.256.9003.162.88-89",
+          "before": "delivery://666.6875.64.3104.null.84",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1506",
+      "detail": "频道资料更新",
+      "name": "快乐垂钓（高清特色）",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "卫生健康(特色)",
+          "before": "卫生健康（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "112",
+          "before": "72",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://482.6875.256.2004.163.92",
+          "before": "delivery://371000.68755.64.2206.null.620",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1715",
+      "detail": "频道资料更新",
+      "name": "卫生健康(特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "家庭影院(特色)",
+          "before": "CHC家庭影院（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "130",
+          "before": "201",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://498.6875.256.2603.162.88",
+          "before": "delivery://211000.6875.64.4604.null.92",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1718",
+      "detail": "频道资料更新",
+      "name": "家庭影院(特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "动作电影(特色)",
+          "before": "CHC动作电影（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "132",
+          "before": "200",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://395.6875.256.805.164.96",
+          "before": "delivery://211000.6875.64.4603.null.88",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1719",
+      "detail": "频道资料更新",
+      "name": "动作电影(特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "风云足球(高清特色)",
+          "before": "风云足球（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "123",
+          "before": "150",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://315.6875.256.1804.163.92",
+          "before": "delivery://267.6875.64.1407.null.104",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1923",
+      "detail": "频道资料更新",
+      "name": "风云足球(高清特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "风云剧场(高清特色)",
+          "before": "风云剧场（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "127",
+          "before": "147",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://315.6875.256.1802.161.84",
+          "before": "delivery://267.6875.64.1404.null.92",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1929",
+      "detail": "频道资料更新",
+      "name": "风云剧场(高清特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "风云音乐(高清特色)",
+          "before": "风云音乐（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "128",
+          "before": "148",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://315.6875.256.1803.162.88",
+          "before": "delivery://267.6875.64.1405.null.96",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1931",
+      "detail": "频道资料更新",
+      "name": "风云音乐(高清特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "世界地理(高清特色)",
+          "before": "世界地理（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "125",
+          "before": "140",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://291.6875.256.1501.160.80-81",
+          "before": "delivery://251.6875.64.1207.null.104",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1932",
+      "detail": "频道资料更新",
+      "name": "世界地理(高清特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "女性时尚(高清特色)",
+          "before": "女性时尚（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "131",
+          "before": "152",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://490.6875.256.1906.165.100",
+          "before": "delivery://331.6875.64.1502.null.84",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1933",
+      "detail": "频道资料更新",
+      "name": "女性时尚(高清特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "央视精品(高清特色)",
+          "before": "央视文化精品（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "126",
+          "before": "151",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://498.6875.256.2601.160.80",
+          "before": "delivery://331.6875.64.1501.null.80",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1934",
+      "detail": "频道资料更新",
+      "name": "央视精品(高清特色)",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2405",
+      "detail": "频道资料更新",
+      "name": "佛冈综合",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2430",
+      "detail": "频道资料更新",
+      "name": "佛冈电台",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2612",
+      "detail": "频道资料更新",
+      "name": "翁源台（高清）",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2614",
+      "detail": "频道资料更新",
+      "name": "乐昌台（高清）",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2652",
+      "detail": "频道资料更新",
+      "name": "乳源台（高清）",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3434",
+      "detail": "频道资料更新",
+      "name": "平远-1（高清）",
+      "timestamp": "2026-11-21T08:01:00+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-20T23:31:10.292242+00:00",
-    "total_channels": 515
+    "last_updated": "2026-11-21T00:00:59.165881+00:00",
+    "total_channels": 521
   },
   "version": 2
 }
