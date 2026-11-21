@@ -155405,6 +155405,46 @@
     {
       "changes": [
         {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3009",
+      "detail": "错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "信宜综合（高清）",
+      "playlistPath": null,
+      "timestamp": "2026-11-21T19:01:12.911921+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/3009.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3009",
+      "detail": "7500.m3u8：请求结果：失败 → 成功；错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "信宜综合（高清）",
+      "playlistPath": "/live/avit/3009/7500/7500.m3u8",
+      "timestamp": "2026-11-21T19:01:12.911921+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/3009.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "茂名交通广播",
           "before": "音乐之声",
           "field": "name",
@@ -157570,6 +157610,52 @@
       "name": "百城千屏测试",
       "timestamp": "2026-11-21T19:01:16+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "8000",
+      "detail": "HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "湛江电台第一台",
+      "playlistPath": null,
+      "timestamp": "2026-11-21T19:01:17.175090+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/8000.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "8000",
+      "detail": "8000.m3u8：HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "湛江电台第一台",
+      "playlistPath": "/live/8000.m3u8",
+      "timestamp": "2026-11-21T19:01:17.175090+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/8000.m3u8"
     },
     {
       "changes": [
@@ -163087,7 +163173,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-21T18:31:44.604208+00:00",
+    "last_updated": "2026-11-21T19:01:17.263299+00:00",
     "total_channels": 521
   },
   "version": 2
