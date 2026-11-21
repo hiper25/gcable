@@ -163170,11 +163170,116 @@
       "name": "百城千屏测试",
       "timestamp": "2026-11-22T01:33:02+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2614",
+      "detail": "频道移出目录",
+      "name": "乐昌台（高清）",
+      "timestamp": "2026-11-22T04:01:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2617",
+      "detail": "频道移出目录",
+      "name": "仁化综合（高清）",
+      "timestamp": "2026-11-22T04:01:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2624",
+      "detail": "频道移出目录",
+      "name": "新丰综合(高清)",
+      "timestamp": "2026-11-22T04:01:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2652",
+      "detail": "频道移出目录",
+      "name": "乳源台（高清）",
+      "timestamp": "2026-11-22T04:01:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3408",
+      "detail": "频道移出目录",
+      "name": "蕉岭-1（高清）",
+      "timestamp": "2026-11-22T04:01:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3442",
+      "detail": "频道移出目录",
+      "name": "丰顺高清",
+      "timestamp": "2026-11-22T04:01:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3460",
+      "detail": "频道移出目录",
+      "name": "兴宁1（高清）",
+      "timestamp": "2026-11-22T04:01:39+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-21T19:31:44.927657+00:00",
-    "total_channels": 521
+    "last_updated": "2026-11-21T20:01:27.670627+00:00",
+    "total_channels": 514
   },
   "version": 2
 }
