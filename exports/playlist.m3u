@@ -635,8 +635,6 @@ rtp://239.12.22.130:10001
 rtp://239.12.22.147:10001?sumaChannelFCCIP=172.21.201.39&sumaChannelFCCPort=15971
 #EXTINF:-1 tvg-id="2701" tvg-name="云浮综合" tvg-chno="122" group-title="粤东西北县市" region-code="6820" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2701.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",云浮综合
 rtp://239.12.45.1:10001
-#EXTINF:-1 tvg-id="2701@6840" tvg-name="云浮综合" tvg-chno="122" group-title="粤东西北县市" region-code="6840" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2701.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",云浮综合
-rtp://239.12.45.1:10001
 #EXTINF:-1 tvg-id="1911" tvg-name="CBN幸福剧场" tvg-chno="123" group-title="特色影视体育" region-code="2620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1911.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CBN幸福剧场
 rtp://239.12.22.77:10001
 #EXTINF:-1 tvg-id="1923" tvg-name="风云足球(高清特色)" tvg-chno="123" group-title="特色影视体育" region-code="1684" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1923.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",风云足球(高清特色)
