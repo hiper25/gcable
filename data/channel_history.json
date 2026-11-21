@@ -151229,6 +151229,40 @@
     {
       "changes": [
         {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体解码失败：达到读取时限",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1214",
+      "detail": "错误详情：媒体解码失败：达到读取时限 → 媒体解码失败：本地解码工具不可用",
+      "name": "广东民生",
+      "playlistPath": null,
+      "timestamp": "2026-11-21T18:00:46.364399+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1214.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体解码失败：达到读取时限",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1214",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：达到读取时限 → 媒体解码失败：本地解码工具不可用",
+      "name": "广东民生",
+      "playlistPath": "/live/avit/1214/1500/1500.m3u8",
+      "timestamp": "2026-11-21T18:00:46.364399+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1214.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "209",
           "before": "205",
           "field": "channelNumber",
@@ -162967,7 +163001,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-21T17:31:47.149999+00:00",
+    "last_updated": "2026-11-21T18:01:40.336535+00:00",
     "total_channels": 521
   },
   "version": 2
