@@ -14597,7 +14597,7 @@
       ],
       "channelID": "1436",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "足球频道（高清）",
+      "name": "足球频道(高清)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:40.165553+00:00",
       "type": "gudou",
@@ -15212,7 +15212,7 @@
       ],
       "channelID": "4002",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "G导视（4K）",
+      "name": "G 导视(4K)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:56.055634+00:00",
       "type": "gudou",
@@ -19874,7 +19874,7 @@
       ],
       "channelID": "1443",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "体育赛事（高清特色）",
+      "name": "体育赛事(高清)",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:21:22.212381+00:00",
       "type": "gudou",
@@ -20899,7 +20899,7 @@
       ],
       "channelID": "1710",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "乐游（特色）",
+      "name": "全纪实（高清特色）",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:21:53.032617+00:00",
       "type": "gudou",
@@ -21391,7 +21391,7 @@
       ],
       "channelID": "1733",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "法制天地（特色）",
+      "name": "法治天下（特色）",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:22:15.179131+00:00",
       "type": "gudou",
@@ -21514,7 +21514,7 @@
       ],
       "channelID": "1739",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "金色学堂（特色）",
+      "name": "金色生活（特色）",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:22:23.997993+00:00",
       "type": "gudou",
@@ -22129,7 +22129,7 @@
       ],
       "channelID": "1722",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "老故事（特色）",
+      "name": "老故事",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:22:55.743049+00:00",
       "type": "gudou",
@@ -22170,7 +22170,7 @@
       ],
       "channelID": "1723",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "书画（特色）",
+      "name": "书画",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:22:56.746897+00:00",
       "type": "gudou",
@@ -22211,7 +22211,7 @@
       ],
       "channelID": "1721",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "环球奇观（特色）",
+      "name": "环球奇观",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:22:57.732244+00:00",
       "type": "gudou",
@@ -22580,7 +22580,7 @@
       ],
       "channelID": "1758",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "家庭理财（特色）",
+      "name": "家庭理财（付费）",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:23:07.504816+00:00",
       "type": "gudou",
@@ -74939,7 +74939,7 @@
       ],
       "channelID": "1436",
       "detail": "1436.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "足球频道（高清）",
+      "name": "足球频道(高清)",
       "playlistPath": "/live/1436.m3u8",
       "timestamp": "2026-11-17T14:17:49.367734+00:00",
       "type": "rendition",
@@ -75817,7 +75817,7 @@
       ],
       "channelID": "1443",
       "detail": "1443.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "体育赛事（高清特色）",
+      "name": "体育赛事(高清)",
       "playlistPath": "/live/1443.m3u8",
       "timestamp": "2026-11-17T14:17:54.675958+00:00",
       "type": "rendition",
@@ -84884,7 +84884,7 @@
       ],
       "channelID": "1710",
       "detail": "1710.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "乐游（特色）",
+      "name": "全纪实（高清特色）",
       "playlistPath": "/live/1710.m3u8",
       "timestamp": "2026-11-17T14:18:20.705844+00:00",
       "type": "rendition",
@@ -85659,7 +85659,7 @@
       ],
       "channelID": "1721",
       "detail": "1721.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "环球奇观（特色）",
+      "name": "环球奇观",
       "playlistPath": "/live/1721.m3u8",
       "timestamp": "2026-11-17T14:18:22.669912+00:00",
       "type": "rendition",
@@ -85700,7 +85700,7 @@
       ],
       "channelID": "1722",
       "detail": "1722.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "老故事（特色）",
+      "name": "老故事",
       "playlistPath": "/live/1722.m3u8",
       "timestamp": "2026-11-17T14:18:22.715457+00:00",
       "type": "rendition",
@@ -85741,7 +85741,7 @@
       ],
       "channelID": "1723",
       "detail": "1723.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "书画（特色）",
+      "name": "书画",
       "playlistPath": "/live/1723.m3u8",
       "timestamp": "2026-11-17T14:18:22.761463+00:00",
       "type": "rendition",
@@ -86005,7 +86005,7 @@
       ],
       "channelID": "1733",
       "detail": "1733.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "法制天地（特色）",
+      "name": "法治天下（特色）",
       "playlistPath": "/live/1733.m3u8",
       "timestamp": "2026-11-17T14:18:23.002211+00:00",
       "type": "rendition",
@@ -86269,7 +86269,7 @@
       ],
       "channelID": "1739",
       "detail": "1739.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "金色学堂（特色）",
+      "name": "金色生活（特色）",
       "playlistPath": "/live/1739.m3u8",
       "timestamp": "2026-11-17T14:18:23.193670+00:00",
       "type": "rendition",
@@ -87033,7 +87033,7 @@
       ],
       "channelID": "1758",
       "detail": "1758.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "家庭理财（特色）",
+      "name": "家庭理财（付费）",
       "playlistPath": "/live/1758.m3u8",
       "timestamp": "2026-11-17T14:18:23.872969+00:00",
       "type": "rendition",
@@ -107288,7 +107288,7 @@
       ],
       "channelID": "4002",
       "detail": "4002.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "G导视（4K）",
+      "name": "G 导视(4K)",
       "playlistPath": "/live/4002.m3u8",
       "timestamp": "2026-11-17T14:19:26.599241+00:00",
       "type": "rendition",
@@ -148026,11 +148026,836 @@
       "name": "平远-1（高清）",
       "timestamp": "2026-11-21T08:01:00+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "135",
+          "before": "265",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://251.6875.64.1201.160.80",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1290",
+      "detail": "频道资料更新",
+      "name": "优优宝贝（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "足球频道(高清)",
+          "before": "足球频道（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "117",
+          "before": "85",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://674.6875.64.3213.164.96",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1436",
+      "detail": "频道资料更新",
+      "name": "足球频道(高清)",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "体育赛事(高清)",
+          "before": "体育赛事（高清特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "95",
+          "before": "196",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://147.6875.64.4204.null.84",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1443",
+      "detail": "频道资料更新",
+      "name": "体育赛事(高清)",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "全纪实（高清特色）",
+          "before": "乐游（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "103",
+          "before": "212",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://491.6875.64.3502.161.84",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1710",
+      "detail": "频道资料更新",
+      "name": "全纪实（高清特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1711",
+      "detail": "频道移出目录",
+      "name": "劲爆体育（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1713",
+      "detail": "频道移出目录",
+      "name": "动漫秀场（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1714",
+      "detail": "频道移出目录",
+      "name": "游戏风云（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "156",
+          "before": "203",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://331.6875.64.1506.165.100",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1716",
+      "detail": "频道资料更新",
+      "name": "网络棋牌（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "环球奇观",
+          "before": "环球奇观（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "109",
+          "before": "260",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://642.6875.64.2604.161.84",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1721",
+      "detail": "频道资料更新",
+      "name": "环球奇观",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "老故事",
+          "before": "老故事（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "93",
+          "before": "249",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://291.6875.64.1416.165.100",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1722",
+      "detail": "频道资料更新",
+      "name": "老故事",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "书画",
+          "before": "书画（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "91",
+          "before": "257",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://291.6875.64.1419.166.104",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1723",
+      "detail": "频道资料更新",
+      "name": "书画",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "法治天下（特色）",
+          "before": "法制天地（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "162",
+          "before": "218",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://371.6875.64.2001.null.80",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1733",
+      "detail": "频道资料更新",
+      "name": "法治天下（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1734",
+      "detail": "频道移出目录",
+      "name": "快乐垂钓（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1735",
+      "detail": "频道移出目录",
+      "name": "都市剧场（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1737",
+      "detail": "频道移出目录",
+      "name": "魅力足球（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "金色生活（特色）",
+          "before": "金色学堂（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "172",
+          "before": "220",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://379.6875.64.2106.null.100",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1739",
+      "detail": "频道资料更新",
+      "name": "金色生活（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1740",
+      "detail": "频道移出目录",
+      "name": "生活时尚（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "134",
+          "before": "264",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://243.6875.64.1107.166.104",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1747",
+      "detail": "频道资料更新",
+      "name": "车迷（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "170",
+          "before": "277",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://379.6875.64.2103.162.88",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1750",
+      "detail": "频道资料更新",
+      "name": "电子体育（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "136",
+          "before": "266",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://251.6875.64.1202.161.84",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1756",
+      "detail": "频道资料更新",
+      "name": "环球旅游（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "家庭理财（付费）",
+          "before": "家庭理财（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "222",
+          "before": "280",
+          "field": "channelNumber",
+          "label": "频道号"
+        }
+      ],
+      "channelID": "1758",
+      "detail": "频道资料更新",
+      "name": "家庭理财（付费）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "173",
+          "before": "282",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://379.6875.64.2107.null.104",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1759",
+      "detail": "频道资料更新",
+      "name": "证券服务（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "133",
+          "before": "263",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://419.6875.64.2601.null.80",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1762",
+      "detail": "频道资料更新",
+      "name": "中华特产（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "138",
+          "before": "268",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://251.6875.64.1204.163.92",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1782",
+      "detail": "频道资料更新",
+      "name": "收藏天下（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "169",
+          "before": "275",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://379.6875.64.2101.160.80",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1784",
+      "detail": "频道资料更新",
+      "name": "四海钓鱼（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "137",
+          "before": "267",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://427.6875.64.2702.null.84",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1794",
+      "detail": "频道资料更新",
+      "name": "生态环境（特色）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2335",
+      "detail": "频道移出目录",
+      "name": "广东城市之声",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2503",
+      "detail": "频道移出目录",
+      "name": "汕头文旅体育",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2508",
+      "detail": "频道移出目录",
+      "name": "汕头文旅体育（高清）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2521",
+      "detail": "频道移出目录",
+      "name": "汕头电台1020（经济）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2524",
+      "detail": "频道移出目录",
+      "name": "广东音乐电台",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2525",
+      "detail": "频道移出目录",
+      "name": "珠江经济电台",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2612",
+      "detail": "频道移出目录",
+      "name": "翁源台（高清）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2617",
+      "detail": "频道移出目录",
+      "name": "仁化综合（高清）",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "G 导视(4K)",
+          "before": "G导视（4K）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "129",
+          "before": "97",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "rtp://239.12.22.86:10001",
+          "before": "rtp://239.12.22.85:10001",
+          "field": "rtp",
+          "label": "组播地址"
+        },
+        {
+          "after": "delivery://594.6875.64.3901.160.80",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "4002",
+      "detail": "频道资料更新",
+      "name": "G 导视(4K)",
+      "timestamp": "2026-11-21T10:32:08+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-21T02:01:06.882411+00:00",
-    "total_channels": 521
+    "last_updated": "2026-11-21T02:31:33.483407+00:00",
+    "total_channels": 506
   },
   "version": 2
 }
