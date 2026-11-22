@@ -5320,7 +5320,7 @@
       ],
       "channelID": "3801",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "新闻综合（高清）",
+      "name": "汕尾一套",
       "playlistPath": null,
       "timestamp": "2026-11-17T02:55:18.677113+00:00",
       "type": "gudou",
@@ -5689,7 +5689,7 @@
       ],
       "channelID": "3806",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "海丰综合高清",
+      "name": "海丰综合",
       "playlistPath": null,
       "timestamp": "2026-11-17T02:57:53.556481+00:00",
       "type": "gudou",
@@ -5894,7 +5894,7 @@
       ],
       "channelID": "2001",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广州综合",
+      "name": "广州台",
       "playlistPath": null,
       "timestamp": "2026-11-17T02:58:18.387777+00:00",
       "type": "gudou",
@@ -14474,7 +14474,7 @@
       ],
       "channelID": "1227",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山东教育",
+      "name": "山东教育台",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:35.416266+00:00",
       "type": "gudou",
@@ -14966,7 +14966,7 @@
       ],
       "channelID": "1288",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "中国天气高清",
+      "name": "宜和购物",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:49.793398+00:00",
       "type": "gudou",
@@ -15335,7 +15335,7 @@
       ],
       "channelID": "4008",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "多彩文体（4K特色）",
+      "name": "多彩文体（4K）",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:16:10.194545+00:00",
       "type": "gudou",
@@ -57245,7 +57245,7 @@
       ],
       "channelID": "3801",
       "detail": "参数解析：未执行 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "新闻综合（高清）",
+      "name": "汕尾一套",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:09:47.913557+00:00",
       "type": "gudou",
@@ -57310,7 +57310,7 @@
       ],
       "channelID": "3801",
       "detail": "1500.m3u8：请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 成功；媒体解码：未提供 → 失败；视频宽度：未提供 → 720；视频高度：未提供 → 576；视频编码：未提供 → H264；音频编码：未提供 → AAC；错误详情：未提供 → 媒体解码失败",
-      "name": "新闻综合（高清）",
+      "name": "汕尾一套",
       "playlistPath": "/live/avit/3801/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:09:47.913557+00:00",
       "type": "rendition",
@@ -60062,7 +60062,7 @@
       ],
       "channelID": "3806",
       "detail": "参数解析：未执行 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "海丰综合高清",
+      "name": "海丰综合",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:10:01.097849+00:00",
       "type": "gudou",
@@ -60115,7 +60115,7 @@
       ],
       "channelID": "3806",
       "detail": "1500.m3u8：请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 成功；媒体解码：未提供 → 失败；视频编码：未提供 → H264；音频编码：未提供 → AAC；错误详情：未提供 → 媒体解码失败",
-      "name": "海丰综合高清",
+      "name": "海丰综合",
       "playlistPath": "/live/avit/3806/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:10:01.097849+00:00",
       "type": "rendition",
@@ -60479,7 +60479,7 @@
       ],
       "channelID": "4008",
       "detail": "参数解析：未执行 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "多彩文体（4K特色）",
+      "name": "多彩文体（4K）",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:10:03.984537+00:00",
       "type": "gudou",
@@ -60544,7 +60544,7 @@
       ],
       "channelID": "4008",
       "detail": "36000.m3u8：请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 成功；媒体解码：未提供 → 失败；视频宽度：未提供 → 3840；视频高度：未提供 → 2160；视频编码：未提供 → HEVC；音频编码：未提供 → AC3；错误详情：未提供 → 媒体解码失败",
-      "name": "多彩文体（4K特色）",
+      "name": "多彩文体（4K）",
       "playlistPath": "/live/avit/4008/36000/36000.m3u8",
       "timestamp": "2026-11-17T04:10:03.984537+00:00",
       "type": "rendition",
@@ -66074,7 +66074,7 @@
       ],
       "channelID": "1227",
       "detail": "1227.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山东教育",
+      "name": "山东教育台",
       "playlistPath": "/live/1227.m3u8",
       "timestamp": "2026-11-17T14:17:15.274766+00:00",
       "type": "rendition",
@@ -69279,7 +69279,7 @@
       ],
       "channelID": "1288",
       "detail": "1288.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "中国天气高清",
+      "name": "宜和购物",
       "playlistPath": "/live/1288.m3u8",
       "timestamp": "2026-11-17T14:17:23.774080+00:00",
       "type": "rendition",
@@ -90044,7 +90044,7 @@
       ],
       "channelID": "2001",
       "detail": "2001.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广州综合",
+      "name": "广州台",
       "playlistPath": "/live/2001.m3u8",
       "timestamp": "2026-11-17T14:18:34.375611+00:00",
       "type": "rendition",
@@ -107047,7 +107047,7 @@
       ],
       "channelID": "3801",
       "detail": "媒体解码：失败 → 成功；错误详情：媒体解码失败 → 未提供",
-      "name": "新闻综合（高清）",
+      "name": "汕尾一套",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:19:26.433116+00:00",
       "type": "gudou",
@@ -107124,7 +107124,7 @@
       ],
       "channelID": "3801",
       "detail": "1500.m3u8：媒体解码：失败 → 成功；帧率：未提供 → 25/1；视频规格：未提供 → Main；像素格式：未提供 → yuv420p；像素宽高比：未提供 → 16:11；画面宽高比：未提供 → 20:11；扫描方式：未提供 → progressive；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 96430；错误详情：媒体解码失败 → 未提供",
-      "name": "新闻综合（高清）",
+      "name": "汕尾一套",
       "playlistPath": "/live/avit/3801/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:19:26.433116+00:00",
       "type": "rendition",
@@ -107723,7 +107723,7 @@
       ],
       "channelID": "3806",
       "detail": "1500.m3u8：帧率：未提供 → 90000/1",
-      "name": "海丰综合高清",
+      "name": "海丰综合",
       "playlistPath": "/live/avit/3806/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:19:29.425047+00:00",
       "type": "rendition",
@@ -109186,7 +109186,7 @@
       ],
       "channelID": "4008",
       "detail": "媒体解码：失败 → 成功；错误详情：媒体解码失败 → 未提供",
-      "name": "多彩文体（4K特色）",
+      "name": "多彩文体（4K）",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:19:36.018337+00:00",
       "type": "gudou",
@@ -109257,7 +109257,7 @@
       ],
       "channelID": "4008",
       "detail": "36000.m3u8：媒体解码：失败 → 成功；帧率：未提供 → 50/1；视频规格：未提供 → Main 10；像素格式：未提供 → yuv420p10le；像素宽高比：未提供 → 1:1；画面宽高比：未提供 → 16:9；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 448000；错误详情：媒体解码失败 → 未提供",
-      "name": "多彩文体（4K特色）",
+      "name": "多彩文体（4K）",
       "playlistPath": "/live/avit/4008/36000/36000.m3u8",
       "timestamp": "2026-11-17T14:19:36.018337+00:00",
       "type": "rendition",
@@ -114793,7 +114793,7 @@
       ],
       "channelID": "3801",
       "detail": "1500.m3u8：音频码率：96430 → 96000",
-      "name": "新闻综合（高清）",
+      "name": "汕尾一套",
       "playlistPath": "/live/avit/3801/1500/1500.m3u8",
       "timestamp": "2026-11-19T21:47:35.597822+00:00",
       "type": "rendition",
@@ -133232,7 +133232,7 @@
       ],
       "channelID": "3801",
       "detail": "参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "新闻综合（高清）",
+      "name": "汕尾一套",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:01:42.937194+00:00",
       "type": "gudou",
@@ -133261,7 +133261,7 @@
       ],
       "channelID": "3801",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "新闻综合（高清）",
+      "name": "汕尾一套",
       "playlistPath": "/live/avit/3801/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:01:42.937194+00:00",
       "type": "rendition",
@@ -133348,7 +133348,7 @@
       ],
       "channelID": "3806",
       "detail": "参数解析：成功 → 失败；媒体解码：失败 → 未执行；错误详情：媒体解码失败 → 媒体解码失败：本地解码工具不可用",
-      "name": "海丰综合高清",
+      "name": "海丰综合",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:01:43.036419+00:00",
       "type": "gudou",
@@ -133377,7 +133377,7 @@
       ],
       "channelID": "3806",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：失败 → 未执行；错误详情：媒体解码失败 → 媒体解码失败：本地解码工具不可用",
-      "name": "海丰综合高清",
+      "name": "海丰综合",
       "playlistPath": "/live/avit/3806/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:01:43.036419+00:00",
       "type": "rendition",
@@ -133580,7 +133580,7 @@
       ],
       "channelID": "4008",
       "detail": "参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "多彩文体（4K特色）",
+      "name": "多彩文体（4K）",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:01:43.746906+00:00",
       "type": "gudou",
@@ -133609,7 +133609,7 @@
       ],
       "channelID": "4008",
       "detail": "36000.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "多彩文体（4K特色）",
+      "name": "多彩文体（4K）",
       "playlistPath": "/live/avit/4008/36000/36000.m3u8",
       "timestamp": "2026-11-20T00:01:43.746906+00:00",
       "type": "rendition",
@@ -180711,7 +180711,7 @@
         }
       ],
       "channelID": "1716",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "网络棋牌（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -180900,7 +180900,7 @@
         }
       ],
       "channelID": "1738",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "七彩戏剧（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -180915,7 +180915,7 @@
         }
       ],
       "channelID": "1739",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "金色生活（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -180930,7 +180930,7 @@
         }
       ],
       "channelID": "1750",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "电子体育（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181017,7 +181017,7 @@
         }
       ],
       "channelID": "1759",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "证券服务（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181032,7 +181032,7 @@
         }
       ],
       "channelID": "1770",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "梨园（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181047,7 +181047,7 @@
         }
       ],
       "channelID": "1784",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "四海钓鱼（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181062,7 +181062,7 @@
         }
       ],
       "channelID": "1788",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "文物宝库（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181077,7 +181077,7 @@
         }
       ],
       "channelID": "1789",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "武术世界（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181131,7 +181131,7 @@
         }
       ],
       "channelID": "1804",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "中学生（特色）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181563,7 +181563,7 @@
         }
       ],
       "channelID": "2441",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "吴川综合高清",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181578,7 +181578,7 @@
         }
       ],
       "channelID": "2452",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "广东民生",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181608,7 +181608,7 @@
         }
       ],
       "channelID": "2608",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "南雄综合（高清）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181623,7 +181623,7 @@
         }
       ],
       "channelID": "2614",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "乐昌台（高清）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181638,7 +181638,7 @@
         }
       ],
       "channelID": "2617",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "仁化综合（高清）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181653,7 +181653,7 @@
         }
       ],
       "channelID": "2652",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "乳源台（高清）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181743,7 +181743,7 @@
         }
       ],
       "channelID": "2843",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "德庆综合（高清）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181758,7 +181758,7 @@
         }
       ],
       "channelID": "2847",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "德庆电台",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181773,7 +181773,7 @@
         }
       ],
       "channelID": "3003",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "导视资讯",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181818,7 +181818,7 @@
         }
       ],
       "channelID": "3010",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "茂石化",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181833,7 +181833,7 @@
         }
       ],
       "channelID": "3011",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "信宜图文",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181920,7 +181920,7 @@
         }
       ],
       "channelID": "3202",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "湛江综合",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -181935,7 +181935,7 @@
         }
       ],
       "channelID": "3208",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "导视频道高清",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -182001,7 +182001,7 @@
         }
       ],
       "channelID": "3370",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "和平台高清",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -182043,7 +182043,7 @@
         }
       ],
       "channelID": "3434",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "平远-1（高清）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -182058,7 +182058,7 @@
         }
       ],
       "channelID": "3460",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "兴宁1（高清）",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -182193,7 +182193,7 @@
         }
       ],
       "channelID": "3812",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "陆丰综合高清",
       "timestamp": "2026-11-22T08:00:59+08:00",
       "type": "channel"
@@ -182307,15 +182307,855 @@
         }
       ],
       "channelID": "4009",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "求索记录（4K）",
       "timestamp": "2026-11-22T08:00:59+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "山东教育台",
+          "before": "山东教育",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "60",
+          "before": "084",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://403.6875.64.8304.353.132",
+          "before": "delivery://315.6.64.164.1371.1372",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1227",
+      "detail": "频道资料更新",
+      "name": "山东教育台",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "80",
+          "before": "327",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://267000.6875.64.507.null.104",
+          "before": "delivery://235.6.64.1101.null.0x51",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1287",
+      "detail": "频道资料更新",
+      "name": "央广购物",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "宜和购物",
+          "before": "中国天气高清",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "173",
+          "before": "090",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "rtp://239.12.21.168:10001",
+          "before": "rtp://239.12.22.150:10001",
+          "field": "rtp",
+          "label": "组播地址"
+        },
+        {
+          "after": "delivery://283.6875.64.1310.163.92",
+          "before": "delivery://443.6.64.1440.112.212",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1288",
+      "detail": "频道资料更新",
+      "name": "宜和购物",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "13",
+          "before": "26",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://235000.6875.64.107.166.104",
+          "before": "delivery://115000.6875.64.2005.0xa5.0x55",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1296",
+      "detail": "频道资料更新",
+      "name": "聚鲨环球精选",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "57",
+          "before": "85",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://211.6.64.1450.null.80",
+          "before": "delivery://275.6875.64.1204.163.92",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1450",
+      "detail": "频道资料更新",
+      "name": "早期教育（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "83",
+          "before": "47",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "",
+          "before": "delivery://37900.6875.256.4105.0xa5.0x55",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1451",
+      "detail": "频道资料更新",
+      "name": "海南卫视（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1716",
+      "detail": "频道资料更新",
+      "name": "网络棋牌（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1738",
+      "detail": "频道资料更新",
+      "name": "七彩戏剧（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1739",
+      "detail": "频道资料更新",
+      "name": "金色生活（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1750",
+      "detail": "频道资料更新",
+      "name": "电子体育（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1759",
+      "detail": "频道资料更新",
+      "name": "证券服务（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1770",
+      "detail": "频道资料更新",
+      "name": "梨园（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1784",
+      "detail": "频道资料更新",
+      "name": "四海钓鱼（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1788",
+      "detail": "频道资料更新",
+      "name": "文物宝库（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1789",
+      "detail": "频道资料更新",
+      "name": "武术世界（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "1804",
+      "detail": "频道资料更新",
+      "name": "中学生（特色）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "93",
+          "before": "63",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://403.6.64.1903.null.88",
+          "before": "delivery://371.6875.64.2403.162.88",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1927",
+      "detail": "频道资料更新",
+      "name": "电视指南（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "广州台",
+          "before": "广州综合",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "5",
+          "before": "67",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://419.6875.64.8197.352.128",
+          "before": "delivery://283.6875.64.1321.168.112",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "2001",
+      "detail": "频道资料更新",
+      "name": "广州台",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2324",
+      "detail": "频道移出目录",
+      "name": "惠东电台",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2608",
+      "detail": "频道资料更新",
+      "name": "南雄综合（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2617",
+      "detail": "频道资料更新",
+      "name": "仁化综合（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2619",
+      "detail": "频道移出目录",
+      "name": "曲江综合（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2624",
+      "detail": "频道资料更新",
+      "name": "新丰综合(高清)",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2640",
+      "detail": "频道移出目录",
+      "name": "曲江经济生活",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2706",
+      "detail": "频道资料更新",
+      "name": "云浮电台第1台",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2717",
+      "detail": "频道资料更新",
+      "name": "广东民生-新兴",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2732",
+      "detail": "频道资料更新",
+      "name": "广东民生-云安",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2742",
+      "detail": "频道资料更新",
+      "name": "广东民生高清-郁南",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2751",
+      "detail": "频道资料更新",
+      "name": "罗定综合",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2752",
+      "detail": "频道资料更新",
+      "name": "广东民生-罗定",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2814",
+      "detail": "频道资料更新",
+      "name": "封开综合（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2843",
+      "detail": "频道资料更新",
+      "name": "德庆综合（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2847",
+      "detail": "频道资料更新",
+      "name": "德庆电台",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3003",
+      "detail": "频道资料更新",
+      "name": "导视资讯",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3010",
+      "detail": "频道资料更新",
+      "name": "茂石化",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3011",
+      "detail": "频道资料更新",
+      "name": "信宜图文",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3035",
+      "detail": "频道资料更新",
+      "name": "化州台",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3408",
+      "detail": "频道资料更新",
+      "name": "蕉岭-1（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3460",
+      "detail": "频道资料更新",
+      "name": "兴宁1（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3473",
+      "detail": "频道资料更新",
+      "name": "五华高清1",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3762",
+      "detail": "频道移出目录",
+      "name": "开平综合（高清）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "汕尾一套",
+          "before": "新闻综合（高清）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "102",
+          "before": "3",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://379000.6875.64.104.null.null",
+          "before": "delivery://267.6875.64.1102.161.84",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "3801",
+      "detail": "频道资料更新",
+      "name": "汕尾一套",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "海丰综合",
+          "before": "海丰综合高清",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "132",
+          "before": "4",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://379000.6875.64.3806.null.null",
+          "before": "delivery://243.6875.64.802.161.84",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "3806",
+      "detail": "频道资料更新",
+      "name": "海丰综合",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3812",
+      "detail": "频道资料更新",
+      "name": "陆丰综合高清",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "003",
+          "before": "006",
+          "field": "channelNumber",
+          "label": "频道号"
+        }
+      ],
+      "channelID": "3907",
+      "detail": "频道资料更新",
+      "name": "阳春综合高清",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "多彩文体（4K）",
+          "before": "多彩文体（4K特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "103",
+          "before": "100",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://363000.6875.64.5801.null.80",
+          "before": "delivery://522.6.256.6306.null.0x52",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "4008",
+      "detail": "频道资料更新",
+      "name": "多彩文体（4K）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "4009",
+      "detail": "频道资料更新",
+      "name": "求索记录（4K）",
+      "timestamp": "2026-11-22T08:31:00+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "delivery://642.6875.64.8524.352.128",
+          "before": "delivery://642.6875.64.8524.null.128",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "8001",
+      "detail": "频道资料更新",
+      "name": "百城千屏测试",
+      "timestamp": "2026-11-22T08:31:00+08:00",
       "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-22T00:00:58.324791+00:00",
-    "total_channels": 423
+    "last_updated": "2026-11-22T00:30:59.655435+00:00",
+    "total_channels": 450
   },
   "version": 2
 }
