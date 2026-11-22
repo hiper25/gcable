@@ -1,5 +1,5 @@
 {
-  "0": "data/epg/channels/0.json",
+  "0": "data/epg/channels/0@2100.json",
   "1016": "data/epg/channels/1016.json",
   "1233": "data/epg/channels/1233.json",
   "1257": "data/epg/channels/1257.json",
@@ -43,7 +43,7 @@
   "1441": "data/epg/channels/1441.json",
   "1445": "data/epg/channels/1445.json",
   "1448": "data/epg/channels/1448.json",
-  "1451": "data/epg/channels/1451@1200.json",
+  "1451": "data/epg/channels/1451.json",
   "1452": "data/epg/channels/1452.json",
   "1453": "data/epg/channels/1453.json",
   "1454": "data/epg/channels/1454.json",
