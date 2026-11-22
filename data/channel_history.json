@@ -196590,6 +196590,52 @@
     {
       "changes": [
         {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3011",
+      "detail": "HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "信宜图文",
+      "playlistPath": null,
+      "timestamp": "2026-11-22T11:31:39.823928+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/3011.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3011",
+      "detail": "3011.m3u8：HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "信宜图文",
+      "playlistPath": "/live/3011.m3u8",
+      "timestamp": "2026-11-22T11:31:39.823928+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/3011.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "25",
           "before": "55",
           "field": "channelNumber",
@@ -196871,7 +196917,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-22T11:01:40.632049+00:00",
+    "last_updated": "2026-11-22T11:31:46.512607+00:00",
     "total_channels": 521
   },
   "version": 2
