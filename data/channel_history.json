@@ -5894,7 +5894,7 @@
       ],
       "channelID": "2001",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广州台",
+      "name": "广州综合",
       "playlistPath": null,
       "timestamp": "2026-11-17T02:58:18.387777+00:00",
       "type": "gudou",
@@ -15007,7 +15007,7 @@
       ],
       "channelID": "1297",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "纪实科教",
+      "name": "北京纪实科教",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:50.783069+00:00",
       "type": "gudou",
@@ -69361,7 +69361,7 @@
       ],
       "channelID": "1297",
       "detail": "1297.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "纪实科教",
+      "name": "北京纪实科教",
       "playlistPath": "/live/1297.m3u8",
       "timestamp": "2026-11-17T14:17:23.869361+00:00",
       "type": "rendition",
@@ -90044,7 +90044,7 @@
       ],
       "channelID": "2001",
       "detail": "2001.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广州台",
+      "name": "广州综合",
       "playlistPath": "/live/2001.m3u8",
       "timestamp": "2026-11-17T14:18:34.375611+00:00",
       "type": "rendition",
@@ -197146,11 +197146,191 @@
       "name": "兴宁1（高清）",
       "timestamp": "2026-11-22T16:32:58+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "113",
+          "before": "92",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://203000.6875.64.103.null.null",
+          "before": "delivery://299000.6875.64.903.null.88",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1265",
+      "detail": "频道资料更新",
+      "name": "南方购物",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "北京纪实科教",
+          "before": "纪实科教",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "156",
+          "before": "90",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://275000.6875.64.1297.null.630",
+          "before": "delivery://179000.6875.64.1205.null.96",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1297",
+      "detail": "频道资料更新",
+      "name": "北京纪实科教",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "广州综合",
+          "before": "广州台",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "67",
+          "before": "5",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://283.6875.64.1321.168.112",
+          "before": "delivery://419.6875.64.8197.352.128",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "2001",
+      "detail": "频道资料更新",
+      "name": "广州综合",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2706",
+      "detail": "频道移出目录",
+      "name": "云浮电台第1台",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2717",
+      "detail": "频道移出目录",
+      "name": "广东民生-新兴",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2732",
+      "detail": "频道移出目录",
+      "name": "广东民生-云安",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2742",
+      "detail": "频道移出目录",
+      "name": "广东民生高清-郁南",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2751",
+      "detail": "频道移出目录",
+      "name": "罗定综合",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2752",
+      "detail": "频道移出目录",
+      "name": "广东民生-罗定",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "delivery://642.6875.64.8524.null.128",
+          "before": "delivery://642.6875.64.8524.352.128",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "8001",
+      "detail": "频道资料更新",
+      "name": "百城千屏测试",
+      "timestamp": "2026-11-23T00:31:27+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-22T16:01:44.917176+00:00",
-    "total_channels": 521
+    "last_updated": "2026-11-22T16:31:12.168345+00:00",
+    "total_channels": 515
   },
   "version": 2
 }
