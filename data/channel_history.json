@@ -186457,6 +186457,52 @@
     {
       "changes": [
         {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2817",
+      "detail": "HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "广州综合",
+      "playlistPath": null,
+      "timestamp": "2026-11-22T09:31:39.324425+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/2817.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2817",
+      "detail": "2817.m3u8：HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "广州综合",
+      "playlistPath": "/live/2817.m3u8",
+      "timestamp": "2026-11-22T09:31:39.324425+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/2817.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "音乐之声",
           "before": "茂名交通广播",
           "field": "name",
@@ -196779,7 +196825,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-22T09:01:49.188901+00:00",
+    "last_updated": "2026-11-22T09:31:46.483453+00:00",
     "total_channels": 521
   },
   "version": 2
