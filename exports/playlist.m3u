@@ -53,6 +53,8 @@ rtp://239.12.36.62:10001
 rtp://239.12.52.33:10001
 #EXTINF:-1 tvg-id="3901" tvg-name="阳东综合高清" tvg-chno="004" group-title="粤东西北县市" region-code="4001" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",阳东综合高清
 rtp://239.12.44.1:10001
+#EXTINF:-1 tvg-id="3901@4010" tvg-name="阳东综合高清" tvg-chno="004" group-title="粤东西北县市" region-code="4010" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",阳东综合高清
+rtp://239.12.44.1:10001
 #EXTINF:-1 tvg-id="1432" tvg-name="广州综合（高清）" tvg-chno="4" group-title="广佛本地" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1432.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广州综合（高清）
 rtp://239.12.33.8:10001
 #EXTINF:-1 tvg-id="2316" tvg-name="惠州二套（高清）" tvg-chno="4" group-title="珠三角地市" region-code="3200" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",惠州二套（高清）
@@ -74,6 +76,8 @@ rtp://239.12.52.17:10001
 #EXTINF:-1 tvg-id="3814" tvg-name="陆河综合高清" tvg-chno="4" group-title="粤东西北县市" region-code="3660" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",陆河综合高清
 rtp://239.12.52.27:10001
 #EXTINF:-1 tvg-id="3905" tvg-name="阳江综合高清" tvg-chno="005" group-title="粤东西北县市" region-code="4001" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",阳江综合高清
+rtp://239.12.44.2:10001
+#EXTINF:-1 tvg-id="3905@4010" tvg-name="阳江综合高清" tvg-chno="005" group-title="粤东西北县市" region-code="4010" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",阳江综合高清
 rtp://239.12.44.2:10001
 #EXTINF:-1 tvg-id="1350" tvg-name="翡翠台" tvg-chno="5" group-title="港澳台专区" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1350.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",翡翠台
 rtp://239.12.22.121:10001
@@ -111,6 +115,8 @@ rtp://239.12.36.41:10001
 rtp://239.12.36.81:10001
 #EXTINF:-1 tvg-id="3907" tvg-name="阳春综合高清" tvg-chno="006" group-title="粤东西北县市" region-code="4001" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",阳春综合高清
 rtp://239.12.44.4:10001
+#EXTINF:-1 tvg-id="3907@4010" tvg-name="阳春综合高清" tvg-chno="006" group-title="粤东西北县市" region-code="4010" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",阳春综合高清
+rtp://239.12.44.4:10001
 #EXTINF:-1 tvg-id="1302" tvg-name="香港翡翠" tvg-chno="6" group-title="港澳台专区" region-code="2850" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",香港翡翠
 rtp://239.12.21.61:10001
 #EXTINF:-1 tvg-id="1437" tvg-name="广东珠江（高清）" tvg-chno="6" group-title="其他综合" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1437.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东珠江（高清）
@@ -120,6 +126,8 @@ rtp://239.12.41.7:10001
 #EXTINF:-1 tvg-id="3133" tvg-name="潮安综合（高清）" tvg-chno="6" group-title="粤东西北县市" region-code="6500" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3133.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",潮安综合（高清）
 rtp://239.12.48.11:10001
 #EXTINF:-1 tvg-id="3908" tvg-name="阳西综合高清" tvg-chno="007" group-title="粤东西北县市" region-code="4001" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",阳西综合高清
+rtp://239.12.44.9:10001
+#EXTINF:-1 tvg-id="3908@4010" tvg-name="阳西综合高清" tvg-chno="007" group-title="粤东西北县市" region-code="4010" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",阳西综合高清
 rtp://239.12.44.9:10001
 #EXTINF:-1 tvg-id="1455" tvg-name="广东民生（高清）" tvg-chno="7" group-title="其他综合" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1455.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生（高清）
 rtp://239.12.22.137:10001
@@ -499,6 +507,8 @@ rtp://239.12.22.142:10001?sumaChannelFCCIP=172.21.201.39&sumaChannelFCCPort=1597
 rtp://239.12.22.2:10001?sumaChannelFCCIP=172.21.201.39&sumaChannelFCCPort=15971
 #EXTINF:-1 tvg-id="1227" tvg-name="山东教育" tvg-chno="084" group-title="其他综合" region-code="4001" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1227.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",山东教育
 rtp://239.12.21.39:10001
+#EXTINF:-1 tvg-id="1227@4010" tvg-name="山东教育" tvg-chno="084" group-title="其他综合" region-code="4010" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1227.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",山东教育
+rtp://239.12.21.39:10001
 #EXTINF:-1 tvg-id="1019" tvg-name="CCTV-17 农业农村" tvg-chno="84" group-title="央视频道" region-code="2850" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1019.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",CCTV-17 农业农村
 rtp://239.12.21.8:10001
 #EXTINF:-1 tvg-id="2270" tvg-name="FCC-广东影视（高清）" tvg-chno="84" group-title="特色影视体育" region-code="1290" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",FCC-广东影视（高清）
@@ -523,6 +533,8 @@ rtp://239.12.21.101:10001
 rtp://239.12.21.27:10001?sumaChannelFCCIP=172.21.201.39&sumaChannelFCCPort=15971
 #EXTINF:-1 tvg-id="1288" tvg-name="中国天气高清" tvg-chno="090" group-title="其他综合" region-code="4001" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1288.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",中国天气高清
 rtp://239.12.22.150:10001
+#EXTINF:-1 tvg-id="1288@2620" tvg-name="宜和购物" tvg-chno="173" group-title="其他综合" region-code="2620" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1288.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",宜和购物
+rtp://239.12.21.168:10001
 #EXTINF:-1 tvg-id="1297" tvg-name="纪实科教" tvg-chno="90" group-title="特色影视体育" region-code="5000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1297.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",纪实科教
 rtp://239.12.21.192:10001
 #EXTINF:-1 tvg-id="1265" tvg-name="南方购物" tvg-chno="92" group-title="其他综合" region-code="5000" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1265.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",南方购物
