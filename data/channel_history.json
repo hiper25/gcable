@@ -196878,6 +196878,122 @@
     {
       "changes": [
         {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1209",
+      "detail": "参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "广西卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-22T16:00:14.829429+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1209.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": 200,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1209",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；HTTP状态码：未提供 → 200；参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "广西卫视",
+      "playlistPath": "/live/avit/1209/1500/1500.m3u8",
+      "timestamp": "2026-11-22T16:00:14.829429+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1209.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1918",
+      "detail": "参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "法治天地（高清特色）",
+      "playlistPath": null,
+      "timestamp": "2026-11-22T16:01:29.928275+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1918.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": 200,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1918",
+      "detail": "7500.m3u8：请求结果：失败 → 成功；HTTP状态码：未提供 → 200；参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "法治天地（高清特色）",
+      "playlistPath": "/live/avit/1918/7500/7500.m3u8",
+      "timestamp": "2026-11-22T16:01:29.928275+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1918.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "113",
           "before": "92",
           "field": "channelNumber",
@@ -197033,7 +197149,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-22T15:31:43.782800+00:00",
+    "last_updated": "2026-11-22T16:01:44.917176+00:00",
     "total_channels": 521
   },
   "version": 2
