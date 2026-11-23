@@ -20,7 +20,7 @@
   "1257": "data/epg/channels/1257.json",
   "1259": "data/epg/channels/1259.json",
   "1281": "data/epg/channels/1281.json",
-  "1287": "data/epg/channels/1287.json",
+  "1287": "data/epg/channels/1287@1200.json",
   "1290": "data/epg/channels/1290.json",
   "1350": "data/epg/channels/1350.json",
   "1351": "data/epg/channels/1351.json",
@@ -115,7 +115,7 @@
   "1942": "data/epg/channels/1942.json",
   "1943": "data/epg/channels/1943.json",
   "2317": "data/epg/channels/2317.json",
-  "2507": "data/epg/channels/2507.json",
+  "2507": "data/epg/channels/2507@1400.json",
   "3002": "data/epg/channels/3002.json",
   "3004": "data/epg/channels/3004.json",
   "3005": "data/epg/channels/3005.json",
@@ -126,7 +126,7 @@
   "3030": "data/epg/channels/3030.json",
   "4004": "data/epg/channels/4004.json",
   "4005": "data/epg/channels/4005.json",
-  "4008": "data/epg/channels/4008.json",
+  "4008": "data/epg/channels/4008@1000.json",
   "4010": "data/epg/channels/4010.json",
   "4011": "data/epg/channels/4011.json"
 }
