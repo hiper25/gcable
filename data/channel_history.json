@@ -199365,6 +199365,234 @@
     {
       "changes": [
         {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1215",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "广东新闻",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T04:00:26.145955+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1215.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1215",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "广东新闻",
+      "playlistPath": "/live/avit/1215/1500/1500.m3u8",
+      "timestamp": "2026-11-23T04:00:26.145955+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1215.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1209",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "广西卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T04:00:48.027185+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1209.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1209",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "广西卫视",
+      "playlistPath": "/live/avit/1209/1500/1500.m3u8",
+      "timestamp": "2026-11-23T04:00:48.027185+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1209.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1211",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "江西卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T04:00:48.581557+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1211.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1211",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "江西卫视",
+      "playlistPath": "/live/avit/1211/1500/1500.m3u8",
+      "timestamp": "2026-11-23T04:00:48.581557+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1211.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1214",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "广东民生",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T04:00:48.613217+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1214.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1214",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "广东民生",
+      "playlistPath": "/live/avit/1214/1500/1500.m3u8",
+      "timestamp": "2026-11-23T04:00:48.613217+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1214.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1210",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "四川卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T04:00:48.663626+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1210.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1210",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "四川卫视",
+      "playlistPath": "/live/avit/1210/1500/1500.m3u8",
+      "timestamp": "2026-11-23T04:00:48.663626+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1210.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1213",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "广东珠江",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T04:00:48.730124+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1213.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1213",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "广东珠江",
+      "playlistPath": "/live/avit/1213/1500/1500.m3u8",
+      "timestamp": "2026-11-23T04:00:48.730124+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1213.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "81",
           "before": "324",
           "field": "channelNumber",
@@ -216920,7 +217148,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-23T03:31:49.703445+00:00",
+    "last_updated": "2026-11-23T04:01:49.705163+00:00",
     "total_channels": 521
   },
   "version": 2
