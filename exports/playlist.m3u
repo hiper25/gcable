@@ -97,6 +97,8 @@ rtp://239.12.51.3:10001
 rtp://239.12.48.10:10001
 #EXTINF:-1 tvg-id="3305" tvg-name="紫金台" tvg-chno="5" group-title="粤东西北县市" region-code="3840" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",紫金台
 rtp://239.12.50.3:10001
+#EXTINF:-1 tvg-id="3305@3850" tvg-name="紫金台" tvg-chno="5" group-title="粤东西北县市" region-code="3850" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",紫金台
+rtp://239.12.50.3:10001
 #EXTINF:-1 tvg-id="3332" tvg-name="东源台" tvg-chno="5" group-title="粤东西北县市" region-code="3820" isTVAnyTime="" isStartOver="" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",东源台
 rtp://239.12.50.100:10001
 #EXTINF:-1 tvg-id="3350" tvg-name="龙川台高清" tvg-chno="5" group-title="粤东西北县市" region-code="3860" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",龙川台高清
