@@ -217239,6 +217239,52 @@
     {
       "changes": [
         {
+          "after": null,
+          "before": 400,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "请求失败",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1450",
+      "detail": "HTTP状态码：400 → 未提供；错误详情：请求失败 → 请求失败：请求超时",
+      "name": "早期教育(高清特色)",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T11:01:01.402367+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1450.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": null,
+          "before": 400,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "请求失败",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1450",
+      "detail": "1450.m3u8：HTTP状态码：400 → 未提供；错误详情：请求失败 → 请求失败：请求超时",
+      "name": "早期教育(高清特色)",
+      "playlistPath": "/live/1450.m3u8",
+      "timestamp": "2026-11-23T11:01:01.402367+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1450.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "55",
           "before": "25",
           "field": "channelNumber",
@@ -221072,7 +221118,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-23T10:31:52.217988+00:00",
+    "last_updated": "2026-11-23T11:01:17.475375+00:00",
     "total_channels": 521
   },
   "version": 2
