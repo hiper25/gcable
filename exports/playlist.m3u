@@ -103,8 +103,6 @@ rtp://239.12.50.100:10001
 rtp://239.12.50.120:10001
 #EXTINF:-1 tvg-id="3370" tvg-name="和平台高清" tvg-chno="5" group-title="粤东西北县市" region-code="3900" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",和平台高清
 rtp://239.12.50.140:10001
-#EXTINF:-1 tvg-id="3370@3910" tvg-name="和平台高清" tvg-chno="5" group-title="粤东西北县市" region-code="3910" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",和平台高清
-rtp://239.12.50.140:10001
 #EXTINF:-1 tvg-id="3481" tvg-name="梅州导视高清" tvg-chno="5" group-title="粤东西北县市" region-code="3412" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",梅州导视高清
 rtp://239.12.47.206:10001
 #EXTINF:-1 tvg-id="3740" tvg-name="台山台（高清）" tvg-chno="5" group-title="珠三角地市" region-code="2850" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3740.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",台山台（高清）
