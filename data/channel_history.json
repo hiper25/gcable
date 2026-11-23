@@ -221474,10 +221474,178 @@
       "timestamp": "2026-11-23T15:01:33.583999+00:00",
       "type": "gudou",
       "url": "http://172.16.149.18:9090/live/2317.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": null,
+          "before": 200,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1221",
+      "detail": "请求结果：成功 → 失败；HTTP状态码：200 → 未提供；参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "TVS5/广东少儿",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T17:30:50.345992+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1221.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": null,
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "skipped",
+          "before": null,
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "skipped",
+          "before": null,
+          "field": "decodeStatus",
+          "label": "媒体解码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": null,
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1221",
+      "detail": "1221.m3u8：请求结果：未提供 → 失败；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败：请求超时",
+      "name": "TVS5/广东少儿",
+      "playlistPath": "/live/1221.m3u8",
+      "timestamp": "2026-11-23T17:30:50.345992+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1221.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2316",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "惠州二套（高清）",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T17:31:39.171135+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/2316.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2316",
+      "detail": "7500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "惠州二套（高清）",
+      "playlistPath": "/live/avit/2316/7500/7500.m3u8",
+      "timestamp": "2026-11-23T17:31:39.171135+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/2316.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3714",
+      "detail": "参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "新会综合（高清）",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T17:31:50.484940+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/3714.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": null,
+          "before": 200,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3714",
+      "detail": "800.m3u8：请求结果：成功 → 失败；HTTP状态码：200 → 未提供；参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "新会综合（高清）",
+      "playlistPath": "/live/avit/3714/800/800.m3u8",
+      "timestamp": "2026-11-23T17:31:50.484940+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/3714.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-23T17:01:52.865092+00:00",
+    "last_updated": "2026-11-23T17:31:50.484940+00:00",
     "total_channels": 521
   },
   "version": 2
