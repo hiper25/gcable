@@ -1,6 +1,6 @@
 {
   "assets": {
-    "data/channels.json": "c1d9986fc9fba70c7d0a2b5a95fc3e4fe6eb061606c2b6b925d2bc981ae410a3",
+    "data/channels.json": "75fd1e21f67b9996bcc524acc10276ef7b16c02afee36c21d0c52c4ffacb96a7",
     "data/epg/channels/0.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "data/epg/channels/1001.json": "e096c4e3152ab4cd76581b24387c2a597d8ee2646d53e902f830ce944d8edf63",
     "data/epg/channels/1002.json": "7ef1ad5d583c63259ccc5445ab792129079c050267198f4319c5bb781cbcdb1e",
@@ -470,8 +470,8 @@
     "data/epg/channels/3547.json": "cfbd186920e49b2091f033c03fd3e24cba1e9e10ca15582a22a14df07c0df3ea",
     "data/epg/channels/3548.json": "cfbd186920e49b2091f033c03fd3e24cba1e9e10ca15582a22a14df07c0df3ea",
     "data/epg/channels/3551.json": "cfbd186920e49b2091f033c03fd3e24cba1e9e10ca15582a22a14df07c0df3ea",
-    "data/epg/channels/3601.json": "da4e91645ae61b169c93d57cde7e552524a7fab36a7c9f9859bef34e94d64933",
-    "data/epg/channels/3665.json": "63d16940d320abe30cc0fed1866f37465e9df7bad07aba06af715fa015b9755c",
+    "data/epg/channels/3601.json": "7334f7bf8288b2873c7b9f80dc891d10ee54945aedc8b13d511382c28f8de378",
+    "data/epg/channels/3665.json": "e23a9cbed21a864d8e50565ea4245244b41962f0a7d6ab1817114ae03377ac5c",
     "data/epg/channels/3680.json": "cfbd186920e49b2091f033c03fd3e24cba1e9e10ca15582a22a14df07c0df3ea",
     "data/epg/channels/3681.json": "cfbd186920e49b2091f033c03fd3e24cba1e9e10ca15582a22a14df07c0df3ea",
     "data/epg/channels/3702.json": "9a36ae0a48ccdd8a365d79fe5a40bfe51b21757f691b8b1334fb3bb8472cd0c2",
@@ -523,201 +523,201 @@
     "data/epg/channels/8000.json": "cfbd186920e49b2091f033c03fd3e24cba1e9e10ca15582a22a14df07c0df3ea",
     "data/epg/channels/8001.json": "cfbd186920e49b2091f033c03fd3e24cba1e9e10ca15582a22a14df07c0df3ea",
     "data/epg/variants.json": "a178d014db14808f3ea2da33184beb2c338dabe37fe0cc7b93d4b6b71274c00e",
-    "data/regions/0/channels.json": "4bd245cf527274e5ba72ae32a99bf06cffad6a9ce9a4693523aec17370a9a3cc",
+    "data/regions/0/channels.json": "edcab3b344fdb3554a5e6e802a9fcc36808d4c73a5e6e92804ccefe075e03987",
     "data/regions/0/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/020/channels.json": "246f547ac1147bf1b94d2b55492c165b19014b539ee7d62cfd79b2b5692dcbb5",
+    "data/regions/020/channels.json": "3013afd1577530cdd7398eccb4ab8f888cee8a8c59b036d0423f0ef6af0cad03",
     "data/regions/020/epg.json": "bd28fba43b103e5990b1f76075d22bec0e85a18854c899179f7b032ba579c9ac",
-    "data/regions/1201/channels.json": "298497e12f690942bebf4f3d6486d14a4d5790dec90b2291f5a259162b6450a8",
+    "data/regions/1201/channels.json": "e9cfd687e134a4cb54a7e59e67f481c171e92ea68d5ce2b50d68bc56a93c5c2c",
     "data/regions/1201/epg.json": "befecfbb416488939a6844054295adced8443abab9b10f883e687f62b327b8b7",
-    "data/regions/1230/channels.json": "c45ce1df4250c3a1df360ba23d2142aabba4a0feb3ac7f564d5e3fdd4188d504",
+    "data/regions/1230/channels.json": "4f6aab6136929f1251f5d8c0f7ec2a6568e3eb72c2980b00d9cf9c29a21da7d1",
     "data/regions/1230/epg.json": "befecfbb416488939a6844054295adced8443abab9b10f883e687f62b327b8b7",
-    "data/regions/1260/channels.json": "10d692202870fbb4763ad9717ed1b92f5f1a095d289477425b2340899940f15e",
+    "data/regions/1260/channels.json": "d86d5145fed766851e5f572958edef45159effd7a3178cbb2e2ad9ae6235d819",
     "data/regions/1260/epg.json": "befecfbb416488939a6844054295adced8443abab9b10f883e687f62b327b8b7",
-    "data/regions/1290/channels.json": "6cb54a62bd083006c9e74e8568c97859b743d284755eb4b7b728569ae37ae7e4",
+    "data/regions/1290/channels.json": "3607a917f2bf0432572e28cce25fbd8e8a05fb6f3b9e5d15f3e502b2f95b023a",
     "data/regions/1290/epg.json": "e62757e59bb637ed060122d8c462e1bf213f71392b392d84094104736a5bac35",
-    "data/regions/1400/channels.json": "d035253399fa6eae151c09e1f63d105ffa95d45c1c64fdebabf588ecf55f83a6",
+    "data/regions/1400/channels.json": "48a63286cef25a24ddf67b66455d9290ae7dabef018303c6d5723a7691d79e6c",
     "data/regions/1400/epg.json": "30b6a8df6c3c64d6cd7e9b3d62babbb2acf79bf568d7a4240cfcf7a113f52925",
-    "data/regions/1410/channels.json": "053eded69b36c5e9aecf3dd857fb37697ae67b6045b9dfa753162f309155f5f8",
+    "data/regions/1410/channels.json": "b9792f3d75c33b0f5dd7672eef68cca694db49481bc52b382c4d3b6ebdd1a335",
     "data/regions/1410/epg.json": "29cddbc3b9c3e89931241bcd075aae9b18ed4de3e129ba1e21623e0949ea685c",
-    "data/regions/1440/channels.json": "d8fe6eb0e351924f697a0cc70fb1785dfc9bc4fa248b338a494068504315d9de",
+    "data/regions/1440/channels.json": "72b440e15b684a9f3a82aa36ded34475e6cef52d301b6880bc4078c9606e758b",
     "data/regions/1440/epg.json": "8c8af12425c87c68a53d8ea291672636d4f3073ec6638cd63dd3d45e2df35820",
-    "data/regions/1600/channels.json": "40f1bef66211afd38281334d90c03277cedaca1d4819cd010e81d7be8416f6c2",
+    "data/regions/1600/channels.json": "e18a944e8ec1b78e24eee5e2f03fe5dcfc15b4222da05d7c7c49dddf742a5ec2",
     "data/regions/1600/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/1640/channels.json": "3e19977f47e20b6a4a385e136099e339ecf6cbba0f8c5cfbb4d70b96653c4024",
+    "data/regions/1640/channels.json": "5531db233948c0f8a4182105a3f6231511d5a755bafe9b75857d4c1c3f07245e",
     "data/regions/1640/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/1680/channels.json": "7c16d8c1bcfe0ca7f86040651ddefa59ddd054a7162cc873c1b9590a97b1241b",
+    "data/regions/1680/channels.json": "659ee39b6cb10cd25d30490bdc410ff85e367723bd391d50435a459f6ab21b1c",
     "data/regions/1680/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/1684/channels.json": "aec89e03cc069208e74327fdf4146b9094e2cd2092fd2ee009a55bd9c8d83876",
+    "data/regions/1684/channels.json": "88458007d35e494d62ac7300ce85427a86ffa9297fade8fd6cad07b5853c90f7",
     "data/regions/1684/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/1685/channels.json": "94d0946d383cc9d0158dc3f888493432b9e103a3f76be3ec03eca12c747090c5",
+    "data/regions/1685/channels.json": "3844ff7219edfdfeec7987f9f666fd23dbff26cddf1a8fac32f42cc69bd1d8a4",
     "data/regions/1685/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/1686/channels.json": "f553071557b8699a68a7bd6cc8bfd457bb9f91353d38ef3ece8d01b9d3fc2106",
+    "data/regions/1686/channels.json": "b177832314997aae8d468b1a15849ca8512354c0dd877f4bf9c4a6f84c9e9fc5",
     "data/regions/1686/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/1720/channels.json": "4726fa524c320ffff619f07ba787f3e631b84adbfe93d558b2e6d6a3ed92c416",
+    "data/regions/1720/channels.json": "64df55aa68d8f65c0ce545bd22084abd81360cd174d1d261511148feb41b2c26",
     "data/regions/1720/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/1760/channels.json": "3c8d71d70ad1cff6274ca00a1b3926eb04ae5c754b615bb1c36c6d9327465843",
+    "data/regions/1760/channels.json": "a66f0971a9356eed55a7a28af834e49ab13e0711025af5570a556ead9cfe4e3d",
     "data/regions/1760/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/2000/channels.json": "f717331f3d86f69f882e0ddac39244d740e02d9744500cdda5dd1b060879e10f",
+    "data/regions/2000/channels.json": "0e2e16e86a4cd544bcbea7e055a9d57cc5b070ed681eabe9051c7b6ae32c1a7d",
     "data/regions/2000/epg.json": "03ca3bf914b00469bc209183d0924da58b998d21b546321e8acdb61939a83668",
-    "data/regions/2100/channels.json": "6b9d9b9f3c27b4b682c4c1107f4dcbe20f4791462c1b2f0549c56ea90e52f6e2",
+    "data/regions/2100/channels.json": "96bf24e393f713d13d101e2d1f468f85a638a8aba3b56bcd0266bff2a850dbfa",
     "data/regions/2100/epg.json": "dec5ebfa0719c73d8676dcacd2f974095a12267b5903cb755d0e4382bd21bc3e",
-    "data/regions/2120/channels.json": "b379f097eecb48f930e1a872d8dadabadd335486472902e8b25d33c07bab7e98",
+    "data/regions/2120/channels.json": "7961c84beb82d1ca7149a2353c95e8d92f9a3fc511da54457648222417ea70e5",
     "data/regions/2120/epg.json": "6792ea03867b798e76c3ef7a79110debe9cbd9dc80e9b82b6ff016bbd93ae416",
-    "data/regions/2140/channels.json": "1d03829b23fd24974cfb1c154338d9617332b86814c65fa2500e41357b7f3414",
+    "data/regions/2140/channels.json": "4d5b7a2c058594e13c69476aa9c53fa7241bd100b32ad21da3369e3ba262b150",
     "data/regions/2140/epg.json": "210c619e3f4b69476168e41abe0a3eab12761da9abf9292f9e0796328b7bd3e1",
-    "data/regions/2180/channels.json": "5da780cce674c868591fa8ebb9c9fda1690bb92c3fde1f1ff886a3d657cb3824",
+    "data/regions/2180/channels.json": "9df2cf07810b3f05af7c959495f1a40f88bdb46ee9e5c7c45c573e34ff2f8b98",
     "data/regions/2180/epg.json": "93329ce658fea5316782f8b3b8b8c1b8d3a67295563f42afb1768ea422d42dc5",
-    "data/regions/2220/channels.json": "68129fbfc5376a95424d6d38fa438a969a336d1bc21985221795f0b4031ee25b",
+    "data/regions/2220/channels.json": "3af79ec85474b130a6949c1de3c6139dcdf6d945dd7cba116c8ec22be0e13afe",
     "data/regions/2220/epg.json": "06255196bf1fcbf23474db13ee615499dd7abae9e8cfef0bf75c676596faf750",
-    "data/regions/2240/channels.json": "dcb45b61fb3162d43d04fbf875767d52cb3ee590bcc96494d9d4fa460343fe62",
+    "data/regions/2240/channels.json": "195799c3c20cb6bf8bb0b100b3641fc8a3b74f79821b3ce60f256a35bcd84742",
     "data/regions/2240/epg.json": "40a7f2dc8439f59e2e5e08661aea29a880671026575297d305324c7511a72272",
-    "data/regions/2260/channels.json": "258e0e8836af85d945c0b4b1339a88906aa99fb8b93cd9ac6edc6643b917492f",
+    "data/regions/2260/channels.json": "f00b2bfda614e5ab9403599f1f3d89bfcafa614225ce471070afa064f2a59920",
     "data/regions/2260/epg.json": "e96404bab04165480d5dad338bfe9f2ed79476be82f9b8cefcbc82ac66e1c6a1",
-    "data/regions/2280/channels.json": "04c4e2a3efd3c0518890a6d5caf2b4894eb08f36d786116e3766a64cc570fd3b",
+    "data/regions/2280/channels.json": "8191a73739f70aa220a040f14f7739cf58d3f89cfc06b07cd1a10b477409b207",
     "data/regions/2280/epg.json": "2e1847c7bc242ff74511dc7d15e7235b25f2fa99c4068326fcb39d7e06ad5cf9",
-    "data/regions/2400/channels.json": "03f8fec4528387f46ac05c80ae11586af55a7927814c7686158bc1882f10d99c",
+    "data/regions/2400/channels.json": "bf1130a8163b58daf0074a3120f4a0febcc74f924bd71169dd0879421853eda1",
     "data/regions/2400/epg.json": "b059c69c3b29b207686cd03b92a1ae4921942f8ee3de028a89e77b80aa4bf437",
-    "data/regions/2440/channels.json": "a3f2eaaf4e72dff560035fd536f18ca541c8ed0310db056c71e4c414b5992b63",
+    "data/regions/2440/channels.json": "28118851c2ef285156a9e618b6b5a1f18d216e204717b821c701c15f2bd1293c",
     "data/regions/2440/epg.json": "0756d4a539d1a9b661e34773acd5e9d88b3777c9b65b5a7bd7dc3f06976321c7",
-    "data/regions/2460/channels.json": "813b2f002c378c94e9f54c69db39b2e80c58769ef247ea92fd5432d943850814",
+    "data/regions/2460/channels.json": "e5bcccd243368baa6028b88b18c68bbbc8f7475ef7b4f1f77041eb3e26ce7ec8",
     "data/regions/2460/epg.json": "fe108c6738d712513558dd8fc249ec125d338e7948d08fe9061a9e224f0de664",
-    "data/regions/2480/channels.json": "9616dcc1e57dc2601f35c181ebcfb5de06783dae1a6e548b1fc62b32a1c89c6e",
+    "data/regions/2480/channels.json": "2ede04e5ab01b01ed4e16dc7e2680fad007656bf00526582a5f0511a2309cd8f",
     "data/regions/2480/epg.json": "fe108c6738d712513558dd8fc249ec125d338e7948d08fe9061a9e224f0de664",
-    "data/regions/2500/channels.json": "228f5180308303677deff5119b1f527ac0dbde2a16b86e8a66853be6933c02d2",
+    "data/regions/2500/channels.json": "22e8eb375cb19005ebcdd74371109c20c9a16efb0bb5dce09f05e3bc8747d89a",
     "data/regions/2500/epg.json": "fe108c6738d712513558dd8fc249ec125d338e7948d08fe9061a9e224f0de664",
-    "data/regions/2620/channels.json": "ced7364f133b03ee1249604e4b0fcea2a33767ecad4b618966ce22e1eebc0a33",
+    "data/regions/2620/channels.json": "4a1feeff4bf5f2f1e60bb235ce9f9aede7ff4869c3348332660b86fdfd46522e",
     "data/regions/2620/epg.json": "e77cb9dce4ad26ed3f2363302cbfd1a3ca34abd9033a7482806b847f06d4ad2f",
-    "data/regions/2621/channels.json": "43257a43c6eccf01f826619838ccf1dc57aa379fa5951913553243c21579f74f",
+    "data/regions/2621/channels.json": "badcde41590003b8347c8900c9d75278a36f5e2cdcc6a4fd8b6e806795438718",
     "data/regions/2621/epg.json": "894440805fb0e9f4dfcd84ec0fb7adbaeed1690b503c1053237e840fffec356b",
-    "data/regions/2680/channels.json": "0416d8f493f4c10a8264b8b032a5a7cc504fc8ff52ee30f126ee0001b2544a94",
+    "data/regions/2680/channels.json": "cc482f57140a6f12a281cd6b7c2e6b5e718c50695d3e667ce2900401754e6365",
     "data/regions/2680/epg.json": "93da7e51b37d2f89914eee97f8f1bb133d45f117a2b59145354cd738ae459c40",
-    "data/regions/2740/channels.json": "064e38ccff42fe0f418d2dae0636adf123e0bb175812329bfce7b2e490d8528c",
+    "data/regions/2740/channels.json": "664d3f00080f390bc913549cd60fa533d1500e94a5796a7d18fe233765c6c81a",
     "data/regions/2740/epg.json": "2e29021ce1bbab62e81ac57a1ba0f6b7f68f46e0affb36f9c0d30b32a279cd6e",
-    "data/regions/2810/channels.json": "6383293296918b36a45f3aa5db8560ebae79bd4ed464ad0c1b3b411d4c707744",
+    "data/regions/2810/channels.json": "7d9e5bfd67ecc05e6ad3a61cbba1982d84cea5051a46ee63621104f76c96a854",
     "data/regions/2810/epg.json": "023e896b8a90facd54e659b107ee5c0ac44176eff6f2beb3d4a131ee7c73a87e",
-    "data/regions/2820/channels.json": "cd9600b007825f48a00077714ed4b7fe7ed3eb6619f62bec794c63f36261cfd0",
+    "data/regions/2820/channels.json": "7b79d03677272210e82239ddec09eb253aa12833ca5249de2ef4cd4b06980523",
     "data/regions/2820/epg.json": "023e896b8a90facd54e659b107ee5c0ac44176eff6f2beb3d4a131ee7c73a87e",
-    "data/regions/2850/channels.json": "574bc9787dba82e21e2863c705c33499c28be6a939accf3ac6bac54bd553f55b",
+    "data/regions/2850/channels.json": "4df9ec0fc2ef0ab536f6aa6d0f9d808e8d9a996bed8e7434e6d806b7e0c1a717",
     "data/regions/2850/epg.json": "3d7be79d54e1bc039ef0a76d2fd4ff10b419f43b88cdab6e519384670048f631",
-    "data/regions/2860/channels.json": "a5f71fd04fbf36f34e0a8e2b78863546a4eade9286653992a58193cdccb6e78c",
+    "data/regions/2860/channels.json": "88225a1392dd8365a0a06b4c6d2cd96c6fa6369665961608b8ebedbdf9258f71",
     "data/regions/2860/epg.json": "3d9ab072f1b0f2eb1d7a99006b41b7293236c6e64ee85cefcfd30bc488497af7",
-    "data/regions/2880/channels.json": "9735ec88ba94133c9551e7abc49ef59e23b68930ea5b9b7c46e5a71368f41585",
+    "data/regions/2880/channels.json": "e57ca9c704befcba7940cdf48810a8a033f98dd6fe4d73730f94f9636778d8af",
     "data/regions/2880/epg.json": "7cb633de6d24a1bc4b667336f30462c0edc2666f1ec3f907e3dfadb0b69b5614",
-    "data/regions/2900/channels.json": "c5acd3a640d8eb488a2a483d471c962cfd8a802472978edd52db61eecd076e78",
+    "data/regions/2900/channels.json": "272471f9c15b958c6194de96ea9454dd91275546c6d8ada3df93b25a91e668df",
     "data/regions/2900/epg.json": "4df6d03c0a4d86f3f05cf1718dd7665f888d6b5636791353dcc61a32ee4efea4",
-    "data/regions/3020/channels.json": "60f3114c284bb380fdf43a3d304d00e05dfdb0a9e90a1be5094d5c73d9e8ab0d",
+    "data/regions/3020/channels.json": "a5a8f191791e919d58fa7038468e26a5be80aa0b386fd52bc59f509cba3dd82a",
     "data/regions/3020/epg.json": "89c1327f638c387a4f0697d2c78f201721fad8c686d155930d6d6ffc2b772b09",
-    "data/regions/3040/channels.json": "3c09ff01666077c81d81980875b5cadc3c16afe5cbdd8e823d107b3663875728",
+    "data/regions/3040/channels.json": "2f173a85f71e592050fe7d1aa142969c589ea3b7742d7deb84b88c943f67ba5d",
     "data/regions/3040/epg.json": "39880ad6412fe362856b0bd30bb5dc07f7cab2081e5e3f10d49d483cab0362f6",
-    "data/regions/3060/channels.json": "36367f242e7853252df496d781420fdd85650a23cb11e9483d0240538a4a6264",
+    "data/regions/3060/channels.json": "4ca9c1ecb86b56b95e5e5568ad61efddced460d3961c0c87c91d6ab0556f1cb5",
     "data/regions/3060/epg.json": "1c1dc99ef84788622c6e77a226cdcf9987c73984fe5706d853007077c6acabb8",
-    "data/regions/3080/channels.json": "5f34630da6096a28062500d99d57d5207293d2e3aecdb72c0ae9f8aabec2c648",
+    "data/regions/3080/channels.json": "752285acf9066ab46efd15356d90a906f4086ddefa35c5c653a2a32427374354",
     "data/regions/3080/epg.json": "d1707a261ae706619545f221748b2575b2b756c2c985b035a48fbb6b882d3973",
-    "data/regions/3100/channels.json": "d44198b4a5990a13107ec68a7ea95da542781b324c82401740597fed79df7dd0",
+    "data/regions/3100/channels.json": "58917ddf610e87c741e1f881519880588ec4f249041348c98d22856f31b0fe84",
     "data/regions/3100/epg.json": "ab6ad573b68a636825913370dc44f2fac8be8a349952796c83786ba0e863f8de",
-    "data/regions/3200/channels.json": "0c07ab790fb1c7f22817eb8f05cc5bd0979dd628ceb80e539dadbc35fad39a2e",
+    "data/regions/3200/channels.json": "2ac0edd6e981c9c098ed24268eef610b102749ec140ee5acc595bfe844f0d902",
     "data/regions/3200/epg.json": "3802bc2cd0b411722a76db147027f10ae5be6ff324f6641e5df609b6018c5848",
-    "data/regions/3220/channels.json": "ed99c533b98acd1df8a25196145c85adf3bf4e9dbfab577a5e1ec6e6c81d3109",
+    "data/regions/3220/channels.json": "6f26ec66580487c84d4845acf22fc6a392a148e7078e1149fab78d21c6be56bd",
     "data/regions/3220/epg.json": "b5f22d83444f22ed5492bcf4b7ad8e90f84eb44cd10a3e7a7c6ba19240f7b843",
-    "data/regions/3240/channels.json": "3a1ed8b546b8d203c6d8e35fe040ac50783a2595c9316fa444cdde092ba83101",
+    "data/regions/3240/channels.json": "468308e5000be26126f262d8431cf0b3f72acca45465b33f3da2706fee1d95fd",
     "data/regions/3240/epg.json": "0a2453ed4cdfb2f5eb811fed751574ddc48984f684f53efefaa23ca21e8eb973",
-    "data/regions/3260/channels.json": "536bccd446229eda8653a3efb58d2aba546bb0f73bf8333477831acd1430b8d4",
+    "data/regions/3260/channels.json": "d9e99316c02109784c87c418f3d8e8261892205e9e9f26aff79f24982fd8c07c",
     "data/regions/3260/epg.json": "d4879b63d24dc11ab157b7764e2d79b15344f37ee12eae22056b2db3cc2fbc87",
-    "data/regions/3280/channels.json": "f16759af2618ef96c3cf660addab5197a19866e913d6043387577c5b496d576b",
+    "data/regions/3280/channels.json": "2370ecaf2830b586e8fed4f2d74392e547a9b4ee140153116241734d0a25d8b4",
     "data/regions/3280/epg.json": "b6ab98f702c736afb49c7482b107cb86c98d680d0865ddc81f7831ffe9b551d0",
-    "data/regions/3300/channels.json": "5502123a463f14ec9e52d85cc111179510571c985396f9c792016641e3208b25",
+    "data/regions/3300/channels.json": "7f7f4087ab2e6213046010fcde2867904bcaf0a64edb1099f4fb4167b88544e3",
     "data/regions/3300/epg.json": "3802bc2cd0b411722a76db147027f10ae5be6ff324f6641e5df609b6018c5848",
-    "data/regions/3400/channels.json": "1a3c6cd2fda34de39e305d6a6fbe0c10641d049a3677a325cf498cf136c6ade4",
+    "data/regions/3400/channels.json": "3c0f44ba13f4d30cf08e3c702fb67a9e5c371f2a9a94483024e655ea8c3883b4",
     "data/regions/3400/epg.json": "7389246c53cb4da362c98dbcc22b327b520aebc5e76c1772ddfc3a24c07a345e",
-    "data/regions/3412/channels.json": "e945f97ac802ec6fe00575d67aed475857ab3952152de21910327e78c66fd49a",
+    "data/regions/3412/channels.json": "5ec2513026d85fd3ac661fb659a6f4f6e0391b8528348eda6595679f3f115675",
     "data/regions/3412/epg.json": "67f8476688460bb09cabd1b89bf5e12581cd46771b6c38101698d02d097efd0a",
-    "data/regions/3420/channels.json": "78b7107a5b2c54c432d45b6315c1faa9b4780f7b65ef82d9e431708bb6718ad8",
+    "data/regions/3420/channels.json": "5ebfb34a888b55c0364c31614671b7c5e48c71c820ca05a72354ffe0c7056efb",
     "data/regions/3420/epg.json": "7389246c53cb4da362c98dbcc22b327b520aebc5e76c1772ddfc3a24c07a345e",
-    "data/regions/3440/channels.json": "195d3927463c3a25994d7e4349ece236ae1eca919a73d46f0ea2d6a0822f584e",
+    "data/regions/3440/channels.json": "259a191de08b99078779498ecadf2ce08ed287394b04f73fb1d67d4b2c39b516",
     "data/regions/3440/epg.json": "3ae2ea6cbe2b5af39e2f72af2b8b2d26f87ca2532c1ab9654b19c02f737b5478",
-    "data/regions/3460/channels.json": "ef3ac0ed35f4f2719cfabdd73724672057e8c5683463241e523e8f347587af40",
+    "data/regions/3460/channels.json": "5668151e0f65cdb563576dd72c4aa3ed45a6eef4e9b538d7935796490c9f9340",
     "data/regions/3460/epg.json": "17ada15aaa66936822fc975266c5fee5532ab237c43082213f5bcc3e67d72b68",
-    "data/regions/3480/channels.json": "95143f7fbb79bb8874cd6d2f37586ef4fa047f44c319fad967b6afd994d01cb5",
+    "data/regions/3480/channels.json": "d48f6095438e704f9339d5d9d065dbaa435da9e4e8ef8066b78bf09abfe111df",
     "data/regions/3480/epg.json": "f413530cd82f42fa458a8599d1dbf198c9f72cede7662ea76f05016342ff916d",
-    "data/regions/3500/channels.json": "b7bb1e2f434b47cfbcc2f043d5f5f54d8bf008246497d1a0bb52cd58f104ff04",
+    "data/regions/3500/channels.json": "b6d284c63c6ad67a3f611e19c1de6f792f107566dfa92be154ae5cb57395ab1d",
     "data/regions/3500/epg.json": "c33fca2c48eddff8f66bb20ed55489d99545a5d415623c5004a9e2469a32ad2e",
-    "data/regions/3540/channels.json": "c0f4d39d1dac11332e7f646e118c6b19b81710717c48ff291e63227cf9f50de1",
+    "data/regions/3540/channels.json": "e918df6e7b92f7cc57c98494676ad5ab9ebc1fc2bcdfb4091579513095d57896",
     "data/regions/3540/epg.json": "4403924da989bd975cbf1b8797a99903b3657f0c0f8711eb2b127594b30c4860",
-    "data/regions/3620/channels.json": "b5a675340e1d22e64d7e68044563988e448829c3cae84dc58f1da008f85f79e0",
+    "data/regions/3620/channels.json": "c19b774d6f0936b1d1b9cda932e22c88c3dbfedcb11daeffa3bc3208ca30f158",
     "data/regions/3620/epg.json": "b133f637fe8d1d2c895eb00e810b42f0247e669e11e86d119ad3a02512c8ea56",
-    "data/regions/3640/channels.json": "b7d714a1cd2f1ea4b59c2372e52dcc9661e9893dff0f492eaf76b32df505231d",
+    "data/regions/3640/channels.json": "eec6e69d48d1a1894ca1c88fd4a6ac646cd3df0c1c3047b34fe8ea638b029387",
     "data/regions/3640/epg.json": "58dac07b09344d4f1cb7a6bed3a1cc34fd075d75d547078d4efa07f9da599242",
-    "data/regions/3660/channels.json": "2bd835af6aac81cecd4541bcd76fd2e4bf88d72f51b49262f5f38caf9f0eed91",
+    "data/regions/3660/channels.json": "52d78b6837a9b8f5b19f2f1050b59e300273eb152f520de64282e1709d68525c",
     "data/regions/3660/epg.json": "2a87d2fd2f4a4706518399bf69c37e9edf45966ccc25db09ba4608618d3b09c4",
-    "data/regions/3680/channels.json": "29758e5b5e7f2ec9d84176ae6584db0a3986b2a3124fe22f94b106524ede5440",
+    "data/regions/3680/channels.json": "87db70ec92813f8e47d41e08626a1c2d8700fb2be6cb6280b27c7c45cbb2edde",
     "data/regions/3680/epg.json": "58dac07b09344d4f1cb7a6bed3a1cc34fd075d75d547078d4efa07f9da599242",
-    "data/regions/3800/channels.json": "df552f60f480b4786068f24d79717f81602286f3fe0f1139e4fa5bf3a003229e",
+    "data/regions/3800/channels.json": "443cf8b6c83262917e68daf06fa6306ff45a5d9be18e08b55834a309a7f7da74",
     "data/regions/3800/epg.json": "aae0164cb157ca640ee57f1a2cbb062be930a8ae4e177ea6f0ce92212b76e782",
-    "data/regions/3820/channels.json": "422d96c5df18bf6fc6a8405d27352c2132f1ac22645f9e515747a22de9652395",
+    "data/regions/3820/channels.json": "164257a9bd5a4fea495c40780a037e330f0304fc7209d56e89fbe0f5cbbf2122",
     "data/regions/3820/epg.json": "fb991d6505c348ade3b4747b4f4ce131266bc9b7abb25ba56c855ed95f1dc313",
-    "data/regions/3840/channels.json": "bf2f138fa4cffcca803cc459da8fecc2f3ec049566046166dd311bd5a60e4ef2",
+    "data/regions/3840/channels.json": "e8697c81fbf5c0254895e136a5683ad8ad3d4c1e165b940800753828487253a8",
     "data/regions/3840/epg.json": "9f49060b60c47178a1207593d262c4421e8f0526a51c89f36d5bdc099eb3a6f8",
-    "data/regions/3860/channels.json": "cef3ee00d4dddbcf130c52d62db1d93a31dc31a1372f0d65cf1489a39f7062a1",
+    "data/regions/3860/channels.json": "51e5b1aa5546fd51dadaef4daebde50963afa33375040451c3d11347276de1cc",
     "data/regions/3860/epg.json": "79006311902681196de19c22854788c49f7b76f7cf5fb3c5561e7d325808182f",
-    "data/regions/3900/channels.json": "827287b25f17101b5e95fe102824c7e8c8098dd661be2dd06cf2156f47210bea",
+    "data/regions/3900/channels.json": "5b0a876549e82b5a7912bc537b2a987176d663fc51eae3ee59a3658581bd05fb",
     "data/regions/3900/epg.json": "6c5377b1d2d2884d5c7dfa42bd1065a404f0e67c5951d1626c8b5f138c2662dd",
-    "data/regions/4001/channels.json": "b3868f7f184e6b249cd365b1d72974d053694447ab4f89655cdf7f942439cb15",
+    "data/regions/4001/channels.json": "99fabe163d36a8f050676712dd843a9ab37ade54a2aae47f84fe6d49e3e5caf3",
     "data/regions/4001/epg.json": "ce6870dba7790badc56de0ea07b5522d191d79713ab1245859bc269387977269",
-    "data/regions/4010/channels.json": "e3213a78cb7ec4479b650b43c0a284dee4dfd84a5bffa2fda3fbd4eeecacfc12",
+    "data/regions/4010/channels.json": "eb3abfd9d6eaa066ac5cd1adcc7aaa78737b7b0b85e5f5a38d7e943ee69bf9ef",
     "data/regions/4010/epg.json": "ce6870dba7790badc56de0ea07b5522d191d79713ab1245859bc269387977269",
-    "data/regions/4020/channels.json": "0da5feb7f1b8c510800fe4b77034b913cc9c7dd3c7e39ba1babe14a48c3c3ec4",
+    "data/regions/4020/channels.json": "be9741f386e889c0fe5b7119b4090eaa545f3740baad1f678fb9118c5a200ffb",
     "data/regions/4020/epg.json": "3368d4738813549dc478cb8c3a7bc2bd822cf889dff77ded2dd0f8b9c0e0b6f9",
-    "data/regions/4040/channels.json": "84dd9482736177fb0fd867c4baf51118f9516b3e3fc431c4b223c6afca01e2fa",
+    "data/regions/4040/channels.json": "ff8a6978b004084fafc7712c71407bb1eeece3d88cb2af91921718333c0076f7",
     "data/regions/4040/epg.json": "ce6870dba7790badc56de0ea07b5522d191d79713ab1245859bc269387977269",
-    "data/regions/4060/channels.json": "6bbea57c75ceb085ab2cbe855f55a14dda97ca782c1f574d7a022b6ca2767338",
+    "data/regions/4060/channels.json": "d85507596117046ae500e247fba0b77ee59503f549307b0079ee7f77837e45c4",
     "data/regions/4060/epg.json": "ce6870dba7790badc56de0ea07b5522d191d79713ab1245859bc269387977269",
-    "data/regions/4061/channels.json": "8eebd29077d4044c986581b952d63a34886c16c075e3e27209560ccf71d23dfe",
+    "data/regions/4061/channels.json": "779006bb49891f5ce932212271cd7d6b1df120ffe47c85d9d73c1b33c6efd604",
     "data/regions/4061/epg.json": "c4bc29cc2540f8b02b20f7ca3bbfe65f866aa96892c9ad6156a494a187e05e06",
-    "data/regions/4080/channels.json": "5519bb1450f6e9bd5b01515b51e4e1f444c5deb32865da5d26af90aabb3fdea9",
+    "data/regions/4080/channels.json": "e91036a9b1952e867da51092f654bc1d3035e1cf9084c333a5c83f00504a3b7d",
     "data/regions/4080/epg.json": "d19fb47df529d255162318f060acc643b07a01f87bf3d09f6014232f8687db75",
-    "data/regions/4200/channels.json": "59efb3483b7e119c47f1f4522904daa5d00c3afd987cef00cb496cdcd5b8f7f3",
+    "data/regions/4200/channels.json": "e2663528b7f90628118b7b94271ea335c29fc8d8781e23d846101a300686dde7",
     "data/regions/4200/epg.json": "29d0f46f5e2bbedec35d3bf7c108f58e0afc21b0530e055750eeb3b383571f02",
-    "data/regions/4220/channels.json": "9cc6a5ddbbc3be7d8fe6efac852e3a0387ac45b10377444a3a5dee65ed009862",
+    "data/regions/4220/channels.json": "48ca52d9b18342269682c384cc6ec5c542c89e7c07c818efa5e2386865ed8ccd",
     "data/regions/4220/epg.json": "29d0f46f5e2bbedec35d3bf7c108f58e0afc21b0530e055750eeb3b383571f02",
-    "data/regions/4230/channels.json": "d700dde42f592ddf5d06f2d100532fc455e96c4ffc612010d9d9585ee860d423",
+    "data/regions/4230/channels.json": "a80c32fd5da0ddc00ae239cd629f13b950503487e91fcee99958e5b95a4141bc",
     "data/regions/4230/epg.json": "29d0f46f5e2bbedec35d3bf7c108f58e0afc21b0530e055750eeb3b383571f02",
-    "data/regions/4240/channels.json": "1d68493da181a4a509524a7fead0d6d317efde16bf16cb172b2fceee40ff686e",
+    "data/regions/4240/channels.json": "f6f9d334456f39064f82f6b7cb3c8aa68cca7e12ac941fdd7f7cfb8c177bf305",
     "data/regions/4240/epg.json": "5bc97553d8f27ef4e6ad2c337aa10fc59a6c050f44028ff97e127f76ff6d69f9",
-    "data/regions/4260/channels.json": "16c1252b856660fa671ffddcd7a8e434995bebc46770ff5859e5c225c4c3a2d4",
+    "data/regions/4260/channels.json": "631661020a02f1400c69d790026067eb2e794f3660b56fa4b8fced868bd1531b",
     "data/regions/4260/epg.json": "d585ce3d99f2edad0f52ffb0d2618e0869c774ba140f0125d8096fb74cba006a",
-    "data/regions/4280/channels.json": "0dfcdbae2fd9072053ee597a4f474c0411c7923e914115fa6ca81fc8ddd101cf",
+    "data/regions/4280/channels.json": "6681d58702b623ffdf132fbf0cffe12394080571a24d4b8cfbbc1eeff849efc7",
     "data/regions/4280/epg.json": "cfec6e53cb59accf062c41d81869b414948c9eb409387e05d1fa593019b7d983",
-    "data/regions/4300/channels.json": "0e2e242fa22c730e4a0c647939214175a6558c63dc0078b2a996364429b14837",
+    "data/regions/4300/channels.json": "535b39972290c9a0b2e1094538f75da848df3cc85adef212fdea8861d61d516c",
     "data/regions/4300/epg.json": "d0bdc7e3ef9025d9a25afb1ce977219bd4cb98213ba21648877a66f3105fec36",
-    "data/regions/4320/channels.json": "284b1e2e7ad260b935e04452a4db99e4feeabd9ed207d6904bca717976e53bd1",
+    "data/regions/4320/channels.json": "a27fb7584614569472b27c325f5c9ebc20bfa0be5f86265ba4529e4bf7b45fc8",
     "data/regions/4320/epg.json": "480bb3668674f4fae99fd95025596e89f357812be782614df639117f54c8384a",
-    "data/regions/5000/channels.json": "c73c8725b22c9c79f08ae968c7a353bef3ceff0f96a87100b954f39a8d771510",
+    "data/regions/5000/channels.json": "a715e632918118c20d689c2696f643e5d82081f3df8f44f096a9c119712cc4f8",
     "data/regions/5000/epg.json": "b2bb7c373df905b843bdc9ea97e33699ebf9afaa70363592ca4a14c6d63a4cac",
-    "data/regions/6000/channels.json": "3d4475face78b5febc3870397db7e1281d6c578c88f293658e79f467092a93ce",
+    "data/regions/6000/channels.json": "49ab550e88dfe96691332dd1c19bdd4071f540f1a0e285e8687469e341385eda",
     "data/regions/6000/epg.json": "785e14e34ed60112f059489b85043bfaaa810348e3ebc631827bf45f6ee17803",
-    "data/regions/6290/channels.json": "e1e684070f88564a4e9370021ae439f6f4cb56fe2f3e5071d1c7cf601afed104",
+    "data/regions/6290/channels.json": "d713a18ed334e4f64550dcf86dd664fdc2860267873490c5faf83b858b8c8a9e",
     "data/regions/6290/epg.json": "58a817eb27d9148195d30dc51206bc407ae1a27c496324e007043f802134ff5c",
-    "data/regions/6500/channels.json": "79e9be0ddeb2c44503a943b52cc6f676aa6b9a6760a7aa0de40d3956d67efdb0",
+    "data/regions/6500/channels.json": "f7f4f34245be7b18dda56b5692bdf3205cab9d94263f20b045e6ae2440ae4cd9",
     "data/regions/6500/epg.json": "8be40f369584dda0e8c5df3aee868c401ce2bcd7a4b1c752c085e57877388d0c",
-    "data/regions/6600/channels.json": "90a4bc4ca634e43e578b567e6061a6de8b64a84b12daed8c514c3504f7fbc0b4",
+    "data/regions/6600/channels.json": "1fe0219e8e481a1e4dbda75bcb67ffe1f24c9c7265b1e1aab60e2b65f21645bb",
     "data/regions/6600/epg.json": "218bae377a778eb62bf9ad701f1ed835590b16b29a37574aec17cbe75faff9c0",
-    "data/regions/6610/channels.json": "52fbcb0bbb9bda2b897514e7950a5a92fd559c94becd2a5d64a9a022d01a25db",
+    "data/regions/6610/channels.json": "57a41d3b0d42f03beed3118ed32feb9fab64fb0423444cb6e8a6873ecf513d7c",
     "data/regions/6610/epg.json": "218bae377a778eb62bf9ad701f1ed835590b16b29a37574aec17cbe75faff9c0",
-    "data/regions/6620/channels.json": "c6fd9d7dfc025cb43322887e2a97464ba5aed71f24b1892d1d98a0f769e84913",
+    "data/regions/6620/channels.json": "bd9c4feaa4f0668584c989e277b163bcc9c7855ca9a94da36cd1ddda9c530ec5",
     "data/regions/6620/epg.json": "218bae377a778eb62bf9ad701f1ed835590b16b29a37574aec17cbe75faff9c0",
-    "data/regions/6800/channels.json": "d12f634403d17b768205c5a68f7d1f827d5501644cbaa9a132cb3d92e2dc2c52",
+    "data/regions/6800/channels.json": "403d71251f0dfd627bd22c6e726b1cc81c568997f9f9652d1b3e249f780846dd",
     "data/regions/6800/epg.json": "c599fa48494f634893ae2e22311b4be67a261e2c63389c82ddd4148f06742638",
-    "data/regions/6820/channels.json": "3398590f533a3d5d458bd40b93e3e29b449a0c62763b2e755406d373dab913ca",
+    "data/regions/6820/channels.json": "aa33ba76b2eeb68ac6a4134ede821c69f3a6f832d5755526b12602c6ad8f3790",
     "data/regions/6820/epg.json": "024f970af63f2e531fb710077e180c3e295271822e5a7610ed5e36cf029e2ca4",
-    "data/regions/6840/channels.json": "58c2b13388c51e2047fe566f3a9ae6b8d32fa4e0a77371807531f691461b72ba",
+    "data/regions/6840/channels.json": "66b5507609a89f577dc22648e12c64002e85ee6c99e70520b0fd4f72beec9ee9",
     "data/regions/6840/epg.json": "24829ce857180fe20461a3b9fccc62520640e98dfb49c94a07f20b905b0fcb75",
-    "data/regions/6860/channels.json": "eccc31906c17662d1b6f9e82a3625c6cd7916981cb6de77ebc80e9c23a29e24c",
+    "data/regions/6860/channels.json": "1e3697b1c74d9f7c37623943944576fe94f00ce90c9073ce78a891ce5f3be2f7",
     "data/regions/6860/epg.json": "73ab3cf17c5f44eb2a833d2c4a1e066b57618ee5c963a7dac36ed0b91822f3d4",
-    "data/regions/6880/channels.json": "fc76be2a8432e90496d3eec5d0ab8c6cbdf16081054f80876ca2f3d28dd81cf1",
+    "data/regions/6880/channels.json": "60d3bccc652603dc6f179432e4825bfd58673820743de52c8a3cbaa6b0777255",
     "data/regions/6880/epg.json": "73ab3cf17c5f44eb2a833d2c4a1e066b57618ee5c963a7dac36ed0b91822f3d4",
-    "data/regions/7000/channels.json": "63b8ba0ae9caf652d13a745c1635c08d007e6e7a04a77cb9ace6683fca411d0e",
+    "data/regions/7000/channels.json": "749c728f9916ef3496549bdd95bad6880f0e1438ec1da1d0c41f8a8c217c386e",
     "data/regions/7000/epg.json": "4c3c859275b241a626c68cd382acfdbb1d0f1a6fba456672dd10a5c52cd756ab",
-    "exports/epg.xml": "acf7fe7bfb0cfc26690b0640dfdb6a4edb6c434ff8a6d43c50cf7bd592105422",
+    "exports/epg.xml": "ed2b5b669cbdd2f56d9fef0f25e0da0f7f878447a602efb7c1b4c99ce58b117d",
     "exports/gudou_playlist.m3u": "db763c3384d0cd2929bcb5f07573887cd5ea03a04a00775c03d1eb78b143052c",
     "exports/playlist.m3u": "b92e26eecf1297e137b6cc2ed088b05508e506db01c6f4adda2824f2519ca391",
     "exports/regions/0/epg.xml.gz": "f682a60dac9aeaf660c15bc84c32f11b0a0120fb3abf71ee81dabfe9dd1c62e0",
@@ -981,10 +981,10 @@
     "exports/regions/5000/epg.xml.gz": "8b4a05159c272f7e037382f2b7ed7b62d1438e3de95ef08be382c00e1d4ebae7",
     "exports/regions/5000/gudou_playlist.m3u": "d7640b993c15f287d70101021e04702ba3f7d2d398f1410d0b9960e7f56bd3f1",
     "exports/regions/5000/playlist.m3u": "cc0a05679da23ba5768ec14dffd8d7f82e436424e6007cf4230246885b2769dc",
-    "exports/regions/6000/epg.xml.gz": "88cfc827d9cce2652c940e2f02bb4942c09b2e75647b35d8aaa0adcc228033e6",
+    "exports/regions/6000/epg.xml.gz": "145e0770121e9c98be956c00e37a3753b97bf4b7141eaaae893f4f293b3ecdcb",
     "exports/regions/6000/gudou_playlist.m3u": "d7640b993c15f287d70101021e04702ba3f7d2d398f1410d0b9960e7f56bd3f1",
     "exports/regions/6000/playlist.m3u": "6a4fcade8714d4599e2afe382a1a5f714bf104c5a1485e93ae85c35bbd023bc8",
-    "exports/regions/6290/epg.xml.gz": "435bb52a79c7f189a45704c4839a032dd9c6052f47894383817309a5c4c8214a",
+    "exports/regions/6290/epg.xml.gz": "380d0dc3b7c4be09b963bf5653db64fc0043d90e7ec3165c958ac4f7cd1c3189",
     "exports/regions/6290/gudou_playlist.m3u": "d7640b993c15f287d70101021e04702ba3f7d2d398f1410d0b9960e7f56bd3f1",
     "exports/regions/6290/playlist.m3u": "afd2e287e056e6be8a38ff7261ad05801002fc2fc8030757490513807cacb834",
     "exports/regions/6500/epg.xml.gz": "8c4393d3a0403dad14500a381d98ada597c07f9acaf74decfddb71528b29d79c",
@@ -1022,7 +1022,7 @@
     "exports/regions/755/playlist.m3u": "bebbaf302f457030019beda6f377cd770070bf9411d4b86b5c0a87b276aa69a3"
   },
   "captureWindow": null,
-  "contentVersion": "5601b0bfb891ae20f3df663aafac01fe49f14ed6cfd07d52695492c1864fd4c9",
+  "contentVersion": "a8df1094ce59903267d2f247b68c4a2101009ef2df79f9e92f18e2df3c2fe25f",
   "coverage": {
     "capturedSchedules": 85129,
     "catalogRegions": 685,
@@ -22276,7 +22276,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5400",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5410": {
@@ -22290,7 +22290,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5410",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5420": {
@@ -22304,7 +22304,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5420",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5430": {
@@ -22318,7 +22318,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5430",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5440": {
@@ -22332,7 +22332,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5440",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5450": {
@@ -22346,7 +22346,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5450",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5460": {
@@ -22360,7 +22360,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5460",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5470": {
@@ -22374,7 +22374,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5470",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5480": {
@@ -22388,7 +22388,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5480",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5490": {
@@ -22402,7 +22402,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5490",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5500": {
@@ -22416,7 +22416,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5500",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5510": {
@@ -22430,7 +22430,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5510",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5520": {
@@ -22444,7 +22444,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5520",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5530": {
@@ -22458,7 +22458,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5530",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5540": {
@@ -22472,7 +22472,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5540",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5550": {
@@ -22486,7 +22486,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5550",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5560": {
@@ -22500,7 +22500,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5560",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5570": {
@@ -22514,7 +22514,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5570",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5580": {
@@ -22528,7 +22528,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5580",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5590": {
@@ -22542,7 +22542,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5590",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5600": {
@@ -22556,7 +22556,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5600",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5610": {
@@ -22570,7 +22570,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5610",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5620": {
@@ -22584,7 +22584,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5620",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5630": {
@@ -22598,7 +22598,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5630",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5640": {
@@ -22612,7 +22612,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5640",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5650": {
@@ -22626,7 +22626,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5650",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5660": {
@@ -22640,7 +22640,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5660",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5670": {
@@ -22654,7 +22654,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5670",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5680": {
@@ -22668,7 +22668,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5680",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5690": {
@@ -22682,7 +22682,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5690",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5700": {
@@ -22696,7 +22696,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5700",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5710": {
@@ -22710,7 +22710,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5710",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5720": {
@@ -22724,7 +22724,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5720",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5730": {
@@ -22738,7 +22738,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5730",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5740": {
@@ -22752,7 +22752,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5740",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5750": {
@@ -22766,7 +22766,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5750",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5760": {
@@ -22780,7 +22780,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5760",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5770": {
@@ -22794,7 +22794,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5770",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5780": {
@@ -22808,7 +22808,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5780",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5790": {
@@ -22822,7 +22822,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5790",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5800": {
@@ -22836,7 +22836,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5800",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5810": {
@@ -22850,7 +22850,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5810",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5820": {
@@ -22864,7 +22864,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5820",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5830": {
@@ -22878,7 +22878,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5830",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5840": {
@@ -22892,7 +22892,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5840",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5850": {
@@ -22906,7 +22906,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5850",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5860": {
@@ -22920,7 +22920,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5860",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5870": {
@@ -22934,7 +22934,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5870",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5880": {
@@ -22948,7 +22948,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5880",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5890": {
@@ -22962,7 +22962,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5890",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5900": {
@@ -22976,7 +22976,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5900",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5910": {
@@ -22990,7 +22990,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5910",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5920": {
@@ -23004,7 +23004,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5920",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5930": {
@@ -23018,7 +23018,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5930",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5940": {
@@ -23032,7 +23032,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5940",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5950": {
@@ -23046,7 +23046,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5950",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5960": {
@@ -23060,7 +23060,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5960",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5970": {
@@ -23074,7 +23074,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5970",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5980": {
@@ -23088,7 +23088,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5980",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "5990": {
@@ -23102,7 +23102,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 5990",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6": {
@@ -23130,7 +23130,7 @@
       "invalidProgrammeRows": 0,
       "name": "中山",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6010": {
@@ -23144,7 +23144,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6010",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6020": {
@@ -23158,7 +23158,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6020",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6030": {
@@ -23172,7 +23172,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6030",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6040": {
@@ -23186,7 +23186,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6040",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6050": {
@@ -23200,7 +23200,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6050",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6060": {
@@ -23214,7 +23214,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6060",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6070": {
@@ -23228,7 +23228,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6070",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6080": {
@@ -23242,7 +23242,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6080",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6090": {
@@ -23256,7 +23256,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6090",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6100": {
@@ -23270,7 +23270,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6100",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6110": {
@@ -23284,7 +23284,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6110",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6120": {
@@ -23298,7 +23298,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6120",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6130": {
@@ -23312,7 +23312,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6130",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6140": {
@@ -23326,7 +23326,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6140",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6150": {
@@ -23340,7 +23340,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6150",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6160": {
@@ -23354,7 +23354,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6160",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6170": {
@@ -23368,7 +23368,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6170",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6180": {
@@ -23382,7 +23382,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6180",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6190": {
@@ -23396,7 +23396,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6190",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6200": {
@@ -23410,7 +23410,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6200",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6210": {
@@ -23424,7 +23424,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6210",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6220": {
@@ -23438,7 +23438,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6220",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6230": {
@@ -23452,7 +23452,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6230",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6240": {
@@ -23466,7 +23466,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6240",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6250": {
@@ -23480,7 +23480,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6250",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6260": {
@@ -23494,7 +23494,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6260",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6270": {
@@ -23508,7 +23508,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6270",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6280": {
@@ -23522,7 +23522,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6280",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6290": {
@@ -23536,7 +23536,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6290",
       "playlistUrl": "exports/regions/6290/playlist.m3u",
-      "programmes": 43587,
+      "programmes": 43579,
       "representativeCode": "6290"
     },
     "6300": {
@@ -23550,7 +23550,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6300",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6310": {
@@ -23564,7 +23564,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6310",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6320": {
@@ -23578,7 +23578,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6320",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6330": {
@@ -23592,7 +23592,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6330",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6340": {
@@ -23606,7 +23606,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6340",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6350": {
@@ -23620,7 +23620,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6350",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6360": {
@@ -23634,7 +23634,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6360",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6370": {
@@ -23648,7 +23648,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6370",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6380": {
@@ -23662,7 +23662,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6380",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6390": {
@@ -23676,7 +23676,7 @@
       "invalidProgrammeRows": 0,
       "name": "区域 6390",
       "playlistUrl": "exports/regions/6000/playlist.m3u",
-      "programmes": 56603,
+      "programmes": 56595,
       "representativeCode": "6000"
     },
     "6400": {
@@ -24916,11 +24916,11 @@
     "channels": 521,
     "citySubscriptions": 21,
     "exportChannels": 521,
-    "programmes": 182094,
+    "programmes": 182086,
     "publishedRegions": 97,
     "schedules": 222,
-    "uniqueProgrammes": 86005
+    "uniqueProgrammes": 85993
   },
-  "updatedAt": "2026-11-23T15:34:24+08:00",
+  "updatedAt": "2026-11-23T16:04:15+08:00",
   "version": 3
 }
