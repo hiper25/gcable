@@ -221207,10 +221207,56 @@
       "timestamp": "2026-11-23T13:01:44.550837+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/3412.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3412",
+      "detail": "HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "梅州新闻台",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T13:31:45.331266+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/3412.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3412",
+      "detail": "3412.m3u8：HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "梅州新闻台",
+      "playlistPath": "/live/3412.m3u8",
+      "timestamp": "2026-11-23T13:31:45.331266+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/3412.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-23T13:01:48.625812+00:00",
+    "last_updated": "2026-11-23T13:31:51.249645+00:00",
     "total_channels": 521
   },
   "version": 2
