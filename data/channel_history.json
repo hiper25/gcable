@@ -4787,7 +4787,7 @@
       ],
       "channelID": "2802",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": null,
       "timestamp": "2026-11-17T02:54:12.275021+00:00",
       "type": "gudou",
@@ -7856,7 +7856,7 @@
       ],
       "channelID": "2832",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "四会新闻综合",
+      "name": "四会新闻综合（高清）",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:01:55.173921+00:00",
       "type": "gudou",
@@ -13414,7 +13414,7 @@
       ],
       "channelID": "1239",
       "detail": "请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:14:40.551858+00:00",
       "type": "gudou",
@@ -14474,7 +14474,7 @@
       ],
       "channelID": "1227",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山东教育台",
+      "name": "山东教育",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:35.416266+00:00",
       "type": "gudou",
@@ -14966,7 +14966,7 @@
       ],
       "channelID": "1288",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "宜和购物",
+      "name": "中国天气高清",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:49.793398+00:00",
       "type": "gudou",
@@ -29832,7 +29832,7 @@
       ],
       "channelID": "1239",
       "detail": "参数解析：未执行 → 失败",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:07:58.324615+00:00",
       "type": "gudou",
@@ -29873,7 +29873,7 @@
       ],
       "channelID": "1239",
       "detail": "1500.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 200；参数解析：未提供 → 失败；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": "/live/avit/1239/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:07:58.324615+00:00",
       "type": "rendition",
@@ -53797,7 +53797,7 @@
       ],
       "channelID": "2802",
       "detail": "参数解析：未执行 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:09:37.788142+00:00",
       "type": "gudou",
@@ -53862,7 +53862,7 @@
       ],
       "channelID": "2802",
       "detail": "1500.m3u8：请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 成功；媒体解码：未提供 → 失败；视频宽度：未提供 → 720；视频高度：未提供 → 576；视频编码：未提供 → H264；音频编码：未提供 → AAC；错误详情：未提供 → 媒体解码失败",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": "/live/avit/2802/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:09:37.788142+00:00",
       "type": "rendition",
@@ -53927,7 +53927,7 @@
       ],
       "channelID": "2802",
       "detail": "800.m3u8：请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 成功；媒体解码：未提供 → 失败；视频宽度：未提供 → 480；视频高度：未提供 → 360；视频编码：未提供 → H264；音频编码：未提供 → AAC；错误详情：未提供 → 媒体解码失败",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": "/live/avit/2802/800/800.m3u8",
       "timestamp": "2026-11-17T04:09:37.788142+00:00",
       "type": "rendition",
@@ -61306,7 +61306,7 @@
       ],
       "channelID": "1239",
       "detail": "参数解析：失败 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": null,
       "timestamp": "2026-11-17T04:35:28.780616+00:00",
       "type": "gudou",
@@ -61341,7 +61341,7 @@
       ],
       "channelID": "1239",
       "detail": "1500.m3u8：请求结果：失败 → 成功；参数解析：失败 → 成功；媒体解码：未执行 → 失败；错误详情：请求失败 → 媒体解码失败",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": "/live/avit/1239/1500/1500.m3u8",
       "timestamp": "2026-11-17T04:35:28.780616+00:00",
       "type": "rendition",
@@ -66074,7 +66074,7 @@
       ],
       "channelID": "1227",
       "detail": "1227.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "山东教育台",
+      "name": "山东教育",
       "playlistPath": "/live/1227.m3u8",
       "timestamp": "2026-11-17T14:17:15.274766+00:00",
       "type": "rendition",
@@ -67523,7 +67523,7 @@
       ],
       "channelID": "1239",
       "detail": "媒体解码：失败 → 成功；错误详情：媒体解码失败 → 未提供",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:17:20.274693+00:00",
       "type": "gudou",
@@ -67600,7 +67600,7 @@
       ],
       "channelID": "1239",
       "detail": "1500.m3u8：媒体解码：失败 → 成功；帧率：未提供 → 25/1；视频规格：未提供 → Main；像素格式：未提供 → yuv420p；像素宽高比：未提供 → 12:11；画面宽高比：未提供 → 15:11；扫描方式：未提供 → progressive；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 95897；错误详情：媒体解码失败 → 未提供",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": "/live/avit/1239/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:17:20.274693+00:00",
       "type": "rendition",
@@ -69279,7 +69279,7 @@
       ],
       "channelID": "1288",
       "detail": "1288.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "宜和购物",
+      "name": "中国天气高清",
       "playlistPath": "/live/1288.m3u8",
       "timestamp": "2026-11-17T14:17:23.774080+00:00",
       "type": "rendition",
@@ -98811,7 +98811,7 @@
       ],
       "channelID": "2832",
       "detail": "2832.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "四会新闻综合",
+      "name": "四会新闻综合（高清）",
       "playlistPath": "/live/2832.m3u8",
       "timestamp": "2026-11-17T14:18:57.482382+00:00",
       "type": "rendition",
@@ -99569,7 +99569,7 @@
       ],
       "channelID": "2802",
       "detail": "媒体解码：失败 → 成功；错误详情：媒体解码失败 → 未提供",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": null,
       "timestamp": "2026-11-17T14:19:01.182676+00:00",
       "type": "gudou",
@@ -99646,7 +99646,7 @@
       ],
       "channelID": "2802",
       "detail": "1500.m3u8：媒体解码：失败 → 成功；帧率：未提供 → 25/1；视频规格：未提供 → Main；像素格式：未提供 → yuv420p；像素宽高比：未提供 → 12:11；画面宽高比：未提供 → 15:11；扫描方式：未提供 → progressive；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 96172；错误详情：媒体解码失败 → 未提供",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": "/live/avit/2802/1500/1500.m3u8",
       "timestamp": "2026-11-17T14:19:01.182676+00:00",
       "type": "rendition",
@@ -99723,7 +99723,7 @@
       ],
       "channelID": "2802",
       "detail": "800.m3u8：媒体解码：失败 → 成功；帧率：未提供 → 25/1；视频规格：未提供 → Main；像素格式：未提供 → yuv420p；像素宽高比：未提供 → 1:1；画面宽高比：未提供 → 4:3；扫描方式：未提供 → progressive；音频采样率：未提供 → 48000；音频声道数：未提供 → 2；音频码率：未提供 → 94409；错误详情：媒体解码失败 → 未提供",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": "/live/avit/2802/800/800.m3u8",
       "timestamp": "2026-11-17T14:19:01.182676+00:00",
       "type": "rendition",
@@ -110603,7 +110603,7 @@
       ],
       "channelID": "1239",
       "detail": "1500.m3u8：音频码率：95897 → 95988",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": "/live/avit/1239/1500/1500.m3u8",
       "timestamp": "2026-11-19T21:45:38.414363+00:00",
       "type": "rendition",
@@ -113411,7 +113411,7 @@
       ],
       "channelID": "2802",
       "detail": "1500.m3u8：音频码率：96172 → 96000",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": "/live/avit/2802/1500/1500.m3u8",
       "timestamp": "2026-11-19T21:47:14.841696+00:00",
       "type": "rendition",
@@ -113428,7 +113428,7 @@
       ],
       "channelID": "2802",
       "detail": "800.m3u8：音频码率：94409 → 96000",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": "/live/avit/2802/800/800.m3u8",
       "timestamp": "2026-11-19T21:47:14.841696+00:00",
       "type": "rendition",
@@ -117671,7 +117671,7 @@
       ],
       "channelID": "1239",
       "detail": "参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:01:04.070937+00:00",
       "type": "gudou",
@@ -117700,7 +117700,7 @@
       ],
       "channelID": "1239",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "云南卫视（特色）",
+      "name": "云南卫视",
       "playlistPath": "/live/avit/1239/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:01:04.070937+00:00",
       "type": "rendition",
@@ -130228,7 +130228,7 @@
       ],
       "channelID": "2802",
       "detail": "参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": null,
       "timestamp": "2026-11-20T00:01:37.426916+00:00",
       "type": "gudou",
@@ -130257,7 +130257,7 @@
       ],
       "channelID": "2802",
       "detail": "1500.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": "/live/avit/2802/1500/1500.m3u8",
       "timestamp": "2026-11-20T00:01:37.426916+00:00",
       "type": "rendition",
@@ -130286,7 +130286,7 @@
       ],
       "channelID": "2802",
       "detail": "800.m3u8：参数解析：成功 → 失败；媒体解码：成功 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
-      "name": "肇庆综合",
+      "name": "肇庆综合（高清）",
       "playlistPath": "/live/avit/2802/800/800.m3u8",
       "timestamp": "2026-11-20T00:01:37.426916+00:00",
       "type": "rendition",
@@ -232288,7 +232288,7 @@
         }
       ],
       "channelID": "2324",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "惠东电台",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
@@ -232318,7 +232318,7 @@
         }
       ],
       "channelID": "2509",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "潮阳台（高清）",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
@@ -232333,7 +232333,7 @@
         }
       ],
       "channelID": "2608",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "南雄综合（高清）",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
@@ -232348,7 +232348,7 @@
         }
       ],
       "channelID": "2617",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "仁化综合（高清）",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
@@ -232519,7 +232519,7 @@
         }
       ],
       "channelID": "2817",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "广州综合",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
@@ -232561,7 +232561,7 @@
         }
       ],
       "channelID": "2843",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "德庆综合（高清）",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
@@ -232576,7 +232576,7 @@
         }
       ],
       "channelID": "2847",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "德庆电台",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
@@ -232591,7 +232591,7 @@
         }
       ],
       "channelID": "3434",
-      "detail": "频道移出目录",
+      "detail": "频道资料更新",
       "name": "平远-1（高清）",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
@@ -232631,11 +232631,503 @@
       "name": "百城千屏测试",
       "timestamp": "2026-11-24T06:01:06+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "音乐之声",
+          "before": "茂名交通广播",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "205",
+          "before": "210",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "rtp://239.12.46.89:10001",
+          "before": "rtp://239.1.28.1:10001",
+          "field": "rtp",
+          "label": "组播地址"
+        },
+        {
+          "after": "delivery://1.6875.null.1.0.null",
+          "before": "",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "0",
+      "detail": "频道资料更新",
+      "name": "音乐之声",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "67",
+          "before": "77",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://634.6875.64.2513.null.96",
+          "before": "delivery://299.6875.64.902.0.132",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1209",
+      "detail": "频道资料更新",
+      "name": "广西卫视",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "山东教育",
+          "before": "山东教育台",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "084",
+          "before": "60",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://315.6.64.164.1371.1372",
+          "before": "delivery://403.6875.64.8304.353.132",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1227",
+      "detail": "频道资料更新",
+      "name": "山东教育",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "云南卫视",
+          "before": "云南卫视（特色）",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "70",
+          "before": "225",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://291.6875.64.1425.null.112",
+          "before": "delivery://235.6.64.1103.null.0x53",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1239",
+      "detail": "频道资料更新",
+      "name": "云南卫视",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "65",
+          "before": "74",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://235.6875.64.719.null.104",
+          "before": "delivery://291.6875.64.GDCATV.null.null",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1251",
+      "detail": "频道资料更新",
+      "name": "青海卫视",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "327",
+          "before": "80",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://235.6.64.1101.null.0x51",
+          "before": "delivery://267000.6875.64.507.null.104",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1287",
+      "detail": "频道资料更新",
+      "name": "央广购物",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "中国天气高清",
+          "before": "宜和购物",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "090",
+          "before": "173",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "rtp://239.12.22.150:10001",
+          "before": "rtp://239.12.21.168:10001",
+          "field": "rtp",
+          "label": "组播地址"
+        },
+        {
+          "after": "delivery://443.6.64.1440.112.212",
+          "before": "delivery://283.6875.64.1310.163.92",
+          "field": "delivery",
+          "label": "DVB频点"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "1",
+          "before": "0",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "1288",
+      "detail": "频道资料更新",
+      "name": "中国天气高清",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "26",
+          "before": "37",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://115000.6875.64.2005.0xa5.0x55",
+          "before": "delivery://514.6875.256.4301.160.80",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1296",
+      "detail": "频道资料更新",
+      "name": "聚鲨环球精选",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "52",
+          "before": "72",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://219.6875.64.513.null.96",
+          "before": "delivery://219.6875.64.513.164.96",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1307",
+      "detail": "频道资料更新",
+      "name": "星空卫视",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "47",
+          "before": "46",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://37900.6875.256.4105.0xa5.0x55",
+          "before": "delivery://530.6875.64.GDCATV.null.null",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1451",
+      "detail": "频道资料更新",
+      "name": "海南卫视（高清）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2324",
+      "detail": "频道资料更新",
+      "name": "惠东电台",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2405",
+      "detail": "频道资料更新",
+      "name": "佛冈综合",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2430",
+      "detail": "频道资料更新",
+      "name": "佛冈电台",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2509",
+      "detail": "频道资料更新",
+      "name": "潮阳台（高清）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2608",
+      "detail": "频道资料更新",
+      "name": "南雄综合（高清）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2617",
+      "detail": "频道资料更新",
+      "name": "仁化综合（高清）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2624",
+      "detail": "频道资料更新",
+      "name": "新丰综合(高清)",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "肇庆综合（高清）",
+          "before": "肇庆综合",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "delivery://650.6875.64.2707.null.88",
+          "before": "delivery://618.6875.64.3804.161.84",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "2802",
+      "detail": "频道资料更新",
+      "name": "肇庆综合（高清）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2817",
+      "detail": "频道资料更新",
+      "name": "广州综合",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "四会新闻综合（高清）",
+          "before": "四会新闻综合",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "12",
+          "before": "13",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://610.6875.64.3704.null.84",
+          "before": "delivery://610.6875.null.3704.0.84",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "2832",
+      "detail": "频道资料更新",
+      "name": "四会新闻综合（高清）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2843",
+      "detail": "频道资料更新",
+      "name": "德庆综合（高清）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2847",
+      "detail": "频道资料更新",
+      "name": "德庆电台",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已收录",
+          "before": "无记录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "3434",
+      "detail": "频道资料更新",
+      "name": "平远-1（高清）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "100",
+          "before": "90",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://522.6.256.6306.null.0x52",
+          "before": "delivery://195.6875.256.4101.null.80",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "4008",
+      "detail": "频道资料更新",
+      "name": "多彩文体（4K特色）",
+      "timestamp": "2026-11-24T06:31:28+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-23T22:01:05.803376+00:00",
-    "total_channels": 510
+    "last_updated": "2026-11-23T22:31:22.911108+00:00",
+    "total_channels": 521
   },
   "version": 2
 }
