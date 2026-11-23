@@ -45,8 +45,6 @@ rtp://239.12.34.41:10001
 rtp://239.12.39.5:10001
 #EXTINF:-1 tvg-id="3702" tvg-name="江门综合(高清)" tvg-chno="3" group-title="珠三角地市" region-code="2810" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3702.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",江门综合(高清)
 rtp://239.12.36.6:10001
-#EXTINF:-1 tvg-id="3702@2860" tvg-name="江门综合(高清)" tvg-chno="6" group-title="珠三角地市" region-code="2860" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/3702.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",江门综合(高清)
-rtp://239.12.36.6:10001
 #EXTINF:-1 tvg-id="3709" tvg-name="鹤山综合（高清）" tvg-chno="3" group-title="珠三角地市" region-code="2900" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",鹤山综合（高清）
 rtp://239.12.36.93:10001
 #EXTINF:-1 tvg-id="3762" tvg-name="开平综合（高清）" tvg-chno="3" group-title="珠三角地市" region-code="2860" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",开平综合（高清）
@@ -130,8 +128,6 @@ rtp://239.12.41.4:10001
 #EXTINF:-1 tvg-id="3135" tvg-name="饶平台(高清)" tvg-chno="7" group-title="粤东西北县市" region-code="6500" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",饶平台(高清)
 rtp://239.12.48.13:10001
 #EXTINF:-1 tvg-id="3714" tvg-name="新会综合（高清）" tvg-chno="7" group-title="其他综合" region-code="2810" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",新会综合（高清）
-rtp://239.12.36.33:10001
-#EXTINF:-1 tvg-id="3714@2860" tvg-name="新会综合（高清）" tvg-chno="61" group-title="其他综合" region-code="2860" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",新会综合（高清）
 rtp://239.12.36.33:10001
 #EXTINF:-1 tvg-id="3721" tvg-name="G导视（高清）" tvg-chno="7" group-title="其他综合" region-code="2850" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3721.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",G导视（高清）
 rtp://239.12.22.85:10001
@@ -237,8 +233,6 @@ rtp://239.12.21.9:10001
 rtp://239.12.21.25:10001
 #EXTINF:-1 tvg-id="2927" tvg-name="普宁台（高清）" tvg-chno="30" group-title="粤东西北县市" region-code="6600" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2927.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",普宁台（高清）
 rtp://239.12.49.160:10001
-#EXTINF:-1 tvg-id="2927@6620" tvg-name="普宁台（高清）" tvg-chno="30" group-title="粤东西北县市" region-code="6620" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2927.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",普宁台（高清）
-rtp://239.12.49.160:10001
 #EXTINF:-1 tvg-id="1203" tvg-name="湖南卫视" tvg-chno="31" group-title="卫视频道" region-code="2850" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1203.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",湖南卫视
 rtp://239.12.21.26:10001
 #EXTINF:-1 tvg-id="1463" tvg-name="重温经典（高清）" tvg-chno="31" group-title="其他综合" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1463.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",重温经典（高清）
@@ -262,8 +256,6 @@ rtp://239.12.48.24:10001
 #EXTINF:-1 tvg-id="2640" tvg-name="曲江经济生活" tvg-chno="34" group-title="其他综合" region-code="2180" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",曲江经济生活
 rtp://239.12.42.152:10001
 #EXTINF:-1 tvg-id="2922" tvg-name="揭东综合（高清）" tvg-chno="34" group-title="粤东西北县市" region-code="6600" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",揭东综合（高清）
-rtp://239.12.49.131:10001
-#EXTINF:-1 tvg-id="2922@6620" tvg-name="揭东综合（高清）" tvg-chno="34" group-title="粤东西北县市" region-code="6620" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",揭东综合（高清）
 rtp://239.12.49.131:10001
 #EXTINF:-1 tvg-id="1207" tvg-name="天津卫视" tvg-chno="35" group-title="卫视频道" region-code="2850" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1207.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",天津卫视
 rtp://239.12.21.48:10001
@@ -781,8 +773,6 @@ rtp://239.12.46.83:10001
 rtp://239.12.23.11:10001
 #EXTINF:-1 tvg-id="3730" tvg-name="江门电台100.2" tvg-chno="201" group-title="珠三角地市" region-code="2810" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",江门电台100.2
 rtp://239.12.36.30:10001
-#EXTINF:-1 tvg-id="3730@2860" tvg-name="江门电台100.2" tvg-chno="201" group-title="珠三角地市" region-code="2860" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",江门电台100.2
-rtp://239.12.36.30:10001
 #EXTINF:-1 tvg-id="5001" tvg-name="故事广播" tvg-chno="201" group-title="广播电台" region-code="3620" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",故事广播
 rtp://239.12.23.10:10001
 #EXTINF:-1 tvg-id="2834" tvg-name="肇庆电台949" tvg-chno="202" group-title="广播电台" region-code="2621" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",肇庆电台949
@@ -790,8 +780,6 @@ rtp://239.12.46.86:10001
 #EXTINF:-1 tvg-id="3543" tvg-name="音乐之声" tvg-chno="202" group-title="广播电台" region-code="3100" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/3543.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",音乐之声
 rtp://239.12.23.12:10001
 #EXTINF:-1 tvg-id="3731" tvg-name="江门旅游音乐台93.3" tvg-chno="202" group-title="珠三角地市" region-code="2810" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",江门旅游音乐台93.3
-rtp://239.12.36.31:10001
-#EXTINF:-1 tvg-id="3731@2860" tvg-name="江门旅游音乐台93.3" tvg-chno="202" group-title="珠三角地市" region-code="2860" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",江门旅游音乐台93.3
 rtp://239.12.36.31:10001
 #EXTINF:-1 tvg-id="1716" tvg-name="网络棋牌（特色）" tvg-chno="203" group-title="特色影视体育" region-code="1410" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",网络棋牌（特色）
 rtp://239.12.21.118:10001
@@ -824,8 +812,6 @@ rtp://239.12.21.141:10001
 #EXTINF:-1 tvg-id="2847" tvg-name="德庆电台" tvg-chno="211" group-title="广播电台" region-code="2740" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",德庆电台
 rtp://239.12.46.120:10001
 #EXTINF:-1 tvg-id="3732" tvg-name="新会电台" tvg-chno="211" group-title="广播电台" region-code="2810" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",新会电台
-rtp://239.12.36.32:10001
-#EXTINF:-1 tvg-id="3732@2860" tvg-name="新会电台" tvg-chno="211" group-title="广播电台" region-code="2860" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",新会电台
 rtp://239.12.36.32:10001
 #EXTINF:-1 tvg-id="1710" tvg-name="乐游（特色）" tvg-chno="212" group-title="其他综合" region-code="1410" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/1710.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",乐游（特色）
 rtp://239.12.21.135:10001
