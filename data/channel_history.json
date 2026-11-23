@@ -216781,6 +216781,46 @@
     {
       "changes": [
         {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "4013",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "深圳卫视（4K）",
+      "playlistPath": null,
+      "timestamp": "2026-11-23T10:01:50.350800+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/4013.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "4013",
+      "detail": "36000.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "深圳卫视（4K）",
+      "playlistPath": "/live/avit/4013/36000/36000.m3u8",
+      "timestamp": "2026-11-23T10:01:50.350800+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/4013.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "25",
           "before": "55",
           "field": "channelNumber",
@@ -220992,7 +221032,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-23T09:31:43.128651+00:00",
+    "last_updated": "2026-11-23T10:01:50.350800+00:00",
     "total_channels": 521
   },
   "version": 2
