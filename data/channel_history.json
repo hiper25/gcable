@@ -241466,10 +241466,84 @@
       "timestamp": "2026-11-24T13:30:13.920612+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1202.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1205",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "江苏卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-24T14:00:43.568361+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1205.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1205",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "江苏卫视",
+      "playlistPath": "/live/avit/1205/1500/1500.m3u8",
+      "timestamp": "2026-11-24T14:00:43.568361+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1205.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1203",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "湖南卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-24T14:00:43.701137+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1203.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1203",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "湖南卫视",
+      "playlistPath": "/live/avit/1203/1500/1500.m3u8",
+      "timestamp": "2026-11-24T14:00:43.701137+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1203.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-24T13:31:45.412862+00:00",
+    "last_updated": "2026-11-24T14:01:46.266959+00:00",
     "total_channels": 521
   },
   "version": 2
