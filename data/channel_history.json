@@ -242315,10 +242315,45 @@
       "timestamp": "2026-11-24T16:01:40.820707+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/3460.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": null,
+          "before": 200,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1402",
+      "detail": "7500.m3u8：请求结果：成功 → 失败；HTTP状态码：200 → 未提供；参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "CCTV-1综合（高清）",
+      "playlistPath": "/live/avit/1402/7500/7500.m3u8",
+      "timestamp": "2026-11-24T18:01:19.966569+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1402.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-24T17:31:46.565437+00:00",
+    "last_updated": "2026-11-24T18:01:47.707881+00:00",
     "total_channels": 521
   },
   "version": 2
