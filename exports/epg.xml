@@ -94118,30 +94118,249 @@
 <programme start="20261124235015 +0800" stop="20261124235530 +0800" channel="1231"><title lang="zh">自制栏目-《电影笔记》</title></programme>
 <programme start="20261124235530 +0800" stop="20261124235600 +0800" channel="1231"><title lang="zh">宣传片</title></programme>
 <programme start="20261124235600 +0800" stop="20261125000000 +0800" channel="1231"><title lang="zh">综艺乐不停</title></programme>
-<programme start="20261125000000 +0800" stop="20261125010000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：00:00</desc></programme>
-<programme start="20261125010000 +0800" stop="20261125020000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：01:00</desc></programme>
-<programme start="20261125020000 +0800" stop="20261125030000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：02:00</desc></programme>
-<programme start="20261125030000 +0800" stop="20261125040000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：03:00</desc></programme>
-<programme start="20261125040000 +0800" stop="20261125050000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：04:00</desc></programme>
-<programme start="20261125050000 +0800" stop="20261125060000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：05:00</desc></programme>
-<programme start="20261125060000 +0800" stop="20261125070000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：06:00</desc></programme>
-<programme start="20261125070000 +0800" stop="20261125080000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：07:00</desc></programme>
-<programme start="20261125080000 +0800" stop="20261125090000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：08:00</desc></programme>
-<programme start="20261125090000 +0800" stop="20261125100000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：09:00</desc></programme>
-<programme start="20261125100000 +0800" stop="20261125110000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：10:00</desc></programme>
-<programme start="20261125110000 +0800" stop="20261125120000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：11:00</desc></programme>
-<programme start="20261125120000 +0800" stop="20261125130000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：12:00</desc></programme>
-<programme start="20261125130000 +0800" stop="20261125140000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：13:00</desc></programme>
-<programme start="20261125140000 +0800" stop="20261125150000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：14:00</desc></programme>
-<programme start="20261125150000 +0800" stop="20261125160000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：15:00</desc></programme>
-<programme start="20261125160000 +0800" stop="20261125170000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：16:00</desc></programme>
-<programme start="20261125170000 +0800" stop="20261125180000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：17:00</desc></programme>
-<programme start="20261125180000 +0800" stop="20261125190000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：18:00</desc></programme>
-<programme start="20261125190000 +0800" stop="20261125200000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：19:00</desc></programme>
-<programme start="20261125200000 +0800" stop="20261125210000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：20:00</desc></programme>
-<programme start="20261125210000 +0800" stop="20261125220000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：21:00</desc></programme>
-<programme start="20261125220000 +0800" stop="20261125230000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：22:00</desc></programme>
-<programme start="20261125230000 +0800" stop="20261126000000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：23:00</desc></programme>
+<programme start="20261125000000 +0800" stop="20261125000015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125000015 +0800" stop="20261125000025 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125000025 +0800" stop="20261125001525 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125001525 +0800" stop="20261125001600 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125001600 +0800" stop="20261125003100 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125003100 +0800" stop="20261125003215 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125003215 +0800" stop="20261125004215 +0800" channel="1231"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125004215 +0800" stop="20261125004340 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125004340 +0800" stop="20261125004350 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125004350 +0800" stop="20261125005850 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125005850 +0800" stop="20261125010000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125010000 +0800" stop="20261125011500 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125011500 +0800" stop="20261125011845 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125011845 +0800" stop="20261125012845 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125012845 +0800" stop="20261125013000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125013000 +0800" stop="20261125013015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125013015 +0800" stop="20261125013025 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125013025 +0800" stop="20261125014525 +0800" channel="1231"><title lang="zh">粤片场</title></programme>
+<programme start="20261125014525 +0800" stop="20261125014615 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125014615 +0800" stop="20261125020115 +0800" channel="1231"><title lang="zh">粤片场</title></programme>
+<programme start="20261125020115 +0800" stop="20261125020545 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125020545 +0800" stop="20261125022545 +0800" channel="1231"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125022545 +0800" stop="20261125022850 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125022850 +0800" stop="20261125022900 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125022900 +0800" stop="20261125024400 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125024400 +0800" stop="20261125024500 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125024500 +0800" stop="20261125030000 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125030000 +0800" stop="20261125030015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125030015 +0800" stop="20261125031015 +0800" channel="1231"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125031015 +0800" stop="20261125031120 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125031120 +0800" stop="20261125031130 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125031130 +0800" stop="20261125032630 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125032630 +0800" stop="20261125032820 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125032820 +0800" stop="20261125034320 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125034320 +0800" stop="20261125034500 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125034500 +0800" stop="20261125035500 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125035500 +0800" stop="20261125040000 +0800" channel="1231"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125040000 +0800" stop="20261125040015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125040015 +0800" stop="20261125041015 +0800" channel="1231"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125041015 +0800" stop="20261125041045 +0800" channel="1231"><title lang="zh">宣传片</title></programme>
+<programme start="20261125041045 +0800" stop="20261125041055 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125041055 +0800" stop="20261125042555 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125042555 +0800" stop="20261125042630 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125042630 +0800" stop="20261125044130 +0800" channel="1231"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125044130 +0800" stop="20261125050130 +0800" channel="1231"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125050130 +0800" stop="20261125050220 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125050220 +0800" stop="20261125051220 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125051220 +0800" stop="20261125051410 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125051410 +0800" stop="20261125051420 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125051420 +0800" stop="20261125052920 +0800" channel="1231"><title lang="zh">粤片场</title></programme>
+<programme start="20261125052920 +0800" stop="20261125053000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125053000 +0800" stop="20261125054500 +0800" channel="1231"><title lang="zh">粤片场</title></programme>
+<programme start="20261125054500 +0800" stop="20261125054530 +0800" channel="1231"><title lang="zh">宣传片</title></programme>
+<programme start="20261125054530 +0800" stop="20261125054725 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125054725 +0800" stop="20261125055725 +0800" channel="1231"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125055725 +0800" stop="20261125055910 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125055910 +0800" stop="20261125060000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125060000 +0800" stop="20261125060015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125060015 +0800" stop="20261125061315 +0800" channel="1231"><title lang="zh">健康养生</title></programme>
+<programme start="20261125061315 +0800" stop="20261125061600 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125061600 +0800" stop="20261125062600 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125062600 +0800" stop="20261125064100 +0800" channel="1231"><title lang="zh">戏曲时间</title></programme>
+<programme start="20261125064100 +0800" stop="20261125064200 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125064200 +0800" stop="20261125065500 +0800" channel="1231"><title lang="zh">戏曲时间</title></programme>
+<programme start="20261125065500 +0800" stop="20261125070000 +0800" channel="1231"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125070000 +0800" stop="20261125070015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125070015 +0800" stop="20261125071515 +0800" channel="1231"><title lang="zh">戏曲时间</title></programme>
+<programme start="20261125071515 +0800" stop="20261125071800 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125071800 +0800" stop="20261125072000 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125072000 +0800" stop="20261125073000 +0800" channel="1231"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125073000 +0800" stop="20261125074300 +0800" channel="1231"><title lang="zh">健康养生</title></programme>
+<programme start="20261125074300 +0800" stop="20261125074435 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125074435 +0800" stop="20261125075935 +0800" channel="1231"><title lang="zh">健康养生</title></programme>
+<programme start="20261125075935 +0800" stop="20261125080305 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125080305 +0800" stop="20261125081305 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125081305 +0800" stop="20261125081315 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125081315 +0800" stop="20261125082315 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125082315 +0800" stop="20261125082410 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125082410 +0800" stop="20261125083410 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125083410 +0800" stop="20261125083455 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125083455 +0800" stop="20261125083640 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125083640 +0800" stop="20261125084640 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125084640 +0800" stop="20261125084650 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125084650 +0800" stop="20261125085650 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125085650 +0800" stop="20261125090000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125090000 +0800" stop="20261125090015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125090015 +0800" stop="20261125091015 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125091015 +0800" stop="20261125091135 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125091135 +0800" stop="20261125092135 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125092135 +0800" stop="20261125092250 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125092250 +0800" stop="20261125093250 +0800" channel="1231"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125093250 +0800" stop="20261125094000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125094000 +0800" stop="20261125100000 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125100000 +0800" stop="20261125100015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125100015 +0800" stop="20261125101015 +0800" channel="1231"><title lang="zh">纪实360</title></programme>
+<programme start="20261125101015 +0800" stop="20261125101045 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125101045 +0800" stop="20261125102045 +0800" channel="1231"><title lang="zh">纪实360</title></programme>
+<programme start="20261125102045 +0800" stop="20261125102215 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125102215 +0800" stop="20261125103215 +0800" channel="1231"><title lang="zh">纪实360</title></programme>
+<programme start="20261125103215 +0800" stop="20261125104215 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125104215 +0800" stop="20261125104225 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125104225 +0800" stop="20261125105725 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125105725 +0800" stop="20261125105920 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125105920 +0800" stop="20261125111420 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125111420 +0800" stop="20261125111920 +0800" channel="1231"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125111920 +0800" stop="20261125111950 +0800" channel="1231"><title lang="zh">宣传片</title></programme>
+<programme start="20261125111950 +0800" stop="20261125112000 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125112000 +0800" stop="20261125113000 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125113000 +0800" stop="20261125113015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125113015 +0800" stop="20261125113135 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125113135 +0800" stop="20261125114135 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125114135 +0800" stop="20261125114520 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125114520 +0800" stop="20261125115520 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125115520 +0800" stop="20261125120000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125120000 +0800" stop="20261125120015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125120015 +0800" stop="20261125120025 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125120025 +0800" stop="20261125121025 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125121025 +0800" stop="20261125121200 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125121200 +0800" stop="20261125122200 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125122200 +0800" stop="20261125122400 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125122400 +0800" stop="20261125123400 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125123400 +0800" stop="20261125123805 +0800" channel="1231"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125123805 +0800" stop="20261125123900 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125123900 +0800" stop="20261125124900 +0800" channel="1231"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125124900 +0800" stop="20261125125000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125125000 +0800" stop="20261125130000 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125130000 +0800" stop="20261125130015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125130015 +0800" stop="20261125130215 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125130215 +0800" stop="20261125131215 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125131215 +0800" stop="20261125131310 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125131310 +0800" stop="20261125132310 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125132310 +0800" stop="20261125132445 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125132445 +0800" stop="20261125133000 +0800" channel="1231"><title lang="zh">自制栏目-《电影笔记》</title></programme>
+<programme start="20261125133000 +0800" stop="20261125133010 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125133010 +0800" stop="20261125134010 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125134010 +0800" stop="20261125134125 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125134125 +0800" stop="20261125135125 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125135125 +0800" stop="20261125135255 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125135255 +0800" stop="20261125140255 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125140255 +0800" stop="20261125140305 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125140305 +0800" stop="20261125140530 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125140530 +0800" stop="20261125141530 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125141530 +0800" stop="20261125141720 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125141720 +0800" stop="20261125141755 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125141755 +0800" stop="20261125143755 +0800" channel="1231"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125143755 +0800" stop="20261125144755 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125144755 +0800" stop="20261125144900 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125144900 +0800" stop="20261125145900 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125145900 +0800" stop="20261125150000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125150000 +0800" stop="20261125150015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125150015 +0800" stop="20261125150205 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125150205 +0800" stop="20261125151205 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125151205 +0800" stop="20261125151645 +0800" channel="1231"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125151645 +0800" stop="20261125152645 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125152645 +0800" stop="20261125152800 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125152800 +0800" stop="20261125153800 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125153800 +0800" stop="20261125153835 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125153835 +0800" stop="20261125154835 +0800" channel="1231"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125154835 +0800" stop="20261125155140 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125155140 +0800" stop="20261125155655 +0800" channel="1231"><title lang="zh">自制栏目-《电影笔记》</title></programme>
+<programme start="20261125155655 +0800" stop="20261125160000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125160000 +0800" stop="20261125160015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125160015 +0800" stop="20261125160025 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125160025 +0800" stop="20261125161025 +0800" channel="1231"><title lang="zh">卡通大放送</title></programme>
+<programme start="20261125161025 +0800" stop="20261125161225 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125161225 +0800" stop="20261125162225 +0800" channel="1231"><title lang="zh">卡通大放送</title></programme>
+<programme start="20261125162225 +0800" stop="20261125162340 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125162340 +0800" stop="20261125162840 +0800" channel="1231"><title lang="zh">萌趣短片</title></programme>
+<programme start="20261125162840 +0800" stop="20261125163015 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125163015 +0800" stop="20261125163515 +0800" channel="1231"><title lang="zh">谷豆儿歌</title></programme>
+<programme start="20261125163515 +0800" stop="20261125163710 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125163710 +0800" stop="20261125164710 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125164710 +0800" stop="20261125165020 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125165020 +0800" stop="20261125165030 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125165030 +0800" stop="20261125170530 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125170530 +0800" stop="20261125170700 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125170700 +0800" stop="20261125172200 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125172200 +0800" stop="20261125172500 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125172500 +0800" stop="20261125173000 +0800" channel="1231"><title lang="zh">萌趣短片</title></programme>
+<programme start="20261125173000 +0800" stop="20261125173010 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125173010 +0800" stop="20261125174010 +0800" channel="1231"><title lang="zh">卡通大放送</title></programme>
+<programme start="20261125174010 +0800" stop="20261125174200 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125174200 +0800" stop="20261125175200 +0800" channel="1231"><title lang="zh">卡通大放送</title></programme>
+<programme start="20261125175200 +0800" stop="20261125175700 +0800" channel="1231"><title lang="zh">谷豆儿歌</title></programme>
+<programme start="20261125175700 +0800" stop="20261125175745 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125175745 +0800" stop="20261125180000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125180000 +0800" stop="20261125180015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125180015 +0800" stop="20261125180515 +0800" channel="1231"><title lang="zh">萌趣短片</title></programme>
+<programme start="20261125180515 +0800" stop="20261125180525 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125180525 +0800" stop="20261125182025 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125182025 +0800" stop="20261125182220 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125182220 +0800" stop="20261125183720 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125183720 +0800" stop="20261125184220 +0800" channel="1231"><title lang="zh">谷豆儿歌</title></programme>
+<programme start="20261125184220 +0800" stop="20261125184720 +0800" channel="1231"><title lang="zh">萌趣短片</title></programme>
+<programme start="20261125184720 +0800" stop="20261125185000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125185000 +0800" stop="20261125190000 +0800" channel="1231"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125190000 +0800" stop="20261125190015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125190015 +0800" stop="20261125192015 +0800" channel="1231"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125192015 +0800" stop="20261125192325 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125192325 +0800" stop="20261125192730 +0800" channel="1231"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125192730 +0800" stop="20261125192905 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125192905 +0800" stop="20261125193000 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125193000 +0800" stop="20261125193010 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125193010 +0800" stop="20261125194510 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125194510 +0800" stop="20261125194655 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125194655 +0800" stop="20261125200155 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125200155 +0800" stop="20261125200710 +0800" channel="1231"><title lang="zh">自制栏目-《电影笔记》</title></programme>
+<programme start="20261125200710 +0800" stop="20261125202830 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125202830 +0800" stop="20261125202840 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125202840 +0800" stop="20261125204340 +0800" channel="1231"><title lang="zh">粤片场</title></programme>
+<programme start="20261125204340 +0800" stop="20261125204410 +0800" channel="1231"><title lang="zh">宣传片</title></programme>
+<programme start="20261125204410 +0800" stop="20261125204500 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125204500 +0800" stop="20261125210000 +0800" channel="1231"><title lang="zh">粤片场</title></programme>
+<programme start="20261125210000 +0800" stop="20261125210015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125210015 +0800" stop="20261125210025 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125210025 +0800" stop="20261125211525 +0800" channel="1231"><title lang="zh">粤片场</title></programme>
+<programme start="20261125211525 +0800" stop="20261125211650 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125211650 +0800" stop="20261125213150 +0800" channel="1231"><title lang="zh">粤片场</title></programme>
+<programme start="20261125213150 +0800" stop="20261125213220 +0800" channel="1231"><title lang="zh">宣传片</title></programme>
+<programme start="20261125213220 +0800" stop="20261125213335 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125213335 +0800" stop="20261125214335 +0800" channel="1231"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125214335 +0800" stop="20261125214345 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125214345 +0800" stop="20261125215845 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125215845 +0800" stop="20261125220000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125220000 +0800" stop="20261125220015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125220015 +0800" stop="20261125221515 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125221515 +0800" stop="20261125221630 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125221630 +0800" stop="20261125222050 +0800" channel="1231"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125222050 +0800" stop="20261125222145 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125222145 +0800" stop="20261125222155 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125222155 +0800" stop="20261125223655 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125223655 +0800" stop="20261125223810 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125223810 +0800" stop="20261125225310 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125225310 +0800" stop="20261125225400 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125225400 +0800" stop="20261125231400 +0800" channel="1231"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125231400 +0800" stop="20261125231410 +0800" channel="1231"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125231410 +0800" stop="20261125232910 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125232910 +0800" stop="20261125233000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125233000 +0800" stop="20261125233015 +0800" channel="1231"><title lang="zh">呼号</title></programme>
+<programme start="20261125233015 +0800" stop="20261125234515 +0800" channel="1231"><title lang="zh">天天影院</title></programme>
+<programme start="20261125234515 +0800" stop="20261125234820 +0800" channel="1231"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125234820 +0800" stop="20261125235335 +0800" channel="1231"><title lang="zh">自制栏目-《电影笔记》</title></programme>
+<programme start="20261125235335 +0800" stop="20261126000000 +0800" channel="1231"><title lang="zh">公益宣传</title></programme>
 <programme start="20261126000000 +0800" stop="20261126010000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：00:00</desc></programme>
 <programme start="20261126010000 +0800" stop="20261126020000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：01:00</desc></programme>
 <programme start="20261126020000 +0800" stop="20261126030000 +0800" channel="1231"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：02:00</desc></programme>
@@ -183247,30 +183466,249 @@
 <programme start="20261124235015 +0800" stop="20261124235530 +0800" channel="1439"><title lang="zh">自制栏目-《电影笔记》</title></programme>
 <programme start="20261124235530 +0800" stop="20261124235600 +0800" channel="1439"><title lang="zh">宣传片</title></programme>
 <programme start="20261124235600 +0800" stop="20261125000000 +0800" channel="1439"><title lang="zh">综艺乐不停</title></programme>
-<programme start="20261125000000 +0800" stop="20261125010000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：00:00</desc></programme>
-<programme start="20261125010000 +0800" stop="20261125020000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：01:00</desc></programme>
-<programme start="20261125020000 +0800" stop="20261125030000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：02:00</desc></programme>
-<programme start="20261125030000 +0800" stop="20261125040000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：03:00</desc></programme>
-<programme start="20261125040000 +0800" stop="20261125050000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：04:00</desc></programme>
-<programme start="20261125050000 +0800" stop="20261125060000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：05:00</desc></programme>
-<programme start="20261125060000 +0800" stop="20261125070000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：06:00</desc></programme>
-<programme start="20261125070000 +0800" stop="20261125080000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：07:00</desc></programme>
-<programme start="20261125080000 +0800" stop="20261125090000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：08:00</desc></programme>
-<programme start="20261125090000 +0800" stop="20261125100000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：09:00</desc></programme>
-<programme start="20261125100000 +0800" stop="20261125110000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：10:00</desc></programme>
-<programme start="20261125110000 +0800" stop="20261125120000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：11:00</desc></programme>
-<programme start="20261125120000 +0800" stop="20261125130000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：12:00</desc></programme>
-<programme start="20261125130000 +0800" stop="20261125140000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：13:00</desc></programme>
-<programme start="20261125140000 +0800" stop="20261125150000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：14:00</desc></programme>
-<programme start="20261125150000 +0800" stop="20261125160000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：15:00</desc></programme>
-<programme start="20261125160000 +0800" stop="20261125170000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：16:00</desc></programme>
-<programme start="20261125170000 +0800" stop="20261125180000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：17:00</desc></programme>
-<programme start="20261125180000 +0800" stop="20261125190000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：18:00</desc></programme>
-<programme start="20261125190000 +0800" stop="20261125200000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：19:00</desc></programme>
-<programme start="20261125200000 +0800" stop="20261125210000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：20:00</desc></programme>
-<programme start="20261125210000 +0800" stop="20261125220000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：21:00</desc></programme>
-<programme start="20261125220000 +0800" stop="20261125230000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：22:00</desc></programme>
-<programme start="20261125230000 +0800" stop="20261126000000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：23:00</desc></programme>
+<programme start="20261125000000 +0800" stop="20261125000015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125000015 +0800" stop="20261125000025 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125000025 +0800" stop="20261125001525 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125001525 +0800" stop="20261125001600 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125001600 +0800" stop="20261125003100 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125003100 +0800" stop="20261125003215 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125003215 +0800" stop="20261125004215 +0800" channel="1439"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125004215 +0800" stop="20261125004340 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125004340 +0800" stop="20261125004350 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125004350 +0800" stop="20261125005850 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125005850 +0800" stop="20261125010000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125010000 +0800" stop="20261125011500 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125011500 +0800" stop="20261125011845 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125011845 +0800" stop="20261125012845 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125012845 +0800" stop="20261125013000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125013000 +0800" stop="20261125013015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125013015 +0800" stop="20261125013025 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125013025 +0800" stop="20261125014525 +0800" channel="1439"><title lang="zh">粤片场</title></programme>
+<programme start="20261125014525 +0800" stop="20261125014615 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125014615 +0800" stop="20261125020115 +0800" channel="1439"><title lang="zh">粤片场</title></programme>
+<programme start="20261125020115 +0800" stop="20261125020545 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125020545 +0800" stop="20261125022545 +0800" channel="1439"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125022545 +0800" stop="20261125022850 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125022850 +0800" stop="20261125022900 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125022900 +0800" stop="20261125024400 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125024400 +0800" stop="20261125024500 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125024500 +0800" stop="20261125030000 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125030000 +0800" stop="20261125030015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125030015 +0800" stop="20261125031015 +0800" channel="1439"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125031015 +0800" stop="20261125031120 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125031120 +0800" stop="20261125031130 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125031130 +0800" stop="20261125032630 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125032630 +0800" stop="20261125032820 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125032820 +0800" stop="20261125034320 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125034320 +0800" stop="20261125034500 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125034500 +0800" stop="20261125035500 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125035500 +0800" stop="20261125040000 +0800" channel="1439"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125040000 +0800" stop="20261125040015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125040015 +0800" stop="20261125041015 +0800" channel="1439"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125041015 +0800" stop="20261125041045 +0800" channel="1439"><title lang="zh">宣传片</title></programme>
+<programme start="20261125041045 +0800" stop="20261125041055 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125041055 +0800" stop="20261125042555 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125042555 +0800" stop="20261125042630 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125042630 +0800" stop="20261125044130 +0800" channel="1439"><title lang="zh">经典放映厅</title></programme>
+<programme start="20261125044130 +0800" stop="20261125050130 +0800" channel="1439"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125050130 +0800" stop="20261125050220 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125050220 +0800" stop="20261125051220 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125051220 +0800" stop="20261125051410 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125051410 +0800" stop="20261125051420 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125051420 +0800" stop="20261125052920 +0800" channel="1439"><title lang="zh">粤片场</title></programme>
+<programme start="20261125052920 +0800" stop="20261125053000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125053000 +0800" stop="20261125054500 +0800" channel="1439"><title lang="zh">粤片场</title></programme>
+<programme start="20261125054500 +0800" stop="20261125054530 +0800" channel="1439"><title lang="zh">宣传片</title></programme>
+<programme start="20261125054530 +0800" stop="20261125054725 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125054725 +0800" stop="20261125055725 +0800" channel="1439"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125055725 +0800" stop="20261125055910 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125055910 +0800" stop="20261125060000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125060000 +0800" stop="20261125060015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125060015 +0800" stop="20261125061315 +0800" channel="1439"><title lang="zh">健康养生</title></programme>
+<programme start="20261125061315 +0800" stop="20261125061600 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125061600 +0800" stop="20261125062600 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125062600 +0800" stop="20261125064100 +0800" channel="1439"><title lang="zh">戏曲时间</title></programme>
+<programme start="20261125064100 +0800" stop="20261125064200 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125064200 +0800" stop="20261125065500 +0800" channel="1439"><title lang="zh">戏曲时间</title></programme>
+<programme start="20261125065500 +0800" stop="20261125070000 +0800" channel="1439"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125070000 +0800" stop="20261125070015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125070015 +0800" stop="20261125071515 +0800" channel="1439"><title lang="zh">戏曲时间</title></programme>
+<programme start="20261125071515 +0800" stop="20261125071800 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125071800 +0800" stop="20261125072000 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125072000 +0800" stop="20261125073000 +0800" channel="1439"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125073000 +0800" stop="20261125074300 +0800" channel="1439"><title lang="zh">健康养生</title></programme>
+<programme start="20261125074300 +0800" stop="20261125074435 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125074435 +0800" stop="20261125075935 +0800" channel="1439"><title lang="zh">健康养生</title></programme>
+<programme start="20261125075935 +0800" stop="20261125080305 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125080305 +0800" stop="20261125081305 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125081305 +0800" stop="20261125081315 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125081315 +0800" stop="20261125082315 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125082315 +0800" stop="20261125082410 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125082410 +0800" stop="20261125083410 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125083410 +0800" stop="20261125083455 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125083455 +0800" stop="20261125083640 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125083640 +0800" stop="20261125084640 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125084640 +0800" stop="20261125084650 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125084650 +0800" stop="20261125085650 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125085650 +0800" stop="20261125090000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125090000 +0800" stop="20261125090015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125090015 +0800" stop="20261125091015 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125091015 +0800" stop="20261125091135 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125091135 +0800" stop="20261125092135 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125092135 +0800" stop="20261125092250 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125092250 +0800" stop="20261125093250 +0800" channel="1439"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125093250 +0800" stop="20261125094000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125094000 +0800" stop="20261125100000 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125100000 +0800" stop="20261125100015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125100015 +0800" stop="20261125101015 +0800" channel="1439"><title lang="zh">纪实360</title></programme>
+<programme start="20261125101015 +0800" stop="20261125101045 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125101045 +0800" stop="20261125102045 +0800" channel="1439"><title lang="zh">纪实360</title></programme>
+<programme start="20261125102045 +0800" stop="20261125102215 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125102215 +0800" stop="20261125103215 +0800" channel="1439"><title lang="zh">纪实360</title></programme>
+<programme start="20261125103215 +0800" stop="20261125104215 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125104215 +0800" stop="20261125104225 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125104225 +0800" stop="20261125105725 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125105725 +0800" stop="20261125105920 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125105920 +0800" stop="20261125111420 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125111420 +0800" stop="20261125111920 +0800" channel="1439"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125111920 +0800" stop="20261125111950 +0800" channel="1439"><title lang="zh">宣传片</title></programme>
+<programme start="20261125111950 +0800" stop="20261125112000 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125112000 +0800" stop="20261125113000 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125113000 +0800" stop="20261125113015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125113015 +0800" stop="20261125113135 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125113135 +0800" stop="20261125114135 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125114135 +0800" stop="20261125114520 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125114520 +0800" stop="20261125115520 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125115520 +0800" stop="20261125120000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125120000 +0800" stop="20261125120015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125120015 +0800" stop="20261125120025 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125120025 +0800" stop="20261125121025 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125121025 +0800" stop="20261125121200 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125121200 +0800" stop="20261125122200 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125122200 +0800" stop="20261125122400 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125122400 +0800" stop="20261125123400 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125123400 +0800" stop="20261125123805 +0800" channel="1439"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125123805 +0800" stop="20261125123900 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125123900 +0800" stop="20261125124900 +0800" channel="1439"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125124900 +0800" stop="20261125125000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125125000 +0800" stop="20261125130000 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125130000 +0800" stop="20261125130015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125130015 +0800" stop="20261125130215 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125130215 +0800" stop="20261125131215 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125131215 +0800" stop="20261125131310 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125131310 +0800" stop="20261125132310 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125132310 +0800" stop="20261125132445 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125132445 +0800" stop="20261125133000 +0800" channel="1439"><title lang="zh">自制栏目-《电影笔记》</title></programme>
+<programme start="20261125133000 +0800" stop="20261125133010 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125133010 +0800" stop="20261125134010 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125134010 +0800" stop="20261125134125 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125134125 +0800" stop="20261125135125 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125135125 +0800" stop="20261125135255 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125135255 +0800" stop="20261125140255 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125140255 +0800" stop="20261125140305 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125140305 +0800" stop="20261125140530 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125140530 +0800" stop="20261125141530 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125141530 +0800" stop="20261125141720 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125141720 +0800" stop="20261125141755 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125141755 +0800" stop="20261125143755 +0800" channel="1439"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125143755 +0800" stop="20261125144755 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125144755 +0800" stop="20261125144900 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125144900 +0800" stop="20261125145900 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125145900 +0800" stop="20261125150000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125150000 +0800" stop="20261125150015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125150015 +0800" stop="20261125150205 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125150205 +0800" stop="20261125151205 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125151205 +0800" stop="20261125151645 +0800" channel="1439"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125151645 +0800" stop="20261125152645 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125152645 +0800" stop="20261125152800 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125152800 +0800" stop="20261125153800 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125153800 +0800" stop="20261125153835 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125153835 +0800" stop="20261125154835 +0800" channel="1439"><title lang="zh">热剧抢鲜看</title></programme>
+<programme start="20261125154835 +0800" stop="20261125155140 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125155140 +0800" stop="20261125155655 +0800" channel="1439"><title lang="zh">自制栏目-《电影笔记》</title></programme>
+<programme start="20261125155655 +0800" stop="20261125160000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125160000 +0800" stop="20261125160015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125160015 +0800" stop="20261125160025 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125160025 +0800" stop="20261125161025 +0800" channel="1439"><title lang="zh">卡通大放送</title></programme>
+<programme start="20261125161025 +0800" stop="20261125161225 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125161225 +0800" stop="20261125162225 +0800" channel="1439"><title lang="zh">卡通大放送</title></programme>
+<programme start="20261125162225 +0800" stop="20261125162340 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125162340 +0800" stop="20261125162840 +0800" channel="1439"><title lang="zh">萌趣短片</title></programme>
+<programme start="20261125162840 +0800" stop="20261125163015 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125163015 +0800" stop="20261125163515 +0800" channel="1439"><title lang="zh">谷豆儿歌</title></programme>
+<programme start="20261125163515 +0800" stop="20261125163710 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125163710 +0800" stop="20261125164710 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125164710 +0800" stop="20261125165020 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125165020 +0800" stop="20261125165030 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125165030 +0800" stop="20261125170530 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125170530 +0800" stop="20261125170700 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125170700 +0800" stop="20261125172200 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125172200 +0800" stop="20261125172500 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125172500 +0800" stop="20261125173000 +0800" channel="1439"><title lang="zh">萌趣短片</title></programme>
+<programme start="20261125173000 +0800" stop="20261125173010 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125173010 +0800" stop="20261125174010 +0800" channel="1439"><title lang="zh">卡通大放送</title></programme>
+<programme start="20261125174010 +0800" stop="20261125174200 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125174200 +0800" stop="20261125175200 +0800" channel="1439"><title lang="zh">卡通大放送</title></programme>
+<programme start="20261125175200 +0800" stop="20261125175700 +0800" channel="1439"><title lang="zh">谷豆儿歌</title></programme>
+<programme start="20261125175700 +0800" stop="20261125175745 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125175745 +0800" stop="20261125180000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125180000 +0800" stop="20261125180015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125180015 +0800" stop="20261125180515 +0800" channel="1439"><title lang="zh">萌趣短片</title></programme>
+<programme start="20261125180515 +0800" stop="20261125180525 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125180525 +0800" stop="20261125182025 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125182025 +0800" stop="20261125182220 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125182220 +0800" stop="20261125183720 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125183720 +0800" stop="20261125184220 +0800" channel="1439"><title lang="zh">谷豆儿歌</title></programme>
+<programme start="20261125184220 +0800" stop="20261125184720 +0800" channel="1439"><title lang="zh">萌趣短片</title></programme>
+<programme start="20261125184720 +0800" stop="20261125185000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125185000 +0800" stop="20261125190000 +0800" channel="1439"><title lang="zh">谷豆金选</title></programme>
+<programme start="20261125190000 +0800" stop="20261125190015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125190015 +0800" stop="20261125192015 +0800" channel="1439"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125192015 +0800" stop="20261125192325 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125192325 +0800" stop="20261125192730 +0800" channel="1439"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125192730 +0800" stop="20261125192905 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125192905 +0800" stop="20261125193000 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125193000 +0800" stop="20261125193010 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125193010 +0800" stop="20261125194510 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125194510 +0800" stop="20261125194655 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125194655 +0800" stop="20261125200155 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125200155 +0800" stop="20261125200710 +0800" channel="1439"><title lang="zh">自制栏目-《电影笔记》</title></programme>
+<programme start="20261125200710 +0800" stop="20261125202830 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125202830 +0800" stop="20261125202840 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125202840 +0800" stop="20261125204340 +0800" channel="1439"><title lang="zh">粤片场</title></programme>
+<programme start="20261125204340 +0800" stop="20261125204410 +0800" channel="1439"><title lang="zh">宣传片</title></programme>
+<programme start="20261125204410 +0800" stop="20261125204500 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125204500 +0800" stop="20261125210000 +0800" channel="1439"><title lang="zh">粤片场</title></programme>
+<programme start="20261125210000 +0800" stop="20261125210015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125210015 +0800" stop="20261125210025 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125210025 +0800" stop="20261125211525 +0800" channel="1439"><title lang="zh">粤片场</title></programme>
+<programme start="20261125211525 +0800" stop="20261125211650 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125211650 +0800" stop="20261125213150 +0800" channel="1439"><title lang="zh">粤片场</title></programme>
+<programme start="20261125213150 +0800" stop="20261125213220 +0800" channel="1439"><title lang="zh">宣传片</title></programme>
+<programme start="20261125213220 +0800" stop="20261125213335 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125213335 +0800" stop="20261125214335 +0800" channel="1439"><title lang="zh">一周新片速递</title></programme>
+<programme start="20261125214335 +0800" stop="20261125214345 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125214345 +0800" stop="20261125215845 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125215845 +0800" stop="20261125220000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125220000 +0800" stop="20261125220015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125220015 +0800" stop="20261125221515 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125221515 +0800" stop="20261125221630 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125221630 +0800" stop="20261125222050 +0800" channel="1439"><title lang="zh">综艺乐不停</title></programme>
+<programme start="20261125222050 +0800" stop="20261125222145 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125222145 +0800" stop="20261125222155 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125222155 +0800" stop="20261125223655 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125223655 +0800" stop="20261125223810 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125223810 +0800" stop="20261125225310 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125225310 +0800" stop="20261125225400 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125225400 +0800" stop="20261125231400 +0800" channel="1439"><title lang="zh">本周劲爆榜</title></programme>
+<programme start="20261125231400 +0800" stop="20261125231410 +0800" channel="1439"><title lang="zh">即将播出预告</title></programme>
+<programme start="20261125231410 +0800" stop="20261125232910 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125232910 +0800" stop="20261125233000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
+<programme start="20261125233000 +0800" stop="20261125233015 +0800" channel="1439"><title lang="zh">呼号</title></programme>
+<programme start="20261125233015 +0800" stop="20261125234515 +0800" channel="1439"><title lang="zh">天天影院</title></programme>
+<programme start="20261125234515 +0800" stop="20261125234820 +0800" channel="1439"><title lang="zh">2026温氏中华土鸡杯全民烹饪大赛</title></programme>
+<programme start="20261125234820 +0800" stop="20261125235335 +0800" channel="1439"><title lang="zh">自制栏目-《电影笔记》</title></programme>
+<programme start="20261125235335 +0800" stop="20261126000000 +0800" channel="1439"><title lang="zh">公益宣传</title></programme>
 <programme start="20261126000000 +0800" stop="20261126010000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：00:00</desc></programme>
 <programme start="20261126010000 +0800" stop="20261126020000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：01:00</desc></programme>
 <programme start="20261126020000 +0800" stop="20261126030000 +0800" channel="1439"><title lang="zh">未提供节目名称（源站占位）</title><desc lang="zh">源站标题：02:00</desc></programme>
