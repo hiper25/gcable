@@ -240230,10 +240230,70 @@
       "name": "多彩文体（4K特色）",
       "timestamp": "2026-11-24T09:32:49+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "delivery://179.6875.256.9401.160.80",
+          "before": "delivery://179.6875.256.9401.161.80",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "3521",
+      "detail": "频道资料更新",
+      "name": "佛山城市生活（高清）",
+      "timestamp": "2026-11-24T11:02:52+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "delivery://179.6875.256.9403.162.88",
+          "before": "delivery://179.6875.256.9403.163.88",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "3523",
+      "detail": "频道资料更新",
+      "name": "佛山综合（高清）",
+      "timestamp": "2026-11-24T11:02:52+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "delivery://179.6875.256.9404.163.92",
+          "before": "delivery://179.6875.256.9404.164.92",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "3524",
+      "detail": "频道资料更新",
+      "name": "南海频道（高清）",
+      "timestamp": "2026-11-24T11:02:52+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "delivery://179.6875.256.9405.164.96",
+          "before": "delivery://179.6875.256.9405.165.96",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "3525",
+      "detail": "频道资料更新",
+      "name": "顺德频道（高清）",
+      "timestamp": "2026-11-24T11:02:52+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-24T02:31:44.739149+00:00",
+    "last_updated": "2026-11-24T03:01:45.073792+00:00",
     "total_channels": 521
   },
   "version": 2
