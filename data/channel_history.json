@@ -245044,6 +245044,132 @@
     {
       "changes": [
         {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体解码失败：达到读取时限",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1201",
+      "detail": "错误详情：媒体解码失败：达到读取时限 → 媒体解码失败：本地解码工具不可用",
+      "name": "上海卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T14:00:14.230388+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1201.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体解码失败：达到读取时限",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1201",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：达到读取时限 → 媒体解码失败：本地解码工具不可用",
+      "name": "上海卫视",
+      "playlistPath": "/live/avit/1201/1500/1500.m3u8",
+      "timestamp": "2026-11-25T14:00:14.230388+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1201.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体解码失败：达到读取时限",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1203",
+      "detail": "错误详情：媒体解码失败：达到读取时限 → 媒体解码失败：本地解码工具不可用",
+      "name": "湖南卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T14:00:42.491272+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1203.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体解码失败：达到读取时限",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1203",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：达到读取时限 → 媒体解码失败：本地解码工具不可用",
+      "name": "湖南卫视",
+      "playlistPath": "/live/avit/1203/1500/1500.m3u8",
+      "timestamp": "2026-11-25T14:00:42.491272+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1203.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3302",
+      "detail": "参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "ID 3302",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T14:01:45.206837+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/3302.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": 200,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3302",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；HTTP状态码：未提供 → 200；参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "ID 3302",
+      "playlistPath": "/live/avit/3302/1500/1500.m3u8",
+      "timestamp": "2026-11-25T14:01:45.206837+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/3302.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "113",
           "before": "92",
           "field": "channelNumber",
@@ -245199,7 +245325,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-25T13:31:51.908692+00:00",
+    "last_updated": "2026-11-25T14:01:50.524196+00:00",
     "total_channels": 521
   },
   "version": 2
