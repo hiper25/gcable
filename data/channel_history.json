@@ -243173,10 +243173,250 @@
       "timestamp": "2026-11-25T01:00:48.477092+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1205.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1015",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTVMusic",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T02:30:44.015509+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1015.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1015",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTVMusic",
+      "playlistPath": "/live/avit/1015/1500/1500.m3u8",
+      "timestamp": "2026-11-25T02:30:44.015509+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1015.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1016",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CGTN",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T02:30:44.162406+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1016.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1016",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CGTN",
+      "playlistPath": "/live/avit/1016/1500/1500.m3u8",
+      "timestamp": "2026-11-25T02:30:44.162406+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1016.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1013",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV新闻",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T02:30:44.207194+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1013.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1013",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV新闻",
+      "playlistPath": "/live/avit/1013/1500/1500.m3u8",
+      "timestamp": "2026-11-25T02:30:44.207194+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1013.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1201",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "上海卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T02:30:44.342476+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1201.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1201",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "上海卫视",
+      "playlistPath": "/live/avit/1201/1500/1500.m3u8",
+      "timestamp": "2026-11-25T02:30:44.342476+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1201.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1014",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV少儿",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T02:30:44.458629+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1014.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1014",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV少儿",
+      "playlistPath": "/live/avit/1014/1500/1500.m3u8",
+      "timestamp": "2026-11-25T02:30:44.458629+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1014.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1019",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-17 农业农村",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T02:30:44.491576+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1019.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1019",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-17 农业农村",
+      "playlistPath": "/live/avit/1019/1500/1500.m3u8",
+      "timestamp": "2026-11-25T02:30:44.491576+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1019.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-25T02:01:46.050797+00:00",
+    "last_updated": "2026-11-25T02:31:53.447468+00:00",
     "total_channels": 521
   },
   "version": 2
