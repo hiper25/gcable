@@ -15007,7 +15007,7 @@
       ],
       "channelID": "1297",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "纪实科教",
+      "name": "北京纪实科教",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:15:50.783069+00:00",
       "type": "gudou",
@@ -69361,7 +69361,7 @@
       ],
       "channelID": "1297",
       "detail": "1297.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "纪实科教",
+      "name": "北京纪实科教",
       "playlistPath": "/live/1297.m3u8",
       "timestamp": "2026-11-17T14:17:23.869361+00:00",
       "type": "rendition",
@@ -243733,11 +243733,169 @@
       "timestamp": "2026-11-25T07:00:44.133466+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1205.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1204",
+      "detail": "错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "浙江卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T07:30:44.601856+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1204.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1204",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "浙江卫视",
+      "playlistPath": "/live/avit/1204/1500/1500.m3u8",
+      "timestamp": "2026-11-25T07:30:44.601856+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1204.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1205",
+      "detail": "错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "江苏卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T07:30:49.720134+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1205.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1205",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "江苏卫视",
+      "playlistPath": "/live/avit/1205/1500/1500.m3u8",
+      "timestamp": "2026-11-25T07:30:49.720134+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1205.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "113",
+          "before": "92",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://203000.6875.64.103.null.null",
+          "before": "delivery://299000.6875.64.903.null.88",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1265",
+      "detail": "频道资料更新",
+      "name": "南方购物",
+      "timestamp": "2026-11-25T15:32:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "北京纪实科教",
+          "before": "纪实科教",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "156",
+          "before": "90",
+          "field": "channelNumber",
+          "label": "频道号"
+        },
+        {
+          "after": "delivery://275000.6875.64.1297.null.630",
+          "before": "delivery://179000.6875.64.1205.null.96",
+          "field": "delivery",
+          "label": "DVB频点"
+        }
+      ],
+      "channelID": "1297",
+      "detail": "频道资料更新",
+      "name": "北京纪实科教",
+      "timestamp": "2026-11-25T15:32:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2114",
+      "detail": "频道移出目录",
+      "name": "东莞导视（高清）",
+      "timestamp": "2026-11-25T15:32:39+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2121",
+      "detail": "频道移出目录",
+      "name": "东莞新闻综合（高清）",
+      "timestamp": "2026-11-25T15:32:39+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-25T07:01:47.508487+00:00",
-    "total_channels": 521
+    "last_updated": "2026-11-25T07:31:48.424681+00:00",
+    "total_channels": 519
   },
   "version": 2
 }
