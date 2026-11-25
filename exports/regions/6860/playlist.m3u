@@ -85,10 +85,10 @@ rtp://239.12.22.122:10001
 rtp://239.12.22.9:10001
 #EXTINF:-1 tvg-id="1418" tvg-name="安徽卫视（高清）" tvg-chno="47" group-title="卫视频道" region-code="6860" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1418.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",安徽卫视（高清）
 rtp://239.12.22.21:10001
+#EXTINF:-1 tvg-id="1444" tvg-name="广西卫视高清" tvg-chno="48" group-title="卫视频道" region-code="6860" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1444.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广西卫视高清
+rtp://239.12.22.99:10001
 #EXTINF:-1 tvg-id="1415" tvg-name="天津卫视（高清）" tvg-chno="49" group-title="卫视频道" region-code="6860" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1415.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",天津卫视（高清）
 rtp://239.12.22.18:10001
-#EXTINF:-1 tvg-id="1444" tvg-name="广西卫视高清" tvg-chno="49" group-title="卫视频道" region-code="6860" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1444.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广西卫视高清
-rtp://239.12.22.99:10001
 #EXTINF:-1 tvg-id="1424" tvg-name="四川卫视（高清）" tvg-chno="50" group-title="卫视频道" region-code="6860" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1424.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",四川卫视（高清）
 rtp://239.12.22.24:10001
 #EXTINF:-1 tvg-id="1470" tvg-name="青海卫视（高清）" tvg-chno="51" group-title="卫视频道" region-code="6860" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1470.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",青海卫视（高清）

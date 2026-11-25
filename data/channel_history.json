@@ -245511,11 +245511,68 @@
       "name": "广东民生",
       "timestamp": "2026-11-25T22:32:54+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "已移出",
+          "before": "已收录",
+          "field": "catalogPresent",
+          "label": "频道目录"
+        }
+      ],
+      "channelID": "2701",
+      "detail": "频道移出目录",
+      "name": "云浮综合",
+      "timestamp": "2026-11-26T00:02:52+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "2717",
+      "detail": "频道资料更新",
+      "name": "广东民生",
+      "timestamp": "2026-11-26T00:02:52+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "2742",
+      "detail": "频道资料更新",
+      "name": "广东民生高清",
+      "timestamp": "2026-11-26T00:02:52+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-25T15:32:00.650842+00:00",
-    "total_channels": 521
+    "last_updated": "2026-11-25T16:01:47.000717+00:00",
+    "total_channels": 520
   },
   "version": 2
 }
