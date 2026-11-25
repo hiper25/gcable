@@ -244509,6 +244509,184 @@
     {
       "changes": [
         {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1016",
+      "detail": "错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "CGTN",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T09:30:41.275068+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1016.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1016",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "CGTN",
+      "playlistPath": "/live/avit/1016/1500/1500.m3u8",
+      "timestamp": "2026-11-25T09:30:41.275068+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1016.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体解码失败：达到读取时限",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1019",
+      "detail": "错误详情：媒体解码失败：达到读取时限 → 媒体解码失败：本地解码工具不可用",
+      "name": "CCTV-17 农业农村",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T09:30:42.106838+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1019.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体解码失败：达到读取时限",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1019",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：达到读取时限 → 媒体解码失败：本地解码工具不可用",
+      "name": "CCTV-17 农业农村",
+      "playlistPath": "/live/avit/1019/1500/1500.m3u8",
+      "timestamp": "2026-11-25T09:30:42.106838+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1019.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1233",
+      "detail": "参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "CETV-1",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T09:31:17.050141+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1233.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": null,
+          "before": 200,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1233",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；HTTP状态码：200 → 未提供；参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "CETV-1",
+      "playlistPath": "/live/avit/1233/1500/1500.m3u8",
+      "timestamp": "2026-11-25T09:31:17.050141+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1233.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2273",
+      "detail": "HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "FCC-云南卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T09:31:37.818199+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/2273.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2273",
+      "detail": "2273.m3u8：HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "FCC-云南卫视",
+      "playlistPath": "/live/2273.m3u8",
+      "timestamp": "2026-11-25T09:31:37.818199+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/2273.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "113",
           "before": "92",
           "field": "channelNumber",
@@ -244664,7 +244842,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-25T09:01:52.232441+00:00",
+    "last_updated": "2026-11-25T09:31:50.345260+00:00",
     "total_channels": 521
   },
   "version": 2
