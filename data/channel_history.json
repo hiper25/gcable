@@ -245489,6 +245489,64 @@
     {
       "changes": [
         {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "4018",
+      "detail": "参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "四川卫视（4K）",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T22:31:43.101358+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/4018.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": 200,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "4018",
+      "detail": "36000.m3u8：请求结果：失败 → 成功；HTTP状态码：未提供 → 200；参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "四川卫视（4K）",
+      "playlistPath": "/live/avit/4018/36000/36000.m3u8",
+      "timestamp": "2026-11-25T22:31:43.101358+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/4018.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "广东民生",
           "before": "广东民生-新兴",
           "field": "name",
@@ -245629,7 +245687,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-11-25T22:01:53.403096+00:00",
+    "last_updated": "2026-11-25T22:31:43.296069+00:00",
     "total_channels": 520
   },
   "version": 2
