@@ -243013,10 +243013,170 @@
       "timestamp": "2026-11-25T00:30:48.388522+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1206.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1203",
+      "detail": "错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "湖南卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T01:00:44.507704+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1203.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1203",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "湖南卫视",
+      "playlistPath": "/live/avit/1203/1500/1500.m3u8",
+      "timestamp": "2026-11-25T01:00:44.507704+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1203.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1204",
+      "detail": "错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "浙江卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T01:00:46.320787+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1204.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1204",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "浙江卫视",
+      "playlistPath": "/live/avit/1204/1500/1500.m3u8",
+      "timestamp": "2026-11-25T01:00:46.320787+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1204.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1206",
+      "detail": "错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "安徽卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T01:00:47.199853+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1206.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1206",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "安徽卫视",
+      "playlistPath": "/live/avit/1206/1500/1500.m3u8",
+      "timestamp": "2026-11-25T01:00:47.199853+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1206.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1205",
+      "detail": "错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "江苏卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T01:00:48.477092+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1205.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "媒体片段请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1205",
+      "detail": "1500.m3u8：请求结果：失败 → 成功；错误详情：媒体片段请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "江苏卫视",
+      "playlistPath": "/live/avit/1205/1500/1500.m3u8",
+      "timestamp": "2026-11-25T01:00:48.477092+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1205.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-25T00:31:52.898915+00:00",
+    "last_updated": "2026-11-25T01:01:44.940206+00:00",
     "total_channels": 521
   },
   "version": 2
