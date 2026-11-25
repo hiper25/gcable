@@ -741,21 +741,21 @@ rtp://239.12.22.60:10001
 rtp://239.12.35.21:10001
 #EXTINF:-1 tvg-id="2317" tvg-name="惠东高清" tvg-chno="184" group-title="其他综合" region-code="2620" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",惠东高清
 rtp://239.12.38.209:10001
-#EXTINF:-1 tvg-id="2717" tvg-name="广东民生-新兴" tvg-chno="185" group-title="粤东西北县市" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生-新兴
+#EXTINF:-1 tvg-id="2717" tvg-name="广东民生" tvg-chno="185" group-title="其他综合" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生
 rtp://239.12.45.17:10001
 #EXTINF:-1 tvg-id="2805" tvg-name="怀集综合" tvg-chno="185" group-title="其他综合" region-code="2620" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",怀集综合
 rtp://239.12.46.111:10001
-#EXTINF:-1 tvg-id="2732" tvg-name="广东民生-云安" tvg-chno="186" group-title="其他综合" region-code="6800" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2732.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生-云安
+#EXTINF:-1 tvg-id="2732" tvg-name="广东民生" tvg-chno="186" group-title="其他综合" region-code="6800" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/2732.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生
 rtp://239.12.45.32:10001
 #EXTINF:-1 tvg-id="2811" tvg-name="广宁综合" tvg-chno="186" group-title="其他综合" region-code="2620" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广宁综合
 rtp://239.12.46.42:10001
-#EXTINF:-1 tvg-id="2752" tvg-name="广东民生-罗定" tvg-chno="187" group-title="粤东西北县市" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生-罗定
+#EXTINF:-1 tvg-id="2752" tvg-name="广东民生" tvg-chno="187" group-title="其他综合" region-code="6800" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生
 rtp://239.12.45.52:10001
 #EXTINF:-1 tvg-id="2821" tvg-name="高要测试频道" tvg-chno="187" group-title="测试专区" region-code="2620" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",高要测试频道
 rtp://239.12.46.112:10001
 #EXTINF:-1 tvg-id="4009" tvg-name="求索记录（4K）" tvg-chno="187" group-title="4K超高清" region-code="3080" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/4009.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",求索记录（4K）
 rtp://239.12.22.123:10001
-#EXTINF:-1 tvg-id="2742" tvg-name="广东民生高清-郁南" tvg-chno="188" group-title="粤东西北县市" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生高清-郁南
+#EXTINF:-1 tvg-id="2742" tvg-name="广东民生高清" tvg-chno="188" group-title="其他综合" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生高清
 rtp://239.12.45.42:10001
 #EXTINF:-1 tvg-id="2751" tvg-name="罗定综合" tvg-chno="189" group-title="粤东西北县市" region-code="6800" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",罗定综合
 rtp://239.12.45.51:10001

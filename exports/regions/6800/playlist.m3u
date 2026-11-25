@@ -181,13 +181,13 @@ rtp://239.12.22.69:10001
 rtp://239.12.22.70:10001
 #EXTINF:-1 tvg-id="1914" tvg-name="精彩影视（高清VIP）" tvg-chno="116" group-title="特色影视体育" region-code="6800" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1914.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",精彩影视（高清VIP）
 rtp://239.12.22.82:10001
-#EXTINF:-1 tvg-id="2717" tvg-name="广东民生-新兴" tvg-chno="185" group-title="粤东西北县市" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生-新兴
+#EXTINF:-1 tvg-id="2717" tvg-name="广东民生" tvg-chno="185" group-title="其他综合" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生
 rtp://239.12.45.17:10001
-#EXTINF:-1 tvg-id="2732" tvg-name="广东民生-云安" tvg-chno="186" group-title="其他综合" region-code="6800" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/2732.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生-云安
+#EXTINF:-1 tvg-id="2732" tvg-name="广东民生" tvg-chno="186" group-title="其他综合" region-code="6800" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/2732.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生
 rtp://239.12.45.32:10001
-#EXTINF:-1 tvg-id="2752" tvg-name="广东民生-罗定" tvg-chno="187" group-title="粤东西北县市" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生-罗定
+#EXTINF:-1 tvg-id="2752" tvg-name="广东民生" tvg-chno="187" group-title="其他综合" region-code="6800" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生
 rtp://239.12.45.52:10001
-#EXTINF:-1 tvg-id="2742" tvg-name="广东民生高清-郁南" tvg-chno="188" group-title="粤东西北县市" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生高清-郁南
+#EXTINF:-1 tvg-id="2742" tvg-name="广东民生高清" tvg-chno="188" group-title="其他综合" region-code="6800" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广东民生高清
 rtp://239.12.45.42:10001
 #EXTINF:-1 tvg-id="2751" tvg-name="罗定综合" tvg-chno="189" group-title="粤东西北县市" region-code="6800" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",罗定综合
 rtp://239.12.45.51:10001

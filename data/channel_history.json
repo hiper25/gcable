@@ -19464,7 +19464,7 @@
       ],
       "channelID": "2717",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广东民生-新兴",
+      "name": "广东民生",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:20:57.401346+00:00",
       "type": "gudou",
@@ -19546,7 +19546,7 @@
       ],
       "channelID": "2732",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广东民生-云安",
+      "name": "广东民生",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:21:09.531905+00:00",
       "type": "gudou",
@@ -19628,7 +19628,7 @@
       ],
       "channelID": "2752",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广东民生-罗定",
+      "name": "广东民生",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:21:15.780214+00:00",
       "type": "gudou",
@@ -19751,7 +19751,7 @@
       ],
       "channelID": "2742",
       "detail": "请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广东民生高清-郁南",
+      "name": "广东民生高清",
       "playlistPath": null,
       "timestamp": "2026-11-17T03:21:19.205004+00:00",
       "type": "gudou",
@@ -97659,7 +97659,7 @@
       ],
       "channelID": "2717",
       "detail": "2717.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广东民生-新兴",
+      "name": "广东民生",
       "playlistPath": "/live/2717.m3u8",
       "timestamp": "2026-11-17T14:18:55.663848+00:00",
       "type": "rendition",
@@ -97700,7 +97700,7 @@
       ],
       "channelID": "2732",
       "detail": "2732.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广东民生-云安",
+      "name": "广东民生",
       "playlistPath": "/live/2732.m3u8",
       "timestamp": "2026-11-17T14:18:55.704821+00:00",
       "type": "rendition",
@@ -97741,7 +97741,7 @@
       ],
       "channelID": "2742",
       "detail": "2742.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广东民生高清-郁南",
+      "name": "广东民生高清",
       "playlistPath": "/live/2742.m3u8",
       "timestamp": "2026-11-17T14:18:55.749755+00:00",
       "type": "rendition",
@@ -97823,7 +97823,7 @@
       ],
       "channelID": "2752",
       "detail": "2752.m3u8：请求结果：未提供 → 失败；HTTP状态码：未提供 → 400；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败",
-      "name": "广东民生-罗定",
+      "name": "广东民生",
       "playlistPath": "/live/2752.m3u8",
       "timestamp": "2026-11-17T14:18:55.836248+00:00",
       "type": "rendition",
@@ -245170,6 +245170,76 @@
     {
       "changes": [
         {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": null,
+          "before": 200,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2927",
+      "detail": "请求结果：成功 → 失败；HTTP状态码：200 → 未提供；参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "普宁台（高清）",
+      "playlistPath": null,
+      "timestamp": "2026-11-25T14:31:42.708064+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/2927.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": null,
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "skipped",
+          "before": null,
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "skipped",
+          "before": null,
+          "field": "decodeStatus",
+          "label": "媒体解码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": null,
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2927",
+      "detail": "2927.m3u8：请求结果：未提供 → 失败；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败：请求超时",
+      "name": "普宁台（高清）",
+      "playlistPath": "/live/2927.m3u8",
+      "timestamp": "2026-11-25T14:31:42.708064+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/2927.m3u8"
+    },
+    {
+      "changes": [
+        {
           "after": "113",
           "before": "92",
           "field": "channelNumber",
@@ -245322,10 +245392,94 @@
       "name": "纪实科教",
       "timestamp": "2026-11-25T16:32:56+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "广东民生",
+          "before": "广东民生-新兴",
+          "field": "name",
+          "label": "频道名称"
+        }
+      ],
+      "channelID": "2717",
+      "detail": "频道资料更新",
+      "name": "广东民生",
+      "timestamp": "2026-11-25T22:32:54+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "广东民生",
+          "before": "广东民生-云安",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "2732",
+      "detail": "频道资料更新",
+      "name": "广东民生",
+      "timestamp": "2026-11-25T22:32:54+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "广东民生高清",
+          "before": "广东民生高清-郁南",
+          "field": "name",
+          "label": "频道名称"
+        }
+      ],
+      "channelID": "2742",
+      "detail": "频道资料更新",
+      "name": "广东民生高清",
+      "timestamp": "2026-11-25T22:32:54+08:00",
+      "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "广东民生",
+          "before": "广东民生-罗定",
+          "field": "name",
+          "label": "频道名称"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isTVAnyTime",
+          "label": "回看功能"
+        },
+        {
+          "after": "0",
+          "before": "1",
+          "field": "isStartOver",
+          "label": "从头播放功能"
+        }
+      ],
+      "channelID": "2752",
+      "detail": "频道资料更新",
+      "name": "广东民生",
+      "timestamp": "2026-11-25T22:32:54+08:00",
+      "type": "channel"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-25T14:01:50.524196+00:00",
+    "last_updated": "2026-11-25T14:31:48.697151+00:00",
     "total_channels": 521
   },
   "version": 2

@@ -1354,20 +1354,20 @@
     <display-name lang="zh">惠东高清</display-name>
   </channel>
   <channel id="2717">
-    <display-name lang="zh">广东民生-新兴</display-name>
+    <display-name lang="zh">广东民生</display-name>
   </channel>
   <channel id="2805">
     <display-name lang="zh">怀集综合</display-name>
   </channel>
   <channel id="2732">
-    <display-name lang="zh">广东民生-云安</display-name>
+    <display-name lang="zh">广东民生</display-name>
     <icon src="https://hiper25.github.io/gcable/logos/2732.png" />
   </channel>
   <channel id="2811">
     <display-name lang="zh">广宁综合</display-name>
   </channel>
   <channel id="2752">
-    <display-name lang="zh">广东民生-罗定</display-name>
+    <display-name lang="zh">广东民生</display-name>
   </channel>
   <channel id="2821">
     <display-name lang="zh">高要测试频道</display-name>
@@ -1377,7 +1377,7 @@
     <icon src="https://hiper25.github.io/gcable/logos/4009.png" />
   </channel>
   <channel id="2742">
-    <display-name lang="zh">广东民生高清-郁南</display-name>
+    <display-name lang="zh">广东民生高清</display-name>
   </channel>
   <channel id="2751">
     <display-name lang="zh">罗定综合</display-name>
