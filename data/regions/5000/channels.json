@@ -1,17 +1,17 @@
 [
   {
-    "category": "卫视频道",
+    "category": "央视频道",
     "categorySource": "name-classification",
-    "channelID": "1417",
-    "channelNumber": "58",
-    "delivery": "delivery://331000.6875.64.4203.162.88",
+    "channelID": "1402",
+    "channelNumber": "1",
+    "delivery": "delivery://411000.6875.64.2401.null.80",
     "gudouCandidates": [],
     "gudouCheck": {
       "audioBitRate": null,
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:20.933063+00:00",
+      "checkedAt": "2026-11-25T08:01:17.009005+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -36,7 +36,1501 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:20.933063+00:00",
+          "checkedAt": "2026-11-25T08:01:17.009005+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1402/800/800.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        },
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:17.009005+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1402/7500/7500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "1402",
+      "url": "http://172.16.149.18:9090/live/1402.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "1",
+    "isTVAnyTime": "1",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.22.3:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://411000.6875.64.2401.null.80"
+      }
+    ],
+    "name": "CCTV-1综合（高清）",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.22.3:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "87700fcc1d3f48978ee8d11b40a256ea"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "央视"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "1,2,3",
+      "channelID": "1402",
+      "channelName": "CCTV-1综合（高清）",
+      "channelNumber": "1",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "1",
+      "isTVAnyTime": "1",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.22.3:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://411000.6875.64.2401.null.80"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "4K超高清",
+    "categorySource": "name-classification",
+    "channelID": "4012",
+    "channelNumber": "2",
+    "delivery": "delivery://147000.6875.64.6801.null.80",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.046845+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.046845+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/4012/36000/36000.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "4012",
+      "url": "http://172.16.149.18:9090/live/4012.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "1",
+    "isTVAnyTime": "1",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.22.152:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://147000.6875.64.6801.null.80"
+      }
+    ],
+    "name": "广东卫视（4K）",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.22.152:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "52ad9e4dbb174e26b6598fd66c114f8b",
+      "55415156f008482aab179595dad486c6",
+      "9eda4af6b44447b5ac1f96316d594e02"
+    ],
+    "sourceGroups": [
+      "4K",
+      "全部频道",
+      "卫视",
+      "粤港澳"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "1,2,3,4",
+      "channelID": "4012",
+      "channelName": "广东卫视（4K）",
+      "channelNumber": "2",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "1",
+      "isTVAnyTime": "1",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.22.152:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://147000.6875.64.6801.null.80"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "珠三角地市",
+    "categorySource": "name-classification",
+    "channelID": "2121",
+    "channelNumber": "3",
+    "delivery": "delivery://395000.6875.64.2201.null.80",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:33.460904+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:33.460904+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/2121/800/800.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        },
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:33.460904+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/2121/7500/7500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "2121",
+      "url": "http://172.16.149.18:9090/live/2121.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "1",
+    "isTVAnyTime": "1",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.35.20:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://395000.6875.64.2201.null.80"
+      }
+    ],
+    "name": "东莞新闻综合（高清）",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.35.20:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "52ad9e4dbb174e26b6598fd66c114f8b"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "粤港澳"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "1,2,3",
+      "channelID": "2121",
+      "channelName": "东莞新闻综合（高清）",
+      "channelNumber": "3",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "1",
+      "isTVAnyTime": "1",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.35.20:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://395000.6875.64.2201.null.80"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "珠三角地市",
+    "categorySource": "name-classification",
+    "channelID": "2114",
+    "channelNumber": "5",
+    "delivery": "delivery://403000.6875.64.2301.null.80",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:32.011820+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:32.011820+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/2114.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "2114",
+      "url": "http://172.16.149.18:9090/live/2114.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.35.22:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403000.6875.64.2301.null.80"
+      }
+    ],
+    "name": "东莞导视（高清）",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.35.22:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "b3ed702e37d44fae8ccb2c8149e334d7"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "其他"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "2114",
+      "channelName": "东莞导视（高清）",
+      "channelNumber": "5",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.35.22:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403000.6875.64.2301.null.80"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "港澳台专区",
+    "categorySource": "name-classification",
+    "channelID": "1350",
+    "channelNumber": "6",
+    "delivery": "delivery://187000.6875.64.4301.null.80",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:13.949086+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:13.949086+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1350/800/800.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        },
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:13.949086+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1350/7500/7500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "1350",
+      "url": "http://172.16.149.18:9090/live/1350.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "1",
+    "isTVAnyTime": "1",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.22.121:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://187000.6875.64.4301.null.80"
+      }
+    ],
+    "name": "翡翠台",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.22.121:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "52ad9e4dbb174e26b6598fd66c114f8b"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "粤港澳"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "1,2,3",
+      "channelID": "1350",
+      "channelName": "翡翠台",
+      "channelNumber": "6",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "1",
+      "isTVAnyTime": "1",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.22.121:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://187000.6875.64.4301.null.80"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "其他综合",
+    "categorySource": "name-classification",
+    "channelID": "1448",
+    "channelNumber": "7",
+    "delivery": "delivery://355000.6875.64.4903.null.88",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:21.397649+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:21.397649+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1448/7500/7500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "1448",
+      "url": "http://172.16.149.18:9090/live/1448.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.22.116:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://355000.6875.64.4903.null.88"
+      }
+    ],
+    "name": "央广购物（高清）",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.22.116:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "b3ed702e37d44fae8ccb2c8149e334d7"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "其他"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "1448",
+      "channelName": "央广购物（高清）",
+      "channelNumber": "7",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.22.116:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://355000.6875.64.4903.null.88"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "港澳台专区",
+    "categorySource": "name-classification",
+    "channelID": "1352",
+    "channelNumber": "8",
+    "delivery": "delivery://403000.6875.64.2303.null.88",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:14.171159+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:14.171159+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1352/800/800.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        },
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:14.171159+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1352/4500/4500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "1352",
+      "url": "http://172.16.149.18:9090/live/1352.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "1",
+    "isTVAnyTime": "1",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.22.76:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403000.6875.64.2303.null.88"
+      }
+    ],
+    "name": "澳视澳门（高清）",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.22.76:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "52ad9e4dbb174e26b6598fd66c114f8b"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "粤港澳"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "1,2,3",
+      "channelID": "1352",
+      "channelName": "澳视澳门（高清）",
+      "channelNumber": "8",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "1",
+      "isTVAnyTime": "1",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.22.76:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403000.6875.64.2303.null.88"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "其他综合",
+    "categorySource": "name-classification",
+    "channelID": "1277",
+    "channelNumber": "9",
+    "delivery": "delivery://283000.6875.64.702.null.84",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:11.926417+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:11.926417+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/1277.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "1277",
+      "url": "http://172.16.149.18:9090/live/1277.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.21.53:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://283000.6875.64.702.null.84"
+      }
+    ],
+    "name": "优购物",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.21.53:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "b3ed702e37d44fae8ccb2c8149e334d7"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "其他"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "1277",
+      "channelName": "优购物",
+      "channelNumber": "9",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.21.53:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://283000.6875.64.702.null.84"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "港澳台专区",
+    "categorySource": "name-classification",
+    "channelID": "1353",
+    "channelNumber": "10",
+    "delivery": "delivery://387000.6875.64.2104.null.92",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:13.886117+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:13.886117+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1353/7500/7500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "1353",
+      "url": "http://172.16.149.18:9090/live/1353.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "1",
+    "isTVAnyTime": "1",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.22.159:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://387000.6875.64.2104.null.92"
+      }
+    ],
+    "name": "凤凰中文（高清）",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.22.159:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "52ad9e4dbb174e26b6598fd66c114f8b"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "粤港澳"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "1,2,3",
+      "channelID": "1353",
+      "channelName": "凤凰中文（高清）",
+      "channelNumber": "10",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "1",
+      "isTVAnyTime": "1",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.22.159:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://387000.6875.64.2104.null.92"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "港澳台专区",
+    "categorySource": "name-classification",
+    "channelID": "1351",
+    "channelNumber": "11",
+    "delivery": "delivery://187000.6875.64.4302.null.84",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:17.101637+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:17.101637+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1351/800/800.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        },
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:17.101637+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1351/4500/4500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        },
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:17.101637+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1351/7500/7500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "1351",
+      "url": "http://172.16.149.18:9090/live/1351.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "1",
+    "isTVAnyTime": "1",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.22.122:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://187000.6875.64.4302.null.84"
+      }
+    ],
+    "name": "明珠台",
+    "playable": null,
+    "regionCode": "5000",
+    "rtp": "rtp://239.12.22.122:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "52ad9e4dbb174e26b6598fd66c114f8b"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "粤港澳"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "1,2,3",
+      "channelID": "1351",
+      "channelName": "明珠台",
+      "channelNumber": "11",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "1",
+      "isTVAnyTime": "1",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.22.122:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://187000.6875.64.4302.null.84"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "卫视频道",
+    "categorySource": "name-classification",
+    "channelID": "1417",
+    "channelNumber": "58",
+    "delivery": "delivery://331000.6875.64.4203.162.88",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:18.705487+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:18.705487+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -66,7 +1560,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:20.933063+00:00",
+          "checkedAt": "2026-11-25T08:01:18.705487+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -172,7 +1666,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:33.847708+00:00",
+      "checkedAt": "2026-11-25T08:01:31.902455+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -197,7 +1691,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:33.847708+00:00",
+          "checkedAt": "2026-11-25T08:01:31.902455+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -303,7 +1797,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:33.865006+00:00",
+      "checkedAt": "2026-11-25T08:01:31.991217+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -328,7 +1822,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:33.865006+00:00",
+          "checkedAt": "2026-11-25T08:01:31.991217+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -434,7 +1928,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:47.416945+00:00",
+      "checkedAt": "2026-11-25T08:01:46.529598+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -459,7 +1953,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:47.416945+00:00",
+          "checkedAt": "2026-11-25T08:01:46.529598+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -565,7 +2059,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:47.527269+00:00",
+      "checkedAt": "2026-11-25T08:01:46.620775+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -590,7 +2084,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:47.527269+00:00",
+          "checkedAt": "2026-11-25T08:01:46.620775+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -696,7 +2190,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:47.545259+00:00",
+      "checkedAt": "2026-11-25T08:01:46.638129+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -721,7 +2215,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:47.545259+00:00",
+          "checkedAt": "2026-11-25T08:01:46.638129+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -827,7 +2321,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:47.463761+00:00",
+      "checkedAt": "2026-11-25T08:01:46.549863+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -852,7 +2346,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:47.463761+00:00",
+          "checkedAt": "2026-11-25T08:01:46.549863+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -958,7 +2452,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:47.639375+00:00",
+      "checkedAt": "2026-11-25T08:01:46.709539+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -983,7 +2477,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:47.639375+00:00",
+          "checkedAt": "2026-11-25T08:01:46.709539+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -1089,7 +2583,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:47.680815+00:00",
+      "checkedAt": "2026-11-25T08:01:46.741904+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -1114,7 +2608,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:47.680815+00:00",
+          "checkedAt": "2026-11-25T08:01:46.741904+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -1220,7 +2714,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:47.560678+00:00",
+      "checkedAt": "2026-11-25T08:01:46.656065+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -1245,7 +2739,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:47.560678+00:00",
+          "checkedAt": "2026-11-25T08:01:46.656065+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,
@@ -1351,7 +2845,7 @@
       "audioCodec": null,
       "audioDecoded": false,
       "channels": null,
-      "checkedAt": "2026-11-25T07:31:47.591400+00:00",
+      "checkedAt": "2026-11-25T08:01:46.691550+00:00",
       "decodeStatus": "skipped",
       "decoded": false,
       "displayAspectRatio": null,
@@ -1376,7 +2870,7 @@
           "audioCodec": null,
           "audioDecoded": false,
           "channels": null,
-          "checkedAt": "2026-11-25T07:31:47.591400+00:00",
+          "checkedAt": "2026-11-25T08:01:46.691550+00:00",
           "decodeStatus": "skipped",
           "decoded": false,
           "displayAspectRatio": null,

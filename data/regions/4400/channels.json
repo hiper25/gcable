@@ -1,0 +1,1473 @@
+[
+  {
+    "category": "卫视频道",
+    "categorySource": "name-classification",
+    "channelID": "1417",
+    "channelNumber": "58",
+    "delivery": "delivery://331000.6875.64.4203.162.88",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:18.705487+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "媒体解码失败：本地解码工具不可用",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 200,
+      "httpStatuses": [
+        200
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "failed",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:18.705487+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1417/800/800.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        },
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:18.705487+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "媒体解码失败：本地解码工具不可用",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 200,
+          "httpStatuses": [
+            200
+          ],
+          "mediaDetected": false,
+          "parseStatus": "failed",
+          "pixelFormat": null,
+          "playlistPath": "/live/avit/1417/7500/7500.m3u8",
+          "requestStatus": "success",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "success",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "1417",
+      "url": "http://172.16.149.18:9090/live/1417.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "1",
+    "isTVAnyTime": "1",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.22.20:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://331000.6875.64.4203.162.88"
+      }
+    ],
+    "name": "湖北卫视（高清）",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.22.20:10001",
+    "sourceGroupIds": [
+      "477c4a596f7e4175b12e9d3db58e198f",
+      "9eda4af6b44447b5ac1f96316d594e02"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "卫视"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "1,2,3",
+      "channelID": "1417",
+      "channelName": "湖北卫视（高清）",
+      "channelNumber": "58",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "1",
+      "isStartOver": "1",
+      "isTVAnyTime": "1",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.22.20:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://331000.6875.64.4203.162.88"
+        }
+      ],
+      "serviceType": "1"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "2108",
+    "channelNumber": "400",
+    "delivery": "delivery://403.6875.64.2304.0.92",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:31.902455+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:31.902455+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/2108.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "2108",
+      "url": "http://172.16.149.18:9090/live/2108.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.35.30:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2304.0.92"
+      }
+    ],
+    "name": "东莞综合广播",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.35.30:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "2108",
+      "channelName": "东莞综合广播",
+      "channelNumber": "400",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.35.30:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2304.0.92"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "2110",
+    "channelNumber": "401",
+    "delivery": "delivery://403.6875.64.2305.0.96",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:31.991217+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:31.991217+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/2110.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "2110",
+      "url": "http://172.16.149.18:9090/live/2110.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.35.31:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2305.0.96"
+      }
+    ],
+    "name": "东莞交通音乐广播",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.35.31:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "2110",
+      "channelName": "东莞交通音乐广播",
+      "channelNumber": "401",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.35.31:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2305.0.96"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "5002",
+    "channelNumber": "404",
+    "delivery": "delivery://403.6875.64.2308.0.108",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.529598+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.529598+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/5002.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "5002",
+      "url": "http://172.16.149.18:9090/live/5002.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.23.11:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2308.0.108"
+      }
+    ],
+    "name": "新闻频道",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.23.11:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "5002",
+      "channelName": "新闻频道",
+      "channelNumber": "404",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.23.11:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2308.0.108"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "5004",
+    "channelNumber": "405",
+    "delivery": "delivery://403.6875.64.2309.0.112",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.620775+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.620775+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/5004.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "5004",
+      "url": "http://172.16.149.18:9090/live/5004.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.23.13:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2309.0.112"
+      }
+    ],
+    "name": "交通之声",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.23.13:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "5004",
+      "channelName": "交通之声",
+      "channelNumber": "405",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.23.13:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2309.0.112"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "5005",
+    "channelNumber": "406",
+    "delivery": "delivery://403.6875.64.2310.0.116",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.638129+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.638129+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/5005.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "5005",
+      "url": "http://172.16.149.18:9090/live/5005.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.23.14:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2310.0.116"
+      }
+    ],
+    "name": "珠江经济台",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.23.14:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "5005",
+      "channelName": "珠江经济台",
+      "channelNumber": "406",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.23.14:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2310.0.116"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "5003",
+    "channelNumber": "407",
+    "delivery": "delivery://403.6875.64.2311.0.120",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.549863+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.549863+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/5003.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "5003",
+      "url": "http://172.16.149.18:9090/live/5003.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": true,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.23.12:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2311.0.120"
+      }
+    ],
+    "name": "音乐之声",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.23.12:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "5003",
+      "channelName": "音乐之声",
+      "channelNumber": "407",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.23.12:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2311.0.120"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "5008",
+    "channelNumber": "408",
+    "delivery": "delivery://403.6875.64.2312.0.124",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.709539+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.709539+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/5008.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "5008",
+      "url": "http://172.16.149.18:9090/live/5008.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.23.17:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2312.0.124"
+      }
+    ],
+    "name": "文体广播",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.23.17:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "5008",
+      "channelName": "文体广播",
+      "channelNumber": "408",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.23.17:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2312.0.124"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "5010",
+    "channelNumber": "410",
+    "delivery": "delivery://403.6875.64.2314.0.132",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.741904+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.741904+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/5010.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "5010",
+      "url": "http://172.16.149.18:9090/live/5010.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.23.19:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2314.0.132"
+      }
+    ],
+    "name": "珠江之声",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.23.19:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "5010",
+      "channelName": "珠江之声",
+      "channelNumber": "410",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.23.19:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2314.0.132"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "5006",
+    "channelNumber": "411",
+    "delivery": "delivery://403.6875.64.2315.0.136",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.656065+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.656065+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/5006.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "5006",
+      "url": "http://172.16.149.18:9090/live/5006.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.23.15:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2315.0.136"
+      }
+    ],
+    "name": "股市之声",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.23.15:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "5006",
+      "channelName": "股市之声",
+      "channelNumber": "411",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.23.15:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2315.0.136"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  },
+  {
+    "category": "广播电台",
+    "categorySource": "source-group",
+    "channelID": "5007",
+    "channelNumber": "412",
+    "delivery": "delivery://403.6875.64.2316.0.140",
+    "gudouCandidates": [],
+    "gudouCheck": {
+      "audioBitRate": null,
+      "audioCodec": null,
+      "audioDecoded": false,
+      "channels": null,
+      "checkedAt": "2026-11-25T08:01:46.691550+00:00",
+      "decodeStatus": "skipped",
+      "decoded": false,
+      "displayAspectRatio": null,
+      "error": "请求失败",
+      "fieldOrder": null,
+      "frameRate": null,
+      "height": null,
+      "highestRendition": null,
+      "httpStatus": 400,
+      "httpStatuses": [
+        400
+      ],
+      "identityStatus": "unmapped",
+      "matchedCatalogID": null,
+      "mediaDetected": false,
+      "node": "http://172.16.149.18:9090",
+      "parseStatus": "skipped",
+      "pixelFormat": null,
+      "renditions": [
+        {
+          "audioBitRate": null,
+          "audioCodec": null,
+          "audioDecoded": false,
+          "channels": null,
+          "checkedAt": "2026-11-25T08:01:46.691550+00:00",
+          "decodeStatus": "skipped",
+          "decoded": false,
+          "displayAspectRatio": null,
+          "error": "请求失败",
+          "fieldOrder": null,
+          "frameRate": null,
+          "height": null,
+          "httpStatus": 400,
+          "httpStatuses": [
+            400
+          ],
+          "mediaDetected": false,
+          "parseStatus": "skipped",
+          "pixelFormat": null,
+          "playlistPath": "/live/5007.m3u8",
+          "requestStatus": "failed",
+          "sampleAspectRatio": null,
+          "sampleRate": null,
+          "status": "failed",
+          "videoBitRate": null,
+          "videoCodec": null,
+          "videoProfile": null,
+          "width": null
+        }
+      ],
+      "requestStatus": "failed",
+      "sampleAspectRatio": null,
+      "sampleRate": null,
+      "serviceName": null,
+      "status": "failed",
+      "streamID": "5007",
+      "url": "http://172.16.149.18:9090/live/5007.m3u8",
+      "videoBitRate": null,
+      "videoCodec": null,
+      "videoProfile": null,
+      "width": null
+    },
+    "gudouCoverage": {
+      "complete": true,
+      "completedCells": 597,
+      "plannedCells": 597
+    },
+    "hasEPG": true,
+    "hasLogo": false,
+    "isStartOver": "0",
+    "isTVAnyTime": "0",
+    "livePlayUrls": [
+      {
+        "playType": "2",
+        "playUrl": "rtp://239.12.23.16:10001"
+      },
+      {
+        "playType": "1",
+        "playUrl": "delivery://403.6875.64.2316.0.140"
+      }
+    ],
+    "name": "南方生活广播",
+    "playable": null,
+    "regionCode": "4400",
+    "rtp": "rtp://239.12.23.16:10001",
+    "sourceGroupIds": [
+      "4136b18a243d4aa9a5d9fa8bab4cf224",
+      "477c4a596f7e4175b12e9d3db58e198f"
+    ],
+    "sourceGroups": [
+      "全部频道",
+      "音频广播"
+    ],
+    "sourceMetadata": {
+      "bitRateType": "",
+      "channelID": "5007",
+      "channelName": "南方生活广播",
+      "channelNumber": "412",
+      "imageUrl": "",
+      "isAuthentication": "0",
+      "isStandardChannel": "0",
+      "isStartOver": "0",
+      "isTVAnyTime": "0",
+      "isUnicast": "0",
+      "livePlayUrls": [
+        {
+          "playType": "2",
+          "playUrl": "rtp://239.12.23.16:10001"
+        },
+        {
+          "playType": "1",
+          "playUrl": "delivery://403.6875.64.2316.0.140"
+        }
+      ],
+      "serviceType": "2"
+    },
+    "verification": "unmatched"
+  }
+]

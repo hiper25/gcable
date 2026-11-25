@@ -11,6 +11,8 @@ rtp://239.12.40.237:10001
 rtp://239.12.22.152:10001
 #EXTINF:-1 tvg-id="1456" tvg-name="大湾区卫视（高清）" tvg-chno="3" group-title="广佛本地" region-code="020" isTVAnyTime="1" isStartOver="1" tvg-logo="https://hiper25.github.io/gcable/logos/1456.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",大湾区卫视（高清）
 rtp://239.12.22.138:10001
+#EXTINF:-1 tvg-id="2121" tvg-name="东莞新闻综合（高清）" tvg-chno="3" group-title="珠三角地市" region-code="5000" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",东莞新闻综合（高清）
+rtp://239.12.35.20:10001
 #EXTINF:-1 tvg-id="2203" tvg-name="珠海一台（高清）" tvg-chno="3" group-title="珠三角地市" region-code="1201" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",珠海一台（高清）
 rtp://239.12.37.51:10001
 #EXTINF:-1 tvg-id="2314" tvg-name="惠州一套（高清）" tvg-chno="3" group-title="珠三角地市" region-code="3200" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",惠州一套（高清）
@@ -77,6 +79,8 @@ rtp://239.12.44.2:10001
 rtp://239.12.22.121:10001
 #EXTINF:-1 tvg-id="2001" tvg-name="广州台" tvg-chno="5" group-title="广佛本地" region-code="6800" isTVAnyTime="0" isStartOver="0" tvg-logo="https://hiper25.github.io/gcable/logos/2001.png" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",广州台
 rtp://239.12.21.160:10001
+#EXTINF:-1 tvg-id="2114" tvg-name="东莞导视（高清）" tvg-chno="5" group-title="珠三角地市" region-code="5000" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",东莞导视（高清）
+rtp://239.12.35.22:10001
 #EXTINF:-1 tvg-id="2305" tvg-name="博罗综合（高清）" tvg-chno="5" group-title="其他综合" region-code="3220" isTVAnyTime="1" isStartOver="1" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",博罗综合（高清）
 rtp://239.12.38.212:10001
 #EXTINF:-1 tvg-id="2342" tvg-name="龙门综合（高清）" tvg-chno="5" group-title="其他综合" region-code="3240" isTVAnyTime="0" isStartOver="0" is-playable="unknown" stream-verification="untested" gudou-verification="unmatched",龙门综合（高清）
