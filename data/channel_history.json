@@ -247109,10 +247109,50 @@
       "timestamp": "2026-11-26T16:00:42.216079+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1013.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1210",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "四川卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-26T18:00:46.331250+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1210.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1210",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "四川卫视",
+      "playlistPath": "/live/avit/1210/1500/1500.m3u8",
+      "timestamp": "2026-11-26T18:00:46.331250+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1210.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-26T17:31:44.181796+00:00",
+    "last_updated": "2026-11-26T18:01:48.962662+00:00",
     "total_channels": 520
   },
   "version": 2
