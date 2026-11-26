@@ -245684,10 +245684,86 @@
       "name": "广东民生高清",
       "timestamp": "2026-11-26T00:02:52+08:00",
       "type": "channel"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": 200,
+          "before": 400,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3350",
+      "detail": "请求结果：失败 → 成功；HTTP状态码：400 → 200；参数解析：未执行 → 失败；错误详情：请求失败 → 媒体解码失败：本地解码工具不可用",
+      "name": "龙川台高清",
+      "playlistPath": null,
+      "timestamp": "2026-11-26T02:01:38.228407+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/3350.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": null,
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": 200,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "failed",
+          "before": null,
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "skipped",
+          "before": null,
+          "field": "decodeStatus",
+          "label": "媒体解码"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": null,
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3350",
+      "detail": "7500.m3u8：请求结果：未提供 → 成功；HTTP状态码：未提供 → 200；参数解析：未提供 → 失败；媒体解码：未提供 → 未执行；错误详情：未提供 → 媒体解码失败：本地解码工具不可用",
+      "name": "龙川台高清",
+      "playlistPath": "/live/avit/3350/7500/7500.m3u8",
+      "timestamp": "2026-11-26T02:01:38.228407+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/3350.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-26T01:31:43.954126+00:00",
+    "last_updated": "2026-11-26T02:01:42.816598+00:00",
     "total_channels": 520
   },
   "version": 2
