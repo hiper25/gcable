@@ -247294,10 +247294,80 @@
       "timestamp": "2026-11-26T19:31:16.340626+00:00",
       "type": "gudou",
       "url": "http://172.16.149.18:9090/live/1244.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": null,
+          "before": 200,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1011",
+      "detail": "请求结果：成功 → 失败；HTTP状态码：200 → 未提供；参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "CCTV11",
+      "playlistPath": null,
+      "timestamp": "2026-11-26T20:30:15.886633+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1011.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": null,
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "skipped",
+          "before": null,
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "skipped",
+          "before": null,
+          "field": "decodeStatus",
+          "label": "媒体解码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": null,
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1011",
+      "detail": "1011.m3u8：请求结果：未提供 → 失败；参数解析：未提供 → 未执行；媒体解码：未提供 → 未执行；错误详情：未提供 → 请求失败：请求超时",
+      "name": "CCTV11",
+      "playlistPath": "/live/1011.m3u8",
+      "timestamp": "2026-11-26T20:30:15.886633+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1011.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-26T20:01:47.635109+00:00",
+    "last_updated": "2026-11-26T20:31:40.600686+00:00",
     "total_channels": 520
   },
   "version": 2
