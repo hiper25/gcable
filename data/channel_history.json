@@ -250865,10 +250865,56 @@
       "timestamp": "2026-11-27T22:00:13.685808+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1007.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": null,
+          "before": 400,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "请求失败",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1513",
+      "detail": "HTTP状态码：400 → 未提供；错误详情：请求失败 → 请求失败：请求超时",
+      "name": "ID 1513",
+      "playlistPath": null,
+      "timestamp": "2026-11-27T23:31:24.210111+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1513.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": null,
+          "before": 400,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "请求失败",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1513",
+      "detail": "1513.m3u8：HTTP状态码：400 → 未提供；错误详情：请求失败 → 请求失败：请求超时",
+      "name": "ID 1513",
+      "playlistPath": "/live/1513.m3u8",
+      "timestamp": "2026-11-27T23:31:24.210111+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1513.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-27T23:01:46.639442+00:00",
+    "last_updated": "2026-11-27T23:31:43.339452+00:00",
     "total_channels": 520
   },
   "version": 2
