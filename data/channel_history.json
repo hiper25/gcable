@@ -250305,10 +250305,290 @@
       "timestamp": "2026-11-27T17:30:42.897386+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1007.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1008",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-8",
+      "playlistPath": null,
+      "timestamp": "2026-11-27T21:30:44.051672+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1008.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1008",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-8",
+      "playlistPath": "/live/avit/1008/1500/1500.m3u8",
+      "timestamp": "2026-11-27T21:30:44.051672+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1008.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1003",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-3",
+      "playlistPath": null,
+      "timestamp": "2026-11-27T21:30:44.532313+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1003.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1003",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-3",
+      "playlistPath": "/live/avit/1003/1500/1500.m3u8",
+      "timestamp": "2026-11-27T21:30:44.532313+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1003.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1007",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV7",
+      "playlistPath": null,
+      "timestamp": "2026-11-27T21:30:44.704273+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1007.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1007",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV7",
+      "playlistPath": "/live/avit/1007/1500/1500.m3u8",
+      "timestamp": "2026-11-27T21:30:44.704273+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1007.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1005",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-5",
+      "playlistPath": null,
+      "timestamp": "2026-11-27T21:30:44.894385+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1005.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1005",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-5",
+      "playlistPath": "/live/avit/1005/1500/1500.m3u8",
+      "timestamp": "2026-11-27T21:30:44.894385+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1005.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1004",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV4",
+      "playlistPath": null,
+      "timestamp": "2026-11-27T21:30:45.093382+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1004.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1004",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV4",
+      "playlistPath": "/live/avit/1004/1500/1500.m3u8",
+      "timestamp": "2026-11-27T21:30:45.093382+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1004.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1002",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV2",
+      "playlistPath": null,
+      "timestamp": "2026-11-27T21:30:45.226004+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1002.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1002",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV2",
+      "playlistPath": "/live/avit/1002/1500/1500.m3u8",
+      "timestamp": "2026-11-27T21:30:45.226004+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1002.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1006",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-6",
+      "playlistPath": null,
+      "timestamp": "2026-11-27T21:30:45.300669+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1006.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": "媒体片段请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1006",
+      "detail": "1500.m3u8：请求结果：成功 → 失败；错误详情：媒体解码失败：本地解码工具不可用 → 媒体片段请求失败：请求超时",
+      "name": "CCTV-6",
+      "playlistPath": "/live/avit/1006/1500/1500.m3u8",
+      "timestamp": "2026-11-27T21:30:45.300669+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1006.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-27T21:01:45.299260+00:00",
+    "last_updated": "2026-11-27T21:31:55.176600+00:00",
     "total_channels": 520
   },
   "version": 2
