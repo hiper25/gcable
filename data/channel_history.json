@@ -247777,10 +247777,45 @@
       "timestamp": "2026-11-27T00:00:13.536660+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1011.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": null,
+          "before": 200,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1350",
+      "detail": "7500.m3u8：请求结果：成功 → 失败；HTTP状态码：200 → 未提供；参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "翡翠台",
+      "playlistPath": "/live/avit/1350/7500/7500.m3u8",
+      "timestamp": "2026-11-27T02:31:20.385655+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1350.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-27T02:01:43.907293+00:00",
+    "last_updated": "2026-11-27T02:31:47.908050+00:00",
     "total_channels": 520
   },
   "version": 2
