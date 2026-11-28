@@ -254067,10 +254067,45 @@
       "timestamp": "2026-11-28T18:30:40.489913+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/1007.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "failed",
+          "before": "success",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": null,
+          "before": 200,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "skipped",
+          "before": "failed",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1011",
+      "detail": "请求结果：成功 → 失败；HTTP状态码：200 → 未提供；参数解析：失败 → 未执行；错误详情：媒体解码失败：本地解码工具不可用 → 请求失败：请求超时",
+      "name": "CCTV11",
+      "playlistPath": null,
+      "timestamp": "2026-11-28T19:00:50.403585+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1011.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-28T18:31:42.849701+00:00",
+    "last_updated": "2026-11-28T19:01:52.642819+00:00",
     "total_channels": 520
   },
   "version": 2
