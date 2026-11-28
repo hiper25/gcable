@@ -251600,10 +251600,147 @@
       "timestamp": "2026-11-28T05:31:44.064623+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/2701.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1201",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "上海卫视",
+      "playlistPath": null,
+      "timestamp": "2026-11-28T06:00:47.920935+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1201.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1201",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "上海卫视",
+      "playlistPath": "/live/avit/1201/1500/1500.m3u8",
+      "timestamp": "2026-11-28T06:00:47.920935+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1201.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1013",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "CCTV新闻",
+      "playlistPath": null,
+      "timestamp": "2026-11-28T06:00:49.803135+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1013.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1013",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "CCTV新闻",
+      "playlistPath": "/live/avit/1013/1500/1500.m3u8",
+      "timestamp": "2026-11-28T06:00:49.803135+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1013.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1016",
+      "detail": "错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "CGTN",
+      "playlistPath": null,
+      "timestamp": "2026-11-28T06:00:49.868089+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1016.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "媒体解码失败：达到读取时限",
+          "before": "媒体解码失败：本地解码工具不可用",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1016",
+      "detail": "1500.m3u8：错误详情：媒体解码失败：本地解码工具不可用 → 媒体解码失败：达到读取时限",
+      "name": "CGTN",
+      "playlistPath": "/live/avit/1016/1500/1500.m3u8",
+      "timestamp": "2026-11-28T06:00:49.868089+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/1016.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": 200,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "2701",
+      "detail": "请求结果：失败 → 成功；HTTP状态码：未提供 → 200；参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "云浮综合",
+      "playlistPath": null,
+      "timestamp": "2026-11-28T06:01:41.048872+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/2701.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-28T05:31:51.607496+00:00",
+    "last_updated": "2026-11-28T06:01:49.526433+00:00",
     "total_channels": 520
   },
   "version": 2
