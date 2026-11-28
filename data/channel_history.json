@@ -254102,10 +254102,91 @@
       "timestamp": "2026-11-28T19:00:50.403585+00:00",
       "type": "gudou",
       "url": "http://172.16.149.18:9090/live/1011.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": "success",
+          "before": "failed",
+          "field": "requestStatus",
+          "label": "请求结果"
+        },
+        {
+          "after": 200,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "failed",
+          "before": "skipped",
+          "field": "parseStatus",
+          "label": "参数解析"
+        },
+        {
+          "after": "媒体解码失败：本地解码工具不可用",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "1011",
+      "detail": "请求结果：失败 → 成功；HTTP状态码：未提供 → 200；参数解析：未执行 → 失败；错误详情：请求失败：请求超时 → 媒体解码失败：本地解码工具不可用",
+      "name": "CCTV11",
+      "playlistPath": null,
+      "timestamp": "2026-11-28T19:30:44.232233+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/1011.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": null,
+          "before": 400,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "请求失败",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3004",
+      "detail": "HTTP状态码：400 → 未提供；错误详情：请求失败 → 请求失败：请求超时",
+      "name": "电白综合",
+      "playlistPath": null,
+      "timestamp": "2026-11-28T19:31:41.657378+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/3004.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": null,
+          "before": 400,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败：请求超时",
+          "before": "请求失败",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3004",
+      "detail": "3004.m3u8：HTTP状态码：400 → 未提供；错误详情：请求失败 → 请求失败：请求超时",
+      "name": "电白综合",
+      "playlistPath": "/live/3004.m3u8",
+      "timestamp": "2026-11-28T19:31:41.657378+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/3004.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-28T19:01:52.642819+00:00",
+    "last_updated": "2026-11-28T19:31:46.702226+00:00",
     "total_channels": 520
   },
   "version": 2
