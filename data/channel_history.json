@@ -254183,10 +254183,56 @@
       "timestamp": "2026-11-28T19:31:41.657378+00:00",
       "type": "rendition",
       "url": "http://172.16.149.18:9090/live/3004.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3004",
+      "detail": "HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "电白综合",
+      "playlistPath": null,
+      "timestamp": "2026-11-28T20:01:34.801484+00:00",
+      "type": "gudou",
+      "url": "http://172.16.149.18:9090/live/3004.m3u8"
+    },
+    {
+      "changes": [
+        {
+          "after": 400,
+          "before": null,
+          "field": "httpStatus",
+          "label": "HTTP状态码"
+        },
+        {
+          "after": "请求失败",
+          "before": "请求失败：请求超时",
+          "field": "error",
+          "label": "错误详情"
+        }
+      ],
+      "channelID": "3004",
+      "detail": "3004.m3u8：HTTP状态码：未提供 → 400；错误详情：请求失败：请求超时 → 请求失败",
+      "name": "电白综合",
+      "playlistPath": "/live/3004.m3u8",
+      "timestamp": "2026-11-28T20:01:34.801484+00:00",
+      "type": "rendition",
+      "url": "http://172.16.149.18:9090/live/3004.m3u8"
     }
   ],
   "meta": {
-    "last_updated": "2026-11-28T19:31:46.702226+00:00",
+    "last_updated": "2026-11-28T20:01:41.487350+00:00",
     "total_channels": 520
   },
   "version": 2
